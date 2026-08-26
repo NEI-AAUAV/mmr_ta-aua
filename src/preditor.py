@@ -100,6 +100,17 @@ N_SIMULATIONS_DEFAULT: int = 10_000
 N_SIMULATIONS_DEEP: int = 100_000
 N_SIMULATIONS_DEEPER: int = 1_000_000
 
+
+def season_context(today: datetime | None = None) -> tuple[str, str, int]:
+    """Devolve (época atual, época anterior, ano final) com rollover em agosto."""
+    now = today or datetime.now()
+    start_year = now.year if now.month >= 8 else now.year - 1
+    end_year = start_year + 1
+    current = f"{start_year % 100:02d}_{end_year % 100:02d}"
+    previous = f"{(start_year - 1) % 100:02d}_{start_year % 100:02d}"
+    return current, previous, end_year
+
+
 # Slots de playoffs padrão quando nenhum placeholder é encontrado no CSV
 PLAYOFF_SLOTS_DEFAULT: int = 8
 
@@ -4511,7 +4522,7 @@ def main(
     if calibrated_config:
         print("✅ Parâmetros calibrados carregados - serão utilizados nesta simulação")
 
-    ano_atual = datetime.now().year
+    season_token, previous_season, season_end_year = season_context()
 
     # Determinar quais modalidades processar (filtragem por hardset ou argumento)
     hardset_modalidades: Set[str] = set()
@@ -4533,10 +4544,7 @@ def main(
     )
 
     modalidades_path = Path(docs_dir) / "output" / "csv_modalidades"
-    ano_passado_2d = str(ano_atual - 2)[2:]
-    ano_passado_1d = str(ano_atual - 1)[2:]
-    ano_atual_2d = str(ano_atual)[2:]
-    season_suffix = f"_{ano_passado_1d}_{ano_atual_2d}"
+    season_suffix = f"_{season_token}"
 
     for modalidade_file in os.listdir(modalidades_path):
         if not modalidade_file.endswith(f"{season_suffix}.csv"):
@@ -4554,10 +4562,7 @@ def main(
         score_simulator = sport_simulators.get(
             modalidade, sport_simulators["FUTSAL MASCULINO"]
         )
-        past_seasons = [
-            f"{ano_passado_2d}_{ano_passado_1d}",
-            f"{ano_passado_1d}_{ano_atual_2d}",
-        ]
+        past_seasons = [previous_season, season_token]
 
         historical_draw_rate = calculate_historical_draw_rate(
             modalidade, past_seasons, docs_dir
@@ -4752,7 +4757,7 @@ def main(
         _export_results(
             docs_dir,
             modalidade,
-            ano_atual,
+            season_end_year,
             n_simulations,
             hardset_manager,
             all_teams_in_epoch,

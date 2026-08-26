@@ -159,7 +159,170 @@ def get_file_hash(filepath: str) -> Optional[str]:
 
 def files_are_identical(file1: str, file2: str) -> bool:
     """Verifica se dois ficheiros são idênticos pelos hashes MD5."""
-    return get_file_hash(file1) == get_file_hash(file2)
+    hash1 = get_file_hash(file1)
+    hash2 = get_file_hash(file2)
+    return hash1 is not None and hash1 == hash2
+
+
+def previous_season_token(season: str) -> Optional[str]:
+    """Devolve a época imediatamente anterior a ``season``.
+
+    Exemplos: ``26_27`` -> ``25_26`` e ``00_01`` -> ``99_00``.
+    """
+    tokens = _parse_season_tokens(season)
+    if not tokens:
+        return None
+    start, end = tokens
+    return f"{(start - 1) % 100:02d}_{(end - 1) % 100:02d}"
+
+
+def _canonical_excel_value(value) -> str:
+    """Normaliza um valor Excel para comparação de conteúdo entre exports."""
+    if value is None:
+        return ""
+    if isinstance(value, bool):
+        return "bool:1" if value else "bool:0"
+    if isinstance(value, (int, float)):
+        try:
+            if value != value:  # NaN
+                return "number:nan"
+            return f"number:{float(value):.15g}"
+        except (TypeError, ValueError):
+            pass
+    if isinstance(value, datetime):
+        return f"datetime:{value.isoformat()}"
+    return f"{type(value).__name__}:{value}"
+
+
+def workbook_data_hash(filepath: str | Path) -> Optional[str]:
+    """Calcula um hash semântico dos valores e fórmulas de um workbook.
+
+    Formatação, propriedades do ficheiro e células vazias no fim das folhas são
+    ignoradas. Assim, um novo export do mesmo Google Sheets continua a ser
+    reconhecido como o mesmo conjunto de dados.
+    """
+    workbook = None
+    try:
+        workbook = load_workbook(filepath, read_only=True, data_only=False)
+        digest = hashlib.sha256()
+
+        for sheet_name in workbook.sheetnames:
+            digest.update(f"sheet:{sheet_name}\n".encode("utf-8"))
+            sheet = workbook[sheet_name]
+            pending_empty_rows = 0
+
+            for row in sheet.iter_rows(values_only=True):
+                values = [_canonical_excel_value(value) for value in row]
+                while values and values[-1] == "":
+                    values.pop()
+
+                if not values:
+                    pending_empty_rows += 1
+                    continue
+
+                if pending_empty_rows:
+                    digest.update(f"empty_rows:{pending_empty_rows}\n".encode("ascii"))
+                    pending_empty_rows = 0
+
+                digest.update(
+                    json.dumps(values, ensure_ascii=False, separators=(",", ":")).encode(
+                        "utf-8"
+                    )
+                )
+                digest.update(b"\n")
+
+        return digest.hexdigest()
+    except Exception as e:
+        logging.warning(f"Não foi possível comparar o conteúdo de '{filepath}': {e}")
+        return None
+    finally:
+        if workbook is not None:
+            workbook.close()
+
+
+def workbooks_have_same_data(file1: str | Path, file2: str | Path) -> bool:
+    """Compara primeiro os bytes e depois os dados das folhas Excel."""
+    if files_are_identical(str(file1), str(file2)):
+        return True
+
+    hash1 = workbook_data_hash(file1)
+    hash2 = workbook_data_hash(file2)
+    return hash1 is not None and hash1 == hash2
+
+
+def duplicate_previous_season_workbook(
+    downloaded_file: str | Path, data_dir: str | Path, season: str
+) -> Optional[Path]:
+    """Devolve o workbook anterior quando a nova época ainda é uma cópia."""
+    previous_season = previous_season_token(season)
+    if not previous_season:
+        return None
+
+    previous_path = Path(data_dir) / f"Resultados Taça UA {previous_season}.xlsx"
+    if previous_path.exists() and workbooks_have_same_data(
+        downloaded_file, previous_path
+    ):
+        return previous_path
+    return None
+
+
+def discover_publishable_seasons(
+    csv_dir: str | Path, data_dir: str | Path
+) -> list[str]:
+    """Descobre épocas com CSVs válidos e exclui rollovers ainda duplicados."""
+    csv_dir = Path(csv_dir)
+    data_dir = Path(data_dir)
+    season_pattern = re.compile(r"_(\d{2}_\d{2})\.csv$", re.IGNORECASE)
+    seasons = {
+        match.group(1)
+        for path in csv_dir.glob("*.csv")
+        if (match := season_pattern.search(path.name))
+    }
+
+    publishable = []
+    for season in seasons:
+        current_path = data_dir / f"Resultados Taça UA {season}.xlsx"
+        previous = previous_season_token(season)
+        previous_path = (
+            data_dir / f"Resultados Taça UA {previous}.xlsx" if previous else None
+        )
+
+        if (
+            current_path.exists()
+            and previous_path is not None
+            and previous_path.exists()
+            and workbooks_have_same_data(current_path, previous_path)
+        ):
+            logging.warning(
+                "Época %s excluída do manifesto: dados iguais a %s.",
+                season,
+                previous,
+            )
+            continue
+
+        publishable.append(season)
+
+    return sorted(
+        publishable,
+        key=lambda value: _parse_season_tokens(value) or (-1, -1),
+        reverse=True,
+    )
+
+
+def write_seasons_manifest(
+    csv_dir: str | Path, data_dir: str | Path, manifest_path: str | Path
+) -> list[str]:
+    """Publica deterministicamente as épocas que o frontend pode apresentar."""
+    seasons = discover_publishable_seasons(csv_dir, data_dir)
+    manifest_path = Path(manifest_path)
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    content = json.dumps({"seasons": seasons}, ensure_ascii=False, indent=2) + "\n"
+
+    if not manifest_path.exists() or manifest_path.read_text(encoding="utf-8") != content:
+        manifest_path.write_text(content, encoding="utf-8")
+        logging.info("Manifesto de épocas atualizado: %s", ", ".join(seasons))
+
+    return seasons
 
 
 def extract_season_from_filename(filename: str) -> str:
@@ -2087,6 +2250,34 @@ def main():
                     or current_season_token()
                 )
 
+            # No início de uma nova época, os organizadores podem continuar a
+            # servir temporariamente o workbook da época anterior no mesmo URL.
+            # Não publicar uma nova época enquanto os dados das folhas forem
+            # semanticamente iguais, mesmo que o ficheiro exportado tenha
+            # metadados ou formatação diferentes.
+            previous_season_path = duplicate_previous_season_workbook(
+                downloaded_file, data_dir, season_detected
+            )
+            if previous_season_path:
+                previous_season = previous_season_token(season_detected)
+                logging.warning(
+                    "Época %s ainda contém os mesmos dados de %s. "
+                    "A nova época não será gerada.",
+                    season_detected,
+                    previous_season,
+                )
+                try:
+                    if downloaded_file.resolve() != previous_season_path.resolve():
+                        downloaded_file.unlink()
+                except Exception as e:
+                    logging.warning(
+                        f"Não foi possível remover o download temporário: {e}"
+                    )
+                if os.getenv("GITHUB_OUTPUT"):
+                    with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+                        print("data_changed=false", file=fh)
+                return
+
             target_name = f"Resultados Taça UA {season_detected}.xlsx"
             target_path = (repo_root / "data") / target_name
             if downloaded_file.name != target_name:
@@ -2172,13 +2363,20 @@ def main():
         list(map(str, xls_all.sheet_names)), season_detected
     )
 
+    csv_output_dir = repo_root / "docs" / "output" / "csv_modalidades"
     processor = ExcelProcessor(
         file_path,
-        output_dir=str(repo_root / "docs" / "output" / "csv_modalidades"),
+        output_dir=str(csv_output_dir),
         season_override=season_detected,
         sheets_to_process=sheets_to_process,
     )
     processor.process_all_sheets()
+
+    write_seasons_manifest(
+        csv_output_dir,
+        repo_root / "data",
+        repo_root / "docs" / "output" / "seasons.json",
+    )
 
     if os.getenv("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as fh:

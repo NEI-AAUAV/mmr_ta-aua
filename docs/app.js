@@ -642,7 +642,7 @@ async function initApp() {
     initializeCalendarSortControls();
 
     // Inicializar seletores de época e modalidade
-    initializeSelectors();
+    await initializeSelectors();
 
     // Não carregar dados inicialmente - aguardar seleção de modalidade
     document.getElementById('teamSelector').innerHTML = '<p style="color: #666; text-align: center; padding: 20px;">' + t('selectModalityData') + '</p>';
@@ -6334,21 +6334,10 @@ function parseDateWithTime(dateStr, timeStr) {
     month = parseInt(month) - 1; // JavaScript months are 0-indexed
     day = parseInt(day);
 
-    // FIX: Corrigir anos inconsistentes baseado na época atual
-    // Se currentEpoca é 25_26, todos os jogos devem estar em 2025 ou início de 2026
-    // Se um jogo aparece em 2026 mas o mês é posterior a agosto, é erro de digitação
-    if (currentEpoca === '25_26') {
-        // Época 25_26 vai de setembro 2025 a junho 2026
-        if (year === 2026 && month > 5) {
-            // Mês > junho em 2026 é erro - deve ser 2025
-            year = 2025;
-        }
-    } else if (currentEpoca === '24_25') {
-        // Época 24_25 vai de setembro 2024 a junho 2025
-        if (year === 2025 && month > 5) {
-            // Mês > junho em 2025 é erro - deve ser 2024
-            year = 2024;
-        }
+    // Corrigir anos inconsistentes usando os limites da época selecionada.
+    const seasonYears = parseSeasonYears(currentEpoca);
+    if (seasonYears && year === seasonYears.endYear && month > 5) {
+        year = seasonYears.startYear;
     }
 
     // Parsear hora (formato: "10h15" ou "23h15")
@@ -7113,13 +7102,36 @@ Object.defineProperty(window, 'eloChart', {
     set: (value) => { appState.chart.instance = value; }
 });
 
-// Função para detectar épocas disponíveis baseadas nos arquivos existentes
+function parseSeasonYears(epoca) {
+    const match = String(epoca || '').match(/^(\d{2})_(\d{2})$/);
+    if (!match) return null;
+
+    const startYear = 2000 + Number(match[1]);
+    let endYear = 2000 + Number(match[2]);
+    if (endYear < startYear) endYear += 100;
+    return { startYear, endYear };
+}
+
+// Função para detectar épocas publicadas pelo backend
 async function detectAvailableEpocas() {
-    // Épocas conhecidas (não fazer requests para épocas futuras)
-    const knownEpocas = ['24_25', '25_26'];
+    const fallbackEpocas = ['25_26', '24_25'];
+    let publishedEpocas = fallbackEpocas;
+
+    try {
+        const response = await fetch('output/seasons.json', { cache: 'no-store' });
+        if (response.ok) {
+            const manifest = await response.json();
+            const validSeasons = Array.isArray(manifest.seasons)
+                ? manifest.seasons.filter(value => /^\d{2}_\d{2}$/.test(value))
+                : [];
+            if (validSeasons.length > 0) publishedEpocas = validSeasons;
+        }
+    } catch (error) {
+        console.warn('Não foi possível carregar o manifesto de épocas.', error);
+    }
 
     // Ordenar épocas por ano (mais recente primeiro)
-    const sortedEpocas = knownEpocas.sort((a, b) => {
+    const sortedEpocas = [...new Set(publishedEpocas)].sort((a, b) => {
         const [yearA] = a.split('_').map(n => parseInt(n));
         const [yearB] = b.split('_').map(n => parseInt(n));
         return yearB - yearA; // Ordem decrescente
@@ -11641,8 +11653,11 @@ class EloHistoryProcessor {
         });
         const finalChronologicalDates = Array.from(finalDatesMap.values()).sort((a, b) => a - b);
 
-        // Data inicial baseada na época
-        const initialDate = currentEpoca === '25_26' ? new Date('2025-09-01') : new Date('2024-09-01');
+        // Data inicial baseada dinamicamente na época
+        const seasonYears = parseSeasonYears(currentEpoca);
+        const initialDate = seasonYears
+            ? new Date(seasonYears.startYear, 8, 1)
+            : new Date(new Date().getFullYear(), 8, 1);
 
         // Se há equipas da época anterior, adicionar um ponto antes do início
         const hasPreviousSeasonData = this.teamsFromPreviousSeason && this.teamsFromPreviousSeason.size > 0;

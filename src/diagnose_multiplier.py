@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Diagnóstico manual da calibração do multiplicador de empates.
+
+Este módulo executa trabalho imediatamente e não faz parte da suíte unittest.
+"""
+
 import sys
 from pathlib import Path
 
