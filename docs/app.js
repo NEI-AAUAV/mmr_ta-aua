@@ -232,6 +232,12 @@ function getFreshDataUrl(path) {
     return `${path}${separator}v=${DATA_REQUEST_VERSION}`;
 }
 
+function getCompactModeStorageKey() {
+    return isMobileDevice()
+        ? 'mmr_compactModeEnabled_mobile'
+        : 'mmr_compactModeEnabled_desktop';
+}
+
 function scheduleLowPriorityTask(task, timeout = 1000) {
     if (typeof requestIdleCallback === 'function') {
         requestIdleCallback(() => task(), { timeout });
@@ -1619,8 +1625,8 @@ function initEloChart() {
             shared: false,
             intersect: true, // CRÍTICO: true para detectar a série correta
             followCursor: false,
-            offsetY: 100,
-            offsetX: 10,
+            offsetY: 8,
+            offsetX: 0,
             fixed: {
                 enabled: false,
                 position: 'topRight'
@@ -1788,8 +1794,6 @@ function initEloChart() {
                 removeChartAriaLabel();
                 const tooltip = document.querySelector('.apexcharts-tooltip');
                 if (tooltip && !window.tooltipFixed) {
-                    const currentTop = parseInt(tooltip.style.top) || 0;
-                    tooltip.style.top = (currentTop + 75) + 'px';
                     tooltip.style.pointerEvents = 'none';
                 } else if (tooltip && window.tooltipFixed) {
                     // Manter a posição fixada e sempre visível
@@ -2760,8 +2764,8 @@ function updateEloChart() {
             shared: false,
             intersect: true,
             followCursor: false,
-            offsetY: 100,
-            offsetX: 10,
+            offsetY: 8,
+            offsetX: 0,
             custom: function ({ series, seriesIndex, dataPointIndex, w }) {
                 if (window.tooltipFixed && window.tooltipFixedDataPoint) {
                     seriesIndex = window.tooltipFixedDataPoint.seriesIndex;
@@ -2931,11 +2935,6 @@ function updateEloChart() {
         }
 
         if (tooltip && !window.tooltipFixed) {
-            if (!tooltip.getAttribute('data-shifted')) {
-                const currentTop = parseInt(tooltip.style.top) || 0;
-                tooltip.style.top = (currentTop + 75) + 'px';
-                tooltip.setAttribute('data-shifted', 'true');
-            }
             tooltip.style.pointerEvents = 'none';
         } else if (tooltip && window.tooltipFixed) {
             if (window.tooltipFixedPosition) {
@@ -3246,7 +3245,7 @@ function getTeamEloInfo(teamName) {
 function toggleCompactMode() {
     const checkbox = document.getElementById('compactModeCheckbox');
     compactModeEnabled = checkbox ? checkbox.checked : !compactModeEnabled;
-    localStorage.setItem('mmr_compactModeEnabled', compactModeEnabled);
+    localStorage.setItem(getCompactModeStorageKey(), String(compactModeEnabled));
     applyCompactModeClass();
     updateRankingsTable();
 }
@@ -7340,16 +7339,23 @@ async function initializeSelectors() {
     // Tentar carregar época e modalidade do cache (localStorage)
     const cachedEpoca = localStorage.getItem('mmr_selectedEpoca');
     const cachedModalidade = localStorage.getItem('mmr_selectedModalidade');
-    const cachedCompactMode = localStorage.getItem('mmr_compactModeEnabled');
+    const compactModeStorageKey = getCompactModeStorageKey();
+    const cachedCompactMode = localStorage.getItem(compactModeStorageKey);
+    const legacyCompactMode = localStorage.getItem('mmr_compactModeEnabled');
 
     // Restaurar modo compacto
     if (cachedCompactMode !== null) {
-        // Se houver preferência salva, usar essa
+        // Preferência guardada especificamente para este formato de ecrã.
         compactModeEnabled = cachedCompactMode === 'true';
     } else if (isMobileDevice()) {
-        // Se não houver preferência E for mobile, ativar modo compacto por padrão
+        // No mobile, o primeiro acesso é sempre compacto, independentemente
+        // da preferência antiga ou da escolha feita no desktop.
         compactModeEnabled = true;
-        localStorage.setItem('mmr_compactModeEnabled', 'true');
+        localStorage.setItem(compactModeStorageKey, 'true');
+    } else if (legacyCompactMode !== null) {
+        // Migrar a preferência antiga apenas para desktop.
+        compactModeEnabled = legacyCompactMode === 'true';
+        localStorage.setItem(compactModeStorageKey, String(compactModeEnabled));
     }
 
     // Atualizar checkbox

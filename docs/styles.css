@@ -8574,6 +8574,88 @@ img.configured-emblem-scale:not(.team-carousel-emblem) {
 }
 
 @media (max-width: 480px) {
+  body.compact-mode #rankings .table-wrapper {
+    overflow-x: hidden;
+  }
+
+  body.compact-mode #rankings .rankings-table {
+    width: 100%;
+    min-width: 0;
+    table-layout: fixed;
+    font-size: 0.66rem;
+  }
+
+  body.compact-mode #rankings .rankings-table th,
+  body.compact-mode #rankings .rankings-table td {
+    min-width: 0;
+    max-width: none;
+    padding-inline: 1px;
+  }
+
+  body.compact-mode #rankings .rankings-table th:nth-child(1),
+  body.compact-mode #rankings .rankings-table td:nth-child(1) {
+    left: 0;
+    width: 28px;
+  }
+
+  body.compact-mode #rankings .rankings-table th:nth-child(2),
+  body.compact-mode #rankings .rankings-table td:nth-child(2) {
+    left: 28px;
+    width: 108px;
+  }
+
+  body.compact-mode #rankings .rankings-table th:nth-child(3),
+  body.compact-mode #rankings .rankings-table td:nth-child(3) {
+    left: 136px;
+    width: 28px;
+  }
+
+  body.compact-mode #rankings .rankings-table th:nth-child(n + 4):nth-child(-n + 11),
+  body.compact-mode #rankings .rankings-table td:nth-child(n + 4):nth-child(-n + 11) {
+    width: calc((100% - 164px) / 8);
+    min-width: 0;
+    max-width: none;
+    padding-inline: 1px;
+  }
+
+  body.compact-mode #rankings .rankings-table .team-cell {
+    gap: 2px;
+  }
+
+  body.compact-mode #rankings .rankings-table .favorite-btn {
+    width: 18px;
+    height: 30px;
+    flex: 0 0 18px;
+    font-size: 0.92rem;
+  }
+
+  body.compact-mode #rankings .rankings-table .team-color-indicator {
+    width: 2px;
+    height: 30px;
+  }
+
+  body.compact-mode #rankings .rankings-table .team-name-table {
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.68rem;
+  }
+
+  body.compact-mode #rankings .rankings-table .tiebreak-indicator {
+    width: 17px;
+    min-width: 17px;
+    height: 17px;
+    font-size: 0.52rem;
+  }
+
+  body.compact-mode #rankings .rank-badge {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    font-size: 0.62rem;
+  }
+
   #secondaryBracketContainer.is-league-table {
     width: 100% !important;
     min-width: 0 !important;
