@@ -243,6 +243,7 @@
       "shortName": "EGI",
       "nucleus": "AEGIA",
       "emblem": "assets/Logos/EGI-07.png",
+      "emblemScale": 0.48,
       "colors": ["#ff6d10", "#6c757d"]
     },
     "Eng. e Gestão Industrial": {
@@ -250,6 +251,7 @@
       "shortName": "EGI",
       "nucleus": "AEGIA",
       "emblem": "assets/Logos/EGI-07.png",
+      "emblemScale": 0.48,
       "colors": ["#ff6d10", "#6c757d"]
     },
     "EGI B": {
@@ -257,6 +259,7 @@
       "shortName": "EGI B",
       "nucleus": "AEGIA",
       "emblem": "assets/Logos/EGI-07.png",
+      "emblemScale": 0.48,
       "colors": ["#ff6d10", "#6c757d"]
     },
     "Eng. e Gestão Industrial B": {
@@ -264,6 +267,7 @@
       "shortName": "EGI B",
       "nucleus": "AEGIA",
       "emblem": "assets/Logos/EGI-07.png",
+      "emblemScale": 0.48,
       "colors": ["#ff6d10", "#6c757d"]
     },
     "EI": {

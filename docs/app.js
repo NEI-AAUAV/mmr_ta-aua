@@ -222,6 +222,16 @@ let currentCalendarTeam = null;
 let calendarEloLookup = new Map();
 let isSyncingCalendarAndPredictions = false;
 
+// A publicação atualiza ficheiros estáticos sem alterar os respetivos nomes.
+// Usar uma versão por carregamento evita misturar dados antigos do browser/CDN
+// com ficheiros acabados de publicar, mantendo consistência dentro da mesma sessão.
+const DATA_REQUEST_VERSION = Date.now().toString(36);
+
+function getFreshDataUrl(path) {
+    const separator = path.includes('?') ? '&' : '?';
+    return `${path}${separator}v=${DATA_REQUEST_VERSION}`;
+}
+
 function scheduleLowPriorityTask(task, timeout = 1000) {
     if (typeof requestIdleCallback === 'function') {
         requestIdleCallback(() => task(), { timeout });
@@ -364,6 +374,19 @@ function updateFavoriteUI() {
 
         updateRankingsTable();
         updateCalendar();
+
+        // Ao marcar uma favorita na classificação, refletir imediatamente a
+        // escolha nos detalhes quando essa equipa pertence ao filtro atual.
+        if (favoriteTeam && PredictionsState.availableTeams.length > 0) {
+            const favoriteCanonical = resolveCanonicalCourseKey(favoriteTeam);
+            const matchingTeam = PredictionsState.availableTeams.find(team =>
+                resolveCanonicalCourseKey(team) === favoriteCanonical
+            );
+            if (matchingTeam) {
+                PredictionsState.selectedTeam = matchingTeam;
+                PredictionsState.currentTeamIndex = PredictionsState.availableTeams.indexOf(matchingTeam);
+            }
+        }
         updatePredictionsDisplay();
 
         scheduleLowPriorityTask(() => {
@@ -947,10 +970,8 @@ function createTeamSelector() {
         });
     });
 
-    // Se há muitas equipas, adicionar controles de seleção rápida
-    if (sampleData.teams.length > 12) {
-        addQuickSelectionControls(selector);
-    }
+    // Ações e contador pertencem ao mesmo painel, independentemente do total.
+    addQuickSelectionControls(selector);
 
     // Inicializar indicador de equipas
     setTimeout(updateTeamCountIndicator, 100);
@@ -999,16 +1020,10 @@ function applyIntelligentTeamLayout(selector, teamCount) {
 function addQuickSelectionControls(selector) {
     const controlsDiv = document.createElement('div');
     controlsDiv.className = 'quick-selection-controls';
-    controlsDiv.style.cssText = `
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                gap: 10px;
-                margin-bottom: 10px;
-                padding: 10px;
-                background: rgba(102, 126, 234, 0.1);
-                border-radius: 8px;
-            `;
+
+    const controlsLabel = document.createElement('span');
+    controlsLabel.className = 'elo-control-label elo-team-control-label';
+    controlsLabel.textContent = t('eloTeamsInChart');
 
     const selectAllBtn = document.createElement('button');
     selectAllBtn.textContent = t('selectAllTeams');
@@ -1028,6 +1043,7 @@ function addQuickSelectionControls(selector) {
     toggleBtn.setAttribute('aria-label', t('invertSelectionAria'));
     toggleBtn.onclick = toggleAllTeams;
 
+    controlsDiv.appendChild(controlsLabel);
     controlsDiv.appendChild(selectAllBtn);
     controlsDiv.appendChild(deselectAllBtn);
     controlsDiv.appendChild(toggleBtn);
@@ -1058,6 +1074,38 @@ function selectDivision(division) {
         syncTeamCheckboxState(checkbox, Boolean(team && team.division && team.division.toString() === division));
     });
     applyTeamSelectionChanges();
+}
+
+function selectEloRankingKey(rankingKey) {
+    const rankingTeams = sampleData.rankings?.[rankingKey] || [];
+    const selectedCanonical = new Set(
+        rankingTeams
+            .map(team => resolveCanonicalCourseKey(normalizeTeamName(team.team || team.name || '')))
+            .filter(Boolean)
+    );
+
+    document.querySelectorAll('#teamSelector input[type="checkbox"]').forEach(checkbox => {
+        const canonical = resolveCanonicalCourseKey(normalizeTeamName(checkbox.dataset.teamName || ''));
+        syncTeamCheckboxState(checkbox, selectedCanonical.has(canonical));
+    });
+    applyTeamSelectionChanges();
+}
+
+function setActiveEloQuickFilter(filterKey = null) {
+    document.querySelectorAll('#quickFilters .filter-btn').forEach(button => {
+        button.classList.toggle('active', Boolean(filterKey) && button.dataset.filterKey === filterKey);
+    });
+
+    // Uma vista rápida muda o contexto da lista; no mobile deve começar sempre
+    // no início, onde ficam os controlos e a primeira divisão selecionada.
+    if (filterKey) {
+        const selector = document.getElementById('teamSelector');
+        if (selector) {
+            requestAnimationFrame(() => {
+                selector.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+    }
 }
 
 // Alternar visibilidade da equipa no gráfico
@@ -1141,12 +1189,16 @@ function updateTeamCountIndicator() {
         indicator.id = 'team-count-indicator';
         indicator.className = 'team-count-indicator';
 
-        // Inserir preferencialmente no container do gráfico (tem position: relative)
-        const chartContainer = document.querySelector('.chart-container');
-        if (chartContainer) {
-            chartContainer.appendChild(indicator);
+        // O contador faz parte das ações de seleção, não do canvas do gráfico.
+        const selectionControls = document.querySelector('.quick-selection-controls');
+        if (selectionControls) {
+            const label = selectionControls.querySelector('.elo-team-control-label');
+            if (label) {
+                label.after(indicator);
+            } else {
+                selectionControls.prepend(indicator);
+            }
         } else {
-            // Fallback para o header se o container não existir ainda
             const header = document.querySelector('.chart-header');
             if (header) {
                 header.appendChild(indicator);
@@ -1155,16 +1207,8 @@ function updateTeamCountIndicator() {
         }
     }
 
-    indicator.textContent = `${activeCount}/${totalCount} ${t('teamPlural')}`;
-
-    // Mudar cor baseado na quantidade
-    if (activeCount > 12) {
-        indicator.style.background = 'rgba(220, 53, 69, 0.9)'; // Vermelho - muitas equipas
-    } else if (activeCount > 8) {
-        indicator.style.background = 'rgba(255, 193, 7, 0.9)'; // Amarelo - número médio
-    } else {
-        indicator.style.background = 'rgba(40, 167, 69, 0.9)'; // Verde - poucas equipas
-    }
+    indicator.textContent = `${activeCount}/${totalCount}`;
+    indicator.classList.toggle('is-empty', activeCount === 0);
 
     // Atualizar botões de navegação entre épocas
     updateSeasonNavigationButtons();
@@ -1424,14 +1468,14 @@ function initEloChart() {
                 show: true,
                 tools: {
                     download: true,
-                    selection: true,
+                    selection: false,
                     zoom: true,
                     zoomin: true,
                     zoomout: true,
-                    pan: true,
-                    reset: false
+                    pan: false,
+                    reset: true
                 },
-                autoSelected: 'pan'
+                autoSelected: 'zoom'
             },
             animations: {
                 enabled: false // Desativar animações para performance
@@ -1537,19 +1581,19 @@ function initEloChart() {
             borderColor: '#f1f1f1',
             xaxis: {
                 lines: {
-                    show: true
+                    show: false
                 }
             }
         },
         markers: {
-            size: 8, // Tamanho aumentado para garantir visibilidade
-            strokeWidth: 3,
+            size: 4,
+            strokeWidth: 2,
             strokeOpacity: 1,
             fillOpacity: 1,
             discrete: [],
             hover: {
-                size: 10,
-                sizeOffset: 3
+                size: 6,
+                sizeOffset: 2
             }
         },
         xaxis: {
@@ -2385,7 +2429,8 @@ function updateEloChart() {
                 extraDataPoints.push(extra);
 
             } else {
-                // Ponto sem jogo: usar o último ELO conhecido
+                // Slot global sem jogo desta equipa: o valor só dá continuidade
+                // à linha. Os marcadores são definidos separadamente e não o mostram.
                 extra.fullDate = new Date(slot.timestamp).toISOString();
                 extra.form = lastGameForm;  // Herdar a forma do último jogo
 
@@ -2456,8 +2501,14 @@ function updateEloChart() {
             if (seriesIndex >= 0) {
                 // Obter o último ELO
                 const dataPoints = series[seriesIndex].data;
-                const lastEloIndex = dataPoints.length - 1;
-                const lastElo = dataPoints[lastEloIndex] !== null ? dataPoints[lastEloIndex] : null;
+                let lastEloIndex = -1;
+                for (let i = dataPoints.length - 1; i >= 0; i--) {
+                    if (dataPoints[i] !== null && dataPoints[i] !== undefined) {
+                        lastEloIndex = i;
+                        break;
+                    }
+                }
+                const lastElo = lastEloIndex >= 0 ? dataPoints[lastEloIndex] : null;
 
                 if (lastElo !== null) {
                     const adjustedElo = lastElo + interGroupData.eloDelta;
@@ -2501,7 +2552,7 @@ function updateEloChart() {
                         }
                     }
 
-                    // Adicionar ponto com mesmo ELO (filler)
+                    // Manter a linha alinhada; este slot não recebe marcador discreto.
                     dataPoints.push(lastValidElo);
 
                     const extraData = window._chartExtraData[normalizedTeamName].extraData;
@@ -2570,6 +2621,35 @@ function updateEloChart() {
     // ApexCharts deixa SVG residual que bloqueia a nova renderização
     chartContainer.innerHTML = '';
 
+    const chartColors = series.map(s => {
+        const team = sampleData.teams.find(t => t.name === s.name);
+        if (team && team.color) return team.color;
+        return getCourseInfo(s.name).primaryColor;
+    });
+
+    // O valor carry-forward desenha a linha, mas apenas eventos reais recebem ponto.
+    const realPointMarkers = [];
+    series.forEach((serie, seriesIndex) => {
+        const extraData = window._chartExtraData?.[normalizeTeamName(serie.name)]?.extraData || [];
+        serie.data.forEach((value, dataPointIndex) => {
+            if (value === null || value === undefined) return;
+            const meta = extraData[dataPointIndex] || {};
+            const isRealPoint = Boolean(meta.opponent || meta.isInterGroupAdjustment || meta.description);
+            if (!isRealPoint) return;
+
+            realPointMarkers.push({
+                seriesIndex,
+                dataPointIndex,
+                fillColor: chartColors[seriesIndex],
+                strokeColor: '#ffffff',
+                size: 4,
+                shape: 'circle'
+            });
+        });
+    });
+
+    chartContainer.dataset.realPointCount = String(realPointMarkers.length);
+
 
     // Recrear com toda a configuração original + dados
     const options = {
@@ -2582,14 +2662,14 @@ function updateEloChart() {
                 show: true,
                 tools: {
                     download: true,
-                    selection: true,
+                    selection: false,
                     zoom: true,
                     zoomin: true,
                     zoomout: true,
-                    pan: true,
-                    reset: false
+                    pan: false,
+                    reset: true
                 },
-                autoSelected: 'pan'
+                autoSelected: 'zoom'
             },
             animations: {
                 enabled: false
@@ -2628,30 +2708,12 @@ function updateEloChart() {
                 }
             }
         },
-        colors: series.map(s => {
-            // Obter a cor baseado no nome da série (que já está reordenada)
-            const team = sampleData.teams.find(t => t.name === s.name);
-            if (team && team.color) {
-                return team.color;
-            }
-            // Fallback se não encontrar a cor
-            const courseInfo = getCourseInfo(s.name);
-            return courseInfo.primaryColor;
-        }),
+        colors: chartColors,
         stroke: {
             width: 3,
-            curve: 'smooth',  // smooth funciona melhor com dados esparsos
+            curve: 'straight',
             connectNullData: true,  // Conectar linhas sobre valores null
-            colors: series.map(s => {
-                // Obter a cor baseado no nome da série (que já está reordenada)
-                const team = sampleData.teams.find(t => t.name === s.name);
-                if (team && team.color) {
-                    return team.color;
-                }
-                // Fallback se não encontrar a cor
-                const courseInfo = getCourseInfo(s.name);
-                return courseInfo.primaryColor;
-            })
+            colors: chartColors
         },
         fill: {
             type: 'solid'
@@ -2660,17 +2722,18 @@ function updateEloChart() {
             borderColor: '#f1f1f1',
             xaxis: {
                 lines: {
-                    show: true
+                    show: false
                 }
             }
         },
         markers: {
-            size: 6,
+            size: 0,
             strokeWidth: 2,
             strokeOpacity: 1,
             fillOpacity: 1,
+            discrete: realPointMarkers,
             hover: {
-                size: 8,
+                size: 6,
                 sizeOffset: 2
             }
         },
@@ -3381,7 +3444,7 @@ function updateRankingsTable() {
         const rankingKeyForRow = team.rankingKey || currentDivision;
         const tiebreakInfo = getTiebreakInfoForRow(rankingKeyForRow, normalizedTeamName);
         const tiebreakIndicatorHtml = tiebreakInfo
-            ? `<span class="tiebreak-indicator" tabindex="0" aria-label="${escapeHtmlAttribute(t('tiebreakIndicatorAria'))}">TB</span>`
+            ? `<button type="button" class="tiebreak-indicator" aria-expanded="false" aria-label="${escapeHtmlAttribute(t('tiebreakIndicatorAria'))}">TB</button>`
             : '';
 
         // Obter informação do ELO - aplicar normalização
@@ -3400,7 +3463,6 @@ function updateRankingsTable() {
         row.innerHTML = `
                     <td>
                         <span class="rank-badge ${progressionClass}" title="${badgeTitle}">${position}</span>
-                        ${tiebreakIndicatorHtml}
                     </td>
                     <td class="team-cell ${isTeamFavorite(team.team) ? 'favorite-team-row' : ''}" data-team="${escapeHtmlAttribute(team.team)}">
                         <button type="button" class="favorite-btn ${isTeamFavorite(team.team) ? 'active' : ''}" 
@@ -3411,7 +3473,10 @@ function updateRankingsTable() {
                         ${emblemHtml}
                         <div class="team-color-indicator" style="background-color: ${courseInfo.primaryColor}"></div>
                         <div class="team-info-container">
-                            <span class="team-name-table">${displayTeamName}</span>
+                            <div class="team-heading-row">
+                                <span class="team-name-table">${displayTeamName}</span>
+                                ${tiebreakIndicatorHtml}
+                            </div>
                             <span class="team-elo-info" title="${t('eloCurrentTitle')}">${eloDisplay}</span>
                         </div>
                     </td>
@@ -3437,6 +3502,10 @@ function updateRankingsTable() {
             teamInfoContainer.addEventListener('mouseenter', async () => {
                 // Delay para evitar mostrar tooltip em passagens rápidas
                 tooltipTimer = setTimeout(async () => {
+                    const tiebreakControl = teamInfoContainer.querySelector('.tiebreak-indicator');
+                    const tiebreakIsActive = tiebreakControl &&
+                        (tiebreakControl.matches(':hover') || document.activeElement === tiebreakControl);
+                    if (tiebreakIsActive) return;
                     await showHistoricalTooltip(team.team, teamInfoContainer);
                 }, 300);
             });
@@ -4041,7 +4110,7 @@ function createRealBracket() {
 
     const requestedModalidade = modalidade;
 
-    const jogosPath = `output/csv_modalidades/${modalidade}.csv`;
+    const jogosPath = getFreshDataUrl(`output/csv_modalidades/${modalidade}.csv`);
 
     Papa.parse(jogosPath, {
         download: true,
@@ -4911,9 +4980,9 @@ function createBracket() {
             const isFavorite1 = isTeamFavorite(resolvedTeam1);
             team1Div.className = `bracket-team ${matchPlayed && match.winner === match.team1 ? 'winner' : ''} ${isFavorite1 ? 'favorite-team-bracket' : ''}`;
 
-            // Definir cor de fundo se for vencedor E jogo foi realizado, senão border colorida
+            // Manter fundo claro para preservar o contraste do emblema; a cor identifica a equipa no rebordo.
             if (matchPlayed && match.winner === match.team1) {
-                team1Div.style.background = `linear-gradient(135deg, ${team1Color}, ${team1Color}dd)`;
+                team1Div.style.setProperty('--winner-team-color', team1Color);
                 team1Div.style.borderLeftColor = team1Color;
             } else {
                 team1Div.style.borderLeftColor = team1Color;
@@ -4993,9 +5062,9 @@ function createBracket() {
             const isFavorite2 = isTeamFavorite(resolvedTeam2);
             team2Div.className = `bracket-team ${matchPlayed && match.winner === match.team2 ? 'winner' : ''} ${isFavorite2 ? 'favorite-team-bracket' : ''}`;
 
-            // Definir cor de fundo se for vencedor E jogo foi realizado, senão border colorida
+            // Manter fundo claro para preservar o contraste do emblema; a cor identifica a equipa no rebordo.
             if (matchPlayed && match.winner === match.team2) {
-                team2Div.style.background = `linear-gradient(135deg, ${team2Color}, ${team2Color}dd)`;
+                team2Div.style.setProperty('--winner-team-color', team2Color);
                 team2Div.style.borderLeftColor = team2Color;
             } else {
                 team2Div.style.borderLeftColor = team2Color;
@@ -5131,6 +5200,7 @@ function createSecondaryBracket() {
 
     card.style.display = 'block';
     container.innerHTML = '';
+    container.classList.toggle('is-league-table', Boolean(sampleData.secondaryBracket.isTable));
 
     // Criar mapa de qualificationLabels para o bracket secundário - forçar refresh
     const qualified = getQualifiedTeams(true);
@@ -5224,6 +5294,32 @@ function createSecondaryBracket() {
                     }
                     qualClass = 'qual-2div';
                 }
+            } else {
+                // Fallback baseado na classificação: garante que participantes vindos
+                // da 1ª Divisão também exibem a sua origem, mesmo quando o nome usado
+                // na liguilha é uma abreviatura diferente da legenda de qualificação.
+                const resolvedKey = resolveCanonicalCourseKey(resolvedTeam);
+                for (const [rankingKey, ranking] of Object.entries(sampleData.rankings || {})) {
+                    const sourceIndex = ranking.findIndex(entry => {
+                        const entryKey = resolveCanonicalCourseKey(entry.team);
+                        return entryKey && resolvedKey && entryKey === resolvedKey;
+                    });
+                    if (sourceIndex < 0) continue;
+
+                    const isFirstDivision = /1[ªa]\s*div/i.test(rankingKey) || rankingKey === '1';
+                    const isSecondDivision = /2[ªa]\s*div/i.test(rankingKey) || rankingKey === '2';
+                    if (isFirstDivision) {
+                        qualLabel = `${sourceIndex + 1}º 1ª Div`;
+                        qualClass = 'qual-1div';
+                    } else if (isSecondDivision) {
+                        const groupMatch = rankingKey.match(/grupo\s+([A-Z])/i);
+                        qualLabel = groupMatch
+                            ? `${sourceIndex + 1}º Gr. ${groupMatch[1].toUpperCase()}`
+                            : `${sourceIndex + 1}º 2ª Div`;
+                        qualClass = 'qual-2div';
+                    }
+                    break;
+                }
             }
 
             const row = document.createElement('tr');
@@ -5308,7 +5404,7 @@ function createSecondaryBracket() {
                 team1Div.className = `bracket-team ${matchPlayed && match.winner === match.team1 ? 'winner' : ''} ${isFavorite1 ? 'favorite-team-bracket' : ''}`;
 
                 if (matchPlayed && match.winner === match.team1) {
-                    team1Div.style.background = `linear-gradient(135deg, ${team1Color}, ${team1Color}dd)`;
+                    team1Div.style.setProperty('--winner-team-color', team1Color);
                     team1Div.style.borderLeftColor = team1Color;
                 } else {
                     team1Div.style.borderLeftColor = team1Color;
@@ -5364,7 +5460,7 @@ function createSecondaryBracket() {
                 team2Div.className = `bracket-team ${matchPlayed && match.winner === match.team2 ? 'winner' : ''} ${isFavorite2 ? 'favorite-team-bracket' : ''}`;
 
                 if (matchPlayed && match.winner === match.team2) {
-                    team2Div.style.background = `linear-gradient(135deg, ${team2Color}, ${team2Color}dd)`;
+                    team2Div.style.setProperty('--winner-team-color', team2Color);
                     team2Div.style.borderLeftColor = team2Color;
                 } else {
                     team2Div.style.borderLeftColor = team2Color;
@@ -5452,12 +5548,17 @@ function updateQuickFilters() {
     top3Btn.className = 'filter-btn';
     top3Btn.textContent = t('filterTop3');
     top3Btn.dataset.filter = 'top3';
+    top3Btn.dataset.filterKey = 'top3';
     top3Btn.setAttribute('aria-label', t('filterTop3Aria'));
-    top3Btn.onclick = filterTop3;
+    top3Btn.onclick = () => {
+        filterTop3();
+        setActiveEloQuickFilter('top3');
+    };
     filtersContainer.appendChild(top3Btn);
 
     // Usar a mesma lógica da tabela de classificação
-    const divisions = Object.keys(sampleData.rankings);
+    const divisions = Object.keys(sampleData.rankings)
+        .filter(division => normalizeText(division) !== 'geral');
 
     // Se for liga única, não adicionar filtros de divisão/grupo
     if (structure.type !== 'single-league') {
@@ -5470,7 +5571,12 @@ function updateQuickFilters() {
             btn.textContent = translateDivisionLabel(division);
             btn.dataset.filter = 'division';
             btn.dataset.division = division;
+            btn.dataset.filterKey = `ranking:${division}`;
             btn.setAttribute('aria-label', `${t('filterByLabel')} ${translateDivisionLabel(division)}`);
+            btn.onclick = () => {
+                selectEloRankingKey(division);
+                setActiveEloQuickFilter(`ranking:${division}`);
+            };
             filtersContainer.appendChild(btn);
         });
 
@@ -5489,8 +5595,12 @@ function updateQuickFilters() {
             allDiv2Btn.className = 'filter-btn';
             allDiv2Btn.textContent = translateDivisionLabel('2ª Divisão');
             allDiv2Btn.dataset.filter = 'all-div2';
+            allDiv2Btn.dataset.filterKey = 'all-div2';
             allDiv2Btn.setAttribute('aria-label', t('filterByAllDiv2'));
-            allDiv2Btn.onclick = () => selectDivision('2');
+            allDiv2Btn.onclick = () => {
+                selectDivision('2');
+                setActiveEloQuickFilter('all-div2');
+            };
 
             if (insertAfter) {
                 insertAfter.after(allDiv2Btn);
@@ -5534,22 +5644,34 @@ function updateQuickFilters() {
     const playoffsBtn = document.createElement('button');
     playoffsBtn.className = 'filter-btn';
     playoffsBtn.textContent = playoffsLabel;
+    playoffsBtn.dataset.filterKey = 'playoffs';
     playoffsBtn.setAttribute('aria-label', t('filterPlayoffsAria'));
-    playoffsBtn.onclick = filterPlayoffs;
+    playoffsBtn.onclick = () => {
+        filterPlayoffs();
+        setActiveEloQuickFilter('playoffs');
+    };
     filtersContainer.appendChild(playoffsBtn);
 
     const sensationBtn = document.createElement('button');
     sensationBtn.className = 'filter-btn';
     sensationBtn.textContent = t('sensationTeams');
+    sensationBtn.dataset.filterKey = 'sensation';
     sensationBtn.setAttribute('aria-label', t('sensationTeamsAria'));
-    sensationBtn.onclick = filterSensationTeams;
+    sensationBtn.onclick = () => {
+        filterSensationTeams();
+        setActiveEloQuickFilter('sensation');
+    };
     filtersContainer.appendChild(sensationBtn);
 
     const resetBtn = document.createElement('button');
     resetBtn.className = 'filter-btn';
     resetBtn.textContent = t('resetFilter');
+    resetBtn.dataset.filterKey = 'reset';
     resetBtn.setAttribute('aria-label', t('resetFilterAria'));
-    resetBtn.onclick = resetFilter;
+    resetBtn.onclick = () => {
+        resetFilter();
+        setActiveEloQuickFilter(null);
+    };
     filtersContainer.appendChild(resetBtn);
 }
 
@@ -6257,7 +6379,7 @@ let coursesConfig = {};
  */
 async function loadCoursesConfig() {
     try {
-        const response = await fetch('config/config_cursos.json');
+        const response = await fetch(getFreshDataUrl('config/config_cursos.json'), { cache: 'no-store' });
         if (!response.ok) {
             throw new Error('Erro ao carregar config_cursos.json');
         }
@@ -6267,6 +6389,7 @@ async function loadCoursesConfig() {
         _courseInfoByNormalized = null;
         _resolvedKeyCache.clear();
         canonicalCourseKeyCache = null;
+        applyConfiguredEmblemScales();
     } catch (error) {
         console.error('Erro ao carregar configuração de cursos:', error);
     }
@@ -6909,6 +7032,9 @@ function getCourseInfo(courseName) {
             fullName: courseInfo.displayName || courseKey,
             nucleus: courseInfo.nucleus,
             emblemPath: courseInfo.emblem,
+            emblemScale: Number.isFinite(Number(courseInfo.emblemScale))
+                ? Math.min(1.5, Math.max(0.25, Number(courseInfo.emblemScale)))
+                : 1,
             colors: courseInfo.colors, // Retornar o array completo
             primaryColor: courseInfo.colors[0],
             secondaryColor: courseInfo.colors[1]
@@ -7110,6 +7236,53 @@ function parseSeasonYears(epoca) {
     let endYear = 2000 + Number(match[2]);
     if (endYear < startYear) endYear += 100;
     return { startYear, endYear };
+}
+
+function getConfiguredEmblemScaleBySource(source) {
+    if (!source || !coursesConfig) return 1;
+    const filename = String(source).split(/[\\/]/).pop().split('?')[0].toLowerCase();
+    const matchingCourse = Object.values(coursesConfig).find(course => {
+        const emblemFilename = String(course?.emblem || '').split(/[\\/]/).pop().split('?')[0].toLowerCase();
+        return emblemFilename && emblemFilename === filename;
+    });
+    const scale = Number(matchingCourse?.emblemScale);
+    return Number.isFinite(scale) ? Math.min(1.5, Math.max(0.25, scale)) : 1;
+}
+
+function applyConfiguredEmblemScales(root = document) {
+    if (!coursesConfig || Object.keys(coursesConfig).length === 0) return;
+    const images = [];
+    if (root instanceof HTMLImageElement) images.push(root);
+    if (root.querySelectorAll) images.push(...root.querySelectorAll('img[src]'));
+
+    images.forEach(image => {
+        const scale = getConfiguredEmblemScaleBySource(image.getAttribute('src') || image.currentSrc);
+        if (scale === 1) {
+            image.classList.remove('configured-emblem-scale');
+            image.style.removeProperty('--configured-emblem-scale');
+            return;
+        }
+        image.classList.add('configured-emblem-scale');
+        image.style.setProperty('--configured-emblem-scale', scale);
+    });
+}
+
+function initializeConfiguredEmblemScaling() {
+    applyConfiguredEmblemScales();
+    const observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+            mutation.addedNodes.forEach(node => {
+                if (node.nodeType === Node.ELEMENT_NODE) applyConfiguredEmblemScales(node);
+            });
+        });
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeConfiguredEmblemScaling, { once: true });
+} else {
+    initializeConfiguredEmblemScaling();
 }
 
 // Função para detectar épocas publicadas pelo backend
@@ -7576,6 +7749,8 @@ function ensureTiebreakTooltipElement() {
     const el = document.createElement('div');
     el.id = 'tiebreak-tooltip';
     el.className = 'tiebreak-tooltip-panel';
+    el.setAttribute('role', 'tooltip');
+    el.setAttribute('aria-hidden', 'true');
     el.style.display = 'none';
 
     el.addEventListener('mouseenter', () => {
@@ -7720,6 +7895,13 @@ function positionTiebreakTooltip(anchorEl) {
 function showTiebreakTooltip(anchorEl, tiebreakInfo, currentTeam) {
     if (!tiebreakInfo) return;
 
+    // O controlo TB vive dentro da área que ativa o histórico. Apenas um painel
+    // contextual pode estar aberto de cada vez.
+    if (historicalTooltipEl) {
+        historicalTooltipEl.classList.remove('fixed');
+        historicalTooltipEl.style.display = 'none';
+    }
+
     if (tiebreakTooltipHideTimer) {
         clearTimeout(tiebreakTooltipHideTimer);
         tiebreakTooltipHideTimer = null;
@@ -7731,6 +7913,8 @@ function showTiebreakTooltip(anchorEl, tiebreakInfo, currentTeam) {
     const tooltip = ensureTiebreakTooltipElement();
     tooltip.innerHTML = buildTiebreakTooltipTableHtml(tiebreakInfo, eventData, currentTeam);
     tooltip.style.display = 'block';
+    tooltip.setAttribute('aria-hidden', 'false');
+    anchorEl.setAttribute('aria-expanded', 'true');
     positionTiebreakTooltip(anchorEl);
     tiebreakTooltipLastShownAt = Date.now();
 }
@@ -7738,6 +7922,10 @@ function showTiebreakTooltip(anchorEl, tiebreakInfo, currentTeam) {
 function hideTiebreakTooltip() {
     if (!tiebreakTooltipEl) return;
     tiebreakTooltipEl.style.display = 'none';
+    tiebreakTooltipEl.setAttribute('aria-hidden', 'true');
+    document.querySelectorAll('.tiebreak-indicator[aria-expanded="true"]').forEach(indicator => {
+        indicator.setAttribute('aria-expanded', 'false');
+    });
 }
 
 function hideTiebreakTooltipWithDelay(delayMs = 120) {
@@ -8265,6 +8453,8 @@ function createHistoricalTooltip() {
  * Renderiza e mostra o tooltip histórico para uma equipa
  */
 async function showHistoricalTooltip(teamName, anchorEl) {
+    hideTiebreakTooltip();
+
     if (!historicalTooltipEl) {
         historicalTooltipEl = createHistoricalTooltip();
     }
@@ -8274,6 +8464,9 @@ async function showHistoricalTooltip(teamName, anchorEl) {
 
     // Carregar dados históricos primeiro
     await loadHistoricalData(modalidade);
+
+    // O carregamento é assíncrono: o utilizador pode ter aberto entretanto o TB.
+    if (tiebreakTooltipEl && tiebreakTooltipEl.style.display === 'block') return;
 
     const history = buildTeamHistory(teamName, modalidade);
 
@@ -8489,11 +8682,11 @@ function executeChangeModalidade(mod) {
     localStorage.setItem('mmr_selectedModalidade', mod);
 
     // Caminhos relativos
-    const classificacaoPath = `output/elo_ratings/classificacao_${mod}.csv`;
-    const detalhePath = `output/elo_ratings/detalhe_${mod}.csv`;
-    const eloPath = `output/elo_ratings/elo_${mod}.csv`;
-    const tiebreakPath = `output/elo_ratings/tiebreak_${mod}.json`;
-    const jogosPath = `output/csv_modalidades/${mod}.csv`;
+    const classificacaoPath = getFreshDataUrl(`output/elo_ratings/classificacao_${mod}.csv`);
+    const detalhePath = getFreshDataUrl(`output/elo_ratings/detalhe_${mod}.csv`);
+    const eloPath = getFreshDataUrl(`output/elo_ratings/elo_${mod}.csv`);
+    const tiebreakPath = getFreshDataUrl(`output/elo_ratings/tiebreak_${mod}.json`);
+    const jogosPath = getFreshDataUrl(`output/csv_modalidades/${mod}.csv`);
 
     // Reset dos dados e variáveis globais
     sampleData = {
@@ -8538,6 +8731,10 @@ function executeChangeModalidade(mod) {
         if (loadToken !== currentLoadToken) return;
         loadedFiles++;
         if (loadedFiles === totalFiles) {
+            // O bracket depende do detalhe ELO. Construí-lo apenas depois de todos
+            // os ficheiros base terminarem elimina a race condition do primeiro load.
+            createRealBracket();
+
             // Todos os arquivos carregados, atualizar interface
             requestAnimationFrame(() => {
                 if (loadToken !== currentLoadToken) return;
@@ -8658,7 +8855,7 @@ function executeChangeModalidade(mod) {
         }
     });
 
-    fetch(tiebreakPath, { cache: 'force-cache' })
+    fetch(tiebreakPath, { cache: 'no-store' })
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}`);
@@ -8703,7 +8900,7 @@ function executeChangeModalidade(mod) {
                 const previousEpochIndex = availableEpocas.indexOf(currentEpoch) + 1;
                 if (previousEpochIndex < availableEpocas.length) {
                     const previousEpoch = availableEpocas[previousEpochIndex];
-                    const previousEloPath = `output/elo_ratings/elo_${mod.replace(currentEpoch, previousEpoch)}.csv`;
+                    const previousEloPath = getFreshDataUrl(`output/elo_ratings/elo_${mod.replace(currentEpoch, previousEpoch)}.csv`);
 
                     Papa.parse(previousEloPath, {
                         download: true,
@@ -8850,6 +9047,7 @@ function buildCalendarTeamPages(filteredMatches, options = {}) {
     const { preserveCurrentPage = true, preferredTeam = null } = options;
 
     let teamSet = new Set();
+    let hasScopedRankingTeams = false;
 
     // Primeiro: adicionar equipas da divisão/grupo atual
     if (sampleData.rankings && currentCalendarDivision && sampleData.rankings[currentCalendarDivision]) {
@@ -8857,22 +9055,25 @@ function buildCalendarTeamPages(filteredMatches, options = {}) {
             if (!team || !team.team) return;
             if (currentCalendarGroup && team.group && team.group !== currentCalendarGroup) return;
             teamSet.add(normalizeTeamName(team.team));
+            hasScopedRankingTeams = true;
         });
     }
 
-    // Segundo: adicionar equipas de TODOS os jogos (mas não placeholders)
-    filteredMatches.forEach(match => {
-        const rawTeam1 = match.team1 || match['Equipa 1'] || '';
-        const rawTeam2 = match.team2 || match['Equipa 2'] || '';
+    // Em ligas sem um ranking segmentado, inferir as equipas pelos jogos.
+    // Quando existe divisão/grupo ativo, não misturar participantes de outras séries.
+    if (!hasScopedRankingTeams) {
+        filteredMatches.forEach(match => {
+            const rawTeam1 = match.team1 || match['Equipa 1'] || '';
+            const rawTeam2 = match.team2 || match['Equipa 2'] || '';
 
-        // Só adicionar se não for placeholder
-        if (rawTeam1 && !isBracketPlaceholder(rawTeam1) && !isClassificationPlaceholder(rawTeam1)) {
-            teamSet.add(normalizeTeamName(rawTeam1));
-        }
-        if (rawTeam2 && !isBracketPlaceholder(rawTeam2) && !isClassificationPlaceholder(rawTeam2)) {
-            teamSet.add(normalizeTeamName(rawTeam2));
-        }
-    });
+            if (rawTeam1 && !isBracketPlaceholder(rawTeam1) && !isClassificationPlaceholder(rawTeam1)) {
+                teamSet.add(normalizeTeamName(rawTeam1));
+            }
+            if (rawTeam2 && !isBracketPlaceholder(rawTeam2) && !isClassificationPlaceholder(rawTeam2)) {
+                teamSet.add(normalizeTeamName(rawTeam2));
+            }
+        });
+    }
 
     const orderedTeams = Array.from(teamSet)
         .filter(Boolean)
@@ -9141,6 +9342,25 @@ function buildCalendarTeamPages(filteredMatches, options = {}) {
         const teamLabel = getTranslatedTeamLabel(courseInfo, teamName);
         const canonicalTeam = resolveCanonicalCourseKey(teamName);
         const games = (teamGamesMap.get(canonicalTeam) || [])
+            .filter((match, index, allGames) => {
+                if (allGames.indexOf(match) !== index) return false;
+
+                const rawTeam1 = match.team1 || match['Equipa 1'] || '';
+                const rawTeam2 = match.team2 || match['Equipa 2'] || '';
+                const participantNames = [
+                    rawTeam1,
+                    rawTeam2,
+                    resolveTeamName(rawTeam1),
+                    resolveTeamName(rawTeam2)
+                ];
+
+                return participantNames.some(participant => {
+                    if (!participant || isBracketPlaceholder(participant) || isClassificationPlaceholder(participant)) {
+                        return false;
+                    }
+                    return resolveCanonicalCourseKey(normalizeTeamName(participant)) === canonicalTeam;
+                });
+            })
             .sort(compareCalendarMatchesChronologically);
 
         return {
@@ -9839,6 +10059,24 @@ function getPlayoffGroupKey(jornada) {
     return groupMap[normalized] || normalized;
 }
 
+function getPlayoffCompetitionKey(jornada) {
+    const normalized = String(jornada || '').toUpperCase().trim();
+    if (normalized.startsWith('PM')) return 'maintenance';
+    if (normalized.startsWith('LM') || normalized === 'LIGUILHA') return 'liguilha';
+    return 'playoffs';
+}
+
+function getPlayoffCompetitionLabel(competitionKey) {
+    if (competitionKey === 'maintenance') return t('maintenancePlayoff');
+    if (competitionKey === 'liguilha') return t('maintenanceLeague');
+    return t('playoffs');
+}
+
+function getPlayoffCompetitionSortOrder(jornada) {
+    const competitionKey = getPlayoffCompetitionKey(jornada);
+    return competitionKey === 'playoffs' ? 1 : competitionKey === 'maintenance' ? 2 : 3;
+}
+
 // Obter ordem de sorting para jornadas de playoffs
 function getPlayoffSortOrder(jornada) {
     if (!jornada) return 999;
@@ -10451,7 +10689,10 @@ function updateJornadaDisplay() {
         currentCalendarDatePageIndex = safeIndex;
 
         const page = availableCalendarDatePages[safeIndex];
-        jornadaTitle.textContent = `${page.label} (${safeIndex + 1}/${totalPages})`;
+        jornadaTitle.innerHTML = `
+            <span class="jornada-page-label">${escapeHtml(page.label)}</span>
+            <span class="jornada-page-count" aria-label="${safeIndex + 1} / ${totalPages}">${safeIndex + 1}/${totalPages}</span>
+        `;
 
         prevBtn.disabled = safeIndex <= 0;
         nextBtn.disabled = safeIndex >= totalPages - 1;
@@ -10581,7 +10822,21 @@ function updateCalendar() {
         };
     });
 
-    if (calendarSortMode === CALENDAR_SORT_MODE_MATCHDAY) {
+    const activeDatePage = calendarSortMode === CALENDAR_SORT_MODE_DATE_TIME
+        ? availableCalendarDatePages[currentCalendarDatePageIndex]
+        : null;
+    const isPlayoffDatePage = Boolean(
+        activeDatePage && ['playoffs', 'liguilha'].includes(activeDatePage.startDateKey)
+    );
+
+    if (isPlayoffDatePage) {
+        games.sort((a, b) => {
+            const competitionOrder = getPlayoffCompetitionSortOrder(a.jornada) - getPlayoffCompetitionSortOrder(b.jornada);
+            if (competitionOrder) return competitionOrder;
+            const phaseOrder = getPlayoffSortOrder(a.jornada) - getPlayoffSortOrder(b.jornada);
+            return phaseOrder || compareCalendarMatchesChronologically(a, b);
+        });
+    } else if (calendarSortMode === CALENDAR_SORT_MODE_MATCHDAY) {
         games.sort(compareCalendarMatchesChronologically);
     }
 
@@ -10589,11 +10844,39 @@ function updateCalendar() {
     gamesList.innerHTML = '';
     const fragment = document.createDocumentFragment();
 
+    const showPlayoffPhaseDividers = isPlayoffDatePage;
+    let previousCompetitionKey = null;
+    let previousPhaseKey = null;
+
     // Pré-calcular teams favoritos para esta renderização
     const favoriteTeamCanonical = favoriteTeam ? resolveCanonicalCourseKey(favoriteTeam) : null;
 
     // Processar todos os jogos
     games.forEach(game => {
+        if (showPlayoffPhaseDividers) {
+            const competitionKey = getPlayoffCompetitionKey(game.jornada);
+            if (competitionKey !== previousCompetitionKey) {
+                const competitionDivider = document.createElement('div');
+                competitionDivider.className = 'calendar-competition-divider';
+                competitionDivider.dataset.competition = competitionKey;
+                competitionDivider.innerHTML = `<span>${escapeHtml(getPlayoffCompetitionLabel(competitionKey))}</span>`;
+                fragment.appendChild(competitionDivider);
+                previousCompetitionKey = competitionKey;
+                previousPhaseKey = null;
+            }
+
+            const phaseKey = getPlayoffGroupKey(game.jornada);
+            if (phaseKey && phaseKey !== previousPhaseKey) {
+                const phaseDivider = document.createElement('div');
+                phaseDivider.className = 'calendar-phase-divider';
+                phaseDivider.setAttribute('role', 'separator');
+                phaseDivider.dataset.phase = phaseKey;
+                phaseDivider.innerHTML = `<span>${escapeHtml(getJornadaDisplayName(phaseKey))}</span>`;
+                fragment.appendChild(phaseDivider);
+                previousPhaseKey = phaseKey;
+            }
+        }
+
         const gameItem = createGameItem(game, favoriteTeamCanonical);
         fragment.appendChild(gameItem);
     });
@@ -10942,12 +11225,6 @@ function processRankings(data) {
 
     // Limpar cache de equipas qualificadas quando rankings mudam
     qualifiedTeamsCache = null;
-
-    // Carregar brackets depois de processar classificações
-    // Isso garante que getQualifiedTeams() terá dados disponíveis
-    setTimeout(() => {
-        createRealBracket();
-    }, 100);
 }
 
 function getMatchRowKey(row) {
@@ -12243,13 +12520,6 @@ eventManager.on('#teamSelector input[type="checkbox"]', 'change', (e) => {
     toggleTeam(teamName);
 });
 
-// Filtros rápidos
-eventManager.on('[data-filter="top3"]', 'click', () => filterTop3());
-eventManager.on('[data-filter="division"]', 'click', (e) => {
-    const division = e.target.dataset.division;
-    if (division) switchDivision(division); // Usar switchDivision para sincronizar tudo
-});
-
 // Inicializar quando a página carregar
 document.addEventListener('DOMContentLoaded', initApp);
 
@@ -12287,6 +12557,14 @@ const PredictionsState = {
     selectedTeam: null,      // Nome da equipa selecionada
     simulations: null        // Numero de simulacoes usadas
 };
+
+let teamCarouselScrollTimer = null;
+let teamCarouselCenterBehavior = 'auto';
+let teamCarouselIgnoreScrollUntil = 0;
+let teamCarouselTargetIndex = null;
+let teamCarouselRecenterTimer = null;
+let teamCarouselCommitTimer = null;
+const TEAM_CAROUSEL_COPIES = 5;
 
 let predictionsTooltipEl = null;
 let predictionsTooltipChart = null;
@@ -12344,7 +12622,7 @@ function getAvailableTeamsForCurrentGroup() {
     return getRankingsTeamsForCurrentGroup();
 }
 
-function refreshPredictionsTeamsForSelection() {
+function refreshPredictionsTeamsForSelection({ preferFavorite = false } = {}) {
     PredictionsState.availableTeams = getAvailableTeamsForCurrentGroup();
 
     if (PredictionsState.availableTeams.length === 0) {
@@ -12353,27 +12631,25 @@ function refreshPredictionsTeamsForSelection() {
         return;
     }
 
-    if (!PredictionsState.selectedTeam || !PredictionsState.availableTeams.includes(PredictionsState.selectedTeam)) {
-        // Se houver equipa favorita e ela estiver disponível, selecionar automaticamente
-        // Precisa fazer matching usando normalização porque favoriteTeam pode ser "EI" e availableTeams ter "Eng. Informática"
-        if (favoriteTeam) {
-            // Procurar equipa com chave canónica igual
-            const favoriteCanonical = resolveCanonicalCourseKey(favoriteTeam);
-            const matchingTeam = PredictionsState.availableTeams.find(team => {
-                const teamCanonical = resolveCanonicalCourseKey(team);
-                return teamCanonical === favoriteCanonical;
-            });
+    // Resolver o favorito pela chave canónica: o nome guardado pode ser uma
+    // abreviatura e o forecast pode conter a designação completa.
+    const favoriteCanonical = favoriteTeam ? resolveCanonicalCourseKey(favoriteTeam) : null;
+    const matchingFavorite = favoriteCanonical
+        ? PredictionsState.availableTeams.find(team => resolveCanonicalCourseKey(team) === favoriteCanonical)
+        : null;
 
-            if (matchingTeam) {
-                PredictionsState.selectedTeam = matchingTeam;
-            } else {
-                PredictionsState.currentTeamIndex = 0;
-                PredictionsState.selectedTeam = PredictionsState.availableTeams[0];
-            }
-        } else {
-            PredictionsState.currentTeamIndex = 0;
-            PredictionsState.selectedTeam = PredictionsState.availableTeams[0];
-        }
+    // Num novo carregamento a equipa favorita tem prioridade mesmo que a
+    // seleção anterior continue válida nesta divisão. Nas interações normais,
+    // preservar a escolha manual do utilizador.
+    if (preferFavorite && matchingFavorite) {
+        PredictionsState.selectedTeam = matchingFavorite;
+        PredictionsState.currentTeamIndex = PredictionsState.availableTeams.indexOf(matchingFavorite);
+        return;
+    }
+
+    if (!PredictionsState.selectedTeam || !PredictionsState.availableTeams.includes(PredictionsState.selectedTeam)) {
+        PredictionsState.selectedTeam = matchingFavorite || PredictionsState.availableTeams[0];
+        PredictionsState.currentTeamIndex = PredictionsState.availableTeams.indexOf(PredictionsState.selectedTeam);
         return;
     }
 
@@ -12389,7 +12665,9 @@ function updatePredictionsDivisionSelector() {
         return;
     }
 
-    const divisions = Object.keys(sampleData.rankings);
+    const divisions = Object.keys(sampleData.rankings).filter(division =>
+        normalizeText(String(division)) !== 'geral'
+    );
     if (divisions.length <= 1) {
         container.style.display = 'none';
         return;
@@ -12592,7 +12870,7 @@ async function loadPredictionsData() {
 
         scheduleLowPriorityTask(() => {
             if (isStaleLoad()) return;
-            refreshPredictionsTeamsForSelection();
+            refreshPredictionsTeamsForSelection({ preferFavorite: true });
 
             if (PredictionsState.availableTeams.length > 0) {
                 updatePredictionsDisplay();
@@ -12611,7 +12889,7 @@ async function loadPredictionsData() {
 
 function updatePredictionsSimulationsCount() {
     const countEl = document.getElementById('predictionsSimCount');
-    if (countEl && PredictionsState.simulations) {
+    if (countEl && PredictionsState.simulations && shouldShowFuturePredictionsSections()) {
         const formatted = PredictionsState.simulations.toLocaleString('pt-PT');
         countEl.textContent = `(${formatted} ${t('simulations')})`;
         countEl.hidden = false;
@@ -12633,7 +12911,29 @@ function shouldShowFuturePredictionsSections() {
     }
 
     // Só mostrar previsões futuras para a época mais recente disponível.
-    return currentEpoca === availableEpocas[0];
+    if (currentEpoca !== availableEpocas[0]) return false;
+
+    // Mesmo sendo a época mais recente, uma modalidade pode já ter terminado.
+    // O histórico usa E3 como marcador de final concluída; o fallback cobre
+    // estruturas cujo nome da última ronda é apresentado por extenso.
+    if (isSeasonCompleted(currentModalidade, currentEpoca)) return false;
+
+    const completedBracketFinal = Object.entries(sampleData.bracket || {}).some(([round, matches]) => {
+        const normalizedRound = String(round)
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[\s_-]+/g, '');
+        const isFinal = normalizedRound === 'final' || normalizedRound === 'finais' || normalizedRound === 'e3';
+        if (!isFinal || !Array.isArray(matches)) return false;
+        return matches.some(match => {
+            const score1 = parseGolosValue(match?.score1).numeric;
+            const score2 = parseGolosValue(match?.score2).numeric;
+            return score1 !== null && score2 !== null;
+        });
+    });
+
+    return !completedBracketFinal;
 }
 
 function getSeasonPredictionsSection() {
@@ -12685,7 +12985,7 @@ function handleMissingPredictionsFiles() {
                 setPredictionsCardVisible(true);
                 updatePredictionsSimulationsCount();
                 updatePredictionsSelectors();
-                refreshPredictionsTeamsForSelection();
+                refreshPredictionsTeamsForSelection({ preferFavorite: true });
                 updatePredictionsDisplay();
                 return;
             }
@@ -12704,7 +13004,7 @@ function handleMissingPredictionsFiles() {
         setPredictionsCardVisible(true);
         updatePredictionsSimulationsCount();
         updatePredictionsSelectors();
-        refreshPredictionsTeamsForSelection();
+        refreshPredictionsTeamsForSelection({ preferFavorite: true });
         updatePredictionsDisplay();
         return;
     }
@@ -12717,7 +13017,7 @@ function handleMissingPredictionsFiles() {
     PredictionsState.simulations = null;
     updatePredictionsSimulationsCount();
     updatePredictionsSelectors();
-    refreshPredictionsTeamsForSelection();
+    refreshPredictionsTeamsForSelection({ preferFavorite: true });
     updatePredictionsDisplay();
 }
 
@@ -12728,7 +13028,10 @@ function clearPredictionsDisplay(customMessage = null) {
     const message = customMessage || t('noPredictionsData');
 
     document.getElementById('selectedTeamName').textContent = t('dataNotAvailable');
-    document.getElementById('selectedTeamEmblem').innerHTML = '';
+    const selectedTeamEmblem = document.getElementById('selectedTeamEmblem');
+    if (selectedTeamEmblem) selectedTeamEmblem.innerHTML = '';
+    const teamSliderTrack = document.getElementById('teamSliderTrack');
+    if (teamSliderTrack) teamSliderTrack.innerHTML = '';
     document.getElementById('predictionsStatsGrid').innerHTML = '';
     setSeasonPredictionsSectionVisible(false);
     document.getElementById('predictionsTableBody').innerHTML = '';
@@ -12742,9 +13045,6 @@ function clearPredictionsDisplay(customMessage = null) {
 
     const playoffContainer = document.getElementById('playoffScenariosContainer');
     if (playoffContainer) playoffContainer.innerHTML = '';
-
-    document.getElementById('prevTeamBtn').disabled = true;
-    document.getElementById('nextTeamBtn').disabled = true;
 
     const countEl = document.getElementById('predictionsSimCount');
     if (countEl) {
@@ -12777,12 +13077,6 @@ function updatePredictionsDisplay() {
             return;
         }
 
-        const prevBtn = document.getElementById('prevTeamBtn');
-        const nextBtn = document.getElementById('nextTeamBtn');
-        const disableNav = PredictionsState.availableTeams.length <= 1;
-        if (prevBtn) prevBtn.disabled = disableNav;
-        if (nextBtn) nextBtn.disabled = disableNav;
-
         // 1. Atualizar nome e emblema da equipa (immediate)
         updateTeamSliderDisplay();
 
@@ -12810,37 +13104,22 @@ function updatePredictionsDisplay() {
 function updateTeamSliderDisplay() {
     const teamName = PredictionsState.selectedTeam;
     if (!teamName) return;
-
-    // Setar custom properties dos gaps responsivos
-    const sliderContainer = document.querySelector('.team-slider-container');
-    if (sliderContainer) {
-        const gaps = getResponsiveGaps();
-        sliderContainer.style.setProperty('--gap1', `${gaps.gap1}px`);
-        sliderContainer.style.setProperty('--gap2', `${gaps.gap2}px`);
-        sliderContainer.style.setProperty('--gap3', `${gaps.gap3}px`);
-    }
-
     const courseInfo = getCourseInfo(teamName);
-    const totalTeams = PredictionsState.availableTeams.length;
-    const currentIndex = PredictionsState.currentTeamIndex;
 
-    // Atualizar nome
+    // Nome da equipa atualmente centrada
     const nameEl = document.getElementById('selectedTeamName');
+    if (!nameEl) return;
     const displayName = translateTeamName(courseInfo.fullName || courseInfo.shortName || teamName);
     nameEl.textContent = displayName;
 
-    // Remover estrela anterior se existir
-    const oldStar = nameEl.querySelector('.favorite-star-btn');
-    if (oldStar) {
-        oldStar.remove();
-    }
-
-    // Botão de favorito - usar isTeamFavorite() para comparação correta
+    // Favorito da equipa selecionada
     const isFav = isTeamFavorite(teamName);
-    const starBtn = document.createElement('span');
+    const starBtn = document.createElement('button');
+    starBtn.type = 'button';
     starBtn.className = 'favorite-star-btn';
     starBtn.style.color = isFav ? '#fbbf24' : '#ccc';
-    starBtn.innerHTML = isFav ? '★' : '☆';
+    starBtn.textContent = isFav ? '★' : '☆';
+    starBtn.setAttribute('aria-label', isFav ? t('removeFavorite') : t('markFavorite'));
 
     starBtn.onclick = (e) => {
         e.stopPropagation();
@@ -12849,52 +13128,76 @@ function updateTeamSliderDisplay() {
 
     nameEl.appendChild(starBtn);
 
-    // Atualizar emblema central
-    const emblemContainer = document.getElementById('selectedTeamEmblem');
-    renderPredictionsEmblem(emblemContainer, courseInfo, teamName);
+    const track = document.getElementById('teamSliderTrack');
+    if (!track) return;
 
-    // Atualizar todos os ghosts
-    for (let offset = -3; offset <= 3; offset++) {
-        if (offset === 0) continue; // Pular o centro
+    const signature = PredictionsState.availableTeams
+        .map(team => resolveCanonicalCourseKey(team))
+        .join('|') + `|circular-${TEAM_CAROUSEL_COPIES}`;
 
-        const ghostIndex = (currentIndex + offset + totalTeams) % totalTeams;
-        const ghostTeam = PredictionsState.availableTeams[ghostIndex];
+    // Reconstruir apenas quando o conjunto de equipas muda. Durante o scroll,
+    // preservar os nós evita saltos e mantém a interação tátil fluida.
+    if (track.dataset.signature !== signature) {
+        track.dataset.signature = signature;
+        const carouselTeams = Array.from({ length: TEAM_CAROUSEL_COPIES }, (_, cycleIndex) =>
+            PredictionsState.availableTeams.map((team, teamIndex) => ({
+                team,
+                teamIndex,
+                carouselIndex: cycleIndex * PredictionsState.availableTeams.length + teamIndex
+            }))
+        ).flat();
 
-        let ghostElement;
-        if (offset < 0) {
-            ghostElement = document.querySelector(`.ghost-left-${Math.abs(offset)}`);
-        } else {
-            ghostElement = document.querySelector(`.ghost-right-${offset}`);
-        }
+        track.innerHTML = carouselTeams.map(({ team, teamIndex, carouselIndex }) => {
+            const info = getCourseInfo(team);
+            const fullName = translateTeamName(info.fullName || info.shortName || team);
+            const shortName = translateTeamName(info.shortName || info.fullName || team);
+            const emblemScale = Number.isFinite(info.emblemScale) ? info.emblemScale : 1;
+            const emblemContent = info.emblemPath
+                ? `<img src="${escapeHtmlAttribute(info.emblemPath)}" alt="" class="team-carousel-emblem" draggable="false" style="--emblem-proportion:${emblemScale}" onerror="this.style.display='none'">`
+                : `<span class="team-carousel-fallback" style="background:${escapeHtmlAttribute(info.primaryColor || '#2a5298')}"></span>`;
+            const emblemHtml = `<span class="team-carousel-emblem-box">${emblemContent}</span>`;
 
-        if (ghostElement && ghostTeam) {
-            const ghostInfo = getCourseInfo(ghostTeam);
-            renderPredictionsEmblem(ghostElement, ghostInfo, ghostTeam, true);
-        } else if (ghostElement) {
-            ghostElement.innerHTML = '';
-        }
+            return `
+                <button type="button" class="team-carousel-item" role="option"
+                    data-team="${escapeHtmlAttribute(team)}" data-team-index="${teamIndex}"
+                    data-carousel-index="${carouselIndex}" title="${escapeHtmlAttribute(fullName)}"
+                    aria-label="${escapeHtmlAttribute(fullName)}" aria-selected="false" tabindex="-1">
+                    ${emblemHtml}
+                    <span class="team-carousel-label">${escapeHtml(shortName)}</span>
+                </button>
+            `;
+        }).join('');
     }
 
-    // Limpar estilos inline dos ghosts DEPOIS de renderizar tudo
-    // Usar requestAnimationFrame para garantir que o browser processou o re-render primeiro
+    const totalTeams = PredictionsState.availableTeams.length;
+    const middleCycleStart = Math.floor(TEAM_CAROUSEL_COPIES / 2) * totalTeams;
+    const targetMatchesTeam = Number.isInteger(teamCarouselTargetIndex)
+        && teamCarouselTargetIndex >= 0
+        && teamCarouselTargetIndex < totalTeams * TEAM_CAROUSEL_COPIES
+        && ((teamCarouselTargetIndex % totalTeams) + totalTeams) % totalTeams === PredictionsState.currentTeamIndex;
+    const targetIndex = targetMatchesTeam
+        ? teamCarouselTargetIndex
+        : middleCycleStart + PredictionsState.currentTeamIndex;
+    teamCarouselTargetIndex = targetIndex;
+
+    const selectedItem = updateTeamCarouselItemStates(track, targetIndex);
+
+    const behavior = teamCarouselCenterBehavior;
+    teamCarouselCenterBehavior = 'auto';
     requestAnimationFrame(() => {
-        // Verificar se ainda está animando - se sim, esperar mais
-        const mainEmblem = document.getElementById('selectedTeamEmblem');
-
-        if (mainEmblem && mainEmblem.classList.contains('animating')) {
-            // Ainda está animando, esperar até terminar
-            return;
+        const display = document.getElementById('teamSliderDisplay');
+        if (display && selectedItem) {
+            const edgePadding = Math.max(12, (display.clientWidth - selectedItem.offsetWidth) / 2);
+            track.style.paddingInline = `${edgePadding}px`;
         }
-
-        const allGhosts = document.querySelectorAll('.team-slider-ghost');
-        allGhosts.forEach(ghost => {
-            if (!ghost.classList.contains('animating')) {
-                ghost.style.removeProperty('transform');
-                ghost.style.removeProperty('opacity');
-                ghost.style.removeProperty('filter');
-                ghost.style.removeProperty('visibility');
-            }
-        });
+        if (display && selectedItem) {
+            const targetLeft = selectedItem.offsetLeft - ((display.clientWidth - selectedItem.offsetWidth) / 2);
+            display.scrollTo({
+                left: Math.max(0, targetLeft),
+                behavior: behavior === 'smooth' ? 'smooth' : 'auto'
+            });
+        }
+        scheduleTeamCarouselRecenter(behavior === 'smooth' ? 520 : 0);
     });
 }
 
@@ -14041,138 +14344,345 @@ function formatPredictionDate(dateStr) {
 /**
  * Navega para a equipa anterior
  */
-async function navigateToPreviousTeam() {
+function navigateToPreviousTeam() {
     const totalTeams = PredictionsState.availableTeams.length;
     if (totalTeams === 0) return;
-
-    // Obter gaps e escalas responsivos
-    const gaps = getResponsiveGaps();
-    const scales = getResponsiveScales();
-
-    // Calcular novo índice
     const newIndex = (PredictionsState.currentTeamIndex - 1 + totalTeams) % totalTeams;
-
-    // Criar ghost temporário na posição -4 para o novo emblema
-    const newGhostIndex = (newIndex - 3 + totalTeams) % totalTeams;
-    const newGhostTeam = PredictionsState.availableTeams[newGhostIndex];
-    const ghostLeft3 = document.querySelector('.ghost-left-3');
-
-    // Criar elemento temporário na posição -4 (fora de vista)
-    const tempGhost = document.createElement('div');
-    tempGhost.className = 'team-slider-ghost temp-ghost-invisible';
-    tempGhost.dataset.position = '-4';
-    tempGhost.style.left = '50%';
-    tempGhost.style.transform = `translate(calc(-50% - ${gaps.gap4}px), -50%) scale(${scales.scale4})`;
-    tempGhost.style.pointerEvents = 'none';
-
-    if (newGhostTeam) {
-        const newGhostInfo = getCourseInfo(newGhostTeam);
-        renderPredictionsEmblem(tempGhost, newGhostInfo, newGhostTeam, true);
-    }
-
-    ghostLeft3.parentElement.appendChild(tempGhost);
-
-    // Iniciar animação (ghost -4 desliza para -3 com fade-in, -3 desliza para -2, etc)
-    const animationPromise = animateTeamSlider('prev');
-
-    // Atualizar índice após animação
-    PredictionsState.currentTeamIndex = newIndex;
-    PredictionsState.selectedTeam = PredictionsState.availableTeams[PredictionsState.currentTeamIndex];
-
-    await animationPromise;
-
-    // Remover ghost temporário
-    tempGhost.remove();
-
-    // Atualizar display
-    updateTeamSliderDisplay();
-
-    // Atualizar stats e tabelas
-    updatePredictionsStats();
-    updatePredictionsTableHeaders();
-    updatePredictionsTable();
-    updateTeamHistoryTable();
-
-    syncCalendarWithPredictionsSelection();
+    const currentTarget = Number.isInteger(teamCarouselTargetIndex)
+        ? teamCarouselTargetIndex
+        : Math.floor(TEAM_CAROUSEL_COPIES / 2) * totalTeams + PredictionsState.currentTeamIndex;
+    selectPredictionsTeam(PredictionsState.availableTeams[newIndex], { targetIndex: currentTarget - 1 });
 }
 
 /**
  * Navega para a próxima equipa
  */
-async function navigateToNextTeam() {
+function navigateToNextTeam() {
     const totalTeams = PredictionsState.availableTeams.length;
     if (totalTeams === 0) return;
-
-    // Obter gaps e escalas responsivos
-    const gaps = getResponsiveGaps();
-    const scales = getResponsiveScales();
-
-    // Calcular novo índice
     const newIndex = (PredictionsState.currentTeamIndex + 1) % totalTeams;
-
-    // Criar ghost temporário na posição 4 para o novo emblema
-    const newGhostIndex = (newIndex + 3) % totalTeams;
-    const newGhostTeam = PredictionsState.availableTeams[newGhostIndex];
-    const ghostRight3 = document.querySelector('.ghost-right-3');
-
-    // Criar elemento temporário na posição 4 (fora de vista)
-    const tempGhost = document.createElement('div');
-    tempGhost.className = 'team-slider-ghost temp-ghost-invisible';
-    tempGhost.dataset.position = '4';
-    tempGhost.style.left = '50%';
-    tempGhost.style.transform = `translate(calc(-50% + ${gaps.gap4}px), -50%) scale(${scales.scale4})`;
-    tempGhost.style.pointerEvents = 'none';
-
-    if (newGhostTeam) {
-        const newGhostInfo = getCourseInfo(newGhostTeam);
-        renderPredictionsEmblem(tempGhost, newGhostInfo, newGhostTeam, true);
-    }
-
-    ghostRight3.parentElement.appendChild(tempGhost);
-
-    // Iniciar animação (ghost 4 desliza para 3 com fade-in, 3 desliza para 2, etc)
-    const animationPromise = animateTeamSlider('next');
-
-    // Atualizar índice após animação
-    PredictionsState.currentTeamIndex = newIndex;
-    PredictionsState.selectedTeam = PredictionsState.availableTeams[PredictionsState.currentTeamIndex];
-
-    await animationPromise;
-
-    // Remover ghost temporário
-    tempGhost.remove();
-
-    // Atualizar display
-    updateTeamSliderDisplay();
-
-    // Atualizar stats e tabelas
-    updatePredictionsStats();
-    updatePredictionsTableHeaders();
-    updatePredictionsTable();
-    updateTeamHistoryTable();
-
-    syncCalendarWithPredictionsSelection();
+    const currentTarget = Number.isInteger(teamCarouselTargetIndex)
+        ? teamCarouselTargetIndex
+        : Math.floor(TEAM_CAROUSEL_COPIES / 2) * totalTeams + PredictionsState.currentTeamIndex;
+    selectPredictionsTeam(PredictionsState.availableTeams[newIndex], { targetIndex: currentTarget + 1 });
 }
-// Event listeners para os botões do slider
-document.getElementById('prevTeamBtn')?.addEventListener('click', navigateToPreviousTeam);
-document.getElementById('nextTeamBtn')?.addEventListener('click', navigateToNextTeam);
 
-// Navegação por teclado no slider de equipas (setas esquerda/direita)
-document.addEventListener('keydown', (e) => {
-    // Verificar se a secção de previsões está visível e tem equipas
-    if (PredictionsState.availableTeams.length === 0) return;
+function selectPredictionsTeam(teamName, { behavior = 'smooth', targetIndex = null } = {}) {
+    const index = PredictionsState.availableTeams.indexOf(teamName);
+    if (index < 0) return;
 
-    // Verificar se não está a escrever num input
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
-
-    if (e.key === 'ArrowLeft') {
-        e.preventDefault();
-        navigateToPreviousTeam();
-    } else if (e.key === 'ArrowRight') {
-        e.preventDefault();
-        navigateToNextTeam();
+    if (Number.isInteger(targetIndex)) {
+        teamCarouselTargetIndex = targetIndex;
     }
-});
+
+    if (behavior === 'smooth') {
+        teamCarouselIgnoreScrollUntil = Date.now() + 450;
+    }
+
+    if (PredictionsState.selectedTeam === teamName) {
+        teamCarouselCenterBehavior = behavior;
+        updateTeamSliderDisplay();
+        return;
+    }
+
+    PredictionsState.currentTeamIndex = index;
+    PredictionsState.selectedTeam = teamName;
+    teamCarouselCenterBehavior = behavior;
+    updatePredictionsDisplay();
+}
+
+function updateTeamCarouselItemStates(track, focusIndex) {
+    let focusedItem = null;
+    track.querySelectorAll('.team-carousel-item').forEach(item => {
+        const carouselIndex = Number(item.dataset.carouselIndex);
+        const isFocused = carouselIndex === focusIndex;
+        const offset = Math.max(-3, Math.min(3, carouselIndex - focusIndex));
+        item.classList.toggle('is-selected', isFocused);
+        item.dataset.distance = String(Math.min(3, Math.abs(carouselIndex - focusIndex)));
+        item.dataset.offset = String(offset);
+        item.setAttribute('aria-selected', isFocused ? 'true' : 'false');
+        item.tabIndex = isFocused ? 0 : -1;
+        if (isFocused) focusedItem = item;
+    });
+    return focusedItem;
+}
+
+function getNearestCarouselItem() {
+    const display = document.getElementById('teamSliderDisplay');
+    if (!display) return null;
+
+    const displayRect = display.getBoundingClientRect();
+    const center = displayRect.left + displayRect.width / 2;
+    let nearestItem = null;
+    let nearestDistance = Infinity;
+
+    display.querySelectorAll('.team-carousel-item').forEach(item => {
+        const rect = item.getBoundingClientRect();
+        const distance = Math.abs((rect.left + rect.width / 2) - center);
+        if (distance < nearestDistance) {
+            nearestDistance = distance;
+            nearestItem = item;
+        }
+    });
+
+    return nearestItem;
+}
+
+function updateTeamCarouselVisualFocus() {
+    const display = document.getElementById('teamSliderDisplay');
+    const track = document.getElementById('teamSliderTrack');
+    const nearestItem = getNearestCarouselItem();
+    if (!display || !track || !nearestItem) return;
+    const focusIndex = Number(nearestItem.dataset.carouselIndex);
+    const displayRect = display.getBoundingClientRect();
+    const displayCenter = displayRect.left + displayRect.width / 2;
+
+    track.querySelectorAll('.team-carousel-item').forEach(item => {
+        const carouselIndex = Number(item.dataset.carouselIndex);
+        const offset = Math.max(-3, Math.min(3, carouselIndex - focusIndex));
+        const rect = item.getBoundingClientRect();
+        const signedDistance = ((rect.left + rect.width / 2) - displayCenter) / Math.max(1, rect.width);
+        const distance = Math.min(3, Math.abs(signedDistance));
+        const interpolate = (stops, value) => {
+            const lower = Math.min(stops.length - 2, Math.floor(value));
+            const progress = Math.max(0, Math.min(1, value - lower));
+            return stops[lower] + (stops[lower + 1] - stops[lower]) * progress;
+        };
+        const scale = interpolate([1, 0.68, 0.46, 0.32], distance);
+        const opacity = interpolate([1, 0.55, 0.3, 0.16], distance);
+        const grayscale = Math.min(100, distance * 82);
+        const shiftDistance = Math.min(2, distance);
+        const shiftMagnitude = (-12 * shiftDistance * shiftDistance) + (20 * shiftDistance);
+        const shift = Math.sign(signedDistance) * shiftMagnitude;
+
+        item.style.setProperty('--carousel-opacity', opacity.toFixed(3));
+        item.style.setProperty('--carousel-scale', scale.toFixed(3));
+        item.style.setProperty('--carousel-grayscale', `${grayscale.toFixed(1)}%`);
+        item.style.setProperty('--carousel-shift', `${shift.toFixed(2)}px`);
+        item.dataset.distance = String(Math.min(3, Math.round(distance)));
+        item.dataset.offset = String(offset);
+    });
+}
+
+function animateAndCommitCarouselItem(item) {
+    const display = document.getElementById('teamSliderDisplay');
+    if (!display || !item?.dataset.team) return;
+
+    const targetIndex = Number(item.dataset.carouselIndex);
+    const targetLeft = item.offsetLeft - ((display.clientWidth - item.offsetWidth) / 2);
+    teamCarouselTargetIndex = targetIndex;
+    teamCarouselIgnoreScrollUntil = Date.now() + 360;
+    clearTimeout(teamCarouselCommitTimer);
+    clearTimeout(teamCarouselScrollTimer);
+
+    display.scrollTo({ left: Math.max(0, targetLeft), behavior: 'smooth' });
+    teamCarouselCommitTimer = setTimeout(() => {
+        clearTimeout(teamCarouselScrollTimer);
+        teamCarouselIgnoreScrollUntil = 0;
+        updateTeamCarouselVisualFocus();
+        selectPredictionsTeam(item.dataset.team, { behavior: 'auto', targetIndex });
+    }, 380);
+}
+
+function scheduleTeamCarouselRecenter(delay = 0) {
+    clearTimeout(teamCarouselRecenterTimer);
+    teamCarouselRecenterTimer = setTimeout(() => {
+        const display = document.getElementById('teamSliderDisplay');
+        const track = document.getElementById('teamSliderTrack');
+        const totalTeams = PredictionsState.availableTeams.length;
+        if (!display || !track || totalTeams === 0 || display.classList.contains('is-dragging')) return;
+
+        const currentTarget = Number.isInteger(teamCarouselTargetIndex)
+            ? teamCarouselTargetIndex
+            : Number(getNearestCarouselItem()?.dataset.carouselIndex);
+        if (!Number.isInteger(currentTarget)) return;
+
+        const logicalIndex = ((currentTarget % totalTeams) + totalTeams) % totalTeams;
+        const middleTarget = Math.floor(TEAM_CAROUSEL_COPIES / 2) * totalTeams + logicalIndex;
+        if (currentTarget === middleTarget) return;
+
+        const currentItem = track.querySelector(`[data-carousel-index="${currentTarget}"]`);
+        const middleItem = track.querySelector(`[data-carousel-index="${middleTarget}"]`);
+        if (!currentItem || !middleItem) return;
+
+        teamCarouselIgnoreScrollUntil = Date.now() + 100;
+        display.scrollLeft += middleItem.offsetLeft - currentItem.offsetLeft;
+        teamCarouselTargetIndex = middleTarget;
+        updateTeamCarouselItemStates(track, middleTarget);
+    }, delay);
+}
+
+function selectNearestCarouselTeam() {
+    const display = document.getElementById('teamSliderDisplay');
+    if (!display) return;
+
+    if (Date.now() < teamCarouselIgnoreScrollUntil) {
+        clearTimeout(teamCarouselScrollTimer);
+        teamCarouselScrollTimer = setTimeout(
+            selectNearestCarouselTeam,
+            teamCarouselIgnoreScrollUntil - Date.now() + 40
+        );
+        return;
+    }
+
+    const nearestItem = getNearestCarouselItem();
+
+    if (nearestItem?.dataset.team) {
+        animateAndCommitCarouselItem(nearestItem);
+    }
+}
+
+function initializeTeamCarousel() {
+    const display = document.getElementById('teamSliderDisplay');
+    if (!display || display.dataset.initialized === 'true') return;
+    display.dataset.initialized = 'true';
+    let resizeTimer = null;
+    let isMouseDragging = false;
+    let mouseDragMoved = false;
+    let mouseDragStartX = 0;
+    let mouseDragStartScrollLeft = 0;
+    let mouseDragLastScrollLeft = 0;
+    let mouseDragLastTime = 0;
+    let mouseDragVelocity = 0;
+    let mouseInertiaFrame = null;
+    let suppressCarouselClick = false;
+
+    const stopMouseInertia = () => {
+        if (mouseInertiaFrame !== null) {
+            cancelAnimationFrame(mouseInertiaFrame);
+            mouseInertiaFrame = null;
+        }
+        display.classList.remove('is-gliding');
+    };
+
+    const startMouseInertia = initialVelocity => {
+        stopMouseInertia();
+        if (Math.abs(initialVelocity) < 0.06) {
+            clearTimeout(teamCarouselScrollTimer);
+            teamCarouselScrollTimer = setTimeout(selectNearestCarouselTeam, 70);
+            return;
+        }
+
+        display.classList.add('is-gliding');
+        let velocity = Math.max(-1.2, Math.min(1.2, initialVelocity * 0.45));
+        let previousTime = performance.now();
+
+        const glide = currentTime => {
+            const elapsed = Math.min(32, currentTime - previousTime);
+            previousTime = currentTime;
+            display.scrollLeft += velocity * elapsed;
+            velocity *= Math.pow(0.82, elapsed / 16.67);
+
+            if (Math.abs(velocity) > 0.025) {
+                mouseInertiaFrame = requestAnimationFrame(glide);
+                return;
+            }
+
+            mouseInertiaFrame = null;
+            display.classList.remove('is-gliding');
+            clearTimeout(teamCarouselScrollTimer);
+            teamCarouselScrollTimer = setTimeout(selectNearestCarouselTeam, 60);
+        };
+
+        mouseInertiaFrame = requestAnimationFrame(glide);
+    };
+
+    display.addEventListener('click', event => {
+        if (suppressCarouselClick) {
+            event.preventDefault();
+            event.stopPropagation();
+            return;
+        }
+        const item = event.target.closest('.team-carousel-item');
+        if (!item?.dataset.team) return;
+        animateAndCommitCarouselItem(item);
+    });
+
+    display.addEventListener('pointerdown', event => {
+        teamCarouselIgnoreScrollUntil = 0;
+        if (event.pointerType !== 'mouse' || event.button !== 0) return;
+        stopMouseInertia();
+        isMouseDragging = true;
+        mouseDragMoved = false;
+        mouseDragStartX = event.clientX;
+        mouseDragStartScrollLeft = display.scrollLeft;
+        mouseDragLastScrollLeft = display.scrollLeft;
+        mouseDragLastTime = performance.now();
+        mouseDragVelocity = 0;
+        display.classList.add('is-dragging');
+    });
+
+    display.addEventListener('pointermove', event => {
+        if (!isMouseDragging) return;
+        const delta = event.clientX - mouseDragStartX;
+        if (Math.abs(delta) > 4) mouseDragMoved = true;
+        if (!mouseDragMoved) return;
+        if (!display.hasPointerCapture(event.pointerId)) {
+            display.setPointerCapture(event.pointerId);
+        }
+        event.preventDefault();
+        display.scrollLeft = mouseDragStartScrollLeft - delta;
+        const currentTime = performance.now();
+        const elapsed = currentTime - mouseDragLastTime;
+        if (elapsed > 0) {
+            const instantaneousVelocity = (display.scrollLeft - mouseDragLastScrollLeft) / elapsed;
+            mouseDragVelocity = mouseDragVelocity * 0.35 + instantaneousVelocity * 0.65;
+            mouseDragLastScrollLeft = display.scrollLeft;
+            mouseDragLastTime = currentTime;
+        }
+    });
+
+    const finishMouseDrag = event => {
+        if (!isMouseDragging) return;
+        isMouseDragging = false;
+        display.classList.remove('is-dragging');
+        if (display.hasPointerCapture(event.pointerId)) {
+            display.releasePointerCapture(event.pointerId);
+        }
+        if (mouseDragMoved) {
+            suppressCarouselClick = true;
+            setTimeout(() => { suppressCarouselClick = false; }, 0);
+            const releaseDelay = performance.now() - mouseDragLastTime;
+            startMouseInertia(releaseDelay < 90 ? mouseDragVelocity : 0);
+        }
+    };
+
+    display.addEventListener('pointerup', finishMouseDrag);
+    display.addEventListener('pointercancel', finishMouseDrag);
+
+    display.addEventListener('scroll', () => {
+        requestAnimationFrame(updateTeamCarouselVisualFocus);
+        clearTimeout(teamCarouselScrollTimer);
+        const delay = Math.max(180, teamCarouselIgnoreScrollUntil - Date.now() + 40);
+        teamCarouselScrollTimer = setTimeout(selectNearestCarouselTeam, delay);
+    }, { passive: true });
+
+    display.addEventListener('keydown', event => {
+        if (event.key === 'ArrowLeft') {
+            event.preventDefault();
+            navigateToPreviousTeam();
+        } else if (event.key === 'ArrowRight') {
+            event.preventDefault();
+            navigateToNextTeam();
+        } else if (event.key === 'Home' && PredictionsState.availableTeams.length > 0) {
+            event.preventDefault();
+            selectPredictionsTeam(PredictionsState.availableTeams[0]);
+        } else if (event.key === 'End' && PredictionsState.availableTeams.length > 0) {
+            event.preventDefault();
+            selectPredictionsTeam(PredictionsState.availableTeams.at(-1));
+        }
+    });
+
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            teamCarouselCenterBehavior = 'auto';
+            updateTeamSliderDisplay();
+        }, 120);
+    }, { passive: true });
+}
+
+initializeTeamCarousel();
 
 // Event listeners para carregar previsões quando época/modalidade muda
 document.addEventListener('data:loaded', () => {
@@ -14647,26 +15157,6 @@ function updateTooltipPosition(e) {
     predictionsTooltipEl.style.left = left + 'px';
     predictionsTooltipEl.style.top = top + 'px';
 }
-
-// Adicionar suporte a navegação por teclado (setas esquerda/direita)
-document.addEventListener('keydown', (event) => {
-    // Verificar se o usuário está editando texto
-    if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA') {
-        return;
-    }
-
-    // Verificar se a secção de previsões está visível
-    const predictionsCard = document.querySelector('.predictions-card');
-    if (!predictionsCard || !PredictionsState.availableTeams.length) {
-        return;
-    }
-
-    if (event.key === 'ArrowLeft') {
-        navigateToPreviousTeam();
-    } else if (event.key === 'ArrowRight') {
-        navigateToNextTeam();
-    }
-});
 
 // ==================== NAVBAR NAVIGATION ====================
 

@@ -268,6 +268,8 @@ const translations = {
 
         // === Gráfico ELO ===
         eloChartTitle: 'Evolução de ELO das Equipas',
+        eloQuickViews: 'Vistas rápidas',
+        eloTeamsInChart: 'Equipas no gráfico',
         eloChartTooltip: 'ELO representa a força relativa das equipas ao longo da época. Sobe com vitórias, desce com derrotas.',
         expandCollapse: 'Expandir/Colapsar',
         previousSeason: '← Época Anterior',
@@ -441,6 +443,8 @@ const translations = {
         clickToFixTooltip: 'Clique para fixar/desafixar o tooltip de distribuição',
         previousTeam: 'Equipa anterior',
         nextTeam: 'Próxima equipa',
+        teamCarouselAria: 'Selecionar equipa nos detalhes',
+        teamCarouselHint: 'Desliza ou toca numa equipa',
         seasonStart: 'Início da Época',
         eloFinalPreviousSeason: 'ELO Final Época Anterior',
         eloSeasonStart: 'ELO Início da Época',
@@ -691,6 +695,8 @@ const translations = {
 
         // === ELO Chart ===
         eloChartTitle: 'Team ELO Evolution',
+        eloQuickViews: 'Quick views',
+        eloTeamsInChart: 'Teams in chart',
         eloChartTooltip: 'ELO represents the relative strength of teams throughout the season. It goes up with wins and down with losses.',
         expandCollapse: 'Expand/Collapse',
         previousSeason: '← Previous Season',
@@ -864,6 +870,8 @@ const translations = {
         clickToFixTooltip: 'Click to pin/unpin distribution tooltip',
         previousTeam: 'Previous team',
         nextTeam: 'Next team',
+        teamCarouselAria: 'Select a team for details',
+        teamCarouselHint: 'Swipe or tap a team',
         seasonStart: 'Season Start',
         eloFinalPreviousSeason: 'Previous Season Final ELO',
         eloSeasonStart: 'Season Start ELO',
@@ -1115,6 +1123,8 @@ unknownDate: 'Fecha desconocida',
 
     // === ELO Chart ===
     eloChartTitle: 'Evolución de ELO de los equipos',
+    eloQuickViews: 'Vistas rápidas',
+    eloTeamsInChart: 'Equipos en el gráfico',
     eloChartTooltip: 'ELO representa la fuerza relativa de los equipos durante la temporada. Sube con victorias, baja con derrotas.',
     expandCollapse: 'Expandir/Colapsar',
     previousSeason: '← Temporada anterior',
@@ -1281,6 +1291,8 @@ errorLoading: 'Error al cargar',
     clickToFixTooltip: 'Haz clic para fijar/desfijar el tooltip de distribución',
     previousTeam: 'Equipo anterior',
     nextTeam: 'Equipo siguiente',
+    teamCarouselAria: 'Seleccionar equipo para ver detalles',
+    teamCarouselHint: 'Desliza o toca un equipo',
 
     // Dynamic headers per sport
     basketScored: 'Canastas anotadas',

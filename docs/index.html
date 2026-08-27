@@ -19,7 +19,7 @@
             }
         });
     </script>
-    <link rel="stylesheet" href="styles.css?v=18">
+    <link rel="stylesheet" href="styles.css?v=50">
 </head>
 
 <body>
@@ -50,15 +50,25 @@
 
     <div class="container">
         <div class="modalidade-selector">
-            <label for="epoca" data-i18n="seasonLabel">Época:</label>
-            <select id="epoca" name="epoca">
-                <!-- Épocas serão carregadas dinamicamente -->
-            </select>
+            <div class="context-field">
+                <label for="epoca" data-i18n="seasonLabel">Época:</label>
+                <select id="epoca" name="epoca">
+                    <!-- Épocas serão carregadas dinamicamente -->
+                </select>
+            </div>
 
-            <label for="modalidade" data-i18n="modalityLabel">Modalidade:</label>
-            <select id="modalidade" name="modalidade">
-                <!-- Modalidades serão carregadas dinamicamente baseadas na época -->
-            </select>
+            <div class="context-field context-field-wide">
+                <label for="modalidade" data-i18n="modalityLabel">Modalidade:</label>
+                <select id="modalidade" name="modalidade">
+                    <!-- Modalidades serão carregadas dinamicamente baseadas na época -->
+                </select>
+            </div>
+
+            <label class="compact-mode-toggle">
+                <input type="checkbox" id="compactModeCheckbox" onchange="toggleCompactMode()">
+                <span class="compact-mode-switch" aria-hidden="true"></span>
+                <span data-i18n="compactMode">Modo Compacto</span>
+            </label>
         </div>
 
         <div class="dashboard-grid">
@@ -66,12 +76,6 @@
             <div class="card ranking-card" id="rankings">
                 <div class="card-title">
                     <span data-i18n="generalRanking">Classificação Geral</span>
-                    <label class="compact-mode-toggle"
-                        style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 0.85em; font-weight: 500; color: #2a5298; margin-left: auto; padding: 4px 8px; border-radius: 4px; background: rgba(42, 82, 152, 0.05);">
-                        <input type="checkbox" id="compactModeCheckbox" onchange="toggleCompactMode()"
-                            style="cursor: pointer; width: 18px; height: 18px;">
-                        <span data-i18n="compactMode">Modo Compacto</span>
-                    </label>
                 </div>
                 <div class="division-selector" id="divisionSelector">
                     <!-- Botões de divisão serão gerados dinamicamente -->
@@ -98,7 +102,7 @@
                                 <th class="draws-column" data-i18n="drawsAbbr" data-i18n-title="drawsTitle"
                                     title="Empates">E</th>
                                 <th data-i18n="lossesAbbr" data-i18n-title="lossesTitle" title="Derrotas">D</th>
-                                <th style="color: red;" data-i18n="noShowsAbbr" data-i18n-title="noShowsTitle"
+                                <th class="no-shows-heading" data-i18n="noShowsAbbr" data-i18n-title="noShowsTitle"
                                     title="Faltas de comparência">FC</th>
                                 <th id="thGoalsScored" data-i18n="goalsScoredAbbr" data-i18n-title="goalsScored"
                                     title="Golos marcados">GM</th>
@@ -140,42 +144,18 @@
 
                 <!-- Seletor de Equipa estilo Slider -->
                 <div class="team-slider-container">
-                    <div class="team-slider-display" id="teamSliderDisplay">
-                        <!-- Ghosts à esquerda -->
-                        <div class="team-slider-ghost ghost-left-3" data-position="-3" aria-hidden="true"></div>
-                        <div class="team-slider-ghost ghost-left-2" data-position="-2" aria-hidden="true"></div>
-                        <div class="team-slider-ghost ghost-left-1" data-position="-1" aria-hidden="true"></div>
-
-                        <button class="slider-arrow slider-prev" id="prevTeamBtn" data-i18n-aria="previousTeam"
-                            aria-label="Equipa anterior">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="15 18 9 12 15 6"></polyline>
-                            </svg>
-                        </button>
-
-                        <div class="team-slider-main" id="teamSliderMain">
-                            <div class="team-slider-name" id="selectedTeamName" data-i18n="selectModalityFirst">
-                                Selecione uma modalidade
-                            </div>
-                            <div class="team-slider-emblem" id="selectedTeamEmblem">
-                                <!-- Emblema será inserido aqui -->
-                            </div>
-                        </div>
-
-                        <button class="slider-arrow slider-next" id="nextTeamBtn" data-i18n-aria="nextTeam"
-                            aria-label="Próxima equipa">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
-                        </button>
-
-                        <!-- Ghosts à direita -->
-                        <div class="team-slider-ghost ghost-right-1" data-position="1" aria-hidden="true"></div>
-                        <div class="team-slider-ghost ghost-right-2" data-position="2" aria-hidden="true"></div>
-                        <div class="team-slider-ghost ghost-right-3" data-position="3" aria-hidden="true"></div>
+                    <div class="team-slider-name" id="selectedTeamName" data-i18n="selectModalityFirst"
+                        aria-live="polite">
+                        Selecione uma modalidade
                     </div>
+                    <div class="team-slider-display" id="teamSliderDisplay" role="listbox" tabindex="0"
+                        data-i18n-aria="teamCarouselAria" aria-label="Selecionar equipa">
+                        <div class="team-slider-track" id="teamSliderTrack">
+                            <!-- Equipas inseridas dinamicamente -->
+                        </div>
+                    </div>
+                    <p class="team-slider-hint" data-i18n="teamCarouselHint">Desliza ou toca numa equipa</p>
+                    <div id="selectedTeamEmblem" hidden aria-hidden="true"></div>
                 </div>
 
                 <!-- Previsões da Época -->
@@ -342,15 +322,18 @@
             </div>
             <div class="chart-content" id="eloChartContent">
                 <div class="chart-wrapper">
-                    <div class="team-selector" id="teamSelector">
-                        <!-- Checkboxes serão gerados dinamicamente -->
+                    <div class="elo-controls-panel">
+                        <div class="elo-quick-views">
+                            <span class="elo-control-label" data-i18n="eloQuickViews">Vistas rápidas</span>
+                            <div class="quick-filters" id="quickFilters">
+                                <!-- Filtros serão gerados dinamicamente baseados na modalidade -->
+                            </div>
+                        </div>
+                        <div class="team-selector" id="teamSelector">
+                            <!-- Checkboxes serão gerados dinamicamente -->
+                        </div>
                     </div>
-                    <!-- Filtros rápidos -->
-                    <div class="quick-filters" id="quickFilters">
-                        <!-- Filtros serão gerados dinamicamente baseados na modalidade -->
-                    </div>
-                    <div class="season-navigation" id="seasonNavigation"
-                        style="display: flex; justify-content: space-between; padding: 8px 10px; gap: 8px;">
+                    <div class="season-navigation" id="seasonNavigation">
                         <!-- Botões de navegação entre épocas serão inseridos aqui -->
                     </div>
                     <div class="chart-container" id="chartContainer">
@@ -379,9 +362,9 @@
         </div>
     </footer>
 
-    <script src="i18n.js"></script>
+    <script src="i18n.js?v=3"></script>
     <script src="mobile-tooltips.js"></script>
-    <script src="app.js?v=63"></script>
+    <script src="app.js?v=89"></script>
 </body>
 
 </html>
