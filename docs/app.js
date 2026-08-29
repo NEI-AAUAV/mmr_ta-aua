@@ -153,6 +153,47 @@ let predictionsTooltipVisible = false; // Flag para rastrear se o tooltip está 
 let favoriteTeam = localStorage.getItem('favoriteTeam'); // Equipa favorita do utilizador
 let favoriteUiUpdateToken = 0;
 let eloChart = null; // Instância do gráfico ApexCharts
+let eloTooltipObserver = null;
+
+function destroyEloChartInstance() {
+    if (eloTooltipObserver) {
+        eloTooltipObserver.disconnect();
+        eloTooltipObserver = null;
+    }
+
+    if (eloChart) {
+        eloChart.destroy();
+        eloChart = null;
+    }
+}
+
+function ensureEloTooltipObserver(chartContainer) {
+    if (eloTooltipObserver || !chartContainer?.parentElement) return;
+
+    eloTooltipObserver = new MutationObserver(() => {
+        const tooltip = document.querySelector('.apexcharts-tooltip');
+        if (tooltip && tooltip.style.display === 'none') {
+            tooltip.removeAttribute('data-shifted');
+        }
+
+        if (tooltip && !window.tooltipFixed) {
+            tooltip.style.pointerEvents = 'none';
+        } else if (tooltip && window.tooltipFixed) {
+            if (window.tooltipFixedPosition) {
+                tooltip.style.top = window.tooltipFixedPosition.top;
+                tooltip.style.left = window.tooltipFixedPosition.left;
+            }
+            tooltip.style.display = 'block';
+            tooltip.style.opacity = '1';
+            tooltip.style.pointerEvents = 'auto';
+        }
+    });
+
+    eloTooltipObserver.observe(chartContainer.parentElement, {
+        childList: true,
+        subtree: true
+    });
+}
 
 const preloadCache = new Set(); // Cache de URLs já pré-carregados
 
@@ -182,17 +223,11 @@ function preloadImage(logoPath) {
 
     preloadCache.add(logoPath);
 
-    // Method 1: Link preload (helps with initial load)
-    const link = document.createElement('link');
-    link.rel = 'preload';
-    link.as = 'image';
-    link.href = logoPath;
-    document.head.appendChild(link);
-
-    // Method 2: Image object (forces browser to load into cache)
+    // Nesta fase a página já carregou; uma imagem em idle basta para aquecer
+    // a cache sem adicionar dezenas de nós <link> ao documento.
     const img = new Image();
     img.src = logoPath;
-    img.loading = 'eager';
+    img.decoding = 'async';
 }
 
 function applyCompactModeClass() {
@@ -529,10 +564,23 @@ function initializeCollapsibles() {
                 // Mais um frame para garantir que as dimensões estão calculadas
                 requestAnimationFrame(() => {
                     if (!eloChart && sampleData && sampleData.teams && sampleData.teams.length > 0) {
-                        initEloChart();
-                        scheduleLowPriorityTask(() => updateEloChart(), 100);
+                        const chartRoot = document.getElementById('eloChart');
+                        if (chartRoot) {
+                            chartRoot.innerHTML = `<div class="chart-loading"><div class="spinner"></div></div>`;
+                        }
+
+                        // Construir logo o gráfico final. A sequência antiga criava um
+                        // ApexCharts vazio e destruía-o de seguida, duplicando o trabalho
+                        // justamente no toque que abre esta secção.
+                        scheduleLowPriorityTask(() => {
+                            if (!chartContent.classList.contains('collapsed')) {
+                                updateEloChart();
+                            }
+                        }, 100);
                     } else if (eloChart) {
-                        updateEloChart();
+                        // O gráfico já está atualizado; ao reabrir basta acertar a altura.
+                        // Recriá-lo aqui tornava cada abertura tão cara como a primeira.
+                        syncEloChartHeightWithContainer();
                     }
                 });
             });
@@ -1461,7 +1509,7 @@ function initEloChart() {
 
     // Se já existe gráfico, destruir
     if (eloChart) {
-        eloChart.destroy();
+        destroyEloChartInstance();
     }
 
     const options = {
@@ -1790,7 +1838,7 @@ function initEloChart() {
 
         // Adicionar observer para repositionar o tooltip com delay
         setTimeout(() => {
-            const tooltipObserver = new MutationObserver(() => {
+            eloTooltipObserver = new MutationObserver(() => {
                 removeChartAriaLabel();
                 const tooltip = document.querySelector('.apexcharts-tooltip');
                 if (tooltip && !window.tooltipFixed) {
@@ -1810,7 +1858,7 @@ function initEloChart() {
             // Garantir que o elemento existe antes de observar
             const eloChartElement = document.querySelector("#eloChart");
             if (eloChartElement && eloChartElement.parentElement) {
-                tooltipObserver.observe(eloChartElement.parentElement, {
+                eloTooltipObserver.observe(eloChartElement.parentElement, {
                     childList: true,
                     subtree: true
                 });
@@ -2014,7 +2062,7 @@ function groupGamesByDayAndCalculateMaxGames() {
 }
 
 function updateEloChart() {
-    if (!eloChart || !sampleData.teams || sampleData.teams.length === 0) {
+    if (!sampleData.teams || sampleData.teams.length === 0) {
         return;
     }
 
@@ -2029,8 +2077,10 @@ function updateEloChart() {
     });
 
     if (selectedTeams.length === 0) {
-        eloChart.updateSeries([]);
-        eloChart.updateOptions({ xaxis: { categories: [] } });
+        if (eloChart) {
+            eloChart.updateSeries([]);
+            eloChart.updateOptions({ xaxis: { categories: [] } });
+        }
         return;
     }
 
@@ -2079,8 +2129,10 @@ function updateEloChart() {
     }
 
     if (!allDates.length) {
-        eloChart.updateSeries([]);
-        eloChart.updateOptions({ xaxis: { categories: [] } });
+        if (eloChart) {
+            eloChart.updateSeries([]);
+            eloChart.updateOptions({ xaxis: { categories: [] } });
+        }
         return;
     }
 
@@ -2198,13 +2250,6 @@ function updateEloChart() {
             isPreviousSeason: isPreviousSeason,
             label: label
         };
-    });
-
-    // Atualizar categorias do Eixo X
-    eloChart.updateOptions({
-        xaxis: {
-            categories: timelineSlots.map(slot => slot.label)
-        }
     });
 
     const series = [];
@@ -2608,22 +2653,11 @@ function updateEloChart() {
     }
 
 
-    // Destruir o gráfico existente e recrear com dados completos
-    // Isto força ApexCharts a renderizar os marcadores com o tamanho correto desde o início
-    if (eloChart) {
-        eloChart.destroy();
-        eloChart = null;
-    }
-
     const chartContainer = document.querySelector("#eloChart");
     if (!chartContainer) {
         console.error('[ERRO] Container #eloChart não encontrado!');
         return;
     }
-
-    // CRÍTICO: Limpar completamente o container antes de recrear
-    // ApexCharts deixa SVG residual que bloqueia a nova renderização
-    chartContainer.innerHTML = '';
 
     const chartColors = series.map(s => {
         const team = sampleData.teams.find(t => t.name === s.name);
@@ -2655,7 +2689,8 @@ function updateEloChart() {
     chartContainer.dataset.realPointCount = String(realPointMarkers.length);
 
 
-    // Recrear com toda a configuração original + dados
+    // Configuração completa usada tanto na primeira criação como nas atualizações.
+    // Manter um único objeto evita divergências entre o caminho inicial e o incremental.
     const options = {
         series: series, // Dados já estruturados
         chart: {
@@ -2902,11 +2937,46 @@ function updateEloChart() {
         }
     };
 
-    eloChart = new ApexCharts(chartContainer, options);
-    eloChart.render().then(() => {
-        syncEloChartHeightWithContainer();
-        removeChartAriaLabel();
-    });
+    const createEloChart = () => {
+        // Só limpar o contentor quando é mesmo necessário criar uma instância.
+        // Limpar durante uma atualização incremental removeria o SVG que o
+        // ApexCharts consegue reutilizar e anularia o ganho de desempenho.
+        destroyEloChartInstance();
+        chartContainer.innerHTML = '';
+        eloChart = new ApexCharts(chartContainer, options);
+        return eloChart.render();
+    };
+
+    const canUpdateIncrementally = Boolean(
+        eloChart && chartContainer.querySelector('.apexcharts-canvas')
+    );
+
+    let chartRenderPromise;
+    if (canUpdateIncrementally) {
+        // updateOptions recebe séries, cores, categorias e marcadores discretos
+        // na mesma operação. `redrawPaths=true` é intencional: resolve o antigo
+        // problema de marcadores com tamanho/índice incorreto sem destruir toda
+        // a instância. As animações ficam desligadas para não bloquear o mobile.
+        chartRenderPromise = eloChart.updateOptions(options, true, false, false);
+    } else {
+        chartRenderPromise = createEloChart();
+    }
+
+    Promise.resolve(chartRenderPromise)
+        .catch(error => {
+            // Fallback defensivo: versões futuras do ApexCharts ou um SVG
+            // interrompido podem rejeitar a atualização. Nesse caso recuperamos
+            // funcionalidade com uma recriação única, em vez de deixar o painel vazio.
+            console.warn('[ELO] Atualização incremental falhou; a recriar gráfico.', error);
+            return createEloChart();
+        })
+        .then(() => {
+            syncEloChartHeightWithContainer();
+            removeChartAriaLabel();
+            // O fallback pode ter destruído o observer juntamente com a instância;
+            // garantir a sua existência apenas depois do render cobre ambos os caminhos.
+            ensureEloTooltipObserver(chartContainer);
+        });
 
     // Guardar a cor original de cada marker logo após renderizar
     const saveOriginalMarkerColors = () => {
@@ -2925,32 +2995,6 @@ function updateEloChart() {
 
     // Se não conseguir na primeira vez, tentar novamente com delay (para garantir que SVG está pronto)
     setTimeout(saveOriginalMarkerColors, 100);
-
-    // Adicionar observer para repositionar o tooltip (sem acumular deslocamento)
-    const tooltipObserver = new MutationObserver(() => {
-        const tooltip = document.querySelector('.apexcharts-tooltip');
-        if (tooltip && tooltip.style.display === 'none') {
-            // Reset de estado quando o tooltip é escondido
-            tooltip.removeAttribute('data-shifted');
-        }
-
-        if (tooltip && !window.tooltipFixed) {
-            tooltip.style.pointerEvents = 'none';
-        } else if (tooltip && window.tooltipFixed) {
-            if (window.tooltipFixedPosition) {
-                tooltip.style.top = window.tooltipFixedPosition.top;
-                tooltip.style.left = window.tooltipFixedPosition.left;
-            }
-            tooltip.style.display = 'block';
-            tooltip.style.opacity = '1';
-            tooltip.style.pointerEvents = 'auto';
-        }
-    });
-
-    tooltipObserver.observe(chartContainer.parentElement, {
-        childList: true,
-        subtree: true
-    });
 
     // ==================== SYSTEM DE OPACIDADE DINÂMICA ====================
     /**
@@ -2993,36 +3037,37 @@ function updateEloChart() {
         }
     };
 
-    // Adicionar listeners de hover ao seletor de equipas
+    // Usar propriedades `on*` substitui o handler anterior. addEventListener
+    // acumulava novos closures sempre que o gráfico recebia uma atualização.
     const teamCheckboxes = document.querySelectorAll('#teamSelector .team-checkbox');
     teamCheckboxes.forEach((checkbox, index) => {
-        checkbox.addEventListener('mouseenter', () => {
+        checkbox.onmouseenter = () => {
             updateLineOpacity(index);
-        });
+        };
 
-        checkbox.addEventListener('mouseleave', () => {
+        checkbox.onmouseleave = () => {
             resetLineOpacity();
-        });
+        };
     });
 
     // Permitir que o tooltip volte ao comportamento normal ao passar o rato dentro do gráfico
     const chartContainerWrapper = document.querySelector('#chartContainer');
     if (chartContainerWrapper) {
-        chartContainerWrapper.addEventListener('mouseenter', function () {
+        chartContainerWrapper.onmouseenter = function () {
             const tooltip = document.querySelector('.apexcharts-tooltip');
             if (tooltip && tooltip.style.display === 'none' && !window.tooltipFixed) {
                 tooltip.style.display = '';  // Permite que ApexCharts controle novamente
             }
-        });
+        };
 
-        chartContainerWrapper.addEventListener('mouseleave', function () {
+        chartContainerWrapper.onmouseleave = function () {
             if (!window.tooltipFixed) {
                 const tooltip = document.querySelector('.apexcharts-tooltip');
                 if (tooltip) {
                     tooltip.style.display = 'none';  // Esconder quando sai
                 }
             }
-        });
+        };
     }
 }
 
@@ -4998,7 +5043,8 @@ function createBracket() {
                     `<img src="${team1Info.emblemPath}" alt="${displayTeam1}" class="bracket-team-emblem" onerror="this.style.display='none'">` :
                     ''
                 }
-                            <span>${displayTeam1}</span>
+                            <span class="bracket-team-name">${displayTeam1}</span>
+                            ${isFavorite1 ? '<span class="bracket-favorite-indicator" aria-hidden="true">★</span>' : ''}
                         </div>
                         <div class="bracket-team-meta">
                             <span class="score">${showScore ? (match.scoreDisplay1 ?? match.score1) : '-'}</span>
@@ -5080,7 +5126,8 @@ function createBracket() {
                     `<img src="${team2Info.emblemPath}" alt="${displayTeam2}" class="bracket-team-emblem" onerror="this.style.display='none'">` :
                     ''
                 }
-                            <span>${displayTeam2}</span>
+                            <span class="bracket-team-name">${displayTeam2}</span>
+                            ${isFavorite2 ? '<span class="bracket-favorite-indicator" aria-hidden="true">★</span>' : ''}
                         </div>
                         <div class="bracket-team-meta">
                             <span class="score">${showScore ? (match.scoreDisplay2 ?? match.score2) : '-'}</span>
@@ -5420,7 +5467,8 @@ function createSecondaryBracket() {
                         `<img src="${team1Info.emblemPath}" alt="${displayTeam1}" class="bracket-team-emblem" onerror="this.style.display='none'">` :
                         ''
                     }
-                            <span>${displayTeam1}</span>
+                            <span class="bracket-team-name">${displayTeam1}</span>
+                            ${isFavorite1 ? '<span class="bracket-favorite-indicator" aria-hidden="true">★</span>' : ''}
                         </div>
                         <div class="bracket-team-meta">
                             <span class="score">${showScore ? (match.scoreDisplay1 ?? match.score1) : '-'}</span>
@@ -5476,7 +5524,8 @@ function createSecondaryBracket() {
                         `<img src="${team2Info.emblemPath}" alt="${displayTeam2}" class="bracket-team-emblem" onerror="this.style.display='none'">` :
                         ''
                     }
-                            <span>${displayTeam2}</span>
+                            <span class="bracket-team-name">${displayTeam2}</span>
+                            ${isFavorite2 ? '<span class="bracket-favorite-indicator" aria-hidden="true">★</span>' : ''}
                         </div>
                         <div class="bracket-team-meta">
                             <span class="score">${showScore ? (match.scoreDisplay2 ?? match.score2) : '-'}</span>
@@ -8765,7 +8814,7 @@ function executeChangeModalidade(mod) {
                 updateRankingsTable();
 
                 // Destruir gráfico ELO e forçar estado Collapsed logo no primeiro frame
-                if (eloChart) { eloChart.destroy(); eloChart = null; }
+                destroyEloChartInstance();
                 localStorage.setItem('eloChartCollapsed', 'true');
                 const chartContent = document.getElementById('eloChartContent');
                 const toggleBtn = document.getElementById('toggleEloChart');
@@ -8800,8 +8849,10 @@ function executeChangeModalidade(mod) {
                             reorderDashboardSections();
                         }, 100);
 
-                        // Pré-carregar todos os logos
-                        preloadAllLogos();
+                        // Pré-carregar logos apenas quando o browser estiver livre.
+                        scheduleLowPriorityTask(() => {
+                            if (loadToken === currentLoadToken) preloadAllLogos();
+                        }, 3000);
 
                         // Trabalhos pesados em segundo plano com prioridades escalonadas
                         scheduleLowPriorityTask(() => {
@@ -9411,6 +9462,8 @@ let switchGroupDebounceTimer = null;
 let changeJornadaDebounceTimer = null;
 let setCalendarSortModeDebounceTimer = null;
 let updatePredictionsDisplayDebounceTimer = null;
+let updatePredictionsDisplayGeneration = 0;
+let updatePredictionsDisplayTimers = [];
 
 function syncPredictionsWithCalendarTeamSelection() {
     if (calendarSortMode !== CALENDAR_SORT_MODE_TEAM) return;
@@ -12570,7 +12623,12 @@ let teamCarouselIgnoreScrollUntil = 0;
 let teamCarouselTargetIndex = null;
 let teamCarouselRecenterTimer = null;
 let teamCarouselCommitTimer = null;
-const TEAM_CAROUSEL_COPIES = 5;
+let teamCarouselVisualFrame = null;
+let teamCarouselLastFrameTime = 0;
+let teamCarouselSlowFrameCount = 0;
+let teamCarouselReducedEffectsUntil = 0;
+const TEAM_CAROUSEL_COPIES = 3;
+const TEAM_CAROUSEL_MOBILE_QUERY = window.matchMedia('(max-width: 768px)');
 
 let predictionsTooltipEl = null;
 let predictionsTooltipChart = null;
@@ -13071,12 +13129,17 @@ function clearPredictionsDisplay(customMessage = null) {
  * Com debounce e execução em frames separados para não bloquear UI
  */
 function updatePredictionsDisplay() {
+    const generation = ++updatePredictionsDisplayGeneration;
+
     // Cancelar atualização anterior se ainda pendente
     if (updatePredictionsDisplayDebounceTimer) {
         clearTimeout(updatePredictionsDisplayDebounceTimer);
     }
+    updatePredictionsDisplayTimers.forEach(timer => clearTimeout(timer));
+    updatePredictionsDisplayTimers = [];
 
     updatePredictionsDisplayDebounceTimer = setTimeout(() => {
+        if (generation !== updatePredictionsDisplayGeneration) return;
         refreshPredictionsTeamsForSelection();
         if (!PredictionsState.selectedTeam) {
             clearPredictionsDisplay(t('selectModalityFirst'));
@@ -13086,17 +13149,18 @@ function updatePredictionsDisplay() {
         // 1. Atualizar nome e emblema da equipa (immediate)
         updateTeamSliderDisplay();
 
-        // 2. Atualizar estatísticas gerais (próximo frame)
-        setTimeout(() => updatePredictionsStats(), 16);
+        const scheduleCurrentUpdate = (task, delay) => {
+            const timer = setTimeout(() => {
+                if (generation === updatePredictionsDisplayGeneration) task();
+            }, delay);
+            updatePredictionsDisplayTimers.push(timer);
+        };
 
-        // 3. Atualizar cabeçalhos da tabela (2º frame)
-        setTimeout(() => updatePredictionsTableHeaders(), 32);
-
-        // 4. Atualizar tabela de previsões (3º frame)
-        setTimeout(() => updatePredictionsTable(), 48);
-
-        // 5. Atualizar histórico real de jogos (4º frame)
-        setTimeout(() => updateTeamHistoryTable(), 64);
+        // Distribuir o trabalho, cancelando-o se entretanto houver outra equipa.
+        scheduleCurrentUpdate(updatePredictionsStats, 16);
+        scheduleCurrentUpdate(updatePredictionsTableHeaders, 32);
+        scheduleCurrentUpdate(updatePredictionsTable, 48);
+        scheduleCurrentUpdate(updateTeamHistoryTable, 64);
 
         if (!isSyncingCalendarAndPredictions) {
             syncCalendarWithPredictionsSelection();
@@ -14415,16 +14479,22 @@ function updateTeamCarouselItemStates(track, focusIndex) {
 
 function getNearestCarouselItem() {
     const display = document.getElementById('teamSliderDisplay');
-    if (!display) return null;
+    const track = document.getElementById('teamSliderTrack');
+    if (!display || !track) return null;
+
+    const items = track.querySelectorAll('.team-carousel-item');
+    if (!items.length) return null;
 
     const displayRect = display.getBoundingClientRect();
-    const center = displayRect.left + displayRect.width / 2;
+    const center = displayRect.left + (displayRect.width / 2);
     let nearestItem = null;
     let nearestDistance = Infinity;
 
-    display.querySelectorAll('.team-carousel-item').forEach(item => {
+    // Só há leituras de layout neste ciclo; não são intercaladas com escritas.
+    // No mobile esta função corre apenas quando o movimento termina.
+    items.forEach(item => {
         const rect = item.getBoundingClientRect();
-        const distance = Math.abs((rect.left + rect.width / 2) - center);
+        const distance = Math.abs((rect.left + (rect.width / 2)) - center);
         if (distance < nearestDistance) {
             nearestDistance = distance;
             nearestItem = item;
@@ -14437,23 +14507,40 @@ function getNearestCarouselItem() {
 function updateTeamCarouselVisualFocus() {
     const display = document.getElementById('teamSliderDisplay');
     const track = document.getElementById('teamSliderTrack');
-    const nearestItem = getNearestCarouselItem();
-    if (!display || !track || !nearestItem) return;
-    const focusIndex = Number(nearestItem.dataset.carouselIndex);
-    const displayRect = display.getBoundingClientRect();
-    const displayCenter = displayRect.left + displayRect.width / 2;
+    if (!display || !track) return;
 
-    track.querySelectorAll('.team-carousel-item').forEach(item => {
-        const carouselIndex = Number(item.dataset.carouselIndex);
-        const offset = Math.max(-3, Math.min(3, carouselIndex - focusIndex));
+    const items = track.querySelectorAll('.team-carousel-item');
+    if (!items.length) return;
+
+    // Ler primeiro toda a geometria e só depois escrever estilos evita layout
+    // forçado repetido, sem assumir que larguras fracionárias são perfeitamente
+    // uniformes (algo que não é verdade em vários tamanhos de iPhone).
+    const displayRect = display.getBoundingClientRect();
+    const displayCenter = displayRect.left + (displayRect.width / 2);
+    const itemGeometry = Array.from(items, item => {
         const rect = item.getBoundingClientRect();
-        const signedDistance = ((rect.left + rect.width / 2) - displayCenter) / Math.max(1, rect.width);
-        const distance = Math.min(3, Math.abs(signedDistance));
-        const interpolate = (stops, value) => {
-            const lower = Math.min(stops.length - 2, Math.floor(value));
-            const progress = Math.max(0, Math.min(1, value - lower));
-            return stops[lower] + (stops[lower + 1] - stops[lower]) * progress;
+        return {
+            item,
+            carouselIndex: Number(item.dataset.carouselIndex),
+            signedDistance: ((rect.left + (rect.width / 2)) - displayCenter) / Math.max(1, rect.width)
         };
+    });
+    const focusGeometry = itemGeometry.reduce((nearest, geometry) => (
+        !nearest || Math.abs(geometry.signedDistance) < Math.abs(nearest.signedDistance)
+            ? geometry
+            : nearest
+    ), null);
+    if (!focusGeometry) return;
+    const focusIndex = focusGeometry.carouselIndex;
+    const interpolate = (stops, value) => {
+        const lower = Math.min(stops.length - 2, Math.floor(value));
+        const progress = Math.max(0, Math.min(1, value - lower));
+        return stops[lower] + (stops[lower + 1] - stops[lower]) * progress;
+    };
+
+    itemGeometry.forEach(({ item, carouselIndex, signedDistance }) => {
+        const offset = Math.max(-3, Math.min(3, carouselIndex - focusIndex));
+        const distance = Math.min(3, Math.abs(signedDistance));
         const scale = interpolate([1, 0.68, 0.46, 0.32], distance);
         const opacity = interpolate([1, 0.55, 0.3, 0.16], distance);
         const grayscale = Math.min(100, distance * 82);
@@ -14486,6 +14573,9 @@ function animateAndCommitCarouselItem(item) {
         clearTimeout(teamCarouselScrollTimer);
         teamCarouselIgnoreScrollUntil = 0;
         updateTeamCarouselVisualFocus();
+        teamCarouselLastFrameTime = 0;
+        teamCarouselSlowFrameCount = 0;
+        teamCarouselReducedEffectsUntil = 0;
         selectPredictionsTeam(item.dataset.team, { behavior: 'auto', targetIndex });
     }, 380);
 }
@@ -14657,7 +14747,31 @@ function initializeTeamCarousel() {
     display.addEventListener('pointercancel', finishMouseDrag);
 
     display.addEventListener('scroll', () => {
-        requestAnimationFrame(updateTeamCarouselVisualFocus);
+        if (teamCarouselVisualFrame === null) {
+            teamCarouselVisualFrame = requestAnimationFrame(frameTime => {
+                teamCarouselVisualFrame = null;
+
+                const isMobile = TEAM_CAROUSEL_MOBILE_QUERY.matches;
+                if (isMobile && teamCarouselLastFrameTime > 0) {
+                    const frameDuration = frameTime - teamCarouselLastFrameTime;
+                    teamCarouselSlowFrameCount = frameDuration > 34
+                        ? teamCarouselSlowFrameCount + 1
+                        : Math.max(0, teamCarouselSlowFrameCount - 1);
+
+                    // Dois frames consecutivos acima de ~30 fps indicam pressão
+                    // real. Nesse gesto deixamos o scroll nativo trabalhar sozinho;
+                    // em hardware rápido a animação completa nunca é desligada.
+                    if (teamCarouselSlowFrameCount >= 2) {
+                        teamCarouselReducedEffectsUntil = Date.now() + 900;
+                    }
+                }
+                teamCarouselLastFrameTime = frameTime;
+
+                if (!isMobile || Date.now() >= teamCarouselReducedEffectsUntil) {
+                    updateTeamCarouselVisualFocus();
+                }
+            });
+        }
         clearTimeout(teamCarouselScrollTimer);
         const delay = Math.max(180, teamCarouselIgnoreScrollUntil - Date.now() + 40);
         teamCarouselScrollTimer = setTimeout(selectNearestCarouselTeam, delay);

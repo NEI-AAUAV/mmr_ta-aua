@@ -7406,6 +7406,12 @@ html {
 }
 
 @media (max-width: 768px) {
+  .chart-content {
+    /* Animar max-height obriga a recalcular o layout de todo o dashboard em
+       cada frame. No mobile a secção abre de imediato e só a opacidade muda. */
+    transition: opacity 120ms ease;
+  }
+
   .team-slider-container {
     padding-block: 8px 2px;
   }
@@ -7427,6 +7433,13 @@ html {
 
   .team-carousel-emblem-box {
     --emblem-size: 128px;
+    /* O filtro grayscale em dezenas de imagens grandes é particularmente caro
+       no Safari/iOS. A opacidade e a escala continuam a indicar a seleção. */
+    filter: none;
+    transition:
+      transform 90ms linear,
+      translate 90ms linear,
+      opacity 90ms linear;
   }
 }
 
@@ -8687,5 +8700,230 @@ img.configured-emblem-scale:not(.team-carousel-emblem) {
   #secondaryBracketContainer.is-league-table .team-qualification-label {
     font-size: 0.58rem !important;
     padding: 2px 3px !important;
+  }
+}
+
+/* ==================== CALENDÁRIO: LARGURAS INTERMÉDIAS ====================
+   O layout desktop reserva 220px para metadata, 320px para cada equipa e ainda
+   aplica uma margem direita de 135px. Esse conjunto funciona num monitor largo,
+   mas ultrapassa a área útil de tablets e telemóveis em landscape.
+
+   Entre 769px e 1180px mantemos uma linha por jogo, porém todas as colunas passam
+   a poder encolher. A regra começa acima do layout mobile vertical já existente,
+   evitando alterar a composição otimizada para ecrãs até 768px. */
+@media (min-width: 769px) and (max-width: 1180px) {
+  #calendar,
+  #calendar.calendar-card,
+  #calendar .games-list,
+  #calendar .game-item,
+  #calendar .game-teams,
+  #calendar .game-team {
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #calendar.calendar-card {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #calendar .games-list {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #calendar .game-item {
+    display: grid;
+    grid-template-columns: clamp(112px, 18vw, 160px) minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(8px, 1.5vw, 16px);
+    width: 100%;
+    padding: 9px 10px;
+    overflow: hidden;
+  }
+
+  #calendar .game-meta {
+    width: 100%;
+    min-width: 0;
+    max-width: 160px;
+    gap: 3px;
+  }
+
+  #calendar .game-date,
+  #calendar .game-location,
+  #calendar .game-warning {
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  #calendar .game-date {
+    font-size: 0.76rem;
+    line-height: 1.2;
+    white-space: normal;
+  }
+
+  #calendar .game-location,
+  #calendar .game-warning {
+    font-size: 0.68rem;
+  }
+
+  #calendar .game-teams {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(52px, auto) minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(5px, 1vw, 10px);
+    width: 100%;
+    margin: 0;
+  }
+
+  #calendar .game-team,
+  #calendar .game-team.home,
+  #calendar .game-team.away {
+    width: auto;
+    min-width: 0;
+    gap: clamp(4px, 0.7vw, 8px);
+  }
+
+  #calendar .game-team-name {
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: clamp(0.7rem, 1.25vw, 0.86rem);
+  }
+
+  #calendar .game-team-emblem,
+  #calendar .game-team-emblem[src*="EGI-07.png"] {
+    width: clamp(32px, 4vw, 42px);
+    height: clamp(32px, 4vw, 42px);
+    flex: 0 0 auto;
+    padding: 0;
+  }
+
+  #calendar .game-score,
+  #calendar .game-vs {
+    min-width: 52px;
+    margin: 0;
+    font-size: clamp(0.84rem, 1.5vw, 1rem);
+  }
+
+  #calendar .game-elo-change {
+    flex: 0 0 auto;
+    padding-inline: 4px;
+    font-size: 0.66rem;
+  }
+}
+
+/* ==================== BRACKET: INDICADOR DE FAVORITA ====================
+   O antigo ::after absoluto sobrepunha nomes compridos. Transformá-lo apenas
+   num item do flex principal evitava a sobreposição, mas colocava visualmente a
+   estrela junto ao resultado (por exemplo, "★2").
+
+   A estrela é agora um elemento real dentro de .bracket-team-content, logo após
+   o nome. O pseudo-elemento legado fica explicitamente desligado para impedir
+   duplicações em browsers que ainda tenham estilos anteriores em cache. */
+.bracket-team.favorite-team-bracket::after {
+  content: none;
+  display: none;
+}
+
+.bracket-team-content {
+  order: 0;
+  min-width: 0;
+}
+
+.bracket-team-content > .bracket-team-name {
+  flex: 0 1 auto !important;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bracket-favorite-indicator {
+  display: inline-flex;
+  flex: 0 0 auto !important;
+  align-items: center;
+  justify-content: center;
+  margin-left: -2px;
+  color: #fbbf24;
+  font-size: 1rem !important;
+  line-height: 1;
+  overflow: visible !important;
+}
+
+.bracket-team.winner .bracket-favorite-indicator {
+  color: #f59e0b;
+  text-shadow: 0 0 4px rgba(251, 191, 36, 0.8);
+}
+
+.bracket-team-meta {
+  order: 2;
+  min-width: 0;
+  margin-left: 0;
+}
+
+@media (max-width: 932px) and (orientation: landscape) {
+  .bracket-favorite-indicator {
+    font-size: 0.85rem !important;
+  }
+}
+
+/* O limite inferior do layout intermédio merece uma escala própria. Perto dos
+   794px já existe largura suficiente para conteúdo maior; os mínimos usados
+   para evitar overflow deixavam demasiada área vazia e informação minúscula. */
+@media (min-width: 769px) and (max-width: 860px) {
+  #calendar .game-item {
+    grid-template-columns: 132px minmax(0, 1fr);
+    min-height: 76px;
+    gap: 12px;
+    padding: 11px 12px;
+  }
+
+  #calendar .game-meta {
+    max-width: 132px;
+    gap: 4px;
+  }
+
+  #calendar .game-date {
+    font-size: 0.81rem;
+  }
+
+  #calendar .game-location {
+    font-size: 0.74rem;
+  }
+
+  #calendar .game-warning {
+    font-size: 0.7rem;
+  }
+
+  #calendar .game-teams {
+    grid-template-columns: minmax(0, 1fr) minmax(58px, auto) minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  #calendar .game-team-name {
+    font-size: 0.82rem;
+  }
+
+  #calendar .game-team-emblem,
+  #calendar .game-team-emblem[src*="EGI-07.png"] {
+    width: 42px;
+    height: 42px;
+  }
+
+  #calendar .game-score,
+  #calendar .game-vs {
+    min-width: 58px;
+    font-size: 1rem;
+  }
+
+  #calendar .game-elo-change {
+    font-size: 0.72rem;
+    padding: 3px 5px;
   }
 }
