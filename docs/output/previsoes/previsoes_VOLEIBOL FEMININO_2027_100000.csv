@@ -1,0 +1,5 @@
+﻿jornada,dia,hora,team_a,team_b,expected_elo_a,expected_elo_a_std,expected_elo_b,expected_elo_b_std,prob_vitoria_a,prob_empate,prob_vitoria_b,expected_goals_a,expected_goals_a_std,expected_goals_b,expected_goals_b_std,ocorrencias,divisao,grupo,distribuicao_placares
+Final,-,-,Eng. Física,Eng. e Gestão Industrial,856.0,0.0,1510.0,0.0,0.0000,0.0000,100.0000,0.00,0.02,2.00,0.00,100000,1,,0-2:99.9740%|1-2:0.0260%
+Liguilha 1,-,-,Eng. Civil,Psicologia,643.0,0.0,722.0,0.0,37.1150,0.0000,62.8850,1.24,0.67,1.59,0.57,100000,1,,1-2:49.4170%|2-1:33.0950%|0-2:13.4680%|2-0:4.0200%
+Liguilha 2,-,-,Eng. Física,Psicologia,856.0,0.0,712.5,104.9,73.5720,0.0000,26.4280,1.71,0.52,1.05,0.69,100000,1,,2-1:52.3180%|1-2:23.3570%|2-0:21.2540%|0-2:3.0710%
+Liguilha 3,-,-,Eng. Civil,Eng. Física,652.5,104.9,853.4,88.1,20.2810,0.0000,79.7190,0.88,0.71,1.78,0.46,100000,1,,1-2:47.8210%|0-2:31.8980%|2-1:18.3720%|2-0:1.9090%
