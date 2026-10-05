@@ -1,0 +1,4 @@
+﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
+Ciências Biomédicas,LM1:Eng. Computadores e Telemática|LM2:Física,LM1,Eng. Computadores e Telemática,64.4914,0.0000,35.5086,LM2,Física,20.4206,0.0000,79.5794,100.0000,20.1815
+Eng. Computadores e Telemática,LM1:Ciências Biomédicas|LM3:Física,LM1,Ciências Biomédicas,35.5086,0.0000,64.4914,LM3,Física,14.0323,0.0000,85.9677,100.0000,10.1637
+Física,LM2:Ciências Biomédicas|LM3:Eng. Computadores e Telemática,LM2,Ciências Biomédicas,79.5794,0.0000,20.4206,LM3,Eng. Computadores e Telemática,85.9677,0.0000,14.0323,100.0000,69.6548
