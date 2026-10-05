@@ -32,7 +32,7 @@
     "sport_type": "basquete",
     "base_goals": 9.06418918918919,
     "base_goals_std": 6.021296777532758,
-    "dispersion_k": 3.0214788290487182,
+    "dispersion_k": 3.021478829048719,
     "base_draw_rate": 0.0,
     "draw_elo_sensitivity": 0.0,
     "draw_multiplier": 1.0,
@@ -41,15 +41,15 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.011586151536533262,
-    "margin_elo_intercept": 6.513300068227878,
+    "margin_elo_slope": 0.013558911165497628,
+    "margin_elo_intercept": 6.335766157132426,
     "elo_adjustment_limit": 0.5,
     "base_score": 9.06418918918919,
     "sigma": 6.021296777532758,
     "division_params": {
       "1": {
         "base_goals": 9.06418918918919,
-        "dispersion_k": 3.0214788290487182,
+        "dispersion_k": 3.021478829048719,
         "base_draw_rate": 0.0
       }
     }
@@ -120,15 +120,15 @@
     "base_goals_std": 3.7216694563776356,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.03048780487804878,
-    "draw_elo_sensitivity": 0.04847513580800351,
+    "draw_elo_sensitivity": 0.004812801317532041,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -3.824992802160733,
-      "coef_linear": 0.04847513580800351,
-      "coef_quadratic": -0.0003717343428708755
+      "intercept": -3.025470362429885,
+      "coef_linear": 0.004812801317532041,
+      "coef_quadratic": -4.588849640427196e-05
     },
-    "margin_elo_slope": 0.010059631034529498,
-    "margin_elo_intercept": 3.678440552886831,
+    "margin_elo_slope": 0.0077893844412024425,
+    "margin_elo_intercept": 4.1065050991644565,
     "elo_adjustment_limit": 1.2,
     "division_params": {
       "1": {
@@ -144,20 +144,20 @@
     "base_goals_std": 2.913582250330597,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.10645724258289703,
-    "draw_elo_sensitivity": 0.0012279466300144821,
+    "draw_elo_sensitivity": 0.004359919112922196,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.6525490822253697,
-      "coef_linear": -0.0012279466300144821,
-      "coef_quadratic": -1.598062035034265e-05
+      "intercept": -1.518088582280799,
+      "coef_linear": -0.004359919112922196,
+      "coef_quadratic": -2.5677441842740374e-06
     },
-    "margin_elo_slope": 0.007673308659377701,
-    "margin_elo_intercept": 2.588997066304059,
+    "margin_elo_slope": 0.006295341643683839,
+    "margin_elo_intercept": 2.7002777789490153,
     "elo_adjustment_limit": 1.2,
     "division_params": {
       "1": {
         "base_goals": 3.1513761467889907,
-        "dispersion_k": 3.4364756336418116,
+        "dispersion_k": 3.4364756336418125,
         "base_draw_rate": 0.11009174311926606
       },
       "2": {
@@ -180,8 +180,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0008306405669028437,
-    "margin_elo_intercept": 1.599068429550087,
+    "margin_elo_slope": 0.0006515182927966556,
+    "margin_elo_intercept": 1.6185986676750663,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
@@ -213,8 +213,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.00047126584354947003,
-    "margin_elo_intercept": 1.608108468572241,
+    "margin_elo_slope": 0.0004941520402398922,
+    "margin_elo_intercept": 1.619801234973055,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
