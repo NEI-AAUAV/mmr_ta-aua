@@ -135,6 +135,24 @@ def load_aliases(path: str | Path) -> Dict[str, str]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def derive_a_aliases(
+    matches: List[Dict[str, Any]], known: set, explicit: Dict[str, str]
+) -> Dict[str, str]:
+    """'X A' -> 'X' quando 'X' é uma equipa conhecida (config ou histórico).
+
+    O histórico só distingue a equipa B; sem isto a equipa A perde o emblema
+    e o Elo das épocas anteriores. Aliases explícitos têm prioridade.
+    """
+    derived: Dict[str, str] = {}
+    for match in matches:
+        for participant in match.get("participants") or []:
+            name = (participant.get("participant_name") or "").strip()
+            base = re.sub(r"\s+A$", "", name)
+            if base != name and name not in explicit and base in known:
+                derived[name] = base
+    return {**derived, **explicit}
+
+
 def load_overrides(path: str | Path) -> Dict[tuple[str, str, str], str]:
     """Faltas de comparência conhecidas: Modalidade,Equipa 1,Equipa 2,Falta de Comparência."""
     path = Path(path)

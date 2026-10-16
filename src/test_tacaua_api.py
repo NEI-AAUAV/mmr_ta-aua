@@ -5,6 +5,7 @@ from pathlib import Path
 
 from tacaua_api import (
     CSV_BASE_HEADERS,
+    derive_a_aliases,
     fetch_all,
     known_teams,
     load_overrides,
@@ -201,6 +202,21 @@ class FetchAllTests(unittest.TestCase):
             return {"items": [], "total": 5}
 
         self.assertEqual(fetch_all("/matches", getter=getter), [])
+
+
+class DeriveAliasesTests(unittest.TestCase):
+    def test_maps_a_suffix_only_when_base_is_known(self):
+        matches = [
+            _match("1", "2026-10-06T20:00:00Z", "CBM A", "CBM B", 1, 0),
+            _match("2", "2026-10-06T20:00:00Z", "Nova A", "Outra", 1, 0),
+        ]
+        aliases = derive_a_aliases(matches, {"CBM", "CBM B"}, {})
+        self.assertEqual(aliases, {"CBM A": "CBM"})
+
+    def test_explicit_alias_wins(self):
+        matches = [_match("1", "2026-10-06T20:00:00Z", "EGI A", "X", 1, 0)]
+        aliases = derive_a_aliases(matches, {"EGI"}, {"EGI A": "Outro"})
+        self.assertEqual(aliases["EGI A"], "Outro")
 
 
 class GuardTests(unittest.TestCase):

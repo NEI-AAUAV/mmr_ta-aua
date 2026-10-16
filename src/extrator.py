@@ -2242,21 +2242,31 @@ def run_api_extraction(repo_root: Path, force: bool = False) -> Optional[bool]:
         logging.warning("Torneio com formato não tratado (ignorar/rever): %s", name)
 
     csv_output_dir = repo_root / "docs" / "output" / "csv_modalidades"
+    courses_path = repo_root / "docs" / "config" / "config_cursos.json"
+    configured = (
+        set(json.loads(courses_path.read_text(encoding="utf-8")).get("courses", {}))
+        if courses_path.exists()
+        else set()
+    )
+    known = configured | tacaua_api.known_teams(csv_output_dir, season)
+    aliases = tacaua_api.derive_a_aliases(
+        matches,
+        known,
+        tacaua_api.load_aliases(repo_root / "docs" / "config" / "team_aliases.json"),
+    )
     tables = tacaua_api.matches_to_tables(
         matches,
-        aliases=tacaua_api.load_aliases(
-            repo_root / "docs" / "config" / "team_aliases.json"
-        ),
+        aliases=aliases,
         overrides=tacaua_api.load_overrides(data_dir / f"overrides_{season}.csv"),
     )
     if not tables:
         raise RuntimeError("API devolveu jogos mas nenhum de equipa; CSVs não alterados.")
 
-    for team in tacaua_api.unknown_teams(
-        tables, tacaua_api.known_teams(csv_output_dir, season)
-    ):
+    for team in tacaua_api.unknown_teams(tables, known):
         logging.warning(
-            "Equipa nova sem histórico (verificar alias em team_aliases.json): %s", team
+            "Equipa sem emblema/histórico (adicionar a config_cursos.json ou "
+            "team_aliases.json): %s",
+            team,
         )
 
     tacaua_api.write_tables(tables, season, csv_output_dir)
