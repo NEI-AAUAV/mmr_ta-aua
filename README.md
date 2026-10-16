@@ -56,6 +56,8 @@ python -m pip install -r requirements.txt
 
 O extrator procura o URL por esta ordem:
 
+> **Épocas ≥ 2026/27:** os resultados já não vêm de Excel. `src/extrator.py` consulta a API pública de https://tacaua.aauav.pt/ (`src/tacaua_api.py`), gera os mesmos CSVs e guarda um snapshot em `data/api_snapshot_<época>.json` para deteção de alterações. `results_url` só é usado para épocas anteriores. A Jornada é derivada (a API não a fornece) e as faltas de comparência não são detetadas.
+
 1. `results_url` em `docs/config/config.json`;
 2. variável de ambiente `RESULTS_URL`, se o valor anterior estiver ausente ou
    vazio;
@@ -291,6 +293,8 @@ python -m pip install -r requirements.txt
 ### Data-source configuration
 
 The extractor looks for the results URL in this order:
+
+> **Seasons ≥ 2026/27:** results no longer come from Excel. `src/extrator.py` queries the public API of https://tacaua.aauav.pt/ (`src/tacaua_api.py`), writes the same CSVs and stores a snapshot in `data/api_snapshot_<season>.json` for change detection. `results_url` is only used for earlier seasons. Jornada is derived (the API does not provide it) and forfeits are not detected.
 
 1. `results_url` in `docs/config/config.json`;
 2. the `RESULTS_URL` environment variable when the previous value is absent or

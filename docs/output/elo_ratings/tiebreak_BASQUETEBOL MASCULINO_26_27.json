@@ -12,8 +12,8 @@
       "tie_points": 20,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. Mecânica",
-        "Eng. de Materiais"
+        "Eng. de Materiais",
+        "Eng. Mecânica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -62,8 +62,8 @@
       "tie_points": 14,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. e Gestão Industrial",
-        "Eng. Computadores e Telemática"
+        "Eng. Computadores e Telemática",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -112,10 +112,10 @@
       "tie_points": 6,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Tecnologias de Informação",
         "Matemática",
+        "Eng. Aeroespacial",
         "Biotecnologia",
-        "Eng. Aeroespacial"
+        "Tecnologias de Informação"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -188,8 +188,8 @@
       "tie_points": 8,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Física",
-        "Design"
+        "Design",
+        "Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -338,9 +338,9 @@
       "tie_points": 6,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Ciências do Mar",
         "Eng. Física",
-        "Psicologia"
+        "Psicologia",
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -401,8 +401,8 @@
       "tie_type": "head_to_head",
       "tie_points": 20,
       "tied_teams": [
-        "Eng. Mecânica",
-        "Eng. de Materiais"
+        "Eng. de Materiais",
+        "Eng. Mecânica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -432,8 +432,8 @@
       "tie_type": "head_to_head",
       "tie_points": 20,
       "tied_teams": [
-        "Eng. Mecânica",
-        "Eng. de Materiais"
+        "Eng. de Materiais",
+        "Eng. Mecânica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -463,8 +463,8 @@
       "tie_type": "head_to_head",
       "tie_points": 14,
       "tied_teams": [
-        "Eng. e Gestão Industrial",
-        "Eng. Computadores e Telemática"
+        "Eng. Computadores e Telemática",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -494,8 +494,8 @@
       "tie_type": "head_to_head",
       "tie_points": 14,
       "tied_teams": [
-        "Eng. e Gestão Industrial",
-        "Eng. Computadores e Telemática"
+        "Eng. Computadores e Telemática",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -525,10 +525,10 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Tecnologias de Informação",
         "Matemática",
+        "Eng. Aeroespacial",
         "Biotecnologia",
-        "Eng. Aeroespacial"
+        "Tecnologias de Informação"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -558,10 +558,10 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Tecnologias de Informação",
         "Matemática",
+        "Eng. Aeroespacial",
         "Biotecnologia",
-        "Eng. Aeroespacial"
+        "Tecnologias de Informação"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -591,10 +591,10 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Tecnologias de Informação",
         "Matemática",
+        "Eng. Aeroespacial",
         "Biotecnologia",
-        "Eng. Aeroespacial"
+        "Tecnologias de Informação"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -624,10 +624,10 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Tecnologias de Informação",
         "Matemática",
+        "Eng. Aeroespacial",
         "Biotecnologia",
-        "Eng. Aeroespacial"
+        "Tecnologias de Informação"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -657,8 +657,8 @@
       "tie_type": "head_to_head",
       "tie_points": 8,
       "tied_teams": [
-        "Física",
-        "Design"
+        "Design",
+        "Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -688,8 +688,8 @@
       "tie_type": "head_to_head",
       "tie_points": 8,
       "tied_teams": [
-        "Física",
-        "Design"
+        "Design",
+        "Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -843,9 +843,9 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Ciências do Mar",
         "Eng. Física",
-        "Psicologia"
+        "Psicologia",
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -875,9 +875,9 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Ciências do Mar",
         "Eng. Física",
-        "Psicologia"
+        "Psicologia",
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -907,9 +907,9 @@
       "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
-        "Ciências do Mar",
         "Eng. Física",
-        "Psicologia"
+        "Psicologia",
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",

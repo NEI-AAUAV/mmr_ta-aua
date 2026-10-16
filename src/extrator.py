@@ -281,6 +281,9 @@ def discover_publishable_seasons(
 
     publishable = []
     for season in seasons:
+        if (data_dir / f"api_snapshot_{season}.json").exists():
+            publishable.append(season)  # época vinda da API: sem Excel a comparar
+            continue
         current_path = data_dir / f"Resultados Taça UA {season}.xlsx"
         previous = previous_season_token(season)
         previous_path = (
@@ -2199,6 +2202,81 @@ class ExcelProcessor:
 # ── Ponto de entrada ─────────────────────────────────────────────────────────
 
 
+API_MIN_RETAINED_RATIO = 0.5  # recusar snapshot com <50% dos jogos anteriores
+API_FIRST_SEASON = (26, 27)  # primeira época cujos resultados vêm da API
+
+
+def run_api_extraction(repo_root: Path, force: bool = False) -> Optional[bool]:
+    """Extrai a época ativa da API da Taça UA, se for >= 26_27.
+
+    Devolve None se a época não for servida pela API (usar o fluxo Excel),
+    caso contrário True/False consoante os dados mudaram.
+    """
+    import tacaua_api
+
+    season = tacaua_api.fetch_active_season()
+    if not season or (_parse_season_tokens(season) or (0, 0)) < API_FIRST_SEASON:
+        return None
+
+    matches = tacaua_api.fetch_all("/matches")
+    tacaua_api.validate_matches(matches)
+    data_dir = repo_root / "data"
+    data_dir.mkdir(exist_ok=True)
+    snapshot_path = data_dir / f"api_snapshot_{season}.json"
+
+    new_hash = tacaua_api.snapshot_hash(matches)
+    if snapshot_path.exists():
+        old = json.loads(snapshot_path.read_text(encoding="utf-8"))
+        if tacaua_api.snapshot_hash(old) == new_hash and not force:
+            logging.info("Dados da API não mudaram desde a última execução.")
+            return False
+        if len(matches) < API_MIN_RETAINED_RATIO * len(old) and not force:
+            raise RuntimeError(
+                f"API devolveu {len(matches)} jogos (antes {len(old)}); "
+                "possível regressão. Use --force para aceitar."
+            )
+
+    for name in tacaua_api.unsupported_tournaments(
+        tacaua_api.fetch_all("/tournaments")
+    ):
+        logging.warning("Torneio com formato não tratado (ignorar/rever): %s", name)
+
+    csv_output_dir = repo_root / "docs" / "output" / "csv_modalidades"
+    tables = tacaua_api.matches_to_tables(
+        matches,
+        aliases=tacaua_api.load_aliases(
+            repo_root / "docs" / "config" / "team_aliases.json"
+        ),
+        overrides=tacaua_api.load_overrides(data_dir / f"overrides_{season}.csv"),
+    )
+    if not tables:
+        raise RuntimeError("API devolveu jogos mas nenhum de equipa; CSVs não alterados.")
+
+    for team in tacaua_api.unknown_teams(
+        tables, tacaua_api.known_teams(csv_output_dir, season)
+    ):
+        logging.warning(
+            "Equipa nova sem histórico (verificar alias em team_aliases.json): %s", team
+        )
+
+    tacaua_api.write_tables(tables, season, csv_output_dir)
+    tacaua_api.prune_stale_csvs(tables, season, csv_output_dir)
+    snapshot_path.write_text(
+        json.dumps(matches, ensure_ascii=False, sort_keys=True, indent=1) + "\n",
+        encoding="utf-8",
+    )
+    write_seasons_manifest(
+        csv_output_dir, data_dir, repo_root / "docs" / "output" / "seasons.json"
+    )
+    return True
+
+
+def _emit_data_changed(changed: bool) -> None:
+    if os.getenv("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+            print(f"data_changed={'true' if changed else 'false'}", file=fh)
+
+
 def main():
     repo_root = Path(__file__).resolve().parents[1]
 
@@ -2211,6 +2289,17 @@ def main():
         help="Forçar reprocessamento mesmo se o ficheiro não mudou",
     )
     args = parser.parse_args()
+
+    # 0) Épocas >= 26_27: resultados vêm da API de tacaua.aauav.pt (sem Excel)
+    try:
+        api_changed = run_api_extraction(repo_root, force=args.force)
+    except Exception as e:
+        logging.error(f"Falha na extração via API: {e}")
+        _emit_data_changed(False)
+        sys.exit(1)
+    if api_changed is not None:
+        _emit_data_changed(api_changed)
+        return
 
     # 1) Ler URL de resultados de config.json ou variável de ambiente
     config_url: Optional[str] = None
