@@ -1,24 +1,25 @@
-Divisao,Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
-1,1,Gestão Comercial,25,9,8,0,1,215,155,60,0
-1,2,Eng. Mecânica,23,9,6,2,1,185,133,52,0
-1,3,Eng. Eletrónica e Telecomunicações,22,9,6,1,2,210,185,25,0
-1,4,Marketing,20,9,5,1,3,217,204,13,0
-1,5,Eng. Informática,20,9,5,1,3,173,182,-9,0
-1,6,Eng. e Gestão Industrial,18,9,4,1,4,195,194,1,0
-1,7,Eng. Civil,17,9,3,2,4,171,173,-2,0
-1,8,Eng. Computadores e Telemática,13,9,2,0,7,190,216,-26,0
-1,9,Eng. de Materiais,13,9,2,0,7,170,214,-44,0
-1,10,Eng. Física,9,9,0,0,9,137,207,-70,0
-1,11,Fisioterapia,0,10,0,0,0,0,0,0,10
-2,1,Biologia e Geologia,29,10,9,1,0,253,172,81,0
-2,2,Economia,29,10,9,1,0,237,174,63,0
-2,3,Matemática,23,10,6,1,3,215,169,46,0
-2,4,Administração Pública,23,10,6,1,3,198,172,26,0
-2,5,Eng. Biomédica,22,10,6,0,4,170,168,2,0
-2,6,DPT,18,10,4,0,6,216,214,2,0
-2,7,Gestão,18,10,4,0,6,198,225,-27,0
-2,8,MTC,18,10,4,0,6,175,185,-10,0
-2,9,Ciências do Mar,16,10,3,0,7,171,195,-24,0
-2,10,Biologia,14,10,2,0,8,124,185,-61,1
-2,11,Psicologia,10,10,0,0,10,141,239,-98,0
-2,12,Educação Básica,0,11,0,0,0,0,0,0,11
+Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
+1,Fisioterapia,0,1,0,0,0,0,0,0,1
+2,MTC,0,1,0,0,0,0,0,0,1
+3,Eng. Biomédica,0,1,0,0,0,0,0,0,1
+4,Biotecnologia,0,1,0,0,0,0,0,0,1
+5,Psicologia,0,1,0,0,0,0,0,0,1
+6,Ciências do Mar,0,1,0,0,0,0,0,0,1
+7,Eng. Mecânica,0,1,0,0,0,0,0,0,1
+8,Biologia e Geologia,0,1,0,0,0,0,0,0,1
+9,Eng. Eletrónica e Telecomunicações,0,1,0,0,0,0,0,0,1
+10,Gestão Comercial,0,1,0,0,0,0,0,0,1
+11,Eng. Computadores e Telemática,0,1,0,0,0,0,0,0,1
+12,Administração Pública,0,1,0,0,0,0,0,0,1
+13,Gestão,0,1,0,0,0,0,0,0,1
+14,Ciências Biomédicas,0,1,0,0,0,0,0,0,1
+15,Biologia,0,1,0,0,0,0,0,0,1
+16,Contabilidade,0,1,0,0,0,0,0,0,1
+17,Eng. Mecânica B,0,1,0,0,0,0,0,0,1
+18,Automação e Sistemas de Produção,0,1,0,0,0,0,0,0,1
+19,Eng. de Materiais,0,1,0,0,0,0,0,0,1
+20,Economia,0,1,0,0,0,0,0,0,1
+21,Eng. Física,0,1,0,0,0,0,0,0,1
+22,Eng. e Gestão Industrial,0,1,0,0,0,0,0,0,1
+23,Eng. Informática,0,1,0,0,0,0,0,0,1
+24,Eng. Civil,0,1,0,0,0,0,0,0,1
