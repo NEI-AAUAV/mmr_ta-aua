@@ -1,19 +1,19 @@
 {
   "ANDEBOL MISTO": {
     "sport_type": "andebol",
-    "base_goals": 20.489583333333332,
-    "base_goals_std": 6.804708528638256,
-    "dispersion_k": 16.263086039792157,
-    "base_draw_rate": 0.05,
-    "draw_elo_sensitivity": 0.0047478467032238195,
+    "base_goals": 20.438271604938272,
+    "base_goals_std": 6.802875231543108,
+    "dispersion_k": 16.16522331520113,
+    "base_draw_rate": 0.053497942386831275,
+    "draw_elo_sensitivity": 0.004714630838768887,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.331179562484645,
-      "coef_linear": -0.0047478467032238195,
-      "coef_quadratic": -7.940406669313574e-06
+      "intercept": -2.244299406101299,
+      "coef_linear": -0.004714630838768887,
+      "coef_quadratic": -9.80743096105986e-06
     },
-    "margin_elo_slope": 0.011905383284705915,
-    "margin_elo_intercept": 5.712950526596817,
+    "margin_elo_slope": 0.011980328502134156,
+    "margin_elo_intercept": 5.68798109980599,
     "elo_adjustment_limit": 0.45,
     "division_params": {
       "1": {
@@ -22,9 +22,9 @@
         "base_draw_rate": 0.06451612903225806
       },
       "2": {
-        "base_goals": 18.745689655172413,
-        "dispersion_k": 16.413343075802942,
-        "base_draw_rate": 0.034482758620689655
+        "base_goals": 18.68487394957983,
+        "dispersion_k": 16.400639412172048,
+        "base_draw_rate": 0.04201680672268908
       }
     }
   },

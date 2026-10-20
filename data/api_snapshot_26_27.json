@@ -401,46 +401,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "7f946264-2fd4-4584-bd56-fa293489be39",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "0cd3a35f-bf59-4e1c-86a4-467f655fa4d6",
-    "competitor_id": "9a9a8b77-4c40-475e-a5a3-87f431e5d8d8",
-    "participant_id": "1bda0ff2-59b0-4d38-93e0-277c43555307",
-    "participant_name": "Fisioterapia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "4bc7b1f7-74ec-41ad-ac45-0aff28133f33",
-    "competitor_id": "7d43a7c0-5a70-4ff3-b7fa-1cdb4b0a6433",
-    "participant_id": "aead649e-52f4-4356-a5fc-f53a1611a451",
-    "participant_name": "Eng. de Materiais",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "1bda0ff2-59b0-4d38-93e0-277c43555307",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "aead649e-52f4-4356-a5fc-f53a1611a451",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-10-21T20:00:00Z",
-  "status": "scheduled",
-  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
-  "tournament_name": "Futsal Masculino 1º Divisão"
- },
- {
-  "location": "PAH",
   "match_id": "3ed1597f-8a6f-4e8d-874c-d0b7766ff9eb",
   "modality_id": "95bcec92-e054-4667-8a92-9c01492c5dbe",
   "modality_name": "Futsal Feminino",
@@ -481,6 +441,46 @@
  },
  {
   "location": "PAH",
+  "match_id": "7f946264-2fd4-4584-bd56-fa293489be39",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "0cd3a35f-bf59-4e1c-86a4-467f655fa4d6",
+    "competitor_id": "9a9a8b77-4c40-475e-a5a3-87f431e5d8d8",
+    "participant_id": "1bda0ff2-59b0-4d38-93e0-277c43555307",
+    "participant_name": "Fisioterapia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "4bc7b1f7-74ec-41ad-ac45-0aff28133f33",
+    "competitor_id": "7d43a7c0-5a70-4ff3-b7fa-1cdb4b0a6433",
+    "participant_id": "aead649e-52f4-4356-a5fc-f53a1611a451",
+    "participant_name": "Eng. de Materiais",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "1bda0ff2-59b0-4d38-93e0-277c43555307",
+    "position": null,
+    "score": null
+   },
+   {
+    "participant_id": "aead649e-52f4-4356-a5fc-f53a1611a451",
+    "position": null,
+    "score": null
+   }
+  ],
+  "start_time": "2026-10-21T20:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
+  "tournament_name": "Futsal Masculino 1º Divisão"
+ },
+ {
+  "location": "PAH",
   "match_id": "c2d1eb7a-cb18-4e45-9968-f7a4bd7e9cdb",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
   "modality_name": "Futsal Masculino",
@@ -515,6 +515,46 @@
    }
   ],
   "start_time": "2026-10-21T19:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
+  "tournament_name": "Futsal Masculino 1º Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "953b14a3-f6f9-46dc-a80a-fc36e7a04b4e",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "eaa631d8-79db-47bf-a347-67e2139c9a66",
+    "competitor_id": "9ab8f859-c4c5-4146-957f-92116ad33e5f",
+    "participant_id": "15c42c63-c624-4175-b98d-1862b8482faa",
+    "participant_name": "Contabilidade",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "efcff3e3-6d6b-445c-9d31-bfcc9f9cb62c",
+    "competitor_id": "f7e7e039-9de3-4ce8-9848-3064c4113f52",
+    "participant_id": "5e28f25d-5c4c-4313-a20b-9a15bef54f69",
+    "participant_name": "EGI A",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "15c42c63-c624-4175-b98d-1862b8482faa",
+    "position": null,
+    "score": null
+   },
+   {
+    "participant_id": "5e28f25d-5c4c-4313-a20b-9a15bef54f69",
+    "position": null,
+    "score": null
+   }
+  ],
+  "start_time": "2026-10-21T18:00:00Z",
   "status": "scheduled",
   "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
   "tournament_name": "Futsal Masculino 1º Divisão"
@@ -558,46 +598,6 @@
   "status": "scheduled",
   "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
- },
- {
-  "location": "PAH",
-  "match_id": "953b14a3-f6f9-46dc-a80a-fc36e7a04b4e",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "eaa631d8-79db-47bf-a347-67e2139c9a66",
-    "competitor_id": "9ab8f859-c4c5-4146-957f-92116ad33e5f",
-    "participant_id": "15c42c63-c624-4175-b98d-1862b8482faa",
-    "participant_name": "Contabilidade",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "efcff3e3-6d6b-445c-9d31-bfcc9f9cb62c",
-    "competitor_id": "f7e7e039-9de3-4ce8-9848-3064c4113f52",
-    "participant_id": "5e28f25d-5c4c-4313-a20b-9a15bef54f69",
-    "participant_name": "EGI A",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "15c42c63-c624-4175-b98d-1862b8482faa",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "5e28f25d-5c4c-4313-a20b-9a15bef54f69",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-10-21T18:00:00Z",
-  "status": "scheduled",
-  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
-  "tournament_name": "Futsal Masculino 1º Divisão"
  },
  {
   "location": "PAH",
@@ -835,7 +835,7 @@
    }
   ],
   "start_time": "2026-10-19T22:15:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
   "tournament_name": "Andebol Misto 2ª Divisão"
  },
@@ -866,16 +866,16 @@
    {
     "participant_id": "b1ab0e2e-647f-4734-b2e3-ed0e29d315c6",
     "position": null,
-    "score": null
+    "score": 14.0
    },
    {
     "participant_id": "82db21aa-bacf-4771-8f42-e074e3125baa",
     "position": null,
-    "score": null
+    "score": 14.0
    }
   ],
   "start_time": "2026-10-19T21:15:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
   "tournament_name": "Andebol Misto 2ª Divisão"
  },
@@ -906,16 +906,16 @@
    {
     "participant_id": "b8c6958e-a5e4-406c-a5ab-007a51a18cbe",
     "position": null,
-    "score": null
+    "score": 9.0
    },
    {
     "participant_id": "639697ad-e124-46ba-90cc-23b2235b2b46",
     "position": null,
-    "score": null
+    "score": 15.0
    }
   ],
   "start_time": "2026-10-19T20:15:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
   "tournament_name": "Andebol Misto 2ª Divisão"
  },
@@ -946,16 +946,16 @@
    {
     "participant_id": "5ecf055c-1949-4947-998c-5a4d62a4c978",
     "position": null,
-    "score": null
+    "score": 25.0
    },
    {
     "participant_id": "3d81f025-d1f6-473b-b0b5-264f6d5e56da",
     "position": null,
-    "score": null
+    "score": 21.0
    }
   ],
   "start_time": "2026-10-19T19:15:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
   "tournament_name": "Andebol Misto 2ª Divisão"
  },
