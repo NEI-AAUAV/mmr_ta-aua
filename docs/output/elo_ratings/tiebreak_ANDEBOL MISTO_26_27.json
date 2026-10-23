@@ -12,12 +12,12 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -114,11 +114,11 @@
       "tie_points": 1,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -216,11 +216,11 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Ciências Biomédicas",
-        "Automação e Sistemas de Produção",
-        "Eng. Mecânica B",
         "Fisioterapia",
-        "Contabilidade"
+        "Contabilidade",
+        "Eng. Mecânica B",
+        "Automação e Sistemas de Produção",
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -305,8 +305,8 @@
       "tie_points": 2,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. Biomédica",
-        "Biologia"
+        "Biologia",
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -320,7 +320,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Eng. Biomédica",
+          "team": "Biologia",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -332,7 +332,7 @@
           }
         },
         {
-          "team": "Biologia",
+          "team": "Eng. Biomédica",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -355,10 +355,10 @@
       "tie_points": 1,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Biotecnologia",
-        "Ciências do Mar",
         "MTC",
+        "Ciências do Mar",
         "Psicologia",
+        "Biotecnologia",
         "Gestão"
       ],
       "criteria_order": [
@@ -444,12 +444,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -479,12 +479,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -514,12 +514,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -549,12 +549,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -584,12 +584,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -619,12 +619,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Eng. Mecânica",
         "Administração Pública",
-        "Eng. Informática",
+        "Eng. Mecânica",
         "Eng. e Gestão Industrial",
-        "Biologia e Geologia"
+        "Eng. Informática",
+        "Biologia e Geologia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -654,11 +654,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -689,11 +689,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -724,11 +724,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -759,11 +759,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -794,11 +794,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -829,11 +829,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Civil",
         "Eng. Física",
-        "Eng. Computadores e Telemática",
         "Gestão Comercial",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Economia",
         "Eng. de Materiais"
       ],
       "criteria_order": [
@@ -864,11 +864,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Ciências Biomédicas",
-        "Automação e Sistemas de Produção",
-        "Eng. Mecânica B",
         "Fisioterapia",
-        "Contabilidade"
+        "Contabilidade",
+        "Eng. Mecânica B",
+        "Automação e Sistemas de Produção",
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -898,11 +898,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Ciências Biomédicas",
-        "Automação e Sistemas de Produção",
-        "Eng. Mecânica B",
         "Fisioterapia",
-        "Contabilidade"
+        "Contabilidade",
+        "Eng. Mecânica B",
+        "Automação e Sistemas de Produção",
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -932,11 +932,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Ciências Biomédicas",
-        "Automação e Sistemas de Produção",
-        "Eng. Mecânica B",
         "Fisioterapia",
-        "Contabilidade"
+        "Contabilidade",
+        "Eng. Mecânica B",
+        "Automação e Sistemas de Produção",
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -966,11 +966,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Ciências Biomédicas",
-        "Automação e Sistemas de Produção",
-        "Eng. Mecânica B",
         "Fisioterapia",
-        "Contabilidade"
+        "Contabilidade",
+        "Eng. Mecânica B",
+        "Automação e Sistemas de Produção",
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1000,11 +1000,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Ciências Biomédicas",
-        "Automação e Sistemas de Produção",
-        "Eng. Mecânica B",
         "Fisioterapia",
-        "Contabilidade"
+        "Contabilidade",
+        "Eng. Mecânica B",
+        "Automação e Sistemas de Produção",
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1027,15 +1027,15 @@
       "rank_in_tiebreak": 5,
       "final_position": 5
     },
-    "2ª Divisão::Eng. Biomédica": {
+    "2ª Divisão::Biologia": {
       "event_id": 4,
       "ranking_key": "2ª Divisão",
-      "team": "Eng. Biomédica",
+      "team": "Biologia",
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Eng. Biomédica",
-        "Biologia"
+        "Biologia",
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1058,15 +1058,15 @@
       "rank_in_tiebreak": 1,
       "final_position": 6
     },
-    "2ª Divisão::Biologia": {
+    "2ª Divisão::Eng. Biomédica": {
       "event_id": 4,
       "ranking_key": "2ª Divisão",
-      "team": "Biologia",
+      "team": "Eng. Biomédica",
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Eng. Biomédica",
-        "Biologia"
+        "Biologia",
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1096,10 +1096,10 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Biotecnologia",
-        "Ciências do Mar",
         "MTC",
+        "Ciências do Mar",
         "Psicologia",
+        "Biotecnologia",
         "Gestão"
       ],
       "criteria_order": [
@@ -1130,10 +1130,10 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Biotecnologia",
-        "Ciências do Mar",
         "MTC",
+        "Ciências do Mar",
         "Psicologia",
+        "Biotecnologia",
         "Gestão"
       ],
       "criteria_order": [
@@ -1164,10 +1164,10 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Biotecnologia",
-        "Ciências do Mar",
         "MTC",
+        "Ciências do Mar",
         "Psicologia",
+        "Biotecnologia",
         "Gestão"
       ],
       "criteria_order": [
@@ -1198,10 +1198,10 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Biotecnologia",
-        "Ciências do Mar",
         "MTC",
+        "Ciências do Mar",
         "Psicologia",
+        "Biotecnologia",
         "Gestão"
       ],
       "criteria_order": [
@@ -1232,10 +1232,10 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Biotecnologia",
-        "Ciências do Mar",
         "MTC",
+        "Ciências do Mar",
         "Psicologia",
+        "Biotecnologia",
         "Gestão"
       ],
       "criteria_order": [

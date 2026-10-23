@@ -1,2 +1,13 @@
-Jornada,Dia,Hora,Local,Equipa 1,Golos 1,Golos 2,Equipa 2,Divisão,Fonte_Data,Fonte_Local,Data_Placeholder,Local_Placeholder,Falta de Comparência
-1,2026-10-28 00:00:00,20h00,PAH,Administração Pública,,,EET,1,API,API,False,False,
+Jornada,Dia,Hora,Local,Equipa 1,Golos 1,Golos 2,Equipa 2,Divisão,Grupo,Fonte_Data,Fonte_Local,Data_Placeholder,Local_Placeholder,Falta de Comparência
+1,2026-10-28 00:00:00,20h00,PAH,Eng. Mecânica,,,Contabilidade,1,,API,API,False,False,
+1,2026-10-28 00:00:00,20h00,PAH,ECT,,,Ciências do Mar,1,,API,API,False,False,
+1,2026-10-28 00:00:00,20h00,PAH,Administração Pública,,,EET,1,,API,API,False,False,
+1,2026-10-28 00:00:00,21h00,PAH,Física,,,EGI,1,,API,API,False,False,
+1,2026-10-28 00:00:00,21h00,PAH,Eng. Biomédica,,,Eng. Informática,1,,API,API,False,False,
+1,2026-10-28 00:00:00,21h00,PAH,CBM,,,LRE,1,,API,API,False,False,
+1,2026-10-28 00:00:00,22h00,PAH,Biologia,,,Matemática,2,A,API,API,False,False,
+1,2026-10-28 00:00:00,22h00,PAH,Gestão Comercial,,,Geologia,2,A,API,API,False,False,
+1,2026-10-28 00:00:00,22h00,PAH,Economia,,,Biotecnologia,2,A,API,API,False,False,
+1,2026-10-28 00:00:00,23h00,PAH,Eng. Civil,,,Eng. Materiais,2,A,API,API,False,False,
+1,2026-10-28 00:00:00,23h00,PAH,Medicina,,,Música,2,A,API,API,False,False,
+1,2026-10-28 00:00:00,23h00,PAH,Eng. Informática B,,,Eng. Física,2,B,API,API,False,False,
