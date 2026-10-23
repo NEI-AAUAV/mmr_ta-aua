@@ -140,19 +140,19 @@
   },
   "FUTSAL MASCULINO": {
     "sport_type": "futsal",
-    "base_goals": 3.3117359413202934,
-    "base_goals_std": 2.7516403942681844,
+    "base_goals": 3.317073170731707,
+    "base_goals_std": 2.759365642814233,
     "dispersion_k": 3.0,
-    "base_draw_rate": 0.10513447432762836,
-    "draw_elo_sensitivity": 0.005062986747982177,
+    "base_draw_rate": 0.1048780487804878,
+    "draw_elo_sensitivity": 0.004935419829306154,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.5697508878512936,
-      "coef_linear": -0.005062986747982177,
-      "coef_quadratic": -1.6173005745039265e-06
+      "intercept": -1.5742387413110792,
+      "coef_linear": -0.004935419829306154,
+      "coef_quadratic": -2.149947396179565e-06
     },
-    "margin_elo_slope": 0.005238082282880503,
-    "margin_elo_intercept": 2.872386570023724,
+    "margin_elo_slope": 0.005453589012815478,
+    "margin_elo_intercept": 2.855589089645572,
     "elo_adjustment_limit": 1.2,
     "division_params": {
       "1": {
@@ -161,9 +161,9 @@
         "base_draw_rate": 0.10191082802547771
       },
       "2": {
-        "base_goals": 3.4226190476190474,
+        "base_goals": 3.430830039525692,
         "dispersion_k": 3.0,
-        "base_draw_rate": 0.10714285714285714
+        "base_draw_rate": 0.1067193675889328
       }
     }
   },

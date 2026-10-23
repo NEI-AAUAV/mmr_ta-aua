@@ -1,35 +1,3 @@
-Divisao,Grupo,Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia,sets_ganhos,sets_perdidos,diferenca_sets
-1,,1,Eng. Eletrónica e Telecomunicações,30,11,10,0,1,21,3,18,0,0,0,0
-1,,2,Eng. Informática,28,11,9,0,2,20,5,15,0,0,0,0
-1,,3,Eng. Mecânica,25,11,9,0,2,19,7,12,0,0,0,0
-1,,4,Design,21,11,8,0,3,18,11,7,0,0,0,0
-1,,5,Eng. e Gestão Industrial,21,11,8,0,3,17,10,7,1,0,0,0
-1,,6,Tecnologias de Informação,18,11,6,0,5,13,11,2,0,0,0,0
-1,,7,Eng. Biomédica,16,11,5,0,6,12,13,-1,0,0,0,0
-1,,8,Ciências do Mar,13,11,4,0,7,10,15,-5,0,0,0,0
-1,,9,Eng. Computadores e Telemática,11,11,3,0,8,9,17,-8,0,0,0,0
-1,,10,Línguas e Relações Empresariais,10,11,3,0,8,7,16,-9,1,0,0,0
-1,,11,Música,3,11,1,0,10,3,21,-18,0,0,0,0
-1,,12,Gestão e Planeamento em Turismo,2,11,0,0,11,2,22,-20,0,0,0,0
-2,A,1,Administração Pública,27,10,10,0,0,20,3,17,0,0,0,0
-2,A,2,Ciências Biomédicas,24,10,8,0,2,17,5,12,0,0,0,0
-2,A,3,Bioquímica,24,10,8,0,2,17,5,12,0,0,0,0
-2,A,4,Fisioterapia,19,10,7,0,3,15,9,6,0,0,0,0
-2,A,5,Eng. do Ambiente,16,10,5,0,5,12,11,1,0,0,0,0
-2,A,6,Medicina,14,10,3,0,7,11,14,-3,0,0,0,0
-2,A,7,Biologia,13,10,5,0,5,11,13,-2,0,0,0,0
-2,A,8,Geologia,10,10,3,0,7,7,14,-7,0,0,0,0
-2,A,9,Biotecnologia,10,10,4,0,6,8,14,-6,0,0,0,0
-2,A,10,Eng. de Materiais,8,10,2,0,8,7,17,-10,0,0,0,0
-2,A,11,Economia,0,10,0,0,10,0,20,-20,1,0,0,0
-2,B,1,Contabilidade,28,10,10,0,0,20,2,18,0,0,0,0
-2,B,2,Física,27,10,9,0,1,19,3,16,0,0,0,0
-2,B,3,Eng. Informática B,19,10,7,0,3,17,11,6,0,0,0,0
-2,B,4,Eng. Física,19,10,7,0,3,15,9,6,0,0,0,0
-2,B,5,MTC,17,10,5,0,5,13,11,2,0,0,0,0
-2,B,6,Eng. Civil,14,10,6,0,4,13,13,0,0,0,0,0
-2,B,7,Matemática,13,10,4,0,6,11,14,-3,0,0,0,0
-2,B,8,Eng. Computacional,9,10,3,0,7,8,16,-8,0,0,0,0
-2,B,9,Eng. Eletrónica e Telecomunicações B,9,10,2,0,8,7,16,-9,0,0,0,0
-2,B,10,Gestão,8,10,2,0,8,6,16,-10,0,0,0,0
-2,B,11,Psicologia,2,10,0,0,10,2,20,-18,0,0,0,0
+Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia,sets_ganhos,sets_perdidos,diferenca_sets
+1,Administração Pública,0,1,0,0,0,0,0,0,1,0,0,0
+2,Eng. Eletrónica e Telecomunicações,0,1,0,0,0,0,0,0,1,0,0,0
