@@ -44,7 +44,7 @@
   "match_id": "9adcfbba-c689-4493-ba8d-9d4fbab6741e",
   "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
   "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
+  "occurrence_count": 1,
   "participant_count": 2,
   "participants": [
    {
@@ -66,16 +66,16 @@
    {
     "participant_id": "0ec04f4d-74b5-4aa9-9746-b17b7fe035cb",
     "position": null,
-    "score": null
+    "score": 24.0
    },
    {
     "participant_id": "6c40a13c-7292-4f06-8e25-166507e66a4a",
     "position": null,
-    "score": null
+    "score": 21.0
    }
   ],
   "start_time": "2026-10-22T22:15:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
   "tournament_name": "Andebol Misto 1ª Divisão"
  },
@@ -115,7 +115,7 @@
    }
   ],
   "start_time": "2026-10-22T22:00:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
  },
@@ -146,16 +146,16 @@
    {
     "participant_id": "9ed45922-a5ae-42f0-adf8-b844eb798d04",
     "position": null,
-    "score": null
+    "score": 3.0
    },
    {
     "participant_id": "3dcf8dc4-be79-4ca1-a127-b50bce0c6318",
     "position": null,
-    "score": null
+    "score": 1.0
    }
   ],
   "start_time": "2026-10-22T22:00:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
  },
@@ -186,16 +186,16 @@
    {
     "participant_id": "0c8d69d2-bb99-4bd0-8362-472f719bd839",
     "position": null,
-    "score": null
+    "score": 26.0
    },
    {
     "participant_id": "033872b6-bc3e-4d95-b6a0-20073a3c2fe6",
     "position": null,
-    "score": null
+    "score": 31.0
    }
   ],
   "start_time": "2026-10-22T21:15:00Z",
-  "status": "scheduled",
+  "status": "finished",
   "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
   "tournament_name": "Andebol Misto 1ª Divisão"
  },
@@ -226,16 +226,16 @@
    {
     "participant_id": "18eea42d-1e0b-41a4-afd3-0fc270dba94c",
     "position": null,
-    "score": null
+    "score": 5.0
    },
    {
     "participant_id": "bafcf75a-7a6e-49f5-8049-136a728221f7",
     "position": null,
-    "score": null
+    "score": 2.0
    }
   ],
   "start_time": "2026-10-22T21:00:00Z",
-  "status": "in_progress",
+  "status": "finished",
   "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
  },
@@ -266,16 +266,16 @@
    {
     "participant_id": "29c3bbb5-b5ba-4c0e-bfbe-e48ba384faa7",
     "position": null,
-    "score": null
+    "score": 14.0
    },
    {
     "participant_id": "7dc89c70-7788-40ff-860a-ece9d9047496",
     "position": null,
-    "score": null
+    "score": 23.0
    }
   ],
   "start_time": "2026-10-22T20:15:00Z",
-  "status": "in_progress",
+  "status": "finished",
   "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
   "tournament_name": "Andebol Misto 1ª Divisão"
  },
@@ -1320,46 +1320,6 @@
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
-  "location": "Caixa UA",
-  "match_id": "13630f8d-2e49-4850-ad94-6eacfd54eac7",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "be363020-1fac-4daa-a926-714577619b07",
-    "competitor_id": "8c4487c7-04be-46d9-bac1-cc09226143b6",
-    "participant_id": "207ed63d-a6b6-40d0-adf2-030825d1501e",
-    "participant_name": "LRE",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "a2bb8733-09f1-427a-ad95-d7d3b147287a",
-    "competitor_id": "c0ba7406-f8ee-4eb6-8e91-d69c3ee19d77",
-    "participant_id": "cf9c9d1f-0bbf-4002-be6a-45391ab5a279",
-    "participant_name": "Tradução",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "207ed63d-a6b6-40d0-adf2-030825d1501e",
-    "position": null,
-    "score": 3.0
-   },
-   {
-    "participant_id": "cf9c9d1f-0bbf-4002-be6a-45391ab5a279",
-    "position": null,
-    "score": 0.0
-   }
-  ],
-  "start_time": "2026-10-14T21:00:00Z",
-  "status": "finished",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
- },
- {
   "location": "PAH",
   "match_id": "72fb34eb-97ef-4448-9289-d624f5ebbaf0",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
@@ -1398,6 +1358,46 @@
   "status": "finished",
   "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
   "tournament_name": "Futsal Masculino 1º Divisão"
+ },
+ {
+  "location": "Caixa UA",
+  "match_id": "13630f8d-2e49-4850-ad94-6eacfd54eac7",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "be363020-1fac-4daa-a926-714577619b07",
+    "competitor_id": "8c4487c7-04be-46d9-bac1-cc09226143b6",
+    "participant_id": "207ed63d-a6b6-40d0-adf2-030825d1501e",
+    "participant_name": "LRE",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "a2bb8733-09f1-427a-ad95-d7d3b147287a",
+    "competitor_id": "c0ba7406-f8ee-4eb6-8e91-d69c3ee19d77",
+    "participant_id": "cf9c9d1f-0bbf-4002-be6a-45391ab5a279",
+    "participant_name": "Tradução",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "207ed63d-a6b6-40d0-adf2-030825d1501e",
+    "position": null,
+    "score": 3.0
+   },
+   {
+    "participant_id": "cf9c9d1f-0bbf-4002-be6a-45391ab5a279",
+    "position": null,
+    "score": 0.0
+   }
+  ],
+  "start_time": "2026-10-14T21:00:00Z",
+  "status": "finished",
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -1560,46 +1560,6 @@
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
-  "location": "Caixa UA",
-  "match_id": "5259d473-9c4b-4751-8245-7e10f1e49aec",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 1,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "a5851adb-4860-4f1e-9cb1-c08d2024ea7a",
-    "competitor_id": "3354041c-5481-4e07-8d8f-81c79afd6325",
-    "participant_id": "e97c9185-4fe6-4850-ab21-ba5e84e3ea3b",
-    "participant_name": "Eng. Mecânica B",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "57876344-5962-4a75-84dd-e5e1e546b1cc",
-    "competitor_id": "acd5786d-5cb6-4be9-a708-58ae737cea67",
-    "participant_id": "cf916dff-6f41-45ba-bc87-08f4632812dd",
-    "participant_name": "EET",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "e97c9185-4fe6-4850-ab21-ba5e84e3ea3b",
-    "position": null,
-    "score": 0.0
-   },
-   {
-    "participant_id": "cf916dff-6f41-45ba-bc87-08f4632812dd",
-    "position": null,
-    "score": 3.0
-   }
-  ],
-  "start_time": "2026-10-14T18:00:00Z",
-  "status": "finished",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
- },
- {
   "location": "PAH",
   "match_id": "ec5e015e-5dde-42d5-b4b6-dd22f4fc7d8e",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
@@ -1640,44 +1600,44 @@
   "tournament_name": "Futsal Masculino 1º Divisão"
  },
  {
-  "location": "PAH",
-  "match_id": "f7ace786-e95d-484d-8519-5c21754ac951",
+  "location": "Caixa UA",
+  "match_id": "5259d473-9c4b-4751-8245-7e10f1e49aec",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
   "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
+  "occurrence_count": 1,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "83c64760-0411-4a1b-9195-87bf79213bfd",
-    "competitor_id": "95f1a560-2c4a-42af-806a-719fecdf3a59",
-    "participant_id": "2b2bfd73-39c7-4bd4-963e-5057d04ac544",
-    "participant_name": "Eng. Mecânica A",
+    "competitor_entity_id": "a5851adb-4860-4f1e-9cb1-c08d2024ea7a",
+    "competitor_id": "3354041c-5481-4e07-8d8f-81c79afd6325",
+    "participant_id": "e97c9185-4fe6-4850-ab21-ba5e84e3ea3b",
+    "participant_name": "Eng. Mecânica B",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "b954085d-e2cd-4c91-8d47-33d8007886de",
-    "competitor_id": "91fb07a9-62f2-4abf-8110-d669d06d6d29",
-    "participant_id": "ff8c8a0d-25ae-4837-b37c-0ffd6aae5f0a",
-    "participant_name": "Eng. Computacional",
+    "competitor_entity_id": "57876344-5962-4a75-84dd-e5e1e546b1cc",
+    "competitor_id": "acd5786d-5cb6-4be9-a708-58ae737cea67",
+    "participant_id": "cf916dff-6f41-45ba-bc87-08f4632812dd",
+    "participant_name": "EET",
     "participant_type": "team"
    }
   ],
   "results": [
    {
-    "participant_id": "2b2bfd73-39c7-4bd4-963e-5057d04ac544",
-    "position": null,
-    "score": 4.0
-   },
-   {
-    "participant_id": "ff8c8a0d-25ae-4837-b37c-0ffd6aae5f0a",
+    "participant_id": "e97c9185-4fe6-4850-ab21-ba5e84e3ea3b",
     "position": null,
     "score": 0.0
+   },
+   {
+    "participant_id": "cf916dff-6f41-45ba-bc87-08f4632812dd",
+    "position": null,
+    "score": 3.0
    }
   ],
-  "start_time": "2026-10-14T17:00:00Z",
+  "start_time": "2026-10-14T18:00:00Z",
   "status": "finished",
-  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
-  "tournament_name": "Futsal Masculino 1º Divisão"
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "Caixa UA",
@@ -1718,5 +1678,45 @@
   "status": "finished",
   "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "f7ace786-e95d-484d-8519-5c21754ac951",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "83c64760-0411-4a1b-9195-87bf79213bfd",
+    "competitor_id": "95f1a560-2c4a-42af-806a-719fecdf3a59",
+    "participant_id": "2b2bfd73-39c7-4bd4-963e-5057d04ac544",
+    "participant_name": "Eng. Mecânica A",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "b954085d-e2cd-4c91-8d47-33d8007886de",
+    "competitor_id": "91fb07a9-62f2-4abf-8110-d669d06d6d29",
+    "participant_id": "ff8c8a0d-25ae-4837-b37c-0ffd6aae5f0a",
+    "participant_name": "Eng. Computacional",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "2b2bfd73-39c7-4bd4-963e-5057d04ac544",
+    "position": null,
+    "score": 4.0
+   },
+   {
+    "participant_id": "ff8c8a0d-25ae-4837-b37c-0ffd6aae5f0a",
+    "position": null,
+    "score": 0.0
+   }
+  ],
+  "start_time": "2026-10-14T17:00:00Z",
+  "status": "finished",
+  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
+  "tournament_name": "Futsal Masculino 1º Divisão"
  }
 ]

@@ -63,11 +63,11 @@
       "tie_type": "mini_league",
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -164,8 +164,8 @@
       "tie_points": 0,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Contabilidade",
-        "Eng. Computacional"
+        "Eng. Computacional",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -214,10 +214,10 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Administração Pública",
         "Eng. Eletrónica e Telecomunicações",
-        "Medicina"
+        "Medicina",
+        "Línguas e Relações Empresariais",
+        "Administração Pública"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -231,7 +231,7 @@
       "used_global_fallback": true,
       "standings": [
         {
-          "team": "Línguas e Relações Empresariais",
+          "team": "Eng. Eletrónica e Telecomunicações",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -243,7 +243,7 @@
           }
         },
         {
-          "team": "Eng. Eletrónica e Telecomunicações",
+          "team": "Línguas e Relações Empresariais",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -291,9 +291,9 @@
       "tie_type": "mini_league",
       "tied_teams": [
         "Gestão Comercial",
-        "Ciências do Mar",
+        "Eng. Mecânica B",
         "Tradução",
-        "Eng. Mecânica B"
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -331,7 +331,7 @@
           }
         },
         {
-          "team": "Tradução",
+          "team": "Eng. Mecânica B",
           "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -343,7 +343,7 @@
           }
         },
         {
-          "team": "Eng. Mecânica B",
+          "team": "Tradução",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -363,12 +363,60 @@
         "Grupo": "B",
         "ranking_key": "2ª Divisão - Grupo B"
       },
+      "tie_points": 6,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Música",
+        "Educação Básica"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Música",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 9,
+            "golos_marcados": 12
+          }
+        },
+        {
+          "team": "Educação Básica",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 4,
+            "golos_marcados": 9
+          }
+        }
+      ],
+      "event_id": 6
+    },
+    {
+      "context": {
+        "Divisao": 2,
+        "Grupo": "B",
+        "ranking_key": "2ª Divisão - Grupo B"
+      },
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
         "Matemática",
-        "Educação Básica",
-        "Música",
         "Marketing",
         "Eng. e Gestão Industrial B"
       ],
@@ -396,32 +444,8 @@
           }
         },
         {
-          "team": "Música",
-          "rank_in_tiebreak": 2,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": 6,
-            "golos_marcados": 7
-          }
-        },
-        {
-          "team": "Educação Básica",
-          "rank_in_tiebreak": 3,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": 2,
-            "golos_marcados": 6
-          }
-        },
-        {
           "team": "Marketing",
-          "rank_in_tiebreak": 4,
+          "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -433,18 +457,18 @@
         },
         {
           "team": "Eng. e Gestão Industrial B",
-          "rank_in_tiebreak": 5,
+          "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
             "golos_marcados_h2h": 0,
-            "diferenca_golos": 1,
-            "golos_marcados": 3
+            "diferenca_golos": -1,
+            "golos_marcados": 4
           }
         }
       ],
-      "event_id": 6
+      "event_id": 7
     },
     {
       "context": {
@@ -456,10 +480,10 @@
       "tie_type": "mini_league",
       "tied_teams": [
         "Biologia e Geologia",
+        "Eng. Civil",
         "Automação e Sistemas de Produção",
         "Economia",
-        "Eng. Física",
-        "Eng. Civil"
+        "Eng. Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -504,8 +528,8 @@
             "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
             "golos_marcados_h2h": 0,
-            "diferenca_golos": -2,
-            "golos_marcados": 4
+            "diferenca_golos": -5,
+            "golos_marcados": 6
           }
         },
         {
@@ -533,7 +557,7 @@
           }
         }
       ],
-      "event_id": 7
+      "event_id": 8
     }
   ],
   "indexByContextTeam": {
@@ -607,11 +631,11 @@
       "tie_points": 3,
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -642,11 +666,11 @@
       "tie_points": 3,
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -677,11 +701,11 @@
       "tie_points": 3,
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -712,11 +736,11 @@
       "tie_points": 3,
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -747,11 +771,11 @@
       "tie_points": 3,
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -782,11 +806,11 @@
       "tie_points": 3,
       "tied_teams": [
         "Gestão e Planeamento em Turismo",
+        "Bioquímica",
         "Eng. Química",
-        "Eng. Informática",
-        "Eng. Computadores e Telemática",
         "Eng. de Materiais",
-        "Bioquímica"
+        "Eng. Computadores e Telemática",
+        "Eng. Informática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -816,8 +840,8 @@
       "tie_type": "head_to_head",
       "tie_points": 0,
       "tied_teams": [
-        "Contabilidade",
-        "Eng. Computacional"
+        "Eng. Computacional",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -847,8 +871,8 @@
       "tie_type": "head_to_head",
       "tie_points": 0,
       "tied_teams": [
-        "Contabilidade",
-        "Eng. Computacional"
+        "Eng. Computacional",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -871,17 +895,17 @@
       "rank_in_tiebreak": 2,
       "final_position": 12
     },
-    "2ª Divisão - Grupo A::Línguas e Relações Empresariais": {
+    "2ª Divisão - Grupo A::Eng. Eletrónica e Telecomunicações": {
       "event_id": 4,
       "ranking_key": "2ª Divisão - Grupo A",
-      "team": "Línguas e Relações Empresariais",
+      "team": "Eng. Eletrónica e Telecomunicações",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Administração Pública",
         "Eng. Eletrónica e Telecomunicações",
-        "Medicina"
+        "Medicina",
+        "Línguas e Relações Empresariais",
+        "Administração Pública"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -904,17 +928,17 @@
       "rank_in_tiebreak": 1,
       "final_position": 1
     },
-    "2ª Divisão - Grupo A::Eng. Eletrónica e Telecomunicações": {
+    "2ª Divisão - Grupo A::Línguas e Relações Empresariais": {
       "event_id": 4,
       "ranking_key": "2ª Divisão - Grupo A",
-      "team": "Eng. Eletrónica e Telecomunicações",
+      "team": "Línguas e Relações Empresariais",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Administração Pública",
         "Eng. Eletrónica e Telecomunicações",
-        "Medicina"
+        "Medicina",
+        "Línguas e Relações Empresariais",
+        "Administração Pública"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -944,10 +968,10 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Administração Pública",
         "Eng. Eletrónica e Telecomunicações",
-        "Medicina"
+        "Medicina",
+        "Línguas e Relações Empresariais",
+        "Administração Pública"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -977,10 +1001,10 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Administração Pública",
         "Eng. Eletrónica e Telecomunicações",
-        "Medicina"
+        "Medicina",
+        "Línguas e Relações Empresariais",
+        "Administração Pública"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1011,9 +1035,9 @@
       "tie_points": 0,
       "tied_teams": [
         "Gestão Comercial",
-        "Ciências do Mar",
+        "Eng. Mecânica B",
         "Tradução",
-        "Eng. Mecânica B"
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1044,9 +1068,9 @@
       "tie_points": 0,
       "tied_teams": [
         "Gestão Comercial",
-        "Ciências do Mar",
+        "Eng. Mecânica B",
         "Tradução",
-        "Eng. Mecânica B"
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1069,17 +1093,17 @@
       "rank_in_tiebreak": 2,
       "final_position": 6
     },
-    "2ª Divisão - Grupo A::Tradução": {
+    "2ª Divisão - Grupo A::Eng. Mecânica B": {
       "event_id": 5,
       "ranking_key": "2ª Divisão - Grupo A",
-      "team": "Tradução",
+      "team": "Eng. Mecânica B",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Gestão Comercial",
-        "Ciências do Mar",
+        "Eng. Mecânica B",
         "Tradução",
-        "Eng. Mecânica B"
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1102,17 +1126,17 @@
       "rank_in_tiebreak": 3,
       "final_position": 7
     },
-    "2ª Divisão - Grupo A::Eng. Mecânica B": {
+    "2ª Divisão - Grupo A::Tradução": {
       "event_id": 5,
       "ranking_key": "2ª Divisão - Grupo A",
-      "team": "Eng. Mecânica B",
+      "team": "Tradução",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Gestão Comercial",
-        "Ciências do Mar",
+        "Eng. Mecânica B",
         "Tradução",
-        "Eng. Mecânica B"
+        "Ciências do Mar"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1135,16 +1159,76 @@
       "rank_in_tiebreak": 4,
       "final_position": 8
     },
-    "2ª Divisão - Grupo B::Matemática": {
+    "2ª Divisão - Grupo B::Música": {
       "event_id": 6,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Música",
+      "tie_type": "head_to_head",
+      "tie_points": 6,
+      "tied_teams": [
+        "Música",
+        "Educação Básica"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 9,
+        "golos_marcados": 12
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 1
+    },
+    "2ª Divisão - Grupo B::Educação Básica": {
+      "event_id": 6,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Educação Básica",
+      "tie_type": "head_to_head",
+      "tie_points": 6,
+      "tied_teams": [
+        "Música",
+        "Educação Básica"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 4,
+        "golos_marcados": 9
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 2
+    },
+    "2ª Divisão - Grupo B::Matemática": {
+      "event_id": 7,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Matemática",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
         "Matemática",
-        "Educação Básica",
-        "Música",
         "Marketing",
         "Eng. e Gestão Industrial B"
       ],
@@ -1167,86 +1251,16 @@
         "golos_marcados": 11
       },
       "rank_in_tiebreak": 1,
-      "final_position": 1
-    },
-    "2ª Divisão - Grupo B::Música": {
-      "event_id": 6,
-      "ranking_key": "2ª Divisão - Grupo B",
-      "team": "Música",
-      "tie_type": "mini_league",
-      "tie_points": 3,
-      "tied_teams": [
-        "Matemática",
-        "Educação Básica",
-        "Música",
-        "Marketing",
-        "Eng. e Gestão Industrial B"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "diferenca_golos": 6,
-        "golos_marcados": 7
-      },
-      "rank_in_tiebreak": 2,
-      "final_position": 2
-    },
-    "2ª Divisão - Grupo B::Educação Básica": {
-      "event_id": 6,
-      "ranking_key": "2ª Divisão - Grupo B",
-      "team": "Educação Básica",
-      "tie_type": "mini_league",
-      "tie_points": 3,
-      "tied_teams": [
-        "Matemática",
-        "Educação Básica",
-        "Música",
-        "Marketing",
-        "Eng. e Gestão Industrial B"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "diferenca_golos": 2,
-        "golos_marcados": 6
-      },
-      "rank_in_tiebreak": 3,
       "final_position": 3
     },
     "2ª Divisão - Grupo B::Marketing": {
-      "event_id": 6,
+      "event_id": 7,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Marketing",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
         "Matemática",
-        "Educação Básica",
-        "Música",
         "Marketing",
         "Eng. e Gestão Industrial B"
       ],
@@ -1268,19 +1282,17 @@
         "diferenca_golos": 1,
         "golos_marcados": 4
       },
-      "rank_in_tiebreak": 4,
+      "rank_in_tiebreak": 2,
       "final_position": 4
     },
     "2ª Divisão - Grupo B::Eng. e Gestão Industrial B": {
-      "event_id": 6,
+      "event_id": 7,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Eng. e Gestão Industrial B",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
         "Matemática",
-        "Educação Básica",
-        "Música",
         "Marketing",
         "Eng. e Gestão Industrial B"
       ],
@@ -1299,24 +1311,24 @@
         "pontos_h2h": 0,
         "diferenca_golos_h2h": 0,
         "golos_marcados_h2h": 0,
-        "diferenca_golos": 1,
-        "golos_marcados": 3
+        "diferenca_golos": -1,
+        "golos_marcados": 4
       },
-      "rank_in_tiebreak": 5,
+      "rank_in_tiebreak": 3,
       "final_position": 5
     },
     "2ª Divisão - Grupo B::Economia": {
-      "event_id": 7,
+      "event_id": 8,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Economia",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Biologia e Geologia",
+        "Eng. Civil",
         "Automação e Sistemas de Produção",
         "Economia",
-        "Eng. Física",
-        "Eng. Civil"
+        "Eng. Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1340,17 +1352,17 @@
       "final_position": 6
     },
     "2ª Divisão - Grupo B::Eng. Civil": {
-      "event_id": 7,
+      "event_id": 8,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Eng. Civil",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Biologia e Geologia",
+        "Eng. Civil",
         "Automação e Sistemas de Produção",
         "Economia",
-        "Eng. Física",
-        "Eng. Civil"
+        "Eng. Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1374,17 +1386,17 @@
       "final_position": 7
     },
     "2ª Divisão - Grupo B::Biologia e Geologia": {
-      "event_id": 7,
+      "event_id": 8,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Biologia e Geologia",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Biologia e Geologia",
+        "Eng. Civil",
         "Automação e Sistemas de Produção",
         "Economia",
-        "Eng. Física",
-        "Eng. Civil"
+        "Eng. Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1401,24 +1413,24 @@
         "pontos_h2h": 0,
         "diferenca_golos_h2h": 0,
         "golos_marcados_h2h": 0,
-        "diferenca_golos": -2,
-        "golos_marcados": 4
+        "diferenca_golos": -5,
+        "golos_marcados": 6
       },
       "rank_in_tiebreak": 3,
       "final_position": 8
     },
     "2ª Divisão - Grupo B::Automação e Sistemas de Produção": {
-      "event_id": 7,
+      "event_id": 8,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Automação e Sistemas de Produção",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Biologia e Geologia",
+        "Eng. Civil",
         "Automação e Sistemas de Produção",
         "Economia",
-        "Eng. Física",
-        "Eng. Civil"
+        "Eng. Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -1442,17 +1454,17 @@
       "final_position": 9
     },
     "2ª Divisão - Grupo B::Eng. Física": {
-      "event_id": 7,
+      "event_id": 8,
       "ranking_key": "2ª Divisão - Grupo B",
       "team": "Eng. Física",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Biologia e Geologia",
+        "Eng. Civil",
         "Automação e Sistemas de Produção",
         "Economia",
-        "Eng. Física",
-        "Eng. Civil"
+        "Eng. Física"
       ],
       "criteria_order": [
         "faltas_comparencia",
