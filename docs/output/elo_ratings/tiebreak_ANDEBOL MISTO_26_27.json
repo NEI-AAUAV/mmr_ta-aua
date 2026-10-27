@@ -12,12 +12,11 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
         "Biologia e Geologia",
+        "Eng. Informática",
         "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -79,20 +78,8 @@
           }
         },
         {
-          "team": "Eng. Mecânica",
-          "rank_in_tiebreak": 5,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": 3,
-            "golos_marcados": 16
-          }
-        },
-        {
           "team": "Biologia e Geologia",
-          "rank_in_tiebreak": 6,
+          "rank_in_tiebreak": 5,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -114,12 +101,11 @@
       "tie_points": 1,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
         "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
+        "Eng. Física",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Gestão Comercial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -129,24 +115,12 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "diferenca_golos",
+      "deciding_criterion": "golos_marcados",
       "used_global_fallback": true,
       "standings": [
         {
-          "team": "Economia",
-          "rank_in_tiebreak": 1,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": -2,
-            "golos_marcados": 27
-          }
-        },
-        {
           "team": "Eng. Civil",
-          "rank_in_tiebreak": 2,
+          "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -158,7 +132,7 @@
         },
         {
           "team": "Eng. de Materiais",
-          "rank_in_tiebreak": 3,
+          "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -170,7 +144,7 @@
         },
         {
           "team": "Eng. Computadores e Telemática",
-          "rank_in_tiebreak": 4,
+          "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -182,7 +156,7 @@
         },
         {
           "team": "Eng. Física",
-          "rank_in_tiebreak": 5,
+          "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -194,7 +168,7 @@
         },
         {
           "team": "Gestão Comercial",
-          "rank_in_tiebreak": 6,
+          "rank_in_tiebreak": 5,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
@@ -213,13 +187,11 @@
         "Grupo": null,
         "ranking_key": "2ª Divisão"
       },
-      "tie_points": 3,
-      "tie_type": "mini_league",
+      "tie_points": 6,
+      "tie_type": "head_to_head",
       "tied_teams": [
-        "Fisioterapia",
-        "Automação e Sistemas de Produção",
-        "Ciências Biomédicas",
-        "Eng. Mecânica B"
+        "Contabilidade",
+        "Automação e Sistemas de Produção"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -233,51 +205,27 @@
       "used_global_fallback": true,
       "standings": [
         {
-          "team": "Eng. Mecânica B",
+          "team": "Contabilidade",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
             "golos_marcados_h2h": 0,
-            "diferenca_golos": 18,
-            "golos_marcados": 23
+            "diferenca_golos": 37,
+            "golos_marcados": 65
           }
         },
         {
-          "team": "Ciências Biomédicas",
+          "team": "Automação e Sistemas de Produção",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
             "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
             "golos_marcados_h2h": 0,
-            "diferenca_golos": 6,
-            "golos_marcados": 15
-          }
-        },
-        {
-          "team": "Fisioterapia",
-          "rank_in_tiebreak": 3,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": 4,
-            "golos_marcados": 25
-          }
-        },
-        {
-          "team": "Automação e Sistemas de Produção",
-          "rank_in_tiebreak": 4,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": 1,
-            "golos_marcados": 19
+            "diferenca_golos": 3,
+            "golos_marcados": 35
           }
         }
       ],
@@ -289,11 +237,111 @@
         "Grupo": null,
         "ranking_key": "2ª Divisão"
       },
+      "tie_points": 4,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Ciências do Mar",
+        "Eng. Mecânica B"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "golos_marcados",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Ciências do Mar",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 16,
+            "golos_marcados": 40
+          }
+        },
+        {
+          "team": "Eng. Mecânica B",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 16,
+            "golos_marcados": 33
+          }
+        }
+      ],
+      "event_id": 4
+    },
+    {
+      "context": {
+        "Divisao": 2,
+        "Grupo": null,
+        "ranking_key": "2ª Divisão"
+      },
+      "tie_points": 3,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Fisioterapia",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Ciências Biomédicas",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 6,
+            "golos_marcados": 15
+          }
+        },
+        {
+          "team": "Fisioterapia",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 4,
+            "golos_marcados": 25
+          }
+        }
+      ],
+      "event_id": 5
+    },
+    {
+      "context": {
+        "Divisao": 2,
+        "Grupo": null,
+        "ranking_key": "2ª Divisão"
+      },
       "tie_points": 2,
       "tie_type": "mini_league",
       "tied_teams": [
+        "Biotecnologia",
         "Psicologia",
-        "Eng. Biomédica",
         "MTC",
         "Biologia"
       ],
@@ -305,31 +353,31 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "pontos_h2h",
-      "used_global_fallback": false,
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
       "standings": [
         {
-          "team": "Eng. Biomédica",
+          "team": "Biologia",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
-            "pontos_h2h": 2,
+            "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 14,
+            "golos_marcados_h2h": 0,
             "diferenca_golos": 0,
             "golos_marcados": 14
           }
         },
         {
-          "team": "Biologia",
+          "team": "Biotecnologia",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
-            "pontos_h2h": 2,
+            "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 14,
-            "diferenca_golos": 0,
-            "golos_marcados": 14
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -21,
+            "golos_marcados": 27
           }
         },
         {
@@ -357,57 +405,7 @@
           }
         }
       ],
-      "event_id": 4
-    },
-    {
-      "context": {
-        "Divisao": 2,
-        "Grupo": null,
-        "ranking_key": "2ª Divisão"
-      },
-      "tie_points": 1,
-      "tie_type": "head_to_head",
-      "tied_teams": [
-        "Biotecnologia",
-        "Gestão"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "standings": [
-        {
-          "team": "Gestão",
-          "rank_in_tiebreak": 1,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": -4,
-            "golos_marcados": 21
-          }
-        },
-        {
-          "team": "Biotecnologia",
-          "rank_in_tiebreak": 2,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "diferenca_golos": -19,
-            "golos_marcados": 13
-          }
-        }
-      ],
-      "event_id": 5
+      "event_id": 6
     }
   ],
   "indexByContextTeam": {
@@ -418,12 +416,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
         "Biologia e Geologia",
+        "Eng. Informática",
         "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -444,7 +441,7 @@
         "golos_marcados": 26
       },
       "rank_in_tiebreak": 1,
-      "final_position": 1
+      "final_position": 2
     },
     "1ª Divisão::Eng. e Gestão Industrial": {
       "event_id": 1,
@@ -453,12 +450,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
         "Biologia e Geologia",
+        "Eng. Informática",
         "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -479,7 +475,7 @@
         "golos_marcados": 23
       },
       "rank_in_tiebreak": 2,
-      "final_position": 2
+      "final_position": 3
     },
     "1ª Divisão::Eng. Informática": {
       "event_id": 1,
@@ -488,12 +484,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
         "Biologia e Geologia",
+        "Eng. Informática",
         "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -514,7 +509,7 @@
         "golos_marcados": 31
       },
       "rank_in_tiebreak": 3,
-      "final_position": 3
+      "final_position": 4
     },
     "1ª Divisão::Administração Pública": {
       "event_id": 1,
@@ -523,12 +518,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
         "Biologia e Geologia",
+        "Eng. Informática",
         "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -549,41 +543,6 @@
         "golos_marcados": 24
       },
       "rank_in_tiebreak": 4,
-      "final_position": 4
-    },
-    "1ª Divisão::Eng. Mecânica": {
-      "event_id": 1,
-      "ranking_key": "1ª Divisão",
-      "team": "Eng. Mecânica",
-      "tie_type": "mini_league",
-      "tie_points": 3,
-      "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Biologia e Geologia",
-        "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "golos_marcados",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "diferenca_golos": 3,
-        "golos_marcados": 16
-      },
-      "rank_in_tiebreak": 5,
       "final_position": 5
     },
     "1ª Divisão::Biologia e Geologia": {
@@ -593,12 +552,11 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
         "Biologia e Geologia",
+        "Eng. Informática",
         "Administração Pública",
-        "Eng. Mecânica",
-        "Eng. e Gestão Industrial",
-        "Eng. Informática"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -618,43 +576,8 @@
         "diferenca_golos": 2,
         "golos_marcados": 29
       },
-      "rank_in_tiebreak": 6,
+      "rank_in_tiebreak": 5,
       "final_position": 6
-    },
-    "1ª Divisão::Economia": {
-      "event_id": 2,
-      "ranking_key": "1ª Divisão",
-      "team": "Economia",
-      "tie_type": "mini_league",
-      "tie_points": 1,
-      "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
-        "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "diferenca_golos": -2,
-        "golos_marcados": 27
-      },
-      "rank_in_tiebreak": 1,
-      "final_position": 7
     },
     "1ª Divisão::Eng. Civil": {
       "event_id": 2,
@@ -663,12 +586,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
         "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
+        "Eng. Física",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Gestão Comercial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -678,7 +600,7 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "diferenca_golos",
+      "deciding_criterion": "golos_marcados",
       "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
@@ -688,7 +610,7 @@
         "diferenca_golos": -3,
         "golos_marcados": 21
       },
-      "rank_in_tiebreak": 2,
+      "rank_in_tiebreak": 1,
       "final_position": 8
     },
     "1ª Divisão::Eng. de Materiais": {
@@ -698,12 +620,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
         "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
+        "Eng. Física",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Gestão Comercial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -713,7 +634,7 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "diferenca_golos",
+      "deciding_criterion": "golos_marcados",
       "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
@@ -723,7 +644,7 @@
         "diferenca_golos": -3,
         "golos_marcados": 13
       },
-      "rank_in_tiebreak": 3,
+      "rank_in_tiebreak": 2,
       "final_position": 9
     },
     "1ª Divisão::Eng. Computadores e Telemática": {
@@ -733,12 +654,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
         "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
+        "Eng. Física",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Gestão Comercial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -748,7 +668,7 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "diferenca_golos",
+      "deciding_criterion": "golos_marcados",
       "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
@@ -758,7 +678,7 @@
         "diferenca_golos": -5,
         "golos_marcados": 26
       },
-      "rank_in_tiebreak": 4,
+      "rank_in_tiebreak": 3,
       "final_position": 10
     },
     "1ª Divisão::Eng. Física": {
@@ -768,12 +688,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
         "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
+        "Eng. Física",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Gestão Comercial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -783,7 +702,7 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "diferenca_golos",
+      "deciding_criterion": "golos_marcados",
       "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
@@ -793,7 +712,7 @@
         "diferenca_golos": -9,
         "golos_marcados": 17
       },
-      "rank_in_tiebreak": 5,
+      "rank_in_tiebreak": 4,
       "final_position": 11
     },
     "1ª Divisão::Gestão Comercial": {
@@ -803,12 +722,11 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Economia",
-        "Eng. Computadores e Telemática",
-        "Eng. Civil",
         "Eng. de Materiais",
-        "Gestão Comercial",
-        "Eng. Física"
+        "Eng. Física",
+        "Eng. Civil",
+        "Eng. Computadores e Telemática",
+        "Gestão Comercial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -818,7 +736,7 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "diferenca_golos",
+      "deciding_criterion": "golos_marcados",
       "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
@@ -828,20 +746,18 @@
         "diferenca_golos": -9,
         "golos_marcados": 14
       },
-      "rank_in_tiebreak": 6,
+      "rank_in_tiebreak": 5,
       "final_position": 12
     },
-    "2ª Divisão::Eng. Mecânica B": {
+    "2ª Divisão::Contabilidade": {
       "event_id": 3,
       "ranking_key": "2ª Divisão",
-      "team": "Eng. Mecânica B",
-      "tie_type": "mini_league",
-      "tie_points": 3,
+      "team": "Contabilidade",
+      "tie_type": "head_to_head",
+      "tie_points": 6,
       "tied_teams": [
-        "Fisioterapia",
-        "Automação e Sistemas de Produção",
-        "Ciências Biomédicas",
-        "Eng. Mecânica B"
+        "Contabilidade",
+        "Automação e Sistemas de Produção"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -858,23 +774,114 @@
         "pontos_h2h": 0,
         "diferenca_golos_h2h": 0,
         "golos_marcados_h2h": 0,
-        "diferenca_golos": 18,
-        "golos_marcados": 23
+        "diferenca_golos": 37,
+        "golos_marcados": 65
       },
       "rank_in_tiebreak": 1,
-      "final_position": 3
+      "final_position": 1
     },
-    "2ª Divisão::Ciências Biomédicas": {
+    "2ª Divisão::Automação e Sistemas de Produção": {
       "event_id": 3,
       "ranking_key": "2ª Divisão",
+      "team": "Automação e Sistemas de Produção",
+      "tie_type": "head_to_head",
+      "tie_points": 6,
+      "tied_teams": [
+        "Contabilidade",
+        "Automação e Sistemas de Produção"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 3,
+        "golos_marcados": 35
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 2
+    },
+    "2ª Divisão::Ciências do Mar": {
+      "event_id": 4,
+      "ranking_key": "2ª Divisão",
+      "team": "Ciências do Mar",
+      "tie_type": "head_to_head",
+      "tie_points": 4,
+      "tied_teams": [
+        "Ciências do Mar",
+        "Eng. Mecânica B"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "golos_marcados",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 16,
+        "golos_marcados": 40
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 4
+    },
+    "2ª Divisão::Eng. Mecânica B": {
+      "event_id": 4,
+      "ranking_key": "2ª Divisão",
+      "team": "Eng. Mecânica B",
+      "tie_type": "head_to_head",
+      "tie_points": 4,
+      "tied_teams": [
+        "Ciências do Mar",
+        "Eng. Mecânica B"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "golos_marcados",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 16,
+        "golos_marcados": 33
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 5
+    },
+    "2ª Divisão::Ciências Biomédicas": {
+      "event_id": 5,
+      "ranking_key": "2ª Divisão",
       "team": "Ciências Biomédicas",
-      "tie_type": "mini_league",
+      "tie_type": "head_to_head",
       "tie_points": 3,
       "tied_teams": [
         "Fisioterapia",
-        "Automação e Sistemas de Produção",
-        "Ciências Biomédicas",
-        "Eng. Mecânica B"
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -894,20 +901,18 @@
         "diferenca_golos": 6,
         "golos_marcados": 15
       },
-      "rank_in_tiebreak": 2,
-      "final_position": 4
+      "rank_in_tiebreak": 1,
+      "final_position": 6
     },
     "2ª Divisão::Fisioterapia": {
-      "event_id": 3,
+      "event_id": 5,
       "ranking_key": "2ª Divisão",
       "team": "Fisioterapia",
-      "tie_type": "mini_league",
+      "tie_type": "head_to_head",
       "tie_points": 3,
       "tied_teams": [
         "Fisioterapia",
-        "Automação e Sistemas de Produção",
-        "Ciências Biomédicas",
-        "Eng. Mecânica B"
+        "Ciências Biomédicas"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -927,20 +932,20 @@
         "diferenca_golos": 4,
         "golos_marcados": 25
       },
-      "rank_in_tiebreak": 3,
-      "final_position": 5
+      "rank_in_tiebreak": 2,
+      "final_position": 7
     },
-    "2ª Divisão::Automação e Sistemas de Produção": {
-      "event_id": 3,
+    "2ª Divisão::Biologia": {
+      "event_id": 6,
       "ranking_key": "2ª Divisão",
-      "team": "Automação e Sistemas de Produção",
+      "team": "Biologia",
       "tie_type": "mini_league",
-      "tie_points": 3,
+      "tie_points": 2,
       "tied_teams": [
-        "Fisioterapia",
-        "Automação e Sistemas de Produção",
-        "Ciências Biomédicas",
-        "Eng. Mecânica B"
+        "Biotecnologia",
+        "Psicologia",
+        "MTC",
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -957,54 +962,21 @@
         "pontos_h2h": 0,
         "diferenca_golos_h2h": 0,
         "golos_marcados_h2h": 0,
-        "diferenca_golos": 1,
-        "golos_marcados": 19
-      },
-      "rank_in_tiebreak": 4,
-      "final_position": 6
-    },
-    "2ª Divisão::Eng. Biomédica": {
-      "event_id": 4,
-      "ranking_key": "2ª Divisão",
-      "team": "Eng. Biomédica",
-      "tie_type": "mini_league",
-      "tie_points": 2,
-      "tied_teams": [
-        "Psicologia",
-        "Eng. Biomédica",
-        "MTC",
-        "Biologia"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "pontos_h2h",
-      "used_global_fallback": false,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 2,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 14,
         "diferenca_golos": 0,
         "golos_marcados": 14
       },
       "rank_in_tiebreak": 1,
-      "final_position": 7
+      "final_position": 8
     },
-    "2ª Divisão::Biologia": {
-      "event_id": 4,
+    "2ª Divisão::Biotecnologia": {
+      "event_id": 6,
       "ranking_key": "2ª Divisão",
-      "team": "Biologia",
+      "team": "Biotecnologia",
       "tie_type": "mini_league",
       "tie_points": 2,
       "tied_teams": [
+        "Biotecnologia",
         "Psicologia",
-        "Eng. Biomédica",
         "MTC",
         "Biologia"
       ],
@@ -1016,28 +988,28 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "pontos_h2h",
-      "used_global_fallback": false,
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
-        "pontos_h2h": 2,
+        "pontos_h2h": 0,
         "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 14,
-        "diferenca_golos": 0,
-        "golos_marcados": 14
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -21,
+        "golos_marcados": 27
       },
       "rank_in_tiebreak": 2,
-      "final_position": 8
+      "final_position": 9
     },
     "2ª Divisão::MTC": {
-      "event_id": 4,
+      "event_id": 6,
       "ranking_key": "2ª Divisão",
       "team": "MTC",
       "tie_type": "mini_league",
       "tie_points": 2,
       "tied_teams": [
+        "Biotecnologia",
         "Psicologia",
-        "Eng. Biomédica",
         "MTC",
         "Biologia"
       ],
@@ -1049,8 +1021,8 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "pontos_h2h",
-      "used_global_fallback": false,
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
         "pontos_h2h": 0,
@@ -1060,17 +1032,17 @@
         "golos_marcados": 24
       },
       "rank_in_tiebreak": 3,
-      "final_position": 9
+      "final_position": 10
     },
     "2ª Divisão::Psicologia": {
-      "event_id": 4,
+      "event_id": 6,
       "ranking_key": "2ª Divisão",
       "team": "Psicologia",
       "tie_type": "mini_league",
       "tie_points": 2,
       "tied_teams": [
+        "Biotecnologia",
         "Psicologia",
-        "Eng. Biomédica",
         "MTC",
         "Biologia"
       ],
@@ -1082,8 +1054,8 @@
         "diferenca_golos",
         "golos_marcados"
       ],
-      "deciding_criterion": "pontos_h2h",
-      "used_global_fallback": false,
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
         "pontos_h2h": 0,
@@ -1093,69 +1065,7 @@
         "golos_marcados": 10
       },
       "rank_in_tiebreak": 4,
-      "final_position": 10
-    },
-    "2ª Divisão::Gestão": {
-      "event_id": 5,
-      "ranking_key": "2ª Divisão",
-      "team": "Gestão",
-      "tie_type": "head_to_head",
-      "tie_points": 1,
-      "tied_teams": [
-        "Biotecnologia",
-        "Gestão"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "diferenca_golos": -4,
-        "golos_marcados": 21
-      },
-      "rank_in_tiebreak": 1,
       "final_position": 11
-    },
-    "2ª Divisão::Biotecnologia": {
-      "event_id": 5,
-      "ranking_key": "2ª Divisão",
-      "team": "Biotecnologia",
-      "tie_type": "head_to_head",
-      "tie_points": 1,
-      "tied_teams": [
-        "Biotecnologia",
-        "Gestão"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "diferenca_golos",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "diferenca_golos": -19,
-        "golos_marcados": 13
-      },
-      "rank_in_tiebreak": 2,
-      "final_position": 12
     }
   }
 }
