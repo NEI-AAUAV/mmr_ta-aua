@@ -1,13 +1,13 @@
-Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
-1,Eng. Computadores e Telemática,0,1,0,0,0,0,0,0,1
-2,Eng. Mecânica,0,1,0,0,0,0,0,0,1
-3,Eng. e Gestão Industrial,0,1,0,0,0,0,0,0,1
-4,Eng. Civil,0,1,0,0,0,0,0,0,1
-5,Gestão e Planeamento em Turismo,0,1,0,0,0,0,0,0,1
-6,Ciências Biomédicas,0,1,0,0,0,0,0,0,1
-7,Fisioterapia,0,1,0,0,0,0,0,0,1
-8,Eng. de Materiais,0,1,0,0,0,0,0,0,1
-9,Eng. Eletrónica e Telecomunicações,0,1,0,0,0,0,0,0,1
-10,Contabilidade,0,1,0,0,0,0,0,0,1
-11,Economia,0,1,0,0,0,0,0,0,1
-12,Biotecnologia,0,1,0,0,0,0,0,0,1
+Divisao,Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
+1,1,Eng. Computadores e Telemática,3,1,1,0,0,1,0,1,0
+1,2,Fisioterapia,0,1,0,0,1,0,1,-1,0
+1,3,Eng. Mecânica,0,1,0,0,0,0,0,0,1
+1,4,Eng. de Materiais,0,1,0,0,0,0,0,0,1
+1,5,Eng. e Gestão Industrial,0,1,0,0,0,0,0,0,1
+1,6,Eng. Eletrónica e Telecomunicações,0,1,0,0,0,0,0,0,1
+1,7,Eng. Civil,0,1,0,0,0,0,0,0,1
+1,8,Contabilidade,0,1,0,0,0,0,0,0,1
+1,9,Gestão e Planeamento em Turismo,0,1,0,0,0,0,0,0,1
+1,10,Economia,0,1,0,0,0,0,0,0,1
+1,11,Ciências Biomédicas,0,1,0,0,0,0,0,0,1
+1,12,Biotecnologia,0,1,0,0,0,0,0,0,1
