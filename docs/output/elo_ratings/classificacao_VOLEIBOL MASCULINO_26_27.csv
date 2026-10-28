@@ -1,25 +1,25 @@
-Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia,sets_ganhos,sets_perdidos,diferenca_sets
-1,Eng. Mecânica,0,1,0,0,0,0,0,0,1,0,0,0
-2,Eng. Computadores e Telemática,0,1,0,0,0,0,0,0,1,0,0,0
-3,Administração Pública,0,1,0,0,0,0,0,0,1,0,0,0
-4,Física,0,1,0,0,0,0,0,0,1,0,0,0
-5,Eng. Biomédica,0,1,0,0,0,0,0,0,1,0,0,0
-6,Ciências Biomédicas,0,1,0,0,0,0,0,0,1,0,0,0
-7,Biologia,0,1,0,0,0,0,0,0,1,0,0,0
-8,Gestão Comercial,0,1,0,0,0,0,0,0,1,0,0,0
-9,Economia,0,1,0,0,0,0,0,0,1,0,0,0
-10,Eng. Civil,0,1,0,0,0,0,0,0,1,0,0,0
-11,Medicina,0,1,0,0,0,0,0,0,1,0,0,0
-12,Eng. Informática B,0,1,0,0,0,0,0,0,1,0,0,0
-13,Contabilidade,0,1,0,0,0,0,0,0,1,0,0,0
-14,Ciências do Mar,0,1,0,0,0,0,0,0,1,0,0,0
-15,Eng. Eletrónica e Telecomunicações,0,1,0,0,0,0,0,0,1,0,0,0
-16,Eng. e Gestão Industrial,0,1,0,0,0,0,0,0,1,0,0,0
-17,Eng. Informática,0,1,0,0,0,0,0,0,1,0,0,0
-18,Línguas e Relações Empresariais,0,1,0,0,0,0,0,0,1,0,0,0
-19,Matemática,0,1,0,0,0,0,0,0,1,0,0,0
-20,Geologia,0,1,0,0,0,0,0,0,1,0,0,0
-21,Biotecnologia,0,1,0,0,0,0,0,0,1,0,0,0
-22,Eng. de Materiais,0,1,0,0,0,0,0,0,1,0,0,0
-23,Música,0,1,0,0,0,0,0,0,1,0,0,0
-24,Eng. Física,0,1,0,0,0,0,0,0,1,0,0,0
+Divisao,Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia,sets_ganhos,sets_perdidos,diferenca_sets,Grupo
+1,1,Eng. Computadores e Telemática,3,1,1,0,0,2,0,2,0,0,0,0,
+1,2,Eng. Mecânica,3,1,1,0,0,2,0,2,0,0,0,0,
+1,3,Contabilidade,0,1,0,0,1,0,2,-2,0,0,0,0,
+1,4,Ciências do Mar,0,1,0,0,1,0,2,-2,0,0,0,0,
+1,5,Administração Pública,0,1,0,0,0,0,0,0,1,,,,
+1,6,Eng. Eletrónica e Telecomunicações,0,1,0,0,0,0,0,0,1,,,,
+1,7,Física,0,1,0,0,0,0,0,0,1,,,,
+1,8,Eng. e Gestão Industrial,0,1,0,0,0,0,0,0,1,,,,
+1,9,Eng. Biomédica,0,1,0,0,0,0,0,0,1,,,,
+1,10,Eng. Informática,0,1,0,0,0,0,0,0,1,,,,
+1,11,Ciências Biomédicas,0,1,0,0,0,0,0,0,1,,,,
+1,12,Línguas e Relações Empresariais,0,1,0,0,0,0,0,0,1,,,,
+2,1,Biologia,0,1,0,0,0,0,0,0,1,,,,A
+2,2,Matemática,0,1,0,0,0,0,0,0,1,,,,A
+2,3,Gestão Comercial,0,1,0,0,0,0,0,0,1,,,,A
+2,4,Geologia,0,1,0,0,0,0,0,0,1,,,,A
+2,5,Economia,0,1,0,0,0,0,0,0,1,,,,A
+2,6,Biotecnologia,0,1,0,0,0,0,0,0,1,,,,A
+2,7,Eng. Civil,0,1,0,0,0,0,0,0,1,,,,A
+2,8,Eng. de Materiais,0,1,0,0,0,0,0,0,1,,,,A
+2,9,Medicina,0,1,0,0,0,0,0,0,1,,,,A
+2,10,Música,0,1,0,0,0,0,0,0,1,,,,A
+2,1,Eng. Informática B,0,1,0,0,0,0,0,0,1,,,,B
+2,2,Eng. Física,0,1,0,0,0,0,0,0,1,,,,B

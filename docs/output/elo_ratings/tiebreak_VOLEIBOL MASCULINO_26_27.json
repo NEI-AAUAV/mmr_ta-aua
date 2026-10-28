@@ -2,6 +2,232 @@
   "version": 1,
   "modalidade": "VOLEIBOL MASCULINO",
   "epoca": "26_27",
-  "events": [],
-  "indexByContextTeam": {}
+  "events": [
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 3,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Eng. Computadores e Telemática",
+        "Eng. Mecânica"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Eng. Computadores e Telemática",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 2,
+            "golos_marcados": 2
+          }
+        },
+        {
+          "team": "Eng. Mecânica",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 2,
+            "golos_marcados": 2
+          }
+        }
+      ],
+      "event_id": 1
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 0,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Contabilidade",
+        "Ciências do Mar"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Contabilidade",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 0
+          }
+        },
+        {
+          "team": "Ciências do Mar",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 0
+          }
+        }
+      ],
+      "event_id": 2
+    }
+  ],
+  "indexByContextTeam": {
+    "1ª Divisão::Eng. Computadores e Telemática": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Computadores e Telemática",
+      "tie_type": "head_to_head",
+      "tie_points": 3,
+      "tied_teams": [
+        "Eng. Computadores e Telemática",
+        "Eng. Mecânica"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 2,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 1
+    },
+    "1ª Divisão::Eng. Mecânica": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Mecânica",
+      "tie_type": "head_to_head",
+      "tie_points": 3,
+      "tied_teams": [
+        "Eng. Computadores e Telemática",
+        "Eng. Mecânica"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 2,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 2
+    },
+    "1ª Divisão::Contabilidade": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão",
+      "team": "Contabilidade",
+      "tie_type": "head_to_head",
+      "tie_points": 0,
+      "tied_teams": [
+        "Contabilidade",
+        "Ciências do Mar"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 3
+    },
+    "1ª Divisão::Ciências do Mar": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão",
+      "team": "Ciências do Mar",
+      "tie_type": "head_to_head",
+      "tie_points": 0,
+      "tied_teams": [
+        "Contabilidade",
+        "Ciências do Mar"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 4
+    }
+  }
 }

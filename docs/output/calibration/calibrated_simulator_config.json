@@ -5,12 +5,12 @@
     "base_goals_std": 6.881188446618057,
     "dispersion_k": 15.433472675674802,
     "base_draw_rate": 0.05384615384615385,
-    "draw_elo_sensitivity": 0.00027751530271555275,
+    "draw_elo_sensitivity": 0.0002775153027657782,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.6353711651411977,
-      "coef_linear": -0.00027751530271555275,
-      "coef_quadratic": -8.050256540909061e-06
+      "intercept": -2.6353711651405054,
+      "coef_linear": -0.0002775153027657782,
+      "coef_quadratic": -8.050256540716715e-06
     },
     "margin_elo_slope": 0.013562352374730184,
     "margin_elo_intercept": 5.621581023841521,
@@ -91,12 +91,12 @@
     "base_goals_std": 2.254616687340543,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.10830324909747292,
-    "draw_elo_sensitivity": 0.0007752765626415758,
+    "draw_elo_sensitivity": 0.0007752765626415185,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.941048901267641,
-      "coef_linear": 0.0007752765626415758,
-      "coef_quadratic": -1.1657132773668455e-05
+      "intercept": -1.9410489012676313,
+      "coef_linear": 0.0007752765626415185,
+      "coef_quadratic": -1.165713277366853e-05
     },
     "margin_elo_slope": 0.0029234237147467263,
     "margin_elo_intercept": 2.7219025412965197,
@@ -144,12 +144,12 @@
     "base_goals_std": 2.759365642814233,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.1048780487804878,
-    "draw_elo_sensitivity": 0.0037362257512713695,
+    "draw_elo_sensitivity": 0.00373622575127138,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.6382198655117801,
-      "coef_linear": -0.0037362257512713695,
-      "coef_quadratic": -4.915123974873509e-06
+      "intercept": -1.6382198655117794,
+      "coef_linear": -0.00373622575127138,
+      "coef_quadratic": -4.915123974873475e-06
     },
     "margin_elo_slope": 0.00404545373075775,
     "margin_elo_intercept": 3.033760204211046,
@@ -169,8 +169,8 @@
   },
   "VOLEIBOL FEMININO": {
     "sport_type": "volei",
-    "base_goals": 1.136764705882353,
-    "base_goals_std": 0.918983519625113,
+    "base_goals": 1.135174418604651,
+    "base_goals_std": 0.9200833972799658,
     "dispersion_k": 10.0,
     "base_draw_rate": 0.0,
     "draw_elo_sensitivity": 0.0,
@@ -180,8 +180,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0009886440060638277,
-    "margin_elo_intercept": 1.600025927636219,
+    "margin_elo_slope": 0.0009672535009617525,
+    "margin_elo_intercept": 1.604819225497971,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
@@ -189,7 +189,7 @@
     "elo_divisor": 600,
     "division_params": {
       "1": {
-        "base_goals": 1.1133333333333333,
+        "base_goals": 1.1103896103896105,
         "dispersion_k": 10.0,
         "base_draw_rate": 0.0
       },
@@ -202,8 +202,8 @@
   },
   "VOLEIBOL MASCULINO": {
     "sport_type": "volei",
-    "base_goals": 1.149584487534626,
-    "base_goals_std": 0.9099670288281753,
+    "base_goals": 1.1487603305785123,
+    "base_goals_std": 0.9105547943246795,
     "dispersion_k": 10.0,
     "base_draw_rate": 0.0,
     "draw_elo_sensitivity": 0.0,
@@ -213,8 +213,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.00039104977458161286,
-    "margin_elo_intercept": 1.6438536645617223,
+    "margin_elo_slope": 0.00040787261949259664,
+    "margin_elo_intercept": 1.642887238987853,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
@@ -222,7 +222,7 @@
     "elo_divisor": 600,
     "division_params": {
       "1": {
-        "base_goals": 1.1486486486486487,
+        "base_goals": 1.1466666666666667,
         "dispersion_k": 10.0,
         "base_draw_rate": 0.0
       },
