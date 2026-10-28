@@ -1,19 +1,19 @@
 {
   "ANDEBOL MISTO": {
     "sport_type": "andebol",
-    "base_goals": 20.383268482490273,
-    "base_goals_std": 6.879662707344573,
-    "dispersion_k": 15.418617658977785,
-    "base_draw_rate": 0.05058365758754864,
-    "draw_elo_sensitivity": 0.004823523814588915,
+    "base_goals": 20.38953488372093,
+    "base_goals_std": 6.895215660766024,
+    "dispersion_k": 15.309936917352731,
+    "base_draw_rate": 0.050387596899224806,
+    "draw_elo_sensitivity": 0.004844859657485184,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.2746007765928713,
-      "coef_linear": -0.004823523814588915,
-      "coef_quadratic": -1.022949356526748e-05
+      "intercept": -2.2813731019823114,
+      "coef_linear": -0.004844859657485184,
+      "coef_quadratic": -1.0012661868790398e-05
     },
-    "margin_elo_slope": 0.013651076181269272,
-    "margin_elo_intercept": 5.540126963034863,
+    "margin_elo_slope": 0.013249810735902498,
+    "margin_elo_intercept": 5.650685774819965,
     "elo_adjustment_limit": 0.45,
     "division_params": {
       "1": {
@@ -22,9 +22,9 @@
         "base_draw_rate": 0.061068702290076333
       },
       "2": {
-        "base_goals": 18.58730158730159,
-        "dispersion_k": 14.987387013214132,
-        "base_draw_rate": 0.03968253968253968
+        "base_goals": 18.614173228346456,
+        "dispersion_k": 14.696899408284018,
+        "base_draw_rate": 0.03937007874015748
       }
     }
   },
@@ -87,25 +87,25 @@
   },
   "FUTEBOL DE 7 MASCULINO": {
     "sport_type": "futebol7",
-    "base_goals": 2.463636363636364,
-    "base_goals_std": 2.245307319428164,
+    "base_goals": 2.4747292418772564,
+    "base_goals_std": 2.254616687340543,
     "dispersion_k": 3.0,
-    "base_draw_rate": 0.10909090909090909,
-    "draw_elo_sensitivity": 0.01101155127523427,
+    "base_draw_rate": 0.10830324909747292,
+    "draw_elo_sensitivity": 0.011616741764247622,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.594593789393301,
-      "coef_linear": 0.01101155127523427,
-      "coef_quadratic": -3.585185979100257e-05
+      "intercept": -2.6590032098340712,
+      "coef_linear": 0.011616741764247622,
+      "coef_quadratic": -3.68627978961981e-05
     },
-    "margin_elo_slope": 0.0024527574327753215,
-    "margin_elo_intercept": 2.749203017875718,
+    "margin_elo_slope": 0.002234559309213289,
+    "margin_elo_intercept": 2.790244295043036,
     "elo_adjustment_limit": 1.0,
     "division_params": {
       "1": {
-        "base_goals": 2.323741007194245,
+        "base_goals": 2.347517730496454,
         "dispersion_k": 3.0,
-        "base_draw_rate": 0.11510791366906475
+        "base_draw_rate": 0.11347517730496454
       },
       "2": {
         "base_goals": 2.6066176470588234,
@@ -144,12 +144,12 @@
     "base_goals_std": 2.759365642814233,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.1048780487804878,
-    "draw_elo_sensitivity": 0.004935419829306154,
+    "draw_elo_sensitivity": 0.004935419829305257,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.5742387413110792,
-      "coef_linear": -0.004935419829306154,
-      "coef_quadratic": -2.149947396179565e-06
+      "intercept": -1.5742387413111203,
+      "coef_linear": -0.004935419829305257,
+      "coef_quadratic": -2.1499473961820786e-06
     },
     "margin_elo_slope": 0.005453589012815478,
     "margin_elo_intercept": 2.855589089645572,
@@ -180,8 +180,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0007528465113776016,
-    "margin_elo_intercept": 1.6219312073671786,
+    "margin_elo_slope": 0.0007528465113776006,
+    "margin_elo_intercept": 1.6219312073671788,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
@@ -213,7 +213,7 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0004513072380543463,
+    "margin_elo_slope": 0.0004513072380543464,
     "margin_elo_intercept": 1.6403646061413446,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
