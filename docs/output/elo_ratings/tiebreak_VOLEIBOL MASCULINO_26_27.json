@@ -62,8 +62,8 @@
       "tie_points": 2,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Eng. Eletrónica e Telecomunicações"
+        "Eng. Eletrónica e Telecomunicações",
+        "Línguas e Relações Empresariais"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -77,7 +77,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Línguas e Relações Empresariais",
+          "team": "Eng. Eletrónica e Telecomunicações",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -89,7 +89,7 @@
           }
         },
         {
-          "team": "Eng. Eletrónica e Telecomunicações",
+          "team": "Línguas e Relações Empresariais",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -267,15 +267,15 @@
       "rank_in_tiebreak": 2,
       "final_position": 2
     },
-    "1ª Divisão::Línguas e Relações Empresariais": {
+    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Línguas e Relações Empresariais",
+      "team": "Eng. Eletrónica e Telecomunicações",
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Eng. Eletrónica e Telecomunicações"
+        "Eng. Eletrónica e Telecomunicações",
+        "Línguas e Relações Empresariais"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -298,15 +298,15 @@
       "rank_in_tiebreak": 1,
       "final_position": 3
     },
-    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
+    "1ª Divisão::Línguas e Relações Empresariais": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Eletrónica e Telecomunicações",
+      "team": "Línguas e Relações Empresariais",
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Línguas e Relações Empresariais",
-        "Eng. Eletrónica e Telecomunicações"
+        "Eng. Eletrónica e Telecomunicações",
+        "Línguas e Relações Empresariais"
       ],
       "criteria_order": [
         "faltas_comparencia",

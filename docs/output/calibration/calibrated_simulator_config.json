@@ -1,25 +1,25 @@
 {
   "ANDEBOL MISTO": {
     "sport_type": "andebol",
-    "base_goals": 20.396153846153847,
-    "base_goals_std": 6.881188446618057,
-    "dispersion_k": 15.433472675674802,
-    "base_draw_rate": 0.05384615384615385,
-    "draw_elo_sensitivity": 0.00027751530271555275,
+    "base_goals": 20.33206106870229,
+    "base_goals_std": 6.920516761091285,
+    "dispersion_k": 14.998923850816976,
+    "base_draw_rate": 0.05343511450381679,
+    "draw_elo_sensitivity": 0.0011581324368167701,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.6353711651411977,
-      "coef_linear": -0.00027751530271555275,
-      "coef_quadratic": -8.050256540909061e-06
+      "intercept": -2.7131411465560733,
+      "coef_linear": 0.0011581324368167701,
+      "coef_quadratic": -1.2799002783645705e-05
     },
-    "margin_elo_slope": 0.013562352374730184,
-    "margin_elo_intercept": 5.621581023841521,
+    "margin_elo_slope": 0.014550758349252449,
+    "margin_elo_intercept": 5.551031557446052,
     "elo_adjustment_limit": 0.45,
     "division_params": {
       "1": {
-        "base_goals": 22.109848484848484,
-        "dispersion_k": 20.156009165003788,
-        "base_draw_rate": 0.06818181818181818
+        "base_goals": 21.958955223880597,
+        "dispersion_k": 18.58987984530452,
+        "base_draw_rate": 0.06716417910447761
       },
       "2": {
         "base_goals": 18.62890625,
@@ -91,12 +91,12 @@
     "base_goals_std": 2.254616687340543,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.10830324909747292,
-    "draw_elo_sensitivity": 0.0007752765626415758,
+    "draw_elo_sensitivity": 0.0007752765626415185,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.941048901267641,
-      "coef_linear": 0.0007752765626415758,
-      "coef_quadratic": -1.1657132773668455e-05
+      "intercept": -1.9410489012676313,
+      "coef_linear": 0.0007752765626415185,
+      "coef_quadratic": -1.165713277366853e-05
     },
     "margin_elo_slope": 0.0029234237147467263,
     "margin_elo_intercept": 2.7219025412965197,
@@ -144,12 +144,12 @@
     "base_goals_std": 2.759365642814233,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.1048780487804878,
-    "draw_elo_sensitivity": 0.0037362257512713695,
+    "draw_elo_sensitivity": 0.00373622575127138,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.6382198655117801,
-      "coef_linear": -0.0037362257512713695,
-      "coef_quadratic": -4.915123974873509e-06
+      "intercept": -1.6382198655117794,
+      "coef_linear": -0.00373622575127138,
+      "coef_quadratic": -4.915123974873475e-06
     },
     "margin_elo_slope": 0.00404545373075775,
     "margin_elo_intercept": 3.033760204211046,
@@ -213,7 +213,7 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0004894295022077498,
+    "margin_elo_slope": 0.0004894295022077506,
     "margin_elo_intercept": 1.6238569440586288,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
