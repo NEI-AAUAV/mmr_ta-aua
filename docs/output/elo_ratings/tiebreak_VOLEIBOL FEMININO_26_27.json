@@ -14,8 +14,8 @@
       "tied_teams": [
         "Biologia",
         "Eng. do Ambiente",
-        "Eng. e Gestão Industrial",
-        "Gestão e Planeamento em Turismo"
+        "Gestão e Planeamento em Turismo",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "team": "Eng. e Gestão Industrial",
+          "team": "Gestão e Planeamento em Turismo",
           "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -65,7 +65,7 @@
           }
         },
         {
-          "team": "Gestão e Planeamento em Turismo",
+          "team": "Eng. e Gestão Industrial",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -90,8 +90,8 @@
       "tied_teams": [
         "Design",
         "Eng. Física",
-        "Gestão",
-        "Eng. Informática"
+        "Eng. Informática",
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -129,7 +129,7 @@
           }
         },
         {
-          "team": "Gestão",
+          "team": "Eng. Informática",
           "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -141,7 +141,7 @@
           }
         },
         {
-          "team": "Eng. Informática",
+          "team": "Gestão",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -166,8 +166,8 @@
       "tied_teams": [
         "Biologia",
         "Eng. do Ambiente",
-        "Eng. e Gestão Industrial",
-        "Gestão e Planeamento em Turismo"
+        "Gestão e Planeamento em Turismo",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -199,8 +199,8 @@
       "tied_teams": [
         "Biologia",
         "Eng. do Ambiente",
-        "Eng. e Gestão Industrial",
-        "Gestão e Planeamento em Turismo"
+        "Gestão e Planeamento em Turismo",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -223,17 +223,17 @@
       "rank_in_tiebreak": 2,
       "final_position": 2
     },
-    "1ª Divisão::Eng. e Gestão Industrial": {
+    "1ª Divisão::Gestão e Planeamento em Turismo": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. e Gestão Industrial",
+      "team": "Gestão e Planeamento em Turismo",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
         "Biologia",
         "Eng. do Ambiente",
-        "Eng. e Gestão Industrial",
-        "Gestão e Planeamento em Turismo"
+        "Gestão e Planeamento em Turismo",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -256,17 +256,17 @@
       "rank_in_tiebreak": 3,
       "final_position": 3
     },
-    "1ª Divisão::Gestão e Planeamento em Turismo": {
+    "1ª Divisão::Eng. e Gestão Industrial": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Gestão e Planeamento em Turismo",
+      "team": "Eng. e Gestão Industrial",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
         "Biologia",
         "Eng. do Ambiente",
-        "Eng. e Gestão Industrial",
-        "Gestão e Planeamento em Turismo"
+        "Gestão e Planeamento em Turismo",
+        "Eng. e Gestão Industrial"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -298,8 +298,8 @@
       "tied_teams": [
         "Design",
         "Eng. Física",
-        "Gestão",
-        "Eng. Informática"
+        "Eng. Informática",
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -331,8 +331,8 @@
       "tied_teams": [
         "Design",
         "Eng. Física",
-        "Gestão",
-        "Eng. Informática"
+        "Eng. Informática",
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -355,17 +355,17 @@
       "rank_in_tiebreak": 2,
       "final_position": 6
     },
-    "1ª Divisão::Gestão": {
+    "1ª Divisão::Eng. Informática": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Gestão",
+      "team": "Eng. Informática",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Design",
         "Eng. Física",
-        "Gestão",
-        "Eng. Informática"
+        "Eng. Informática",
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -388,17 +388,17 @@
       "rank_in_tiebreak": 3,
       "final_position": 7
     },
-    "1ª Divisão::Eng. Informática": {
+    "1ª Divisão::Gestão": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Informática",
+      "team": "Gestão",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
         "Design",
         "Eng. Física",
-        "Gestão",
-        "Eng. Informática"
+        "Eng. Informática",
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",

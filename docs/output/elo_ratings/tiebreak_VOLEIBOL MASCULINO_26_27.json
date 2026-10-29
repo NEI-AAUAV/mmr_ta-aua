@@ -12,8 +12,8 @@
       "tie_points": 3,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -27,7 +27,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Eng. Computadores e Telemática",
+          "team": "Eng. Mecânica",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -39,7 +39,7 @@
           }
         },
         {
-          "team": "Eng. Mecânica",
+          "team": "Eng. Computadores e Telemática",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -59,11 +59,11 @@
         "Grupo": null,
         "ranking_key": "1ª Divisão"
       },
-      "tie_points": 0,
+      "tie_points": 2,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Contabilidade",
-        "Ciências do Mar"
+        "Línguas e Relações Empresariais",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -77,7 +77,107 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Contabilidade",
+          "team": "Línguas e Relações Empresariais",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 1,
+            "golos_marcados": 2
+          }
+        },
+        {
+          "team": "Eng. Eletrónica e Telecomunicações",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 1,
+            "golos_marcados": 2
+          }
+        }
+      ],
+      "event_id": 2
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 1,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Administração Pública",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Administração Pública",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -1,
+            "golos_marcados": 1
+          }
+        },
+        {
+          "team": "Ciências Biomédicas",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -1,
+            "golos_marcados": 1
+          }
+        }
+      ],
+      "event_id": 3
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 0,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Ciências do Mar",
+        "Contabilidade"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Ciências do Mar",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -89,7 +189,7 @@
           }
         },
         {
-          "team": "Ciências do Mar",
+          "team": "Contabilidade",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -101,19 +201,19 @@
           }
         }
       ],
-      "event_id": 2
+      "event_id": 4
     }
   ],
   "indexByContextTeam": {
-    "1ª Divisão::Eng. Computadores e Telemática": {
+    "1ª Divisão::Eng. Mecânica": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Computadores e Telemática",
+      "team": "Eng. Mecânica",
       "tie_type": "head_to_head",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -136,15 +236,15 @@
       "rank_in_tiebreak": 1,
       "final_position": 1
     },
-    "1ª Divisão::Eng. Mecânica": {
+    "1ª Divisão::Eng. Computadores e Telemática": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Mecânica",
+      "team": "Eng. Computadores e Telemática",
       "tie_type": "head_to_head",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -167,15 +267,139 @@
       "rank_in_tiebreak": 2,
       "final_position": 2
     },
-    "1ª Divisão::Contabilidade": {
+    "1ª Divisão::Línguas e Relações Empresariais": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Contabilidade",
+      "team": "Línguas e Relações Empresariais",
+      "tie_type": "head_to_head",
+      "tie_points": 2,
+      "tied_teams": [
+        "Línguas e Relações Empresariais",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 1,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 3
+    },
+    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Eletrónica e Telecomunicações",
+      "tie_type": "head_to_head",
+      "tie_points": 2,
+      "tied_teams": [
+        "Línguas e Relações Empresariais",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 1,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 4
+    },
+    "1ª Divisão::Administração Pública": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão",
+      "team": "Administração Pública",
+      "tie_type": "head_to_head",
+      "tie_points": 1,
+      "tied_teams": [
+        "Administração Pública",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -1,
+        "golos_marcados": 1
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 5
+    },
+    "1ª Divisão::Ciências Biomédicas": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão",
+      "team": "Ciências Biomédicas",
+      "tie_type": "head_to_head",
+      "tie_points": 1,
+      "tied_teams": [
+        "Administração Pública",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -1,
+        "golos_marcados": 1
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 6
+    },
+    "1ª Divisão::Ciências do Mar": {
+      "event_id": 4,
+      "ranking_key": "1ª Divisão",
+      "team": "Ciências do Mar",
       "tie_type": "head_to_head",
       "tie_points": 0,
       "tied_teams": [
-        "Contabilidade",
-        "Ciências do Mar"
+        "Ciências do Mar",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -196,17 +420,17 @@
         "golos_marcados": 0
       },
       "rank_in_tiebreak": 1,
-      "final_position": 3
+      "final_position": 7
     },
-    "1ª Divisão::Ciências do Mar": {
-      "event_id": 2,
+    "1ª Divisão::Contabilidade": {
+      "event_id": 4,
       "ranking_key": "1ª Divisão",
-      "team": "Ciências do Mar",
+      "team": "Contabilidade",
       "tie_type": "head_to_head",
       "tie_points": 0,
       "tied_teams": [
-        "Contabilidade",
-        "Ciências do Mar"
+        "Ciências do Mar",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -227,7 +451,7 @@
         "golos_marcados": 0
       },
       "rank_in_tiebreak": 2,
-      "final_position": 4
+      "final_position": 8
     }
   }
 }
