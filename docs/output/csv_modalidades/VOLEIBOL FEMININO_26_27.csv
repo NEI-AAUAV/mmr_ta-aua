@@ -1,7 +1,7 @@
 Jornada,Dia,Hora,Local,Equipa 1,Golos 1,Golos 2,Equipa 2,Divisão,Fonte_Data,Fonte_Local,Data_Placeholder,Local_Placeholder,Falta de Comparência
 1,2026-10-28 00:00:00,18h00,PAH,Eng. Ambiente,2,0,Eng. Física,1,API,API,False,False,
-1,2026-10-28 00:00:00,18h00,PAH,Fisioterapia,,,Eng. Civil,1,API,API,False,False,
+1,2026-10-28 00:00:00,18h00,PAH,Fisioterapia,1,2,Eng. Civil,1,API,API,False,False,
 1,2026-10-28 00:00:00,18h00,PAH,EGI,2,0,Design,1,API,API,False,False,
-1,2026-10-28 00:00:00,19h00,PAH,EET,,,CBM,1,API,API,False,False,
+1,2026-10-28 00:00:00,19h00,PAH,EET,-1,-2,CBM,1,API,API,False,False,
 1,2026-10-28 00:00:00,19h00,PAH,Gestão,0,2,Biologia,1,API,API,False,False,
 1,2026-10-28 00:00:00,19h00,PAH,GPT,2,0,Eng. Informática,1,API,API,False,False,
