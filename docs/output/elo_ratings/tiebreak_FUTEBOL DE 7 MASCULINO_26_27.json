@@ -12,12 +12,12 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -55,7 +55,7 @@
           }
         },
         {
-          "team": "Eng. Eletrónica e Telecomunicações",
+          "team": "Economia",
           "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -67,7 +67,7 @@
           }
         },
         {
-          "team": "Economia",
+          "team": "Eng. Eletrónica e Telecomunicações",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -114,12 +114,12 @@
       "tie_points": 0,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -133,7 +133,7 @@
       "used_global_fallback": true,
       "standings": [
         {
-          "team": "Gestão e Planeamento em Turismo",
+          "team": "Eng. e Gestão Industrial",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -157,7 +157,7 @@
           }
         },
         {
-          "team": "Eng. e Gestão Industrial",
+          "team": "Gestão e Planeamento em Turismo",
           "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -216,12 +216,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -251,12 +251,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -279,19 +279,19 @@
       "rank_in_tiebreak": 2,
       "final_position": 2
     },
-    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
+    "1ª Divisão::Economia": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Eletrónica e Telecomunicações",
+      "team": "Economia",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -314,19 +314,19 @@
       "rank_in_tiebreak": 3,
       "final_position": 3
     },
-    "1ª Divisão::Economia": {
+    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Economia",
+      "team": "Eng. Eletrónica e Telecomunicações",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -356,12 +356,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -391,12 +391,12 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. Computadores e Telemática",
-        "Eng. Mecânica",
-        "Eng. Eletrónica e Telecomunicações",
+        "Contabilidade",
         "Economia",
-        "Biotecnologia",
-        "Contabilidade"
+        "Eng. Eletrónica e Telecomunicações",
+        "Eng. Mecânica",
+        "Eng. Computadores e Telemática",
+        "Biotecnologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -419,19 +419,19 @@
       "rank_in_tiebreak": 6,
       "final_position": 6
     },
-    "1ª Divisão::Gestão e Planeamento em Turismo": {
+    "1ª Divisão::Eng. e Gestão Industrial": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Gestão e Planeamento em Turismo",
+      "team": "Eng. e Gestão Industrial",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -461,12 +461,12 @@
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -489,19 +489,19 @@
       "rank_in_tiebreak": 2,
       "final_position": 8
     },
-    "1ª Divisão::Eng. e Gestão Industrial": {
+    "1ª Divisão::Gestão e Planeamento em Turismo": {
       "event_id": 2,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. e Gestão Industrial",
+      "team": "Gestão e Planeamento em Turismo",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -531,12 +531,12 @@
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -566,12 +566,12 @@
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -601,12 +601,12 @@
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão e Planeamento em Turismo",
-        "Ciências Biomédicas",
-        "Eng. e Gestão Industrial",
         "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. de Materiais",
         "Eng. Civil",
-        "Eng. de Materiais"
+        "Ciências Biomédicas",
+        "Gestão e Planeamento em Turismo"
       ],
       "criteria_order": [
         "faltas_comparencia",
