@@ -1,31 +1,29 @@
-Divisao,Grupo,Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
-1,,1,Eng. de Materiais,20,11,10,0,1,139,101,38,0
-1,,2,Eng. Mecânica,20,11,10,0,1,130,78,52,0
-1,,3,Eng. Eletrónica e Telecomunicações,16,11,8,0,3,117,87,30,0
-1,,4,Eng. Computadores e Telemática,14,11,7,0,4,110,79,31,0
-1,,5,Eng. e Gestão Industrial,14,11,7,0,4,95,83,12,0
-1,,6,Eng. Informática,12,11,6,0,5,128,106,22,0
-1,,7,Biologia,8,11,4,0,7,85,124,-39,0
-1,,8,Biotecnologia,6,11,3,0,8,93,118,-25,0
-1,,9,Tecnologias de Informação,6,11,3,0,8,83,116,-33,0
-1,,10,Eng. Aeroespacial,6,11,3,0,8,94,118,-24,0
-1,,11,Matemática,6,11,3,0,8,84,126,-42,0
-1,,12,MTC,4,11,2,0,9,98,120,-22,0
-2,A,1,Eng. Civil,16,8,8,0,0,113,53,60,0
-2,A,2,Contabilidade,12,8,6,0,2,86,44,42,0
-2,A,3,Línguas e Relações Empresariais,10,8,5,0,3,101,71,30,0
-2,A,4,Design,8,8,4,0,4,99,73,26,0
-2,A,5,Física,8,8,4,0,4,98,91,7,0
-2,A,6,Gestão e Planeamento em Turismo,6,8,3,0,5,77,83,-6,0
-2,A,7,Economia,6,8,3,0,5,64,101,-37,0
-2,A,8,Biologia e Geologia,4,8,2,0,6,62,93,-31,0
-2,A,9,Música,2,8,1,0,7,21,112,-91,0
-2,B,1,Eng. Biomédica,14,8,7,0,1,120,69,51,0
-2,B,2,Administração Pública,14,8,7,0,1,103,76,27,0
-2,B,3,Eng. Computacional,12,8,6,0,2,106,89,17,0
-2,B,4,Gestão,8,8,4,0,4,76,74,2,0
-2,B,5,Eng. Física,6,8,3,0,5,47,89,-42,0
-2,B,6,Ciências do Mar,6,8,3,0,5,74,77,-3,0
-2,B,7,Psicologia,6,8,3,0,5,90,80,10,0
-2,B,8,"Línguas, Literaturas e Culturas",4,8,2,0,6,72,101,-29,0
-2,B,9,Eng. Mecânica B,2,8,1,0,7,54,87,-33,0
+Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
+1,Eng. Mecânica,0,2,0,0,0,0,0,0,2
+2,Contabilidade,0,2,0,0,0,0,0,0,2
+3,Eng. Computadores e Telemática,0,2,0,0,0,0,0,0,2
+4,Biotecnologia,0,2,0,0,0,0,0,0,2
+5,Biologia,0,2,0,0,0,0,0,0,2
+6,Eng. Civil,0,2,0,0,0,0,0,0,2
+7,Eng. e Gestão Industrial,0,2,0,0,0,0,0,0,2
+8,"Línguas, Literaturas e Culturas",0,2,0,0,0,0,0,0,2
+9,Eng. Física,0,2,0,0,0,0,0,0,2
+10,Gestão Comercial,0,2,0,0,0,0,0,0,2
+11,Medicina,0,2,0,0,0,0,0,0,2
+12,Fisioterapia,0,2,0,0,0,0,0,0,2
+13,MTC,0,2,0,0,0,0,0,0,2
+14,Gestão,0,2,0,0,0,0,0,0,2
+15,Gestão e Planeamento em Turismo,0,2,0,0,0,0,0,0,2
+16,Marketing,0,2,0,0,0,0,0,0,2
+17,Eng. Computacional,0,2,0,0,0,0,0,0,2
+18,Eng. Eletrónica e Telecomunicações,0,2,0,0,0,0,0,0,2
+19,Eng. Biomédica,0,2,0,0,0,0,0,0,2
+20,Administração Pública,0,2,0,0,0,0,0,0,2
+21,Eng. de Materiais,0,2,0,0,0,0,0,0,2
+22,Eng. Informática,0,2,0,0,0,0,0,0,2
+23,Ciências do Mar,0,2,0,0,0,0,0,0,2
+24,Línguas e Relações Empresariais,0,2,0,0,0,0,0,0,2
+25,MOC,0,2,0,0,0,0,0,0,2
+26,Matemática,0,2,0,0,0,0,0,0,2
+27,Geologia,0,2,0,0,0,0,0,0,2
+28,Psicologia,0,2,0,0,0,0,0,0,2
