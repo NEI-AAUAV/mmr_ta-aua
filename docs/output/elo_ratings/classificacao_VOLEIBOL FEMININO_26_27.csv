@@ -1,31 +1,29 @@
 Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia,sets_ganhos,sets_perdidos,diferenca_sets
-1,Administração Pública,0,1,0,0,0,0,0,0,1,0,0,0
-2,Ciências Biomédicas B,0,1,0,0,0,0,0,0,1,0,0,0
-3,Eng. Computadores e Telemática,0,1,0,0,0,0,0,0,1,0,0,0
-4,Gestão Comercial,0,1,0,0,0,0,0,0,1,0,0,0
-5,Eng. Química,0,1,0,0,0,0,0,0,1,0,0,0
-6,Biologia e Geologia,0,1,0,0,0,0,0,0,1,0,0,0
-7,Marketing,0,1,0,0,0,0,0,0,1,0,0,0
-8,"Línguas, Literaturas e Culturas",0,1,0,0,0,0,0,0,1,0,0,0
-9,MTC,0,1,0,0,0,0,0,0,1,0,0,0
-10,Música,0,1,0,0,0,0,0,0,1,0,0,0
-11,Eng. Biomédica,0,1,0,0,0,0,0,0,1,0,0,0
-12,Línguas e Relações Empresariais,0,1,0,0,0,0,0,0,1,0,0,0
-13,Matemática,0,1,0,0,0,0,0,0,1,0,0,0
-14,Eng. de Materiais,0,1,0,0,0,0,0,0,1,0,0,0
-15,Biotecnologia,0,1,0,0,0,0,0,0,1,0,0,0
-16,Tradução,0,1,0,0,0,0,0,0,1,0,0,0
-17,Eng. Mecânica,0,1,0,0,0,0,0,0,1,0,0,0
-18,Geologia,0,1,0,0,0,0,0,0,1,0,0,0
-19,Eng. do Ambiente,0,3,0,0,0,0,0,0,3,0,0,0
-20,Fisioterapia,0,3,0,0,0,0,0,0,3,0,0,0
-21,Eng. e Gestão Industrial,0,3,0,0,0,0,0,0,3,0,0,0
-22,Eng. Eletrónica e Telecomunicações,0,3,0,0,0,0,0,0,3,0,0,0
-23,Gestão,0,3,0,0,0,0,0,0,3,0,0,0
-24,Gestão e Planeamento em Turismo,0,3,0,0,0,0,0,0,3,0,0,0
-25,Eng. Civil,0,3,0,0,0,0,0,0,3,0,0,0
-26,Eng. Informática,0,3,0,0,0,0,0,0,3,0,0,0
-27,Ciências Biomédicas,0,3,0,0,0,0,0,0,3,0,0,0
-28,Eng. Física,0,3,0,0,0,0,0,0,3,0,0,0
-29,Design,0,3,0,0,0,0,0,0,3,0,0,0
-30,Biologia,0,3,0,0,0,0,0,0,3,0,0,0
+1,Eng. Computadores e Telemática,0,1,0,0,0,0,0,0,1,0,0,0
+2,Gestão Comercial,0,1,0,0,0,0,0,0,1,0,0,0
+3,Eng. Química,0,1,0,0,0,0,0,0,1,0,0,0
+4,Biologia e Geologia,0,1,0,0,0,0,0,0,1,0,0,0
+5,Marketing,0,1,0,0,0,0,0,0,1,0,0,0
+6,"Línguas, Literaturas e Culturas",0,1,0,0,0,0,0,0,1,0,0,0
+7,MTC,0,1,0,0,0,0,0,0,1,0,0,0
+8,Línguas e Relações Empresariais,0,1,0,0,0,0,0,0,1,0,0,0
+9,Matemática,0,1,0,0,0,0,0,0,1,0,0,0
+10,Eng. de Materiais,0,1,0,0,0,0,0,0,1,0,0,0
+11,Biotecnologia,0,1,0,0,0,0,0,0,1,0,0,0
+12,Tradução,0,1,0,0,0,0,0,0,1,0,0,0
+13,Eng. Mecânica,0,1,0,0,0,0,0,0,1,0,0,0
+14,Geologia,0,1,0,0,0,0,0,0,1,0,0,0
+15,Ciências Biomédicas B,0,2,0,0,0,0,0,0,2,0,0,0
+16,Eng. Biomédica,0,2,0,0,0,0,0,0,2,0,0,0
+17,Eng. do Ambiente,0,3,0,0,0,0,0,0,3,0,0,0
+18,Fisioterapia,0,3,0,0,0,0,0,0,3,0,0,0
+19,Eng. e Gestão Industrial,0,3,0,0,0,0,0,0,3,0,0,0
+20,Eng. Eletrónica e Telecomunicações,0,3,0,0,0,0,0,0,3,0,0,0
+21,Gestão,0,3,0,0,0,0,0,0,3,0,0,0
+22,Gestão e Planeamento em Turismo,0,3,0,0,0,0,0,0,3,0,0,0
+23,Eng. Civil,0,3,0,0,0,0,0,0,3,0,0,0
+24,Eng. Informática,0,3,0,0,0,0,0,0,3,0,0,0
+25,Ciências Biomédicas,0,3,0,0,0,0,0,0,3,0,0,0
+26,Eng. Física,0,3,0,0,0,0,0,0,3,0,0,0
+27,Design,0,3,0,0,0,0,0,0,3,0,0,0
+28,Biologia,0,3,0,0,0,0,0,0,3,0,0,0
