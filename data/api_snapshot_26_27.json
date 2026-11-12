@@ -1,6 +1,366 @@
 [
  {
   "location": "PAH",
+  "match_id": "3b304069-2946-49d0-9be3-3da87d11aa48",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "bc359312-b5e0-4748-949c-f5a6ccdc6cf1",
+    "competitor_id": "734c415a-2a2a-4e2c-b82d-c3dd51d3104d",
+    "participant_id": "d649d6f1-0461-4201-a243-b994f17d838f",
+    "participant_name": "Administração Pública",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "54a4cd56-8efc-4653-b129-e7bca0713327",
+    "competitor_id": "e148b40e-3fea-43db-b7c5-f80d512f4c05",
+    "participant_id": "b48b1da0-e1d9-4e64-900b-f4db5d5f6e74",
+    "participant_name": "EET",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "d649d6f1-0461-4201-a243-b994f17d838f"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "b48b1da0-e1d9-4e64-900b-f4db5d5f6e74"
+   }
+  ],
+  "start_time": "2026-12-01T23:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
+  "tournament_name": "Andebol Misto 1ª Divisão"
+ },
+ {
+  "location": "Sintético (Crasto)",
+  "match_id": "669a7dad-0f8a-4ccc-85d1-03142e59843c",
+  "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
+  "modality_name": "Futebol 7 Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "9422972b-0e09-4b8a-9643-f0531ae9d59f",
+    "competitor_id": "34dfa210-b138-4571-8452-b7c70baec989",
+    "participant_id": "d1b741d5-470e-497b-9dcb-3002638d44dd",
+    "participant_name": "CBM",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "1f9538f5-4794-4d29-84b9-3a66b31cc78a",
+    "competitor_id": "421f6fea-fecf-4561-9da1-72007441474f",
+    "participant_id": "f016c79a-2bac-4421-b610-dc3e19e932a0",
+    "participant_name": "Eng. Civil",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "d1b741d5-470e-497b-9dcb-3002638d44dd"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "f016c79a-2bac-4421-b610-dc3e19e932a0"
+   }
+  ],
+  "start_time": "2026-12-01T22:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
+  "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "c6487a1f-db14-4e77-ae8c-70ffca874247",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "4c41a377-4f9b-433d-bbe6-4a142ff40382",
+    "competitor_id": "43561a29-fc1e-43fd-9166-3195cfd0d249",
+    "participant_id": "b383d8fa-f2b1-4ab7-ab7b-f215349c0afe",
+    "participant_name": "ECT",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "c5b4ff91-e844-415c-86c7-5ab11e9fcc1a",
+    "competitor_id": "b088fd59-e3a1-4ff8-88a9-4be9149c0c0a",
+    "participant_id": "da416125-06cc-4e66-8e3f-a017cd6f9b96",
+    "participant_name": "Gestão Comercial",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "b383d8fa-f2b1-4ab7-ab7b-f215349c0afe"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "da416125-06cc-4e66-8e3f-a017cd6f9b96"
+   }
+  ],
+  "start_time": "2026-12-01T22:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
+  "tournament_name": "Andebol Misto 1ª Divisão"
+ },
+ {
+  "location": "Sintético (Crasto)",
+  "match_id": "90a80325-9a72-4b95-92a3-e7670e71f7d6",
+  "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
+  "modality_name": "Futebol 7 Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "fd53d99d-942d-41e3-9070-acafb06e612c",
+    "competitor_id": "0835671f-315d-4e37-9a3a-dc4954f143d4",
+    "participant_id": "c4aa7122-38f7-470e-97db-042630d601ac",
+    "participant_name": "GPT",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "6a7207fc-113c-4ca5-8556-277978149ff8",
+    "competitor_id": "5a72b15f-0dd2-403d-a46a-a02c5082ff46",
+    "participant_id": "63d6ba01-c4fc-46ef-b314-e4655c7e4149",
+    "participant_name": "Contabilidade",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "c4aa7122-38f7-470e-97db-042630d601ac"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "63d6ba01-c4fc-46ef-b314-e4655c7e4149"
+   }
+  ],
+  "start_time": "2026-12-01T21:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
+  "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "a43d3fdc-92a9-4e7e-b6ec-7ba650346251",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "9e9c6802-e600-4b42-970d-fe97eb6165fd",
+    "competitor_id": "f3dd6ebc-7629-4442-ae29-77443a861d81",
+    "participant_id": "fa557d29-219e-4a0f-9672-e9f447348d84",
+    "participant_name": "MTC",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "1959b7d1-3d74-48f5-a3ed-b5f5acda303d",
+    "competitor_id": "5b16be29-d138-4848-bb82-f986ec02ccb4",
+    "participant_id": "cb54e541-e722-4204-abb0-bde317ef1232",
+    "participant_name": "ASP",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "fa557d29-219e-4a0f-9672-e9f447348d84"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "cb54e541-e722-4204-abb0-bde317ef1232"
+   }
+  ],
+  "start_time": "2026-12-01T21:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
+  "tournament_name": "Andebol Misto 2ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "edc9ca0e-28c2-4bf2-b191-6cf822817eec",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "9c07ece1-8df0-49b0-ab42-f5b9edb43606",
+    "competitor_id": "1237694a-74bd-4ec0-a558-b23ea446ddff",
+    "participant_id": "ace509a7-bdc4-45e5-ab69-5b3990ed31d3",
+    "participant_name": "Eng. Mecânica B",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "88ae6e74-a633-48e9-9904-c28dcef983b2",
+    "competitor_id": "f1c19dc2-7624-4039-afd6-78a3afaf0d7f",
+    "participant_id": "3f2378c0-98e9-4ca8-bf81-561e3609b545",
+    "participant_name": "Gestão",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "ace509a7-bdc4-45e5-ab69-5b3990ed31d3"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "3f2378c0-98e9-4ca8-bf81-561e3609b545"
+   }
+  ],
+  "start_time": "2026-12-01T20:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
+  "tournament_name": "Andebol Misto 2ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "3cf06e99-7a63-4123-84f9-ec71562eae36",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "4831589e-a015-418c-bd67-9184842ff11b",
+    "competitor_id": "f237ac4e-27a8-4877-9967-922e4160997d",
+    "participant_id": "b2bb3ce6-ad3b-4b76-82db-3a861dcd2502",
+    "participant_name": "Administração Pública",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "be363020-1fac-4daa-a926-714577619b07",
+    "competitor_id": "8c4487c7-04be-46d9-bac1-cc09226143b6",
+    "participant_id": "75320896-8ea3-454f-991d-95b0e6df2e71",
+    "participant_name": "LRE",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "b2bb3ce6-ad3b-4b76-82db-3a861dcd2502"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "75320896-8ea3-454f-991d-95b0e6df2e71"
+   }
+  ],
+  "start_time": "2026-12-01T19:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
+ },
+ {
+  "location": "PAH",
+  "match_id": "4cf91817-6fa2-4c37-a596-ec740448f8ec",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "29caabe8-e301-4d82-a49c-950620fc3321",
+    "competitor_id": "f7efc45e-0d98-4d66-885a-4950c9a01843",
+    "participant_id": "efe89084-29ca-48f6-ad87-6268b1feea96",
+    "participant_name": "Medicina",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "5af63e26-4950-4ef4-bce2-61d8bd715d94",
+    "competitor_id": "7b3dbaf2-ea8b-413f-8bbc-dad22e05253d",
+    "participant_id": "d100a3ae-d2be-4278-9b8f-a2a9769f93a6",
+    "participant_name": "Gestão",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "efe89084-29ca-48f6-ad87-6268b1feea96"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "d100a3ae-d2be-4278-9b8f-a2a9769f93a6"
+   }
+  ],
+  "start_time": "2026-12-01T18:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
+ },
+ {
+  "location": "PAH",
+  "match_id": "7235380d-0326-4d49-b541-f75cbedfc160",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "4a09e2d4-2c78-4b45-a82a-0ae411677277",
+    "competitor_id": "9d693852-e54f-4455-831f-fe39cdd68ee4",
+    "participant_id": "66308ba9-5e9b-4e2c-bad7-91583913441a",
+    "participant_name": "Fisioterapia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "a54e6b7d-54a6-4e55-a4e7-af32e3fd3a6f",
+    "competitor_id": "a904243b-e5df-43bc-9c75-646a8526510d",
+    "participant_id": "975417f1-603c-4514-9bb7-0c0540d8cce5",
+    "participant_name": "Gestão",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "66308ba9-5e9b-4e2c-bad7-91583913441a"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "975417f1-603c-4514-9bb7-0c0540d8cce5"
+   }
+  ],
+  "start_time": "2026-11-30T23:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
+  "tournament_name": "Voleibol Feminino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
   "match_id": "4b2bbdfb-5dcc-41b9-8569-223008e3c5ff",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
@@ -81,24 +441,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "7235380d-0326-4d49-b541-f75cbedfc160",
+  "match_id": "fb33ed6b-2c45-4343-9e50-8d2ca85ece6c",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "4a09e2d4-2c78-4b45-a82a-0ae411677277",
-    "competitor_id": "9d693852-e54f-4455-831f-fe39cdd68ee4",
-    "participant_id": "66308ba9-5e9b-4e2c-bad7-91583913441a",
-    "participant_name": "Fisioterapia",
+    "competitor_entity_id": "111dafbf-e4b7-4901-b2ac-10cd209d20d5",
+    "competitor_id": "c09ac9d4-b2ee-4c71-b090-366e7da3a3b8",
+    "participant_id": "4ec39a89-8954-4506-822b-fc4752130444",
+    "participant_name": "EGI",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "a54e6b7d-54a6-4e55-a4e7-af32e3fd3a6f",
-    "competitor_id": "a904243b-e5df-43bc-9c75-646a8526510d",
-    "participant_id": "975417f1-603c-4514-9bb7-0c0540d8cce5",
-    "participant_name": "Gestão",
+    "competitor_entity_id": "6614895f-4d08-4782-a8eb-9e823541a54e",
+    "competitor_id": "b81d8da7-0004-4619-8882-2c5e8991a826",
+    "participant_id": "d086b4d4-63fa-46b0-82b9-5d561a55896c",
+    "participant_name": "Eng. Civil",
     "participant_type": "team"
    }
   ],
@@ -106,52 +466,12 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "66308ba9-5e9b-4e2c-bad7-91583913441a"
+    "participant_id": "4ec39a89-8954-4506-822b-fc4752130444"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "975417f1-603c-4514-9bb7-0c0540d8cce5"
-   }
-  ],
-  "start_time": "2026-11-30T23:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
-  "tournament_name": "Voleibol Feminino 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "34d115ea-e94f-481e-8f72-4f09ba1769ef",
-  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
-  "modality_name": "Voleibol Feminino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "398af47b-4949-4b9a-a981-12d5f8cec4db",
-    "competitor_id": "dd2e7861-af3c-459a-afc0-556a6541fa52",
-    "participant_id": "a0733548-0f10-4d3c-bce4-b9251a906fb8",
-    "participant_name": "Eng. Informática",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "40d42199-5d95-42f2-a7a7-a5e7fea3435b",
-    "competitor_id": "d8cfe36d-00f3-4d10-b419-ea1992feeb1d",
-    "participant_id": "4dbf80e7-26a2-4bda-a03e-a3a9aaf2eb7d",
-    "participant_name": "Design",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "a0733548-0f10-4d3c-bce4-b9251a906fb8"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "4dbf80e7-26a2-4bda-a03e-a3a9aaf2eb7d"
+    "participant_id": "d086b4d4-63fa-46b0-82b9-5d561a55896c"
    }
   ],
   "start_time": "2026-11-30T22:15:00Z",
@@ -201,24 +521,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "fb33ed6b-2c45-4343-9e50-8d2ca85ece6c",
+  "match_id": "34d115ea-e94f-481e-8f72-4f09ba1769ef",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "111dafbf-e4b7-4901-b2ac-10cd209d20d5",
-    "competitor_id": "c09ac9d4-b2ee-4c71-b090-366e7da3a3b8",
-    "participant_id": "4ec39a89-8954-4506-822b-fc4752130444",
-    "participant_name": "EGI",
+    "competitor_entity_id": "398af47b-4949-4b9a-a981-12d5f8cec4db",
+    "competitor_id": "dd2e7861-af3c-459a-afc0-556a6541fa52",
+    "participant_id": "a0733548-0f10-4d3c-bce4-b9251a906fb8",
+    "participant_name": "Eng. Informática",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "6614895f-4d08-4782-a8eb-9e823541a54e",
-    "competitor_id": "b81d8da7-0004-4619-8882-2c5e8991a826",
-    "participant_id": "d086b4d4-63fa-46b0-82b9-5d561a55896c",
-    "participant_name": "Eng. Civil",
+    "competitor_entity_id": "40d42199-5d95-42f2-a7a7-a5e7fea3435b",
+    "competitor_id": "d8cfe36d-00f3-4d10-b419-ea1992feeb1d",
+    "participant_id": "4dbf80e7-26a2-4bda-a03e-a3a9aaf2eb7d",
+    "participant_name": "Design",
     "participant_type": "team"
    }
   ],
@@ -226,12 +546,12 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "4ec39a89-8954-4506-822b-fc4752130444"
+    "participant_id": "a0733548-0f10-4d3c-bce4-b9251a906fb8"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "d086b4d4-63fa-46b0-82b9-5d561a55896c"
+    "participant_id": "4dbf80e7-26a2-4bda-a03e-a3a9aaf2eb7d"
    }
   ],
   "start_time": "2026-11-30T22:15:00Z",
@@ -241,24 +561,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "b76fe263-d12d-460f-a6dc-9bf909a312fd",
+  "match_id": "e039439c-86b9-40de-bf30-cd6870a5218a",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "f2f92da7-8b6d-4851-9aa3-dbacf5071fc1",
-    "competitor_id": "3394b2c2-2700-452b-87b0-ab00cdbfd0d1",
-    "participant_id": "36fb05e0-ca50-42d4-8a89-697bc8c468f4",
-    "participant_name": "EET",
+    "competitor_entity_id": "ce220ed5-ca62-485b-a70c-382a6ef45dca",
+    "competitor_id": "ddfacdca-5c8f-4016-82c5-da76d2b8ead0",
+    "participant_id": "e267425e-3282-40a3-9fea-96fb00e7d285",
+    "participant_name": "GPT",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "a11a774d-a69a-4d5b-8e71-ca890258a44c",
-    "competitor_id": "d52aa7e4-2b86-45d7-a7ad-067c8219be52",
-    "participant_id": "1d5ccb27-fabf-4f2d-a562-a097a3939ea1",
-    "participant_name": "Biologia",
+    "competitor_entity_id": "a54e6b7d-54a6-4e55-a4e7-af32e3fd3a6f",
+    "competitor_id": "a904243b-e5df-43bc-9c75-646a8526510d",
+    "participant_id": "c7a84f07-fe6f-4708-b9e4-d8f57e29f924",
+    "participant_name": "Gestão",
     "participant_type": "team"
    }
   ],
@@ -266,12 +586,12 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "36fb05e0-ca50-42d4-8a89-697bc8c468f4"
+    "participant_id": "e267425e-3282-40a3-9fea-96fb00e7d285"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "1d5ccb27-fabf-4f2d-a562-a097a3939ea1"
+    "participant_id": "c7a84f07-fe6f-4708-b9e4-d8f57e29f924"
    }
   ],
   "start_time": "2026-11-30T21:15:00Z",
@@ -321,24 +641,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "e039439c-86b9-40de-bf30-cd6870a5218a",
+  "match_id": "b76fe263-d12d-460f-a6dc-9bf909a312fd",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "ce220ed5-ca62-485b-a70c-382a6ef45dca",
-    "competitor_id": "ddfacdca-5c8f-4016-82c5-da76d2b8ead0",
-    "participant_id": "e267425e-3282-40a3-9fea-96fb00e7d285",
-    "participant_name": "GPT",
+    "competitor_entity_id": "f2f92da7-8b6d-4851-9aa3-dbacf5071fc1",
+    "competitor_id": "3394b2c2-2700-452b-87b0-ab00cdbfd0d1",
+    "participant_id": "36fb05e0-ca50-42d4-8a89-697bc8c468f4",
+    "participant_name": "EET",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "a54e6b7d-54a6-4e55-a4e7-af32e3fd3a6f",
-    "competitor_id": "a904243b-e5df-43bc-9c75-646a8526510d",
-    "participant_id": "c7a84f07-fe6f-4708-b9e4-d8f57e29f924",
-    "participant_name": "Gestão",
+    "competitor_entity_id": "a11a774d-a69a-4d5b-8e71-ca890258a44c",
+    "competitor_id": "d52aa7e4-2b86-45d7-a7ad-067c8219be52",
+    "participant_id": "1d5ccb27-fabf-4f2d-a562-a097a3939ea1",
+    "participant_name": "Biologia",
     "participant_type": "team"
    }
   ],
@@ -346,12 +666,12 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "e267425e-3282-40a3-9fea-96fb00e7d285"
+    "participant_id": "36fb05e0-ca50-42d4-8a89-697bc8c468f4"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "c7a84f07-fe6f-4708-b9e4-d8f57e29f924"
+    "participant_id": "1d5ccb27-fabf-4f2d-a562-a097a3939ea1"
    }
   ],
   "start_time": "2026-11-30T21:15:00Z",
@@ -401,46 +721,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "9c28dcc7-e54f-4deb-93a9-40e17b6142a7",
-  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
-  "modality_name": "Voleibol Feminino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "111dafbf-e4b7-4901-b2ac-10cd209d20d5",
-    "competitor_id": "c09ac9d4-b2ee-4c71-b090-366e7da3a3b8",
-    "participant_id": "e98e4ccd-6b72-4f2c-99e1-ffcb070ca18a",
-    "participant_name": "EGI",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "39d26a9a-8b8a-4dd1-9b77-b2f22154eab8",
-    "competitor_id": "c23b5773-6666-4e09-9a72-f435472e4879",
-    "participant_id": "c023be67-a079-4236-bf39-b0d4f5a9d3fe",
-    "participant_name": "Eng. Física",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "e98e4ccd-6b72-4f2c-99e1-ffcb070ca18a"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "c023be67-a079-4236-bf39-b0d4f5a9d3fe"
-   }
-  ],
-  "start_time": "2026-11-30T20:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
-  "tournament_name": "Voleibol Feminino 1ª Divisão"
- },
- {
-  "location": "PAH",
   "match_id": "b08140a1-9bee-4fde-bca5-9232804fe1e4",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
@@ -472,6 +752,46 @@
     "outcome": null,
     "outcome_metadata": null,
     "participant_id": "b28832ce-9216-4f08-8c46-f8c5433d168a"
+   }
+  ],
+  "start_time": "2026-11-30T20:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
+  "tournament_name": "Voleibol Feminino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "9c28dcc7-e54f-4deb-93a9-40e17b6142a7",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "111dafbf-e4b7-4901-b2ac-10cd209d20d5",
+    "competitor_id": "c09ac9d4-b2ee-4c71-b090-366e7da3a3b8",
+    "participant_id": "e98e4ccd-6b72-4f2c-99e1-ffcb070ca18a",
+    "participant_name": "EGI",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "39d26a9a-8b8a-4dd1-9b77-b2f22154eab8",
+    "competitor_id": "c23b5773-6666-4e09-9a72-f435472e4879",
+    "participant_id": "c023be67-a079-4236-bf39-b0d4f5a9d3fe",
+    "participant_name": "Eng. Física",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "e98e4ccd-6b72-4f2c-99e1-ffcb070ca18a"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "c023be67-a079-4236-bf39-b0d4f5a9d3fe"
    }
   ],
   "start_time": "2026-11-30T20:15:00Z",
@@ -721,46 +1041,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "c20a21a4-0fe6-4acd-af13-5078574922f8",
-  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
-  "modality_name": "Basquetebol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "0a07163b-35c3-466b-8398-f8636eb86d1e",
-    "competitor_id": "f1b243f0-ae5a-491f-abb4-1f298cec7677",
-    "participant_id": "bba1f00a-742d-46cf-a740-cd7103ba0575",
-    "participant_name": "Fisioterapia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "354dd0b0-5cf8-4712-9f37-eaf474377873",
-    "competitor_id": "71670b51-e3de-4402-aab0-f930ca195607",
-    "participant_id": "e39f3189-24d9-4e90-90b4-796356a7b116",
-    "participant_name": "MTC",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "bba1f00a-742d-46cf-a740-cd7103ba0575"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "e39f3189-24d9-4e90-90b4-796356a7b116"
-   }
-  ],
-  "start_time": "2026-11-25T23:20:00Z",
-  "status": "scheduled",
-  "tournament_id": "08122be6-c4b5-4371-99ea-02c405b0f4da",
-  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo A"
- },
- {
-  "location": "PAH",
   "match_id": "78be3101-2e30-4e44-9b0c-334dd63c28a6",
   "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
   "modality_name": "Basquetebol Masculino",
@@ -801,24 +1081,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "178581a0-9cd6-4aba-aefc-d6715356b726",
+  "match_id": "c20a21a4-0fe6-4acd-af13-5078574922f8",
   "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
   "modality_name": "Basquetebol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "192a352e-63e3-44d2-bb11-54591c7c6b8d",
-    "competitor_id": "5404daf2-fe05-4a63-9d41-31c11d6f48d5",
-    "participant_id": "21cb5858-5691-4b8f-87a1-33316c870a9d",
-    "participant_name": "Eng. Física",
+    "competitor_entity_id": "0a07163b-35c3-466b-8398-f8636eb86d1e",
+    "competitor_id": "f1b243f0-ae5a-491f-abb4-1f298cec7677",
+    "participant_id": "bba1f00a-742d-46cf-a740-cd7103ba0575",
+    "participant_name": "Fisioterapia",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "9d24a38b-8bb8-4cfc-a2f1-e2ed2b705a9a",
-    "competitor_id": "2dca1359-099b-41de-b6db-55698a0e6030",
-    "participant_id": "0f15ce51-4072-4373-9c02-a19ea629b52c",
-    "participant_name": "Geologia",
+    "competitor_entity_id": "354dd0b0-5cf8-4712-9f37-eaf474377873",
+    "competitor_id": "71670b51-e3de-4402-aab0-f930ca195607",
+    "participant_id": "e39f3189-24d9-4e90-90b4-796356a7b116",
+    "participant_name": "MTC",
     "participant_type": "team"
    }
   ],
@@ -826,15 +1106,15 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "21cb5858-5691-4b8f-87a1-33316c870a9d"
+    "participant_id": "bba1f00a-742d-46cf-a740-cd7103ba0575"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "0f15ce51-4072-4373-9c02-a19ea629b52c"
+    "participant_id": "e39f3189-24d9-4e90-90b4-796356a7b116"
    }
   ],
-  "start_time": "2026-11-25T23:00:00Z",
+  "start_time": "2026-11-25T23:20:00Z",
   "status": "scheduled",
   "tournament_id": "08122be6-c4b5-4371-99ea-02c405b0f4da",
   "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo A"
@@ -878,6 +1158,46 @@
   "status": "scheduled",
   "tournament_id": "01f70b3e-8ab9-401a-8fe4-27508a9afcd7",
   "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "178581a0-9cd6-4aba-aefc-d6715356b726",
+  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
+  "modality_name": "Basquetebol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "192a352e-63e3-44d2-bb11-54591c7c6b8d",
+    "competitor_id": "5404daf2-fe05-4a63-9d41-31c11d6f48d5",
+    "participant_id": "21cb5858-5691-4b8f-87a1-33316c870a9d",
+    "participant_name": "Eng. Física",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "9d24a38b-8bb8-4cfc-a2f1-e2ed2b705a9a",
+    "competitor_id": "2dca1359-099b-41de-b6db-55698a0e6030",
+    "participant_id": "0f15ce51-4072-4373-9c02-a19ea629b52c",
+    "participant_name": "Geologia",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "21cb5858-5691-4b8f-87a1-33316c870a9d"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "0f15ce51-4072-4373-9c02-a19ea629b52c"
+   }
+  ],
+  "start_time": "2026-11-25T23:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "08122be6-c4b5-4371-99ea-02c405b0f4da",
+  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -961,46 +1281,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "7f4c8cd3-6517-4141-924e-c17056cff457",
-  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
-  "modality_name": "Basquetebol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "9de88c27-220e-43b6-a19a-e37133e1587c",
-    "competitor_id": "53d3d7eb-981d-4af5-a7a1-8db771a941b8",
-    "participant_id": "f0f7a2fb-4f0c-49cd-82c4-ea12d25fd3fa",
-    "participant_name": "Gestão Comercial",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "11030c5a-f52c-42a4-a070-53be4dc239aa",
-    "competitor_id": "b273e0e2-f673-460d-8797-59ca758f8624",
-    "participant_id": "157a900c-8413-45ee-b3d7-e860da88725d",
-    "participant_name": "Matemática",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "f0f7a2fb-4f0c-49cd-82c4-ea12d25fd3fa"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "157a900c-8413-45ee-b3d7-e860da88725d"
-   }
-  ],
-  "start_time": "2026-11-25T22:20:00Z",
-  "status": "scheduled",
-  "tournament_id": "01f70b3e-8ab9-401a-8fe4-27508a9afcd7",
-  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo B"
- },
- {
-  "location": "PAH",
   "match_id": "ca6f863d-71c4-4a2d-8346-bf7aab3199fd",
   "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
   "modality_name": "Basquetebol Masculino",
@@ -1041,24 +1321,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "68f64740-765b-4b43-8fa9-20883b85dc82",
+  "match_id": "7f4c8cd3-6517-4141-924e-c17056cff457",
   "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
   "modality_name": "Basquetebol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "c43bc190-281b-40e6-adac-765eede5ea86",
-    "competitor_id": "9ae927c3-e9a5-4708-a5e1-c540aa9edbde",
-    "participant_id": "afc1bfd9-04a7-49c1-9061-25ad2a50a63b",
-    "participant_name": "GPT",
+    "competitor_entity_id": "9de88c27-220e-43b6-a19a-e37133e1587c",
+    "competitor_id": "53d3d7eb-981d-4af5-a7a1-8db771a941b8",
+    "participant_id": "f0f7a2fb-4f0c-49cd-82c4-ea12d25fd3fa",
+    "participant_name": "Gestão Comercial",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "1cbe5ba8-e5a2-4ecb-93b6-859b5f853cb4",
-    "competitor_id": "d7231ba9-83f7-4cdc-8e9e-ae581abe9fe1",
-    "participant_id": "97f4e74f-0a18-4349-b2af-cfebcbd415cc",
-    "participant_name": "Psicologia",
+    "competitor_entity_id": "11030c5a-f52c-42a4-a070-53be4dc239aa",
+    "competitor_id": "b273e0e2-f673-460d-8797-59ca758f8624",
+    "participant_id": "157a900c-8413-45ee-b3d7-e860da88725d",
+    "participant_name": "Matemática",
     "participant_type": "team"
    }
   ],
@@ -1066,15 +1346,15 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "afc1bfd9-04a7-49c1-9061-25ad2a50a63b"
+    "participant_id": "f0f7a2fb-4f0c-49cd-82c4-ea12d25fd3fa"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "97f4e74f-0a18-4349-b2af-cfebcbd415cc"
+    "participant_id": "157a900c-8413-45ee-b3d7-e860da88725d"
    }
   ],
-  "start_time": "2026-11-25T22:00:00Z",
+  "start_time": "2026-11-25T22:20:00Z",
   "status": "scheduled",
   "tournament_id": "01f70b3e-8ab9-401a-8fe4-27508a9afcd7",
   "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo B"
@@ -1118,6 +1398,46 @@
   "status": "scheduled",
   "tournament_id": "98839441-6dd3-4c34-8cc3-9eeb9f18090c",
   "tournament_name": "Basquetebol Feminino 1ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "68f64740-765b-4b43-8fa9-20883b85dc82",
+  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
+  "modality_name": "Basquetebol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "c43bc190-281b-40e6-adac-765eede5ea86",
+    "competitor_id": "9ae927c3-e9a5-4708-a5e1-c540aa9edbde",
+    "participant_id": "afc1bfd9-04a7-49c1-9061-25ad2a50a63b",
+    "participant_name": "GPT",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "1cbe5ba8-e5a2-4ecb-93b6-859b5f853cb4",
+    "competitor_id": "d7231ba9-83f7-4cdc-8e9e-ae581abe9fe1",
+    "participant_id": "97f4e74f-0a18-4349-b2af-cfebcbd415cc",
+    "participant_name": "Psicologia",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "afc1bfd9-04a7-49c1-9061-25ad2a50a63b"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "97f4e74f-0a18-4349-b2af-cfebcbd415cc"
+   }
+  ],
+  "start_time": "2026-11-25T22:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "01f70b3e-8ab9-401a-8fe4-27508a9afcd7",
+  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo B"
  },
  {
   "location": "PAH",
@@ -1281,46 +1601,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "1d8f5c73-fc62-4ad0-ad1d-3cdca7906d92",
-  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
-  "modality_name": "Basquetebol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "0a07163b-35c3-466b-8398-f8636eb86d1e",
-    "competitor_id": "f1b243f0-ae5a-491f-abb4-1f298cec7677",
-    "participant_id": "21c8fab5-7490-4775-ac21-3d076be07cfb",
-    "participant_name": "Fisioterapia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "dfcf605b-be39-4335-b071-effc07beea42",
-    "competitor_id": "b8e3b68c-51f1-4ed2-8e8f-3f71b7261f35",
-    "participant_id": "f4848797-6c7a-419c-b9a4-da6b6fd6d150",
-    "participant_name": "Marketing",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "21c8fab5-7490-4775-ac21-3d076be07cfb"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "f4848797-6c7a-419c-b9a4-da6b6fd6d150"
-   }
-  ],
-  "start_time": "2026-11-25T21:00:00Z",
-  "status": "scheduled",
-  "tournament_id": "08122be6-c4b5-4371-99ea-02c405b0f4da",
-  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo A"
- },
- {
-  "location": "PAH",
   "match_id": "4b2b5e5f-7484-466d-817b-691a351636ab",
   "modality_id": "8a15a481-26d8-4000-b533-5e664a1a806b",
   "modality_name": "Basquetebol Feminino",
@@ -1358,6 +1638,46 @@
   "status": "scheduled",
   "tournament_id": "98839441-6dd3-4c34-8cc3-9eeb9f18090c",
   "tournament_name": "Basquetebol Feminino 1ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "1d8f5c73-fc62-4ad0-ad1d-3cdca7906d92",
+  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
+  "modality_name": "Basquetebol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "0a07163b-35c3-466b-8398-f8636eb86d1e",
+    "competitor_id": "f1b243f0-ae5a-491f-abb4-1f298cec7677",
+    "participant_id": "21c8fab5-7490-4775-ac21-3d076be07cfb",
+    "participant_name": "Fisioterapia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "dfcf605b-be39-4335-b071-effc07beea42",
+    "competitor_id": "b8e3b68c-51f1-4ed2-8e8f-3f71b7261f35",
+    "participant_id": "f4848797-6c7a-419c-b9a4-da6b6fd6d150",
+    "participant_name": "Marketing",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "21c8fab5-7490-4775-ac21-3d076be07cfb"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "f4848797-6c7a-419c-b9a4-da6b6fd6d150"
+   }
+  ],
+  "start_time": "2026-11-25T21:00:00Z",
+  "status": "scheduled",
+  "tournament_id": "08122be6-c4b5-4371-99ea-02c405b0f4da",
+  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -1441,46 +1761,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "d904cd2c-05cd-4280-9f70-712cc7a9b8bb",
-  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
-  "modality_name": "Basquetebol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "9de88c27-220e-43b6-a19a-e37133e1587c",
-    "competitor_id": "53d3d7eb-981d-4af5-a7a1-8db771a941b8",
-    "participant_id": "cf142d39-e8bb-4347-9555-1c196c533476",
-    "participant_name": "Gestão Comercial",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "f8355083-f247-48a3-9f93-836659e08b34",
-    "competitor_id": "76233b0f-22ed-45ba-b7b1-d24f0e9bea3c",
-    "participant_id": "f51384f0-6f02-4f70-9468-2340f8c97c93",
-    "participant_name": "MOC",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "cf142d39-e8bb-4347-9555-1c196c533476"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "f51384f0-6f02-4f70-9468-2340f8c97c93"
-   }
-  ],
-  "start_time": "2026-11-25T20:20:00Z",
-  "status": "scheduled",
-  "tournament_id": "01f70b3e-8ab9-401a-8fe4-27508a9afcd7",
-  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo B"
- },
- {
-  "location": "PAH",
   "match_id": "d16158c9-a809-4abf-b667-7682cc2fd1d9",
   "modality_id": "8a15a481-26d8-4000-b533-5e664a1a806b",
   "modality_name": "Basquetebol Feminino",
@@ -1518,6 +1798,46 @@
   "status": "scheduled",
   "tournament_id": "98839441-6dd3-4c34-8cc3-9eeb9f18090c",
   "tournament_name": "Basquetebol Feminino 1ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "d904cd2c-05cd-4280-9f70-712cc7a9b8bb",
+  "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
+  "modality_name": "Basquetebol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "9de88c27-220e-43b6-a19a-e37133e1587c",
+    "competitor_id": "53d3d7eb-981d-4af5-a7a1-8db771a941b8",
+    "participant_id": "cf142d39-e8bb-4347-9555-1c196c533476",
+    "participant_name": "Gestão Comercial",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "f8355083-f247-48a3-9f93-836659e08b34",
+    "competitor_id": "76233b0f-22ed-45ba-b7b1-d24f0e9bea3c",
+    "participant_id": "f51384f0-6f02-4f70-9468-2340f8c97c93",
+    "participant_name": "MOC",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "cf142d39-e8bb-4347-9555-1c196c533476"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "f51384f0-6f02-4f70-9468-2340f8c97c93"
+   }
+  ],
+  "start_time": "2026-11-25T20:20:00Z",
+  "status": "scheduled",
+  "tournament_id": "01f70b3e-8ab9-401a-8fe4-27508a9afcd7",
+  "tournament_name": "Basquetebol Masculino 2ª Divisão Grupo B"
  },
  {
   "location": "PAH",
@@ -1681,46 +2001,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "0ddc8597-9bdb-432b-99c1-d0a3350ac58b",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "d653579c-8119-4823-a249-fc96dc00df33",
-    "competitor_id": "5dcf17cf-998e-4b9c-b3f0-f84c75a73686",
-    "participant_id": "ab49daff-93c8-48b2-8f9b-d813b965e8f4",
-    "participant_name": "Eng. Ambiente",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "983f38f6-abdd-4de2-942c-a49c348d1945",
-    "competitor_id": "642dfb66-76a5-4fee-994a-6ec1c0f9f903",
-    "participant_id": "cd877cd5-577b-4e47-ad25-28c18cf00984",
-    "participant_name": "Eng. Computacional",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "ab49daff-93c8-48b2-8f9b-d813b965e8f4"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "cd877cd5-577b-4e47-ad25-28c18cf00984"
-   }
-  ],
-  "start_time": "2026-11-24T23:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
- },
- {
-  "location": "PAH",
   "match_id": "12ad8a57-ac24-4edc-ac1c-16282394e867",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
@@ -1801,6 +2081,46 @@
  },
  {
   "location": "PAH",
+  "match_id": "0ddc8597-9bdb-432b-99c1-d0a3350ac58b",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "d653579c-8119-4823-a249-fc96dc00df33",
+    "competitor_id": "5dcf17cf-998e-4b9c-b3f0-f84c75a73686",
+    "participant_id": "ab49daff-93c8-48b2-8f9b-d813b965e8f4",
+    "participant_name": "Eng. Ambiente",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "983f38f6-abdd-4de2-942c-a49c348d1945",
+    "competitor_id": "642dfb66-76a5-4fee-994a-6ec1c0f9f903",
+    "participant_id": "cd877cd5-577b-4e47-ad25-28c18cf00984",
+    "participant_name": "Eng. Computacional",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "ab49daff-93c8-48b2-8f9b-d813b965e8f4"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "cd877cd5-577b-4e47-ad25-28c18cf00984"
+   }
+  ],
+  "start_time": "2026-11-24T23:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
   "match_id": "5c2679e1-1dd1-49e4-971b-969c850be63d",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
@@ -1832,46 +2152,6 @@
     "outcome": null,
     "outcome_metadata": null,
     "participant_id": "564b1485-ba05-4474-89f3-cbf1be2ead4c"
-   }
-  ],
-  "start_time": "2026-11-24T22:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
- },
- {
-  "location": "PAH",
-  "match_id": "dab2b831-4905-4f0c-87d5-65ecf5fc461f",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "86ce0079-89a2-42d8-b840-aa8df6988d5f",
-    "competitor_id": "cc77808c-6eb2-44c1-989c-f6f0e03a64d0",
-    "participant_id": "f759cd3b-b091-4b26-a91b-d130e5b0b6e2",
-    "participant_name": "Gestão",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "c056c7eb-bba8-49e4-bde0-2d27a285b3dc",
-    "competitor_id": "41408b43-6a61-4ee9-acb6-096a6fcb3f8c",
-    "participant_id": "b59cebaf-f917-43ad-a730-5b07ce65c085",
-    "participant_name": "MTC",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "f759cd3b-b091-4b26-a91b-d130e5b0b6e2"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "b59cebaf-f917-43ad-a730-5b07ce65c085"
    }
   ],
   "start_time": "2026-11-24T22:15:00Z",
@@ -1920,6 +2200,46 @@
   "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
  },
  {
+  "location": "PAH",
+  "match_id": "dab2b831-4905-4f0c-87d5-65ecf5fc461f",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "86ce0079-89a2-42d8-b840-aa8df6988d5f",
+    "competitor_id": "cc77808c-6eb2-44c1-989c-f6f0e03a64d0",
+    "participant_id": "f759cd3b-b091-4b26-a91b-d130e5b0b6e2",
+    "participant_name": "Gestão",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "c056c7eb-bba8-49e4-bde0-2d27a285b3dc",
+    "competitor_id": "41408b43-6a61-4ee9-acb6-096a6fcb3f8c",
+    "participant_id": "b59cebaf-f917-43ad-a730-5b07ce65c085",
+    "participant_name": "MTC",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "f759cd3b-b091-4b26-a91b-d130e5b0b6e2"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "b59cebaf-f917-43ad-a730-5b07ce65c085"
+   }
+  ],
+  "start_time": "2026-11-24T22:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
+ },
+ {
   "location": "Sintético (Crasto)",
   "match_id": "db822dd0-f2fe-46f2-b591-655223f0276f",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -1958,6 +2278,46 @@
   "status": "scheduled",
   "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "6a946766-764f-4649-922f-a40d9488aec3",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "850f5a04-a9b0-4fef-a00a-8f34f0b0a3da",
+    "competitor_id": "10d4607d-11d1-4fbb-b490-71f61667354e",
+    "participant_id": "c03460e2-60ea-491a-8b1d-21974758e1e6",
+    "participant_name": "Biologia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "756621e6-9016-4775-a192-7da8648798df",
+    "competitor_id": "c4f18449-7c81-4b89-8f6d-952fdc24377f",
+    "participant_id": "a9aefba7-2aa6-498e-8a51-7cb246b628c2",
+    "participant_name": "Biotecnologia",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "c03460e2-60ea-491a-8b1d-21974758e1e6"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "a9aefba7-2aa6-498e-8a51-7cb246b628c2"
+   }
+  ],
+  "start_time": "2026-11-24T21:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -2040,46 +2400,6 @@
   "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
  },
  {
-  "location": "PAH",
-  "match_id": "6a946766-764f-4649-922f-a40d9488aec3",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "850f5a04-a9b0-4fef-a00a-8f34f0b0a3da",
-    "competitor_id": "10d4607d-11d1-4fbb-b490-71f61667354e",
-    "participant_id": "c03460e2-60ea-491a-8b1d-21974758e1e6",
-    "participant_name": "Biologia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "756621e6-9016-4775-a192-7da8648798df",
-    "competitor_id": "c4f18449-7c81-4b89-8f6d-952fdc24377f",
-    "participant_id": "a9aefba7-2aa6-498e-8a51-7cb246b628c2",
-    "participant_name": "Biotecnologia",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "c03460e2-60ea-491a-8b1d-21974758e1e6"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "a9aefba7-2aa6-498e-8a51-7cb246b628c2"
-   }
-  ],
-  "start_time": "2026-11-24T21:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
- },
- {
   "location": "Sintético (Crasto)",
   "match_id": "876fefed-b4b0-42a9-8e9a-24a101eb2e4b",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -2118,6 +2438,46 @@
   "status": "scheduled",
   "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "f43dddfc-fa28-4ae5-9b57-5585afb1427a",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "756621e6-9016-4775-a192-7da8648798df",
+    "competitor_id": "c4f18449-7c81-4b89-8f6d-952fdc24377f",
+    "participant_id": "41ecce9a-cc1a-4cae-829b-d2fc5dd7728a",
+    "participant_name": "Biotecnologia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "ed2f3de3-ec16-4008-a939-81d2b3f5bc1a",
+    "competitor_id": "1fbd7e7e-5a13-4d3e-acac-19860949430b",
+    "participant_id": "56aa36ce-ef40-4fe3-a7a1-e014c7035c3b",
+    "participant_name": "Matemática",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "41ecce9a-cc1a-4cae-829b-d2fc5dd7728a"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "56aa36ce-ef40-4fe3-a7a1-e014c7035c3b"
+   }
+  ],
+  "start_time": "2026-11-24T20:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -2201,86 +2561,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "f43dddfc-fa28-4ae5-9b57-5585afb1427a",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "756621e6-9016-4775-a192-7da8648798df",
-    "competitor_id": "c4f18449-7c81-4b89-8f6d-952fdc24377f",
-    "participant_id": "41ecce9a-cc1a-4cae-829b-d2fc5dd7728a",
-    "participant_name": "Biotecnologia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "ed2f3de3-ec16-4008-a939-81d2b3f5bc1a",
-    "competitor_id": "1fbd7e7e-5a13-4d3e-acac-19860949430b",
-    "participant_id": "56aa36ce-ef40-4fe3-a7a1-e014c7035c3b",
-    "participant_name": "Matemática",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "41ecce9a-cc1a-4cae-829b-d2fc5dd7728a"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "56aa36ce-ef40-4fe3-a7a1-e014c7035c3b"
-   }
-  ],
-  "start_time": "2026-11-24T20:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
- },
- {
-  "location": "PAH",
-  "match_id": "da51f76c-e8ea-4017-a308-300b5a92289e",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "e0d904a4-489d-4d5e-8b9e-6b6d5a3f91cb",
-    "competitor_id": "57cf7f38-7a5b-4540-8c18-ddb6faef2705",
-    "participant_id": "9740e80a-8133-4ada-a703-3dc5c69b3bd1",
-    "participant_name": "Eng. Biomédica",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "96f5b1f2-1c0a-4941-9c16-22d3bd9f89b1",
-    "competitor_id": "84efa1dc-3ac2-4bbc-87d7-fd911c214e9f",
-    "participant_id": "80ae25ad-7ead-4cd6-a91e-6d7d0a37cd19",
-    "participant_name": "CBM",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "9740e80a-8133-4ada-a703-3dc5c69b3bd1"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "80ae25ad-7ead-4cd6-a91e-6d7d0a37cd19"
-   }
-  ],
-  "start_time": "2026-11-23T23:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
-  "tournament_name": "Voleibol Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
   "match_id": "73f08b40-0b49-4ed4-9bbc-137e999d3b9e",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
@@ -2361,24 +2641,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "f2e2b7e0-b26e-451b-9c82-e19a18c8d0fb",
+  "match_id": "da51f76c-e8ea-4017-a308-300b5a92289e",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "e96e818e-f324-4b6d-bb4e-7169c874d56d",
-    "competitor_id": "0fb8ea63-0bc6-4e1f-b7ec-310a7e31c31c",
-    "participant_id": "47faa7f9-d1b9-47cd-876b-209f50ab9765",
-    "participant_name": "Eng. Informática",
+    "competitor_entity_id": "e0d904a4-489d-4d5e-8b9e-6b6d5a3f91cb",
+    "competitor_id": "57cf7f38-7a5b-4540-8c18-ddb6faef2705",
+    "participant_id": "9740e80a-8133-4ada-a703-3dc5c69b3bd1",
+    "participant_name": "Eng. Biomédica",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "7ce7f96d-feb0-4016-b0b3-8771f1462946",
-    "competitor_id": "574d38fb-25a6-4c1e-8366-31a8966f2803",
-    "participant_id": "3a488539-1bc1-42d8-903e-db716433b4be",
-    "participant_name": "Contabilidade",
+    "competitor_entity_id": "96f5b1f2-1c0a-4941-9c16-22d3bd9f89b1",
+    "competitor_id": "84efa1dc-3ac2-4bbc-87d7-fd911c214e9f",
+    "participant_id": "80ae25ad-7ead-4cd6-a91e-6d7d0a37cd19",
+    "participant_name": "CBM",
     "participant_type": "team"
    }
   ],
@@ -2386,55 +2666,15 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "47faa7f9-d1b9-47cd-876b-209f50ab9765"
+    "participant_id": "9740e80a-8133-4ada-a703-3dc5c69b3bd1"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "3a488539-1bc1-42d8-903e-db716433b4be"
+    "participant_id": "80ae25ad-7ead-4cd6-a91e-6d7d0a37cd19"
    }
   ],
-  "start_time": "2026-11-23T22:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
-  "tournament_name": "Voleibol Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "c892758a-3cc3-4f94-bafa-3969642fc42a",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "27ddd833-e0e8-48fe-b982-218fecfc08df",
-    "competitor_id": "4e3bb947-e543-4226-9f46-00e64a073cd0",
-    "participant_id": "956cedce-cee4-4678-ba63-3abda208f34a",
-    "participant_name": "Administração Pública",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "9219df42-6baa-487a-858f-efd62f261a0d",
-    "competitor_id": "e45936e0-88b1-40f1-aa40-d7e37faed141",
-    "participant_id": "561d7a60-2fa4-4d9a-8e31-2c0826f4ab21",
-    "participant_name": "Ciências do Mar",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "956cedce-cee4-4678-ba63-3abda208f34a"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "561d7a60-2fa4-4d9a-8e31-2c0826f4ab21"
-   }
-  ],
-  "start_time": "2026-11-23T22:15:00Z",
+  "start_time": "2026-11-23T23:15:00Z",
   "status": "scheduled",
   "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
   "tournament_name": "Voleibol Masculino 1ª Divisão"
@@ -2518,6 +2758,86 @@
   "status": "scheduled",
   "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "f2e2b7e0-b26e-451b-9c82-e19a18c8d0fb",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "e96e818e-f324-4b6d-bb4e-7169c874d56d",
+    "competitor_id": "0fb8ea63-0bc6-4e1f-b7ec-310a7e31c31c",
+    "participant_id": "47faa7f9-d1b9-47cd-876b-209f50ab9765",
+    "participant_name": "Eng. Informática",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "7ce7f96d-feb0-4016-b0b3-8771f1462946",
+    "competitor_id": "574d38fb-25a6-4c1e-8366-31a8966f2803",
+    "participant_id": "3a488539-1bc1-42d8-903e-db716433b4be",
+    "participant_name": "Contabilidade",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "47faa7f9-d1b9-47cd-876b-209f50ab9765"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "3a488539-1bc1-42d8-903e-db716433b4be"
+   }
+  ],
+  "start_time": "2026-11-23T22:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
+  "tournament_name": "Voleibol Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "c892758a-3cc3-4f94-bafa-3969642fc42a",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "27ddd833-e0e8-48fe-b982-218fecfc08df",
+    "competitor_id": "4e3bb947-e543-4226-9f46-00e64a073cd0",
+    "participant_id": "956cedce-cee4-4678-ba63-3abda208f34a",
+    "participant_name": "Administração Pública",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "9219df42-6baa-487a-858f-efd62f261a0d",
+    "competitor_id": "e45936e0-88b1-40f1-aa40-d7e37faed141",
+    "participant_id": "561d7a60-2fa4-4d9a-8e31-2c0826f4ab21",
+    "participant_name": "Ciências do Mar",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "956cedce-cee4-4678-ba63-3abda208f34a"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "561d7a60-2fa4-4d9a-8e31-2c0826f4ab21"
+   }
+  ],
+  "start_time": "2026-11-23T22:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
+  "tournament_name": "Voleibol Masculino 1ª Divisão"
  },
  {
   "location": "PAH",
@@ -2681,46 +3001,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "bf7afe6c-56e2-442b-864b-ccc9a90778c5",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "d26ab2c8-5319-4cfe-9568-4a3b7a56cea5",
-    "competitor_id": "a2206695-ca67-41f6-9fcb-5295d80c92b7",
-    "participant_id": "15e5dd7d-a021-4803-8e6f-80be2cff5c04",
-    "participant_name": "Eng. Mecânica",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "e96e818e-f324-4b6d-bb4e-7169c874d56d",
-    "competitor_id": "0fb8ea63-0bc6-4e1f-b7ec-310a7e31c31c",
-    "participant_id": "ae6a5621-d51d-4247-8d7f-56419910a78e",
-    "participant_name": "Eng. Informática",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "15e5dd7d-a021-4803-8e6f-80be2cff5c04"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "ae6a5621-d51d-4247-8d7f-56419910a78e"
-   }
-  ],
-  "start_time": "2026-11-23T20:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
-  "tournament_name": "Voleibol Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
   "match_id": "be2357b3-d4e2-427f-a386-82fd4ed8bc6e",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
@@ -2792,6 +3072,46 @@
     "outcome": null,
     "outcome_metadata": null,
     "participant_id": "c1f595e8-e735-4d0f-b05a-dc244b61ff43"
+   }
+  ],
+  "start_time": "2026-11-23T20:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
+  "tournament_name": "Voleibol Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "bf7afe6c-56e2-442b-864b-ccc9a90778c5",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "d26ab2c8-5319-4cfe-9568-4a3b7a56cea5",
+    "competitor_id": "a2206695-ca67-41f6-9fcb-5295d80c92b7",
+    "participant_id": "15e5dd7d-a021-4803-8e6f-80be2cff5c04",
+    "participant_name": "Eng. Mecânica",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "e96e818e-f324-4b6d-bb4e-7169c874d56d",
+    "competitor_id": "0fb8ea63-0bc6-4e1f-b7ec-310a7e31c31c",
+    "participant_id": "ae6a5621-d51d-4247-8d7f-56419910a78e",
+    "participant_name": "Eng. Informática",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "15e5dd7d-a021-4803-8e6f-80be2cff5c04"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "ae6a5621-d51d-4247-8d7f-56419910a78e"
    }
   ],
   "start_time": "2026-11-23T20:15:00Z",
@@ -2881,24 +3201,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "c6f69bc4-9e00-4b3d-bb91-6d91079c02c7",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
+  "match_id": "7e3dc400-d679-4bb5-862f-47451aee7b32",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "a15194e8-e64f-4fa1-9f8b-c68ba0a35510",
-    "competitor_id": "6fa5a367-6321-45ae-a589-e302d4d46c8c",
-    "participant_id": "a095792e-bb1d-4db6-9ff5-7bf4a0aa15b7",
-    "participant_name": "Bioquímica",
+    "competitor_entity_id": "7a7b2a4c-f089-40e1-a248-1b1dc0848696",
+    "competitor_id": "80e4e4e7-55fd-4b17-992f-3b4f98db0d97",
+    "participant_id": "4789d1a1-eae7-490b-a3f9-06ba4264c556",
+    "participant_name": "MTC",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "c056c7eb-bba8-49e4-bde0-2d27a285b3dc",
-    "competitor_id": "41408b43-6a61-4ee9-acb6-096a6fcb3f8c",
-    "participant_id": "07e3183b-26d1-4a4c-b750-9b26d65216e3",
-    "participant_name": "MTC",
+    "competitor_entity_id": "11b05295-6e9f-4cf2-91e9-7d335765c92b",
+    "competitor_id": "b97b5333-0e93-435b-ab38-cce49703b5da",
+    "participant_id": "2f853f51-5107-4380-8a5a-3224510c0105",
+    "participant_name": "Geologia",
     "participant_type": "team"
    }
   ],
@@ -2906,18 +3226,18 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "a095792e-bb1d-4db6-9ff5-7bf4a0aa15b7"
+    "participant_id": "4789d1a1-eae7-490b-a3f9-06ba4264c556"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "07e3183b-26d1-4a4c-b750-9b26d65216e3"
+    "participant_id": "2f853f51-5107-4380-8a5a-3224510c0105"
    }
   ],
   "start_time": "2026-11-19T23:15:00Z",
   "status": "scheduled",
-  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
+  "tournament_id": "a443a1d2-b385-447b-a225-7752c079d123",
+  "tournament_name": "Voleibol Feminino 2ª Divisão Grupo B"
  },
  {
   "location": "PAH",
@@ -2961,24 +3281,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "7e3dc400-d679-4bb5-862f-47451aee7b32",
-  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
-  "modality_name": "Voleibol Feminino",
+  "match_id": "c6f69bc4-9e00-4b3d-bb91-6d91079c02c7",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "7a7b2a4c-f089-40e1-a248-1b1dc0848696",
-    "competitor_id": "80e4e4e7-55fd-4b17-992f-3b4f98db0d97",
-    "participant_id": "4789d1a1-eae7-490b-a3f9-06ba4264c556",
-    "participant_name": "MTC",
+    "competitor_entity_id": "a15194e8-e64f-4fa1-9f8b-c68ba0a35510",
+    "competitor_id": "6fa5a367-6321-45ae-a589-e302d4d46c8c",
+    "participant_id": "a095792e-bb1d-4db6-9ff5-7bf4a0aa15b7",
+    "participant_name": "Bioquímica",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "11b05295-6e9f-4cf2-91e9-7d335765c92b",
-    "competitor_id": "b97b5333-0e93-435b-ab38-cce49703b5da",
-    "participant_id": "2f853f51-5107-4380-8a5a-3224510c0105",
-    "participant_name": "Geologia",
+    "competitor_entity_id": "c056c7eb-bba8-49e4-bde0-2d27a285b3dc",
+    "competitor_id": "41408b43-6a61-4ee9-acb6-096a6fcb3f8c",
+    "participant_id": "07e3183b-26d1-4a4c-b750-9b26d65216e3",
+    "participant_name": "MTC",
     "participant_type": "team"
    }
   ],
@@ -2986,18 +3306,18 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "4789d1a1-eae7-490b-a3f9-06ba4264c556"
+    "participant_id": "a095792e-bb1d-4db6-9ff5-7bf4a0aa15b7"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "2f853f51-5107-4380-8a5a-3224510c0105"
+    "participant_id": "07e3183b-26d1-4a4c-b750-9b26d65216e3"
    }
   ],
   "start_time": "2026-11-19T23:15:00Z",
   "status": "scheduled",
-  "tournament_id": "a443a1d2-b385-447b-a225-7752c079d123",
-  "tournament_name": "Voleibol Feminino 2ª Divisão Grupo B"
+  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
  },
  {
   "location": "Caixa UA",
@@ -3241,24 +3561,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "b4a8016d-bf3a-4f54-b5f1-a81f50e03ab7",
-  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
-  "modality_name": "Voleibol Feminino",
+  "match_id": "7656d9c4-9ddc-45ac-a18b-ead114cdbf58",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "b828c66d-aeba-4c0a-9510-36ca42c703a5",
-    "competitor_id": "27c803a9-2865-4e39-b108-abdbb1f99ba0",
-    "participant_id": "feecff93-3431-45c2-bd9a-09c540bd6c84",
-    "participant_name": "Marketing",
+    "competitor_entity_id": "8c995304-4ed0-463c-85e4-49a233cf02cd",
+    "competitor_id": "bd6ffd93-7ede-4774-ab18-e9c3824ff37f",
+    "participant_id": "99c2106a-8e8a-4e58-863a-efa974d4096a",
+    "participant_name": "Fisioterapia",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "d944b1df-255f-4f20-972f-0ca64b8d8204",
-    "competitor_id": "c585cae1-99bd-44c0-8b6e-b92ffb5cf44d",
-    "participant_id": "8eb3c576-30ed-4cc7-ad04-ac4955380ae4",
-    "participant_name": "Tradução",
+    "competitor_entity_id": "07f0d645-f986-4413-9110-92049478dcf4",
+    "competitor_id": "1ff44eaa-4ec4-4720-97aa-97c5b8a5d8fe",
+    "participant_id": "3b9b15ce-2043-4083-8522-f616e64e75bb",
+    "participant_name": "EET B",
     "participant_type": "team"
    }
   ],
@@ -3266,18 +3586,18 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "feecff93-3431-45c2-bd9a-09c540bd6c84"
+    "participant_id": "99c2106a-8e8a-4e58-863a-efa974d4096a"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "8eb3c576-30ed-4cc7-ad04-ac4955380ae4"
+    "participant_id": "3b9b15ce-2043-4083-8522-f616e64e75bb"
    }
   ],
   "start_time": "2026-11-19T22:15:00Z",
   "status": "scheduled",
-  "tournament_id": "a443a1d2-b385-447b-a225-7752c079d123",
-  "tournament_name": "Voleibol Feminino 2ª Divisão Grupo B"
+  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
  },
  {
   "location": "PAH",
@@ -3321,24 +3641,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "7656d9c4-9ddc-45ac-a18b-ead114cdbf58",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
+  "match_id": "b4a8016d-bf3a-4f54-b5f1-a81f50e03ab7",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "8c995304-4ed0-463c-85e4-49a233cf02cd",
-    "competitor_id": "bd6ffd93-7ede-4774-ab18-e9c3824ff37f",
-    "participant_id": "99c2106a-8e8a-4e58-863a-efa974d4096a",
-    "participant_name": "Fisioterapia",
+    "competitor_entity_id": "b828c66d-aeba-4c0a-9510-36ca42c703a5",
+    "competitor_id": "27c803a9-2865-4e39-b108-abdbb1f99ba0",
+    "participant_id": "feecff93-3431-45c2-bd9a-09c540bd6c84",
+    "participant_name": "Marketing",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "07f0d645-f986-4413-9110-92049478dcf4",
-    "competitor_id": "1ff44eaa-4ec4-4720-97aa-97c5b8a5d8fe",
-    "participant_id": "3b9b15ce-2043-4083-8522-f616e64e75bb",
-    "participant_name": "EET B",
+    "competitor_entity_id": "d944b1df-255f-4f20-972f-0ca64b8d8204",
+    "competitor_id": "c585cae1-99bd-44c0-8b6e-b92ffb5cf44d",
+    "participant_id": "8eb3c576-30ed-4cc7-ad04-ac4955380ae4",
+    "participant_name": "Tradução",
     "participant_type": "team"
    }
   ],
@@ -3346,18 +3666,18 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "99c2106a-8e8a-4e58-863a-efa974d4096a"
+    "participant_id": "feecff93-3431-45c2-bd9a-09c540bd6c84"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "3b9b15ce-2043-4083-8522-f616e64e75bb"
+    "participant_id": "8eb3c576-30ed-4cc7-ad04-ac4955380ae4"
    }
   ],
   "start_time": "2026-11-19T22:15:00Z",
   "status": "scheduled",
-  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
+  "tournament_id": "a443a1d2-b385-447b-a225-7752c079d123",
+  "tournament_name": "Voleibol Feminino 2ª Divisão Grupo B"
  },
  {
   "location": "Caixa UA",
@@ -3681,24 +4001,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "8ac66700-1a1a-4c41-82cc-5fc14d513be1",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
+  "match_id": "d7eb275d-57ac-4264-ac91-0fb8d76a8936",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "86ce0079-89a2-42d8-b840-aa8df6988d5f",
-    "competitor_id": "cc77808c-6eb2-44c1-989c-f6f0e03a64d0",
-    "participant_id": "f9ef976f-22d0-41ca-ba02-1eb9d2d7cf0e",
-    "participant_name": "Gestão",
+    "competitor_entity_id": "8eb52050-c36c-46c9-ac69-a79c102b6ad9",
+    "competitor_id": "a4c0f933-b14f-436a-b4f9-fe0afc35a2e3",
+    "participant_id": "8b895cf0-1d1a-45c5-9edc-94174c1342b2",
+    "participant_name": "Eng. Química",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "983f38f6-abdd-4de2-942c-a49c348d1945",
-    "competitor_id": "642dfb66-76a5-4fee-994a-6ec1c0f9f903",
-    "participant_id": "13d0798d-0270-458b-b8f2-971cc7a92cf8",
-    "participant_name": "Eng. Computacional",
+    "competitor_entity_id": "e1d5297b-bc4a-4cfe-a380-7ef203fdfb08",
+    "competitor_id": "f599860d-fbd4-4e86-9d55-a1284b395acd",
+    "participant_id": "6eeff19f-74a7-4244-b0b3-6a4f60fe4ff8",
+    "participant_name": "Eng. de Materiais",
     "participant_type": "team"
    }
   ],
@@ -3706,18 +4026,18 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "f9ef976f-22d0-41ca-ba02-1eb9d2d7cf0e"
+    "participant_id": "8b895cf0-1d1a-45c5-9edc-94174c1342b2"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "13d0798d-0270-458b-b8f2-971cc7a92cf8"
+    "participant_id": "6eeff19f-74a7-4244-b0b3-6a4f60fe4ff8"
    }
   ],
   "start_time": "2026-11-19T21:15:00Z",
   "status": "scheduled",
-  "tournament_id": "a9cd2905-44cc-4bb1-9d7b-99a7224c2979",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo B"
+  "tournament_id": "c7e52a90-4e31-43f1-a568-d68d034d8ed7",
+  "tournament_name": "Voleibol Feminino 2ª Divisão Grupo A"
  },
  {
   "location": "Caixa UA",
@@ -3801,46 +4121,6 @@
  },
  {
   "location": "Caixa UA",
-  "match_id": "be9f87ff-56ce-4cb7-8670-0483490f1eb9",
-  "modality_id": "8a15a481-26d8-4000-b533-5e664a1a806b",
-  "modality_name": "Basquetebol Feminino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "5f8369ca-e52e-425a-8660-ee1ec11f0e1a",
-    "competitor_id": "5686322b-5ddc-49f2-9d65-e6e922aad3cd",
-    "participant_id": "84fceb7a-d5e5-4c37-bad3-11e6bf3dcf6a",
-    "participant_name": "Eng. Física",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "2600cf01-fe3e-437b-878d-f4f2b83ca2a7",
-    "competitor_id": "c107b84d-2c88-4cd9-8686-d92d88925d93",
-    "participant_id": "1bef87a6-cb60-4a49-9ce7-bf455cb42c7f",
-    "participant_name": "EET",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "84fceb7a-d5e5-4c37-bad3-11e6bf3dcf6a"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "1bef87a6-cb60-4a49-9ce7-bf455cb42c7f"
-   }
-  ],
-  "start_time": "2026-11-19T20:40:00Z",
-  "status": "scheduled",
-  "tournament_id": "26b2999b-bfdb-41de-b248-c80f2dfd97cd",
-  "tournament_name": "Basquetebol Feminino 1ª Divisão Grupo A"
- },
- {
-  "location": "Caixa UA",
   "match_id": "db49a197-2038-45ea-b4ee-aadd44288f44",
   "modality_id": "5430b759-1205-4e55-acb3-7396c957c50d",
   "modality_name": "Basquetebol Masculino",
@@ -3878,6 +4158,46 @@
   "status": "scheduled",
   "tournament_id": "44055895-3862-4119-a39a-9875e822d09c",
   "tournament_name": "Basquetebol Masculino 1ª Divisão"
+ },
+ {
+  "location": "Caixa UA",
+  "match_id": "be9f87ff-56ce-4cb7-8670-0483490f1eb9",
+  "modality_id": "8a15a481-26d8-4000-b533-5e664a1a806b",
+  "modality_name": "Basquetebol Feminino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "5f8369ca-e52e-425a-8660-ee1ec11f0e1a",
+    "competitor_id": "5686322b-5ddc-49f2-9d65-e6e922aad3cd",
+    "participant_id": "84fceb7a-d5e5-4c37-bad3-11e6bf3dcf6a",
+    "participant_name": "Eng. Física",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "2600cf01-fe3e-437b-878d-f4f2b83ca2a7",
+    "competitor_id": "c107b84d-2c88-4cd9-8686-d92d88925d93",
+    "participant_id": "1bef87a6-cb60-4a49-9ce7-bf455cb42c7f",
+    "participant_name": "EET",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "84fceb7a-d5e5-4c37-bad3-11e6bf3dcf6a"
+   },
+   {
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "1bef87a6-cb60-4a49-9ce7-bf455cb42c7f"
+   }
+  ],
+  "start_time": "2026-11-19T20:40:00Z",
+  "status": "scheduled",
+  "tournament_id": "26b2999b-bfdb-41de-b248-c80f2dfd97cd",
+  "tournament_name": "Basquetebol Feminino 1ª Divisão Grupo A"
  },
  {
   "location": "Caixa UA",
@@ -3961,24 +4281,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "c3bd0d4f-81f2-4547-882d-267b3e9809a0",
+  "match_id": "a8725f33-0059-475c-bcfd-66d45b283236",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "e0cc1c21-d5b0-40c9-acc6-2e9a35458a7a",
-    "competitor_id": "4911127c-e7fb-4f35-9cf2-17cde14e46a3",
-    "participant_id": "fc8c4c52-45cb-4c5e-9245-61c2d9e80be7",
-    "participant_name": "ECT",
+    "competitor_entity_id": "085d8e79-50f2-4439-9f52-b2a181df255a",
+    "competitor_id": "72148d48-aab7-4b27-9a82-b349bda70351",
+    "participant_id": "cad8b880-0d7b-4410-b49a-b6d205b15a73",
+    "participant_name": "CBM B",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "2f035b5d-892a-4714-90e5-32c9494b0eac",
-    "competitor_id": "bb748b7e-b7bb-41c2-b44b-006d5fd9b773",
-    "participant_id": "bcd69398-23cf-4c70-b4ce-e076075d11a5",
-    "participant_name": "LRE",
+    "competitor_entity_id": "f4dd6259-938e-4c21-b904-85e9a9a2ca11",
+    "competitor_id": "80f1dc6d-f30b-4853-aeac-85288484437f",
+    "participant_id": "4b492877-7c03-4aaa-be07-2feab85b8dc5",
+    "participant_name": "Eng. Biomédica",
     "participant_type": "team"
    }
   ],
@@ -3986,12 +4306,12 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "fc8c4c52-45cb-4c5e-9245-61c2d9e80be7"
+    "participant_id": "cad8b880-0d7b-4410-b49a-b6d205b15a73"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "bcd69398-23cf-4c70-b4ce-e076075d11a5"
+    "participant_id": "4b492877-7c03-4aaa-be07-2feab85b8dc5"
    }
   ],
   "start_time": "2026-11-19T20:15:00Z",
@@ -4041,24 +4361,24 @@
  },
  {
   "location": "PAH",
-  "match_id": "a8725f33-0059-475c-bcfd-66d45b283236",
+  "match_id": "c3bd0d4f-81f2-4547-882d-267b3e9809a0",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "085d8e79-50f2-4439-9f52-b2a181df255a",
-    "competitor_id": "72148d48-aab7-4b27-9a82-b349bda70351",
-    "participant_id": "cad8b880-0d7b-4410-b49a-b6d205b15a73",
-    "participant_name": "CBM B",
+    "competitor_entity_id": "e0cc1c21-d5b0-40c9-acc6-2e9a35458a7a",
+    "competitor_id": "4911127c-e7fb-4f35-9cf2-17cde14e46a3",
+    "participant_id": "fc8c4c52-45cb-4c5e-9245-61c2d9e80be7",
+    "participant_name": "ECT",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "f4dd6259-938e-4c21-b904-85e9a9a2ca11",
-    "competitor_id": "80f1dc6d-f30b-4853-aeac-85288484437f",
-    "participant_id": "4b492877-7c03-4aaa-be07-2feab85b8dc5",
-    "participant_name": "Eng. Biomédica",
+    "competitor_entity_id": "2f035b5d-892a-4714-90e5-32c9494b0eac",
+    "competitor_id": "bb748b7e-b7bb-41c2-b44b-006d5fd9b773",
+    "participant_id": "bcd69398-23cf-4c70-b4ce-e076075d11a5",
+    "participant_name": "LRE",
     "participant_type": "team"
    }
   ],
@@ -4066,12 +4386,12 @@
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "cad8b880-0d7b-4410-b49a-b6d205b15a73"
+    "participant_id": "fc8c4c52-45cb-4c5e-9245-61c2d9e80be7"
    },
    {
     "outcome": null,
     "outcome_metadata": null,
-    "participant_id": "4b492877-7c03-4aaa-be07-2feab85b8dc5"
+    "participant_id": "bcd69398-23cf-4c70-b4ce-e076075d11a5"
    }
   ],
   "start_time": "2026-11-19T20:15:00Z",
@@ -4160,46 +4480,6 @@
   "tournament_name": "Basquetebol Feminino 1ª Divisão Grupo A"
  },
  {
-  "location": "Caixa UA",
-  "match_id": "49c4bce5-6a29-499d-802d-f8fdbba74780",
-  "modality_id": "95bcec92-e054-4667-8a92-9c01492c5dbe",
-  "modality_name": "Futsal Feminino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "dd3260c8-0c9b-4957-a531-c5c68a788e91",
-    "competitor_id": "946dd13a-4e58-405a-bb81-6538d73ed80b",
-    "participant_id": "d7ddeade-7d14-48c1-88db-eebba8a46e98",
-    "participant_name": "Economia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "0c5be5e0-e164-4339-8f01-1d095ce8a63d",
-    "competitor_id": "0153b377-1f46-44ee-ad23-b439076fb3ee",
-    "participant_id": "60c6e30c-e1eb-40e1-a0e3-b6bde42f0a05",
-    "participant_name": "MTC",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "d7ddeade-7d14-48c1-88db-eebba8a46e98",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "60c6e30c-e1eb-40e1-a0e3-b6bde42f0a05",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-11-18T23:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "5b4dafda-7ecc-4e2d-9479-8655eaaa945e",
-  "tournament_name": "Futsal Feminino (Fase de Liga)"
- },
- {
   "location": "PAH",
   "match_id": "680e64ca-a0e2-471f-906a-5173f84279ca",
   "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
@@ -4238,6 +4518,46 @@
   "status": "scheduled",
   "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
   "tournament_name": "Andebol Misto 1ª Divisão"
+ },
+ {
+  "location": "Caixa UA",
+  "match_id": "49c4bce5-6a29-499d-802d-f8fdbba74780",
+  "modality_id": "95bcec92-e054-4667-8a92-9c01492c5dbe",
+  "modality_name": "Futsal Feminino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "dd3260c8-0c9b-4957-a531-c5c68a788e91",
+    "competitor_id": "946dd13a-4e58-405a-bb81-6538d73ed80b",
+    "participant_id": "d7ddeade-7d14-48c1-88db-eebba8a46e98",
+    "participant_name": "Economia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "0c5be5e0-e164-4339-8f01-1d095ce8a63d",
+    "competitor_id": "0153b377-1f46-44ee-ad23-b439076fb3ee",
+    "participant_id": "60c6e30c-e1eb-40e1-a0e3-b6bde42f0a05",
+    "participant_name": "MTC",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "d7ddeade-7d14-48c1-88db-eebba8a46e98",
+    "position": null,
+    "score": null
+   },
+   {
+    "participant_id": "60c6e30c-e1eb-40e1-a0e3-b6bde42f0a05",
+    "position": null,
+    "score": null
+   }
+  ],
+  "start_time": "2026-11-18T23:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "5b4dafda-7ecc-4e2d-9479-8655eaaa945e",
+  "tournament_name": "Futsal Feminino (Fase de Liga)"
  },
  {
   "location": "Caixa UA",
@@ -4280,46 +4600,6 @@
   "tournament_name": "Futsal Feminino (Fase de Liga)"
  },
  {
-  "location": "PAH",
-  "match_id": "57ca2b1d-5d4f-43ee-a1d0-3d2467f63d3f",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "965b7b71-1aae-4206-b1e9-72c48e391197",
-    "competitor_id": "2cd39a7e-56b0-48d6-9962-d8820af0fb33",
-    "participant_id": "c9a52e75-b0f8-41ff-adda-3d719a11ca75",
-    "participant_name": "Eng. Informática",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "c5a4e191-b49e-42aa-903a-de9543e62ea9",
-    "competitor_id": "a52ecb86-6c4c-40fc-a001-5fc80de0a92b",
-    "participant_id": "55451df1-8189-404e-973a-7a351541198f",
-    "participant_name": "Eng. de Materiais",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "c9a52e75-b0f8-41ff-adda-3d719a11ca75",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "55451df1-8189-404e-973a-7a351541198f",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-11-18T22:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
-  "tournament_name": "Andebol Misto 1ª Divisão"
- },
- {
   "location": "Sintético (Crasto)",
   "match_id": "ce4e36f0-e28d-497b-8399-05574272125b",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -4358,6 +4638,46 @@
   "status": "scheduled",
   "tournament_id": "05ba3a4e-ec55-47d7-9c75-dbae0a376fb1",
   "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo A"
+ },
+ {
+  "location": "PAH",
+  "match_id": "57ca2b1d-5d4f-43ee-a1d0-3d2467f63d3f",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "965b7b71-1aae-4206-b1e9-72c48e391197",
+    "competitor_id": "2cd39a7e-56b0-48d6-9962-d8820af0fb33",
+    "participant_id": "c9a52e75-b0f8-41ff-adda-3d719a11ca75",
+    "participant_name": "Eng. Informática",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "c5a4e191-b49e-42aa-903a-de9543e62ea9",
+    "competitor_id": "a52ecb86-6c4c-40fc-a001-5fc80de0a92b",
+    "participant_id": "55451df1-8189-404e-973a-7a351541198f",
+    "participant_name": "Eng. de Materiais",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "c9a52e75-b0f8-41ff-adda-3d719a11ca75",
+    "position": null,
+    "score": null
+   },
+   {
+    "participant_id": "55451df1-8189-404e-973a-7a351541198f",
+    "position": null,
+    "score": null
+   }
+  ],
+  "start_time": "2026-11-18T22:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
+  "tournament_name": "Andebol Misto 1ª Divisão"
  },
  {
   "location": "Caixa UA",
@@ -4761,46 +5081,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "9048009a-d5e2-4271-a13f-142c528e706e",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "5a630c48-f86e-4548-998e-8f3b226263f0",
-    "competitor_id": "3fa251c6-c937-41c3-b80d-4deddd33a247",
-    "participant_id": "c139b967-0c85-4c33-8e52-7949648c45b1",
-    "participant_name": "ASP",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "0c234d64-62cc-45fa-9a69-17230d332320",
-    "competitor_id": "813b2124-01ee-45d7-a2dd-bab8bbe97894",
-    "participant_id": "89a81c6f-cfd8-4b72-99ed-5e566b71b63d",
-    "participant_name": "Eng. Civil",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "c139b967-0c85-4c33-8e52-7949648c45b1",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "89a81c6f-cfd8-4b72-99ed-5e566b71b63d",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-11-17T21:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
- },
- {
-  "location": "PAH",
   "match_id": "80e98487-8a7e-4687-9aa5-3b888fe8e629",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
   "modality_name": "Futsal Masculino",
@@ -4830,6 +5110,46 @@
    },
    {
     "participant_id": "189ef6c3-ce95-4f6f-b119-21f19283bc03",
+    "position": null,
+    "score": null
+   }
+  ],
+  "start_time": "2026-11-17T21:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "ca57a568-75b9-4338-b658-dcc58b48b86d",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "9048009a-d5e2-4271-a13f-142c528e706e",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "5a630c48-f86e-4548-998e-8f3b226263f0",
+    "competitor_id": "3fa251c6-c937-41c3-b80d-4deddd33a247",
+    "participant_id": "c139b967-0c85-4c33-8e52-7949648c45b1",
+    "participant_name": "ASP",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "0c234d64-62cc-45fa-9a69-17230d332320",
+    "competitor_id": "813b2124-01ee-45d7-a2dd-bab8bbe97894",
+    "participant_id": "89a81c6f-cfd8-4b72-99ed-5e566b71b63d",
+    "participant_name": "Eng. Civil",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "c139b967-0c85-4c33-8e52-7949648c45b1",
+    "position": null,
+    "score": null
+   },
+   {
+    "participant_id": "89a81c6f-cfd8-4b72-99ed-5e566b71b63d",
     "position": null,
     "score": null
    }
@@ -4960,46 +5280,6 @@
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo B"
  },
  {
-  "location": "PAH",
-  "match_id": "27cee9a9-8bff-46f5-a079-2d0e3572b7ef",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "a5851adb-4860-4f1e-9cb1-c08d2024ea7a",
-    "competitor_id": "3354041c-5481-4e07-8d8f-81c79afd6325",
-    "participant_id": "2381aaa8-0a76-4db6-bd80-2ee3daaeaee1",
-    "participant_name": "Eng. Mecânica B",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "bc1fa72d-acdd-4151-9c48-090714e66381",
-    "competitor_id": "0c386269-5586-412c-b219-a7e1d907fe8f",
-    "participant_id": "87c9ec36-c9bb-4ae6-98ac-70163267c8e0",
-    "participant_name": "MTC",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "2381aaa8-0a76-4db6-bd80-2ee3daaeaee1",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "87c9ec36-c9bb-4ae6-98ac-70163267c8e0",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-11-16T22:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
- },
- {
   "location": "Sintético (Crasto)",
   "match_id": "3d164966-c5d2-44ca-86de-86af512fdf18",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -5041,40 +5321,40 @@
  },
  {
   "location": "PAH",
-  "match_id": "dd9c1506-3cc0-4c6a-9bc1-32ad6d9271bc",
+  "match_id": "27cee9a9-8bff-46f5-a079-2d0e3572b7ef",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
   "modality_name": "Futsal Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "754c339a-45b3-495f-bfea-a34fbcf506ad",
-    "competitor_id": "06c247d3-5338-4091-8059-aa501a95481e",
-    "participant_id": "fce6083f-b11d-44a4-b5f7-9fc658e8ef20",
-    "participant_name": "Ciências do Mar",
+    "competitor_entity_id": "a5851adb-4860-4f1e-9cb1-c08d2024ea7a",
+    "competitor_id": "3354041c-5481-4e07-8d8f-81c79afd6325",
+    "participant_id": "2381aaa8-0a76-4db6-bd80-2ee3daaeaee1",
+    "participant_name": "Eng. Mecânica B",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "57876344-5962-4a75-84dd-e5e1e546b1cc",
-    "competitor_id": "acd5786d-5cb6-4be9-a708-58ae737cea67",
-    "participant_id": "e1fd9f46-cae0-4b3d-aabb-987cdd29a321",
-    "participant_name": "EET",
+    "competitor_entity_id": "bc1fa72d-acdd-4151-9c48-090714e66381",
+    "competitor_id": "0c386269-5586-412c-b219-a7e1d907fe8f",
+    "participant_id": "87c9ec36-c9bb-4ae6-98ac-70163267c8e0",
+    "participant_name": "MTC",
     "participant_type": "team"
    }
   ],
   "results": [
    {
-    "participant_id": "fce6083f-b11d-44a4-b5f7-9fc658e8ef20",
+    "participant_id": "2381aaa8-0a76-4db6-bd80-2ee3daaeaee1",
     "position": null,
     "score": null
    },
    {
-    "participant_id": "e1fd9f46-cae0-4b3d-aabb-987cdd29a321",
+    "participant_id": "87c9ec36-c9bb-4ae6-98ac-70163267c8e0",
     "position": null,
     "score": null
    }
   ],
-  "start_time": "2026-11-16T21:15:00Z",
+  "start_time": "2026-11-16T22:15:00Z",
   "status": "scheduled",
   "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
@@ -5118,6 +5398,46 @@
   "status": "scheduled",
   "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "dd9c1506-3cc0-4c6a-9bc1-32ad6d9271bc",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "754c339a-45b3-495f-bfea-a34fbcf506ad",
+    "competitor_id": "06c247d3-5338-4091-8059-aa501a95481e",
+    "participant_id": "fce6083f-b11d-44a4-b5f7-9fc658e8ef20",
+    "participant_name": "Ciências do Mar",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "57876344-5962-4a75-84dd-e5e1e546b1cc",
+    "competitor_id": "acd5786d-5cb6-4be9-a708-58ae737cea67",
+    "participant_id": "e1fd9f46-cae0-4b3d-aabb-987cdd29a321",
+    "participant_name": "EET",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "fce6083f-b11d-44a4-b5f7-9fc658e8ef20",
+    "position": null,
+    "score": null
+   },
+   {
+    "participant_id": "e1fd9f46-cae0-4b3d-aabb-987cdd29a321",
+    "position": null,
+    "score": null
+   }
+  ],
+  "start_time": "2026-11-16T21:15:00Z",
+  "status": "scheduled",
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -5464,18 +5784,18 @@
   ],
   "results": [
    {
-    "participant_id": "e3f1e4c5-5f00-47a5-86e5-e9170728a113",
-    "position": null,
-    "score": null
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "e3f1e4c5-5f00-47a5-86e5-e9170728a113"
    },
    {
-    "participant_id": "0b6a027f-c50e-496d-b520-dfbfe8e04868",
-    "position": null,
-    "score": null
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "0b6a027f-c50e-496d-b520-dfbfe8e04868"
    }
   ],
   "start_time": "2026-11-12T22:15:00Z",
-  "status": "scheduled",
+  "status": "in_progress",
   "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
  },
@@ -5504,18 +5824,58 @@
   ],
   "results": [
    {
-    "participant_id": "de865cc7-5156-4ac7-a8fb-8fbf88ff8cbf",
-    "position": null,
-    "score": null
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "de865cc7-5156-4ac7-a8fb-8fbf88ff8cbf"
    },
    {
-    "participant_id": "c0456ebd-5f44-4ec0-b54d-82f8f1c32563",
-    "position": null,
-    "score": null
+    "outcome": null,
+    "outcome_metadata": null,
+    "participant_id": "c0456ebd-5f44-4ec0-b54d-82f8f1c32563"
    }
   ],
   "start_time": "2026-11-12T22:15:00Z",
-  "status": "scheduled",
+  "status": "in_progress",
+  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
+  "tournament_name": "Andebol Misto 2ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "55b1dbf5-6c6e-4fc1-954f-1954ac7a14ae",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "367945a7-ad3a-488c-989d-2523a7506f8b",
+    "competitor_id": "64665616-f582-4f9a-9402-cc6049987926",
+    "participant_id": "80db8761-2c49-4a61-8b8e-867cdcadd2bd",
+    "participant_name": "Biotecnologia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "8bcdc986-21ed-46a7-b8e3-ddf2859ded3b",
+    "competitor_id": "4dc9e9da-ca2d-4d73-812c-32f9f3d42c29",
+    "participant_id": "51883269-8b31-4341-8f03-fac609266bae",
+    "participant_name": "Psicologia",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 17,
+    "outcome_metadata": {},
+    "participant_id": "80db8761-2c49-4a61-8b8e-867cdcadd2bd"
+   },
+   {
+    "outcome": 11,
+    "outcome_metadata": {},
+    "participant_id": "51883269-8b31-4341-8f03-fac609266bae"
+   }
+  ],
+  "start_time": "2026-11-12T21:15:00Z",
+  "status": "finished",
   "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
   "tournament_name": "Andebol Misto 2ª Divisão"
  },
@@ -5544,60 +5904,20 @@
   ],
   "results": [
    {
-    "participant_id": "e20ed82c-d7c7-4b0e-b3f7-2a66db566e35",
-    "position": null,
-    "score": null
+    "outcome": 0,
+    "outcome_metadata": {},
+    "participant_id": "e20ed82c-d7c7-4b0e-b3f7-2a66db566e35"
    },
    {
-    "participant_id": "38a02984-9156-4105-a1f4-eedf270e2fce",
-    "position": null,
-    "score": null
+    "outcome": 1,
+    "outcome_metadata": {},
+    "participant_id": "38a02984-9156-4105-a1f4-eedf270e2fce"
    }
   ],
   "start_time": "2026-11-12T21:15:00Z",
-  "status": "scheduled",
+  "status": "in_progress",
   "tournament_id": "05ba3a4e-ec55-47d7-9c75-dbae0a376fb1",
   "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo A"
- },
- {
-  "location": "PAH",
-  "match_id": "55b1dbf5-6c6e-4fc1-954f-1954ac7a14ae",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "367945a7-ad3a-488c-989d-2523a7506f8b",
-    "competitor_id": "64665616-f582-4f9a-9402-cc6049987926",
-    "participant_id": "80db8761-2c49-4a61-8b8e-867cdcadd2bd",
-    "participant_name": "Biotecnologia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "8bcdc986-21ed-46a7-b8e3-ddf2859ded3b",
-    "competitor_id": "4dc9e9da-ca2d-4d73-812c-32f9f3d42c29",
-    "participant_id": "51883269-8b31-4341-8f03-fac609266bae",
-    "participant_name": "Psicologia",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "80db8761-2c49-4a61-8b8e-867cdcadd2bd",
-    "position": null,
-    "score": null
-   },
-   {
-    "participant_id": "51883269-8b31-4341-8f03-fac609266bae",
-    "position": null,
-    "score": null
-   }
-  ],
-  "start_time": "2026-11-12T21:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
-  "tournament_name": "Andebol Misto 2ª Divisão"
  },
  {
   "location": "PAH",
@@ -5624,340 +5944,20 @@
   ],
   "results": [
    {
-    "participant_id": "46669ada-143e-48e6-a181-f364d4ef364e",
-    "position": null,
-    "score": null
+    "outcome": 10,
+    "outcome_metadata": {},
+    "participant_id": "46669ada-143e-48e6-a181-f364d4ef364e"
    },
    {
-    "participant_id": "af752b0d-2e4c-4138-8591-bba49e3b5c63",
-    "position": null,
-    "score": null
+    "outcome": 13,
+    "outcome_metadata": {},
+    "participant_id": "af752b0d-2e4c-4138-8591-bba49e3b5c63"
    }
   ],
   "start_time": "2026-11-12T20:15:00Z",
-  "status": "scheduled",
-  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
-  "tournament_name": "Andebol Misto 2ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "3b304069-2946-49d0-9be3-3da87d11aa48",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "bc359312-b5e0-4748-949c-f5a6ccdc6cf1",
-    "competitor_id": "734c415a-2a2a-4e2c-b82d-c3dd51d3104d",
-    "participant_id": "d649d6f1-0461-4201-a243-b994f17d838f",
-    "participant_name": "Administração Pública",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "54a4cd56-8efc-4653-b129-e7bca0713327",
-    "competitor_id": "e148b40e-3fea-43db-b7c5-f80d512f4c05",
-    "participant_id": "b48b1da0-e1d9-4e64-900b-f4db5d5f6e74",
-    "participant_name": "EET",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "d649d6f1-0461-4201-a243-b994f17d838f"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "b48b1da0-e1d9-4e64-900b-f4db5d5f6e74"
-   }
-  ],
-  "start_time": "2026-11-11T23:15:00Z",
-  "status": "finished",
-  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
-  "tournament_name": "Andebol Misto 1ª Divisão"
- },
- {
-  "location": "Sintético (Crasto)",
-  "match_id": "669a7dad-0f8a-4ccc-85d1-03142e59843c",
-  "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
-  "modality_name": "Futebol 7 Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "9422972b-0e09-4b8a-9643-f0531ae9d59f",
-    "competitor_id": "34dfa210-b138-4571-8452-b7c70baec989",
-    "participant_id": "d1b741d5-470e-497b-9dcb-3002638d44dd",
-    "participant_name": "CBM",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "1f9538f5-4794-4d29-84b9-3a66b31cc78a",
-    "competitor_id": "421f6fea-fecf-4561-9da1-72007441474f",
-    "participant_id": "f016c79a-2bac-4421-b610-dc3e19e932a0",
-    "participant_name": "Eng. Civil",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "d1b741d5-470e-497b-9dcb-3002638d44dd"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "f016c79a-2bac-4421-b610-dc3e19e932a0"
-   }
-  ],
-  "start_time": "2026-11-11T22:15:00Z",
-  "status": "finished",
-  "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
-  "tournament_name": "Futebol 7 Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "c6487a1f-db14-4e77-ae8c-70ffca874247",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "4c41a377-4f9b-433d-bbe6-4a142ff40382",
-    "competitor_id": "43561a29-fc1e-43fd-9166-3195cfd0d249",
-    "participant_id": "b383d8fa-f2b1-4ab7-ab7b-f215349c0afe",
-    "participant_name": "ECT",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "c5b4ff91-e844-415c-86c7-5ab11e9fcc1a",
-    "competitor_id": "b088fd59-e3a1-4ff8-88a9-4be9149c0c0a",
-    "participant_id": "da416125-06cc-4e66-8e3f-a017cd6f9b96",
-    "participant_name": "Gestão Comercial",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "b383d8fa-f2b1-4ab7-ab7b-f215349c0afe"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "da416125-06cc-4e66-8e3f-a017cd6f9b96"
-   }
-  ],
-  "start_time": "2026-11-11T22:15:00Z",
-  "status": "finished",
-  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
-  "tournament_name": "Andebol Misto 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "a43d3fdc-92a9-4e7e-b6ec-7ba650346251",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "9e9c6802-e600-4b42-970d-fe97eb6165fd",
-    "competitor_id": "f3dd6ebc-7629-4442-ae29-77443a861d81",
-    "participant_id": "fa557d29-219e-4a0f-9672-e9f447348d84",
-    "participant_name": "MTC",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "1959b7d1-3d74-48f5-a3ed-b5f5acda303d",
-    "competitor_id": "5b16be29-d138-4848-bb82-f986ec02ccb4",
-    "participant_id": "cb54e541-e722-4204-abb0-bde317ef1232",
-    "participant_name": "ASP",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "fa557d29-219e-4a0f-9672-e9f447348d84"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "cb54e541-e722-4204-abb0-bde317ef1232"
-   }
-  ],
-  "start_time": "2026-11-11T21:15:00Z",
   "status": "finished",
   "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
   "tournament_name": "Andebol Misto 2ª Divisão"
- },
- {
-  "location": "Sintético (Crasto)",
-  "match_id": "90a80325-9a72-4b95-92a3-e7670e71f7d6",
-  "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
-  "modality_name": "Futebol 7 Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "fd53d99d-942d-41e3-9070-acafb06e612c",
-    "competitor_id": "0835671f-315d-4e37-9a3a-dc4954f143d4",
-    "participant_id": "c4aa7122-38f7-470e-97db-042630d601ac",
-    "participant_name": "GPT",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "6a7207fc-113c-4ca5-8556-277978149ff8",
-    "competitor_id": "5a72b15f-0dd2-403d-a46a-a02c5082ff46",
-    "participant_id": "63d6ba01-c4fc-46ef-b314-e4655c7e4149",
-    "participant_name": "Contabilidade",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "c4aa7122-38f7-470e-97db-042630d601ac"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "63d6ba01-c4fc-46ef-b314-e4655c7e4149"
-   }
-  ],
-  "start_time": "2026-11-11T21:15:00Z",
-  "status": "finished",
-  "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
-  "tournament_name": "Futebol 7 Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "edc9ca0e-28c2-4bf2-b191-6cf822817eec",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "9c07ece1-8df0-49b0-ab42-f5b9edb43606",
-    "competitor_id": "1237694a-74bd-4ec0-a558-b23ea446ddff",
-    "participant_id": "ace509a7-bdc4-45e5-ab69-5b3990ed31d3",
-    "participant_name": "Eng. Mecânica B",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "88ae6e74-a633-48e9-9904-c28dcef983b2",
-    "competitor_id": "f1c19dc2-7624-4039-afd6-78a3afaf0d7f",
-    "participant_id": "3f2378c0-98e9-4ca8-bf81-561e3609b545",
-    "participant_name": "Gestão",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "ace509a7-bdc4-45e5-ab69-5b3990ed31d3"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "3f2378c0-98e9-4ca8-bf81-561e3609b545"
-   }
-  ],
-  "start_time": "2026-11-11T20:15:00Z",
-  "status": "finished",
-  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
-  "tournament_name": "Andebol Misto 2ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "3cf06e99-7a63-4123-84f9-ec71562eae36",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "4831589e-a015-418c-bd67-9184842ff11b",
-    "competitor_id": "f237ac4e-27a8-4877-9967-922e4160997d",
-    "participant_id": "b2bb3ce6-ad3b-4b76-82db-3a861dcd2502",
-    "participant_name": "Administração Pública",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "be363020-1fac-4daa-a926-714577619b07",
-    "competitor_id": "8c4487c7-04be-46d9-bac1-cc09226143b6",
-    "participant_id": "75320896-8ea3-454f-991d-95b0e6df2e71",
-    "participant_name": "LRE",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "b2bb3ce6-ad3b-4b76-82db-3a861dcd2502"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "75320896-8ea3-454f-991d-95b0e6df2e71"
-   }
-  ],
-  "start_time": "2026-11-11T19:00:00Z",
-  "status": "finished",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
- },
- {
-  "location": "PAH",
-  "match_id": "4cf91817-6fa2-4c37-a596-ec740448f8ec",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "29caabe8-e301-4d82-a49c-950620fc3321",
-    "competitor_id": "f7efc45e-0d98-4d66-885a-4950c9a01843",
-    "participant_id": "efe89084-29ca-48f6-ad87-6268b1feea96",
-    "participant_name": "Medicina",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "5af63e26-4950-4ef4-bce2-61d8bd715d94",
-    "competitor_id": "7b3dbaf2-ea8b-413f-8bbc-dad22e05253d",
-    "participant_id": "d100a3ae-d2be-4278-9b8f-a2a9769f93a6",
-    "participant_name": "Gestão",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "efe89084-29ca-48f6-ad87-6268b1feea96"
-   },
-   {
-    "outcome": null,
-    "outcome_metadata": null,
-    "participant_id": "d100a3ae-d2be-4278-9b8f-a2a9769f93a6"
-   }
-  ],
-  "start_time": "2026-11-11T18:00:00Z",
-  "status": "finished",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -6520,46 +6520,6 @@
   "tournament_name": "Futsal Masculino 1º Divisão"
  },
  {
-  "location": "Sintético (Crasto)",
-  "match_id": "f1f5f22c-69e5-4799-a308-a13b5d644f25",
-  "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
-  "modality_name": "Futebol 7 Masculino",
-  "occurrence_count": 1,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "a4c7320d-0cce-4fb6-beb9-eadccecae3d0",
-    "competitor_id": "99fb8a91-d780-44dd-af64-3ae49f4f8f3c",
-    "participant_id": "253c562d-4a05-430b-be00-a5b38e429744",
-    "participant_name": "Geologia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "433a35b5-dcf2-4cdc-85c3-343757f95505",
-    "competitor_id": "72a88543-f577-4aaa-bc5c-649fa0fd02db",
-    "participant_id": "18bdbeee-845e-4863-ae5e-a4542d21c765",
-    "participant_name": "Eng. Biomédica",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": 4,
-    "outcome_metadata": {},
-    "participant_id": "253c562d-4a05-430b-be00-a5b38e429744"
-   },
-   {
-    "outcome": 4,
-    "outcome_metadata": {},
-    "participant_id": "18bdbeee-845e-4863-ae5e-a4542d21c765"
-   }
-  ],
-  "start_time": "2026-11-05T22:15:00Z",
-  "status": "finished",
-  "tournament_id": "184eb978-0914-4013-bd30-b9a8d063f09e",
-  "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo B"
- },
- {
   "location": "PAH",
   "match_id": "bf49bd57-edbc-434a-86ef-759d369069c5",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
@@ -6600,44 +6560,44 @@
   "tournament_name": "Futsal Masculino 1º Divisão"
  },
  {
-  "location": "PAH",
-  "match_id": "1b1f8e56-5cb9-4e50-954a-9891ab92839c",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
+  "location": "Sintético (Crasto)",
+  "match_id": "f1f5f22c-69e5-4799-a308-a13b5d644f25",
+  "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
+  "modality_name": "Futebol 7 Masculino",
+  "occurrence_count": 1,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "0cd3a35f-bf59-4e1c-86a4-467f655fa4d6",
-    "competitor_id": "9a9a8b77-4c40-475e-a5a3-87f431e5d8d8",
-    "participant_id": "53afd611-6d88-4b8f-90ca-2b77bfc07375",
-    "participant_name": "Fisioterapia",
+    "competitor_entity_id": "a4c7320d-0cce-4fb6-beb9-eadccecae3d0",
+    "competitor_id": "99fb8a91-d780-44dd-af64-3ae49f4f8f3c",
+    "participant_id": "253c562d-4a05-430b-be00-a5b38e429744",
+    "participant_name": "Geologia",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "efcff3e3-6d6b-445c-9d31-bfcc9f9cb62c",
-    "competitor_id": "f7e7e039-9de3-4ce8-9848-3064c4113f52",
-    "participant_id": "ecb01aaa-6759-4719-9ea5-9f57b16dbd60",
-    "participant_name": "EGI A",
+    "competitor_entity_id": "433a35b5-dcf2-4cdc-85c3-343757f95505",
+    "competitor_id": "72a88543-f577-4aaa-bc5c-649fa0fd02db",
+    "participant_id": "18bdbeee-845e-4863-ae5e-a4542d21c765",
+    "participant_name": "Eng. Biomédica",
     "participant_type": "team"
    }
   ],
   "results": [
    {
-    "outcome": 3,
+    "outcome": 4,
     "outcome_metadata": {},
-    "participant_id": "53afd611-6d88-4b8f-90ca-2b77bfc07375"
+    "participant_id": "253c562d-4a05-430b-be00-a5b38e429744"
    },
    {
-    "outcome": 1,
+    "outcome": 4,
     "outcome_metadata": {},
-    "participant_id": "ecb01aaa-6759-4719-9ea5-9f57b16dbd60"
+    "participant_id": "18bdbeee-845e-4863-ae5e-a4542d21c765"
    }
   ],
-  "start_time": "2026-11-05T21:15:00Z",
+  "start_time": "2026-11-05T22:15:00Z",
   "status": "finished",
-  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
-  "tournament_name": "Futsal Masculino 1º Divisão"
+  "tournament_id": "184eb978-0914-4013-bd30-b9a8d063f09e",
+  "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo B"
  },
  {
   "location": "Sintético (Crasto)",
@@ -6678,6 +6638,46 @@
   "status": "finished",
   "tournament_id": "184eb978-0914-4013-bd30-b9a8d063f09e",
   "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "1b1f8e56-5cb9-4e50-954a-9891ab92839c",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "0cd3a35f-bf59-4e1c-86a4-467f655fa4d6",
+    "competitor_id": "9a9a8b77-4c40-475e-a5a3-87f431e5d8d8",
+    "participant_id": "53afd611-6d88-4b8f-90ca-2b77bfc07375",
+    "participant_name": "Fisioterapia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "efcff3e3-6d6b-445c-9d31-bfcc9f9cb62c",
+    "competitor_id": "f7e7e039-9de3-4ce8-9848-3064c4113f52",
+    "participant_id": "ecb01aaa-6759-4719-9ea5-9f57b16dbd60",
+    "participant_name": "EGI A",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 3,
+    "outcome_metadata": {},
+    "participant_id": "53afd611-6d88-4b8f-90ca-2b77bfc07375"
+   },
+   {
+    "outcome": 1,
+    "outcome_metadata": {},
+    "participant_id": "ecb01aaa-6759-4719-9ea5-9f57b16dbd60"
+   }
+  ],
+  "start_time": "2026-11-05T21:15:00Z",
+  "status": "finished",
+  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
+  "tournament_name": "Futsal Masculino 1º Divisão"
  },
  {
   "location": "PAH",
@@ -7040,46 +7040,6 @@
   "tournament_name": "Ultimate Frisbee (Indoor)"
  },
  {
-  "location": "PAH",
-  "match_id": "2bd94055-2e2a-45ed-97d6-b5ac46523d10",
-  "modality_id": "ac2aeb55-c7cc-49d8-aea4-6992fedc2452",
-  "modality_name": "Ultimate Frisbee (Indoor)",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "b5b89d24-f605-44d3-adb5-d49760f89281",
-    "competitor_id": "4fc6dd40-b913-420e-937b-8714e8cff783",
-    "participant_id": "721daea6-3a00-48da-997a-49ce3e4e188c",
-    "participant_name": "Administração Pública",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "8c6aa8d2-5e6b-435d-bb28-ef6028dd0423",
-    "competitor_id": "e6d90d05-3722-4daa-97f4-1163f2c8ee5f",
-    "participant_id": "ce9cbab7-194e-4610-9c28-492bc1225605",
-    "participant_name": "Engenharia Informática",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": 1,
-    "outcome_metadata": {},
-    "participant_id": "721daea6-3a00-48da-997a-49ce3e4e188c"
-   },
-   {
-    "outcome": 5,
-    "outcome_metadata": {},
-    "participant_id": "ce9cbab7-194e-4610-9c28-492bc1225605"
-   }
-  ],
-  "start_time": "2026-11-04T22:15:00Z",
-  "status": "finished",
-  "tournament_id": "9f6efc26-d396-4440-b854-c2ed56644bda",
-  "tournament_name": "Ultimate Frisbee (Indoor)"
- },
- {
   "location": "Sintético (Crasto)",
   "match_id": "57aae53f-992c-4214-9b53-506860e98c7e",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -7118,6 +7078,46 @@
   "status": "finished",
   "tournament_id": "184eb978-0914-4013-bd30-b9a8d063f09e",
   "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "2bd94055-2e2a-45ed-97d6-b5ac46523d10",
+  "modality_id": "ac2aeb55-c7cc-49d8-aea4-6992fedc2452",
+  "modality_name": "Ultimate Frisbee (Indoor)",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "b5b89d24-f605-44d3-adb5-d49760f89281",
+    "competitor_id": "4fc6dd40-b913-420e-937b-8714e8cff783",
+    "participant_id": "721daea6-3a00-48da-997a-49ce3e4e188c",
+    "participant_name": "Administração Pública",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "8c6aa8d2-5e6b-435d-bb28-ef6028dd0423",
+    "competitor_id": "e6d90d05-3722-4daa-97f4-1163f2c8ee5f",
+    "participant_id": "ce9cbab7-194e-4610-9c28-492bc1225605",
+    "participant_name": "Engenharia Informática",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 1,
+    "outcome_metadata": {},
+    "participant_id": "721daea6-3a00-48da-997a-49ce3e4e188c"
+   },
+   {
+    "outcome": 5,
+    "outcome_metadata": {},
+    "participant_id": "ce9cbab7-194e-4610-9c28-492bc1225605"
+   }
+  ],
+  "start_time": "2026-11-04T22:15:00Z",
+  "status": "finished",
+  "tournament_id": "9f6efc26-d396-4440-b854-c2ed56644bda",
+  "tournament_name": "Ultimate Frisbee (Indoor)"
  },
  {
   "location": "PAH",
@@ -7800,46 +7800,6 @@
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
-  "location": "PAH",
-  "match_id": "a4845ca4-4f54-4555-8bd0-d4115598fa66",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "29caabe8-e301-4d82-a49c-950620fc3321",
-    "competitor_id": "f7efc45e-0d98-4d66-885a-4950c9a01843",
-    "participant_id": "df12fa07-1936-4bdb-8a1b-e0fb8743a93b",
-    "participant_name": "Medicina",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "a2bb8733-09f1-427a-ad95-d7d3b147287a",
-    "competitor_id": "c0ba7406-f8ee-4eb6-8e91-d69c3ee19d77",
-    "participant_id": "746d1762-2781-40fa-8ff7-73de9411fd4f",
-    "participant_name": "Tradução",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": 15,
-    "outcome_metadata": {},
-    "participant_id": "df12fa07-1936-4bdb-8a1b-e0fb8743a93b"
-   },
-   {
-    "outcome": 0,
-    "outcome_metadata": {},
-    "participant_id": "746d1762-2781-40fa-8ff7-73de9411fd4f"
-   }
-  ],
-  "start_time": "2026-11-02T22:15:00Z",
-  "status": "finished",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
- },
- {
   "location": "Sintético (Crasto)",
   "match_id": "f09c19d2-733f-4986-bb2d-d36a4db8b30e",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -7878,6 +7838,46 @@
   "status": "finished",
   "tournament_id": "184eb978-0914-4013-bd30-b9a8d063f09e",
   "tournament_name": "Futebol 7 Masculino 2ª Divisão Grupo B"
+ },
+ {
+  "location": "PAH",
+  "match_id": "a4845ca4-4f54-4555-8bd0-d4115598fa66",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "29caabe8-e301-4d82-a49c-950620fc3321",
+    "competitor_id": "f7efc45e-0d98-4d66-885a-4950c9a01843",
+    "participant_id": "df12fa07-1936-4bdb-8a1b-e0fb8743a93b",
+    "participant_name": "Medicina",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "a2bb8733-09f1-427a-ad95-d7d3b147287a",
+    "competitor_id": "c0ba7406-f8ee-4eb6-8e91-d69c3ee19d77",
+    "participant_id": "746d1762-2781-40fa-8ff7-73de9411fd4f",
+    "participant_name": "Tradução",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 15,
+    "outcome_metadata": {},
+    "participant_id": "df12fa07-1936-4bdb-8a1b-e0fb8743a93b"
+   },
+   {
+    "outcome": 0,
+    "outcome_metadata": {},
+    "participant_id": "746d1762-2781-40fa-8ff7-73de9411fd4f"
+   }
+  ],
+  "start_time": "2026-11-02T22:15:00Z",
+  "status": "finished",
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -8120,6 +8120,46 @@
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
  },
  {
+  "location": "PAH",
+  "match_id": "498c79a3-6caa-439c-84c6-043bb420c10c",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "4c41a377-4f9b-433d-bbe6-4a142ff40382",
+    "competitor_id": "43561a29-fc1e-43fd-9166-3195cfd0d249",
+    "participant_id": "dd13a3b1-f55c-4c43-aaa4-ff22748f8ab9",
+    "participant_name": "ECT",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "a6aedc32-e355-4be2-a53f-7fa1e453f431",
+    "competitor_id": "d83c9359-19c8-4ee4-897a-a04119089f60",
+    "participant_id": "498fbbb6-ab30-4cd2-b35d-bcf3361fb318",
+    "participant_name": "Eng. Física",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "dd13a3b1-f55c-4c43-aaa4-ff22748f8ab9",
+    "position": null,
+    "score": 15.0
+   },
+   {
+    "participant_id": "498fbbb6-ab30-4cd2-b35d-bcf3361fb318",
+    "position": null,
+    "score": 0.0
+   }
+  ],
+  "start_time": "2026-10-29T21:15:00Z",
+  "status": "finished",
+  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
+  "tournament_name": "Andebol Misto 1ª Divisão"
+ },
+ {
   "location": "Sintético (Crasto)",
   "match_id": "c7af77e2-5366-446c-b597-5f978f26b712",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -8161,46 +8201,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "498c79a3-6caa-439c-84c6-043bb420c10c",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "4c41a377-4f9b-433d-bbe6-4a142ff40382",
-    "competitor_id": "43561a29-fc1e-43fd-9166-3195cfd0d249",
-    "participant_id": "dd13a3b1-f55c-4c43-aaa4-ff22748f8ab9",
-    "participant_name": "ECT",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "a6aedc32-e355-4be2-a53f-7fa1e453f431",
-    "competitor_id": "d83c9359-19c8-4ee4-897a-a04119089f60",
-    "participant_id": "498fbbb6-ab30-4cd2-b35d-bcf3361fb318",
-    "participant_name": "Eng. Física",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "dd13a3b1-f55c-4c43-aaa4-ff22748f8ab9",
-    "position": null,
-    "score": 15.0
-   },
-   {
-    "participant_id": "498fbbb6-ab30-4cd2-b35d-bcf3361fb318",
-    "position": null,
-    "score": 0.0
-   }
-  ],
-  "start_time": "2026-10-29T21:15:00Z",
-  "status": "finished",
-  "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
-  "tournament_name": "Andebol Misto 1ª Divisão"
- },
- {
-  "location": "PAH",
   "match_id": "8c1ac1bf-4f82-4b34-a926-db279e5d9833",
   "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
   "modality_name": "Andebol Misto",
@@ -8238,6 +8238,58 @@
   "status": "finished",
   "tournament_id": "cf3cbfb3-e475-49bd-a5e6-e87d16c358dc",
   "tournament_name": "Andebol Misto 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "8164c3cc-41dc-4e91-b3c4-11f3cb80fa53",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "98408b46-aa27-4983-a7d8-554beaa5d6cd",
+    "competitor_id": "65b61b93-45cf-4ca5-b826-45f66b86bb05",
+    "participant_id": "962c4299-68e2-4ab8-892b-3ec5fc0cff2a",
+    "participant_name": "Medicina",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "1937f729-f2d9-4d62-b3bb-369c932ad4ed",
+    "competitor_id": "cddce740-e21e-49d1-913f-6ceb428dae5f",
+    "participant_id": "003a9cd2-22ad-499f-9eea-bc3a8fa79a54",
+    "participant_name": "Música",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 1,
+    "outcome_metadata": {
+     "sets": [
+      20,
+      25,
+      10
+     ]
+    },
+    "participant_id": "962c4299-68e2-4ab8-892b-3ec5fc0cff2a"
+   },
+   {
+    "outcome": 2,
+    "outcome_metadata": {
+     "sets": [
+      25,
+      19,
+      15
+     ]
+    },
+    "participant_id": "003a9cd2-22ad-499f-9eea-bc3a8fa79a54"
+   }
+  ],
+  "start_time": "2026-10-28T23:00:00Z",
+  "status": "finished",
+  "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
+  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "PAH",
@@ -8345,52 +8397,52 @@
  },
  {
   "location": "PAH",
-  "match_id": "8164c3cc-41dc-4e91-b3c4-11f3cb80fa53",
+  "match_id": "7aad5a2b-36c1-4617-89c5-1cbca8bc86d9",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "98408b46-aa27-4983-a7d8-554beaa5d6cd",
-    "competitor_id": "65b61b93-45cf-4ca5-b826-45f66b86bb05",
-    "participant_id": "962c4299-68e2-4ab8-892b-3ec5fc0cff2a",
-    "participant_name": "Medicina",
+    "competitor_entity_id": "c7cf9c68-16f9-4558-9269-3a1abd65bb1e",
+    "competitor_id": "4ea424ec-f73d-4648-b68e-0e614b9f9303",
+    "participant_id": "45c7c057-d084-47f3-bfc6-e1e71951852c",
+    "participant_name": "Economia",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "1937f729-f2d9-4d62-b3bb-369c932ad4ed",
-    "competitor_id": "cddce740-e21e-49d1-913f-6ceb428dae5f",
-    "participant_id": "003a9cd2-22ad-499f-9eea-bc3a8fa79a54",
-    "participant_name": "Música",
+    "competitor_entity_id": "756621e6-9016-4775-a192-7da8648798df",
+    "competitor_id": "c4f18449-7c81-4b89-8f6d-952fdc24377f",
+    "participant_id": "a1be1d16-f892-4aa5-99d9-bd76dff9206f",
+    "participant_name": "Biotecnologia",
     "participant_type": "team"
    }
   ],
   "results": [
    {
-    "outcome": 1,
-    "outcome_metadata": {
-     "sets": [
-      20,
-      25,
-      10
-     ]
-    },
-    "participant_id": "962c4299-68e2-4ab8-892b-3ec5fc0cff2a"
-   },
-   {
     "outcome": 2,
     "outcome_metadata": {
      "sets": [
+      23,
       25,
-      19,
       15
      ]
     },
-    "participant_id": "003a9cd2-22ad-499f-9eea-bc3a8fa79a54"
+    "participant_id": "45c7c057-d084-47f3-bfc6-e1e71951852c"
+   },
+   {
+    "outcome": 1,
+    "outcome_metadata": {
+     "sets": [
+      25,
+      17,
+      8
+     ]
+    },
+    "participant_id": "a1be1d16-f892-4aa5-99d9-bd76dff9206f"
    }
   ],
-  "start_time": "2026-10-28T23:00:00Z",
+  "start_time": "2026-10-28T22:00:00Z",
   "status": "finished",
   "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
   "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
@@ -8499,55 +8551,55 @@
  },
  {
   "location": "PAH",
-  "match_id": "7aad5a2b-36c1-4617-89c5-1cbca8bc86d9",
+  "match_id": "ddc873a7-b305-4d2a-ae3e-68599556e7d4",
   "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
   "modality_name": "Voleibol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "c7cf9c68-16f9-4558-9269-3a1abd65bb1e",
-    "competitor_id": "4ea424ec-f73d-4648-b68e-0e614b9f9303",
-    "participant_id": "45c7c057-d084-47f3-bfc6-e1e71951852c",
-    "participant_name": "Economia",
+    "competitor_entity_id": "96f5b1f2-1c0a-4941-9c16-22d3bd9f89b1",
+    "competitor_id": "84efa1dc-3ac2-4bbc-87d7-fd911c214e9f",
+    "participant_id": "d9b7d01f-a28b-4852-9785-8bba9e6b8597",
+    "participant_name": "CBM",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "756621e6-9016-4775-a192-7da8648798df",
-    "competitor_id": "c4f18449-7c81-4b89-8f6d-952fdc24377f",
-    "participant_id": "a1be1d16-f892-4aa5-99d9-bd76dff9206f",
-    "participant_name": "Biotecnologia",
+    "competitor_entity_id": "59a33459-6492-4cf8-b6bd-ea636cd61587",
+    "competitor_id": "19c8ff74-0997-4b43-8723-1ef65edd1804",
+    "participant_id": "eae99da4-ce19-41d8-8c16-ca2ac5e5d632",
+    "participant_name": "LRE",
     "participant_type": "team"
    }
   ],
   "results": [
-   {
-    "outcome": 2,
-    "outcome_metadata": {
-     "sets": [
-      23,
-      25,
-      15
-     ]
-    },
-    "participant_id": "45c7c057-d084-47f3-bfc6-e1e71951852c"
-   },
    {
     "outcome": 1,
     "outcome_metadata": {
      "sets": [
       25,
       17,
-      8
+      9
      ]
     },
-    "participant_id": "a1be1d16-f892-4aa5-99d9-bd76dff9206f"
+    "participant_id": "d9b7d01f-a28b-4852-9785-8bba9e6b8597"
+   },
+   {
+    "outcome": 2,
+    "outcome_metadata": {
+     "sets": [
+      20,
+      25,
+      15
+     ]
+    },
+    "participant_id": "eae99da4-ce19-41d8-8c16-ca2ac5e5d632"
    }
   ],
-  "start_time": "2026-10-28T22:00:00Z",
+  "start_time": "2026-10-28T21:00:00Z",
   "status": "finished",
-  "tournament_id": "7009c505-e8bc-4482-bb00-f0e920c1df61",
-  "tournament_name": "Voleibol Masculino 2ª Divisão Grupo A"
+  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
+  "tournament_name": "Voleibol Masculino 1ª Divisão"
  },
  {
   "location": "PAH",
@@ -8645,108 +8697,6 @@
    }
   ],
   "start_time": "2026-10-28T21:00:00Z",
-  "status": "finished",
-  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
-  "tournament_name": "Voleibol Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "ddc873a7-b305-4d2a-ae3e-68599556e7d4",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "96f5b1f2-1c0a-4941-9c16-22d3bd9f89b1",
-    "competitor_id": "84efa1dc-3ac2-4bbc-87d7-fd911c214e9f",
-    "participant_id": "d9b7d01f-a28b-4852-9785-8bba9e6b8597",
-    "participant_name": "CBM",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "59a33459-6492-4cf8-b6bd-ea636cd61587",
-    "competitor_id": "19c8ff74-0997-4b43-8723-1ef65edd1804",
-    "participant_id": "eae99da4-ce19-41d8-8c16-ca2ac5e5d632",
-    "participant_name": "LRE",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": 1,
-    "outcome_metadata": {
-     "sets": [
-      25,
-      17,
-      9
-     ]
-    },
-    "participant_id": "d9b7d01f-a28b-4852-9785-8bba9e6b8597"
-   },
-   {
-    "outcome": 2,
-    "outcome_metadata": {
-     "sets": [
-      20,
-      25,
-      15
-     ]
-    },
-    "participant_id": "eae99da4-ce19-41d8-8c16-ca2ac5e5d632"
-   }
-  ],
-  "start_time": "2026-10-28T21:00:00Z",
-  "status": "finished",
-  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
-  "tournament_name": "Voleibol Masculino 1ª Divisão"
- },
- {
-  "location": "PAH",
-  "match_id": "46256b0c-dee7-4518-8821-6bfe5afafbf5",
-  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
-  "modality_name": "Voleibol Masculino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "d26ab2c8-5319-4cfe-9568-4a3b7a56cea5",
-    "competitor_id": "a2206695-ca67-41f6-9fcb-5295d80c92b7",
-    "participant_id": "bcb417ad-6b65-4c71-98bc-ed64a20357b1",
-    "participant_name": "Eng. Mecânica",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "7ce7f96d-feb0-4016-b0b3-8771f1462946",
-    "competitor_id": "574d38fb-25a6-4c1e-8366-31a8966f2803",
-    "participant_id": "7bf2a1dd-1e21-4de8-af9a-478f507d5d9c",
-    "participant_name": "Contabilidade",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": 2,
-    "outcome_metadata": {
-     "sets": [
-      25,
-      25
-     ]
-    },
-    "participant_id": "bcb417ad-6b65-4c71-98bc-ed64a20357b1"
-   },
-   {
-    "outcome": 0,
-    "outcome_metadata": {
-     "sets": [
-      7,
-      18
-     ]
-    },
-    "participant_id": "7bf2a1dd-1e21-4de8-af9a-478f507d5d9c"
-   }
-  ],
-  "start_time": "2026-10-28T20:00:00Z",
   "status": "finished",
   "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
   "tournament_name": "Voleibol Masculino 1ª Divisão"
@@ -8855,55 +8805,53 @@
  },
  {
   "location": "PAH",
-  "match_id": "5526f16c-6d7d-4b58-ab13-e72d9234362e",
-  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
-  "modality_name": "Voleibol Feminino",
+  "match_id": "46256b0c-dee7-4518-8821-6bfe5afafbf5",
+  "modality_id": "cf955e77-6c6d-4998-ae98-5d72720adc87",
+  "modality_name": "Voleibol Masculino",
   "occurrence_count": 0,
   "participant_count": 2,
   "participants": [
    {
-    "competitor_entity_id": "f2f92da7-8b6d-4851-9aa3-dbacf5071fc1",
-    "competitor_id": "3394b2c2-2700-452b-87b0-ab00cdbfd0d1",
-    "participant_id": "5c2416df-4982-4004-8c12-420fe03606df",
-    "participant_name": "EET",
+    "competitor_entity_id": "d26ab2c8-5319-4cfe-9568-4a3b7a56cea5",
+    "competitor_id": "a2206695-ca67-41f6-9fcb-5295d80c92b7",
+    "participant_id": "bcb417ad-6b65-4c71-98bc-ed64a20357b1",
+    "participant_name": "Eng. Mecânica",
     "participant_type": "team"
    },
    {
-    "competitor_entity_id": "5af263dd-173e-4b21-bc51-7cbbb841a0ac",
-    "competitor_id": "f80b8fd0-bb98-4ce8-a2a3-76ed421b2ed2",
-    "participant_id": "1be5d570-d281-40f9-b95c-25826816dfcd",
-    "participant_name": "CBM A",
+    "competitor_entity_id": "7ce7f96d-feb0-4016-b0b3-8771f1462946",
+    "competitor_id": "574d38fb-25a6-4c1e-8366-31a8966f2803",
+    "participant_id": "7bf2a1dd-1e21-4de8-af9a-478f507d5d9c",
+    "participant_name": "Contabilidade",
     "participant_type": "team"
    }
   ],
   "results": [
    {
-    "outcome": 1,
-    "outcome_metadata": {
-     "sets": [
-      25,
-      14,
-      14
-     ]
-    },
-    "participant_id": "5c2416df-4982-4004-8c12-420fe03606df"
-   },
-   {
     "outcome": 2,
     "outcome_metadata": {
      "sets": [
-      23,
       25,
-      15
+      25
      ]
     },
-    "participant_id": "1be5d570-d281-40f9-b95c-25826816dfcd"
+    "participant_id": "bcb417ad-6b65-4c71-98bc-ed64a20357b1"
+   },
+   {
+    "outcome": 0,
+    "outcome_metadata": {
+     "sets": [
+      7,
+      18
+     ]
+    },
+    "participant_id": "7bf2a1dd-1e21-4de8-af9a-478f507d5d9c"
    }
   ],
-  "start_time": "2026-10-28T19:00:00Z",
+  "start_time": "2026-10-28T20:00:00Z",
   "status": "finished",
-  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
-  "tournament_name": "Voleibol Feminino 1ª Divisão"
+  "tournament_id": "a36d3b5f-40e6-43f0-9fd3-3bbcbcbd98c0",
+  "tournament_name": "Voleibol Masculino 1ª Divisão"
  },
  {
   "location": "PAH",
@@ -8948,6 +8896,58 @@
      ]
     },
     "participant_id": "775da00b-1aad-41a6-bbb1-7be76fd05020"
+   }
+  ],
+  "start_time": "2026-10-28T19:00:00Z",
+  "status": "finished",
+  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
+  "tournament_name": "Voleibol Feminino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "5526f16c-6d7d-4b58-ab13-e72d9234362e",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "f2f92da7-8b6d-4851-9aa3-dbacf5071fc1",
+    "competitor_id": "3394b2c2-2700-452b-87b0-ab00cdbfd0d1",
+    "participant_id": "5c2416df-4982-4004-8c12-420fe03606df",
+    "participant_name": "EET",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "5af263dd-173e-4b21-bc51-7cbbb841a0ac",
+    "competitor_id": "f80b8fd0-bb98-4ce8-a2a3-76ed421b2ed2",
+    "participant_id": "1be5d570-d281-40f9-b95c-25826816dfcd",
+    "participant_name": "CBM A",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 1,
+    "outcome_metadata": {
+     "sets": [
+      25,
+      14,
+      14
+     ]
+    },
+    "participant_id": "5c2416df-4982-4004-8c12-420fe03606df"
+   },
+   {
+    "outcome": 2,
+    "outcome_metadata": {
+     "sets": [
+      23,
+      25,
+      15
+     ]
+    },
+    "participant_id": "1be5d570-d281-40f9-b95c-25826816dfcd"
    }
   ],
   "start_time": "2026-10-28T19:00:00Z",
@@ -9007,56 +9007,6 @@
  },
  {
   "location": "PAH",
-  "match_id": "da6d37e6-872e-4ab6-a651-8f89cc610de6",
-  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
-  "modality_name": "Voleibol Feminino",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "111dafbf-e4b7-4901-b2ac-10cd209d20d5",
-    "competitor_id": "c09ac9d4-b2ee-4c71-b090-366e7da3a3b8",
-    "participant_id": "c12666d3-f226-424d-8316-14a7a61aee93",
-    "participant_name": "EGI",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "40d42199-5d95-42f2-a7a7-a5e7fea3435b",
-    "competitor_id": "d8cfe36d-00f3-4d10-b419-ea1992feeb1d",
-    "participant_id": "f4f3e642-931c-447d-8fcf-fe836a33dd58",
-    "participant_name": "Design",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "outcome": 2,
-    "outcome_metadata": {
-     "sets": [
-      25,
-      25
-     ]
-    },
-    "participant_id": "c12666d3-f226-424d-8316-14a7a61aee93"
-   },
-   {
-    "outcome": 0,
-    "outcome_metadata": {
-     "sets": [
-      24,
-      14
-     ]
-    },
-    "participant_id": "f4f3e642-931c-447d-8fcf-fe836a33dd58"
-   }
-  ],
-  "start_time": "2026-10-28T18:00:00Z",
-  "status": "finished",
-  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
-  "tournament_name": "Voleibol Feminino 1ª Divisão"
- },
- {
-  "location": "PAH",
   "match_id": "79f8569e-051c-46d3-b200-2d758f806c53",
   "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
   "modality_name": "Voleibol Feminino",
@@ -9098,6 +9048,56 @@
      ]
     },
     "participant_id": "823fdcf8-4c98-4fc0-a0e0-9c02da517b31"
+   }
+  ],
+  "start_time": "2026-10-28T18:00:00Z",
+  "status": "finished",
+  "tournament_id": "1d4ca276-cc00-49d3-8fde-727ad3d6cc48",
+  "tournament_name": "Voleibol Feminino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "da6d37e6-872e-4ab6-a651-8f89cc610de6",
+  "modality_id": "07f1605d-d0ca-439e-85bc-6586e8da96f6",
+  "modality_name": "Voleibol Feminino",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "111dafbf-e4b7-4901-b2ac-10cd209d20d5",
+    "competitor_id": "c09ac9d4-b2ee-4c71-b090-366e7da3a3b8",
+    "participant_id": "c12666d3-f226-424d-8316-14a7a61aee93",
+    "participant_name": "EGI",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "40d42199-5d95-42f2-a7a7-a5e7fea3435b",
+    "competitor_id": "d8cfe36d-00f3-4d10-b419-ea1992feeb1d",
+    "participant_id": "f4f3e642-931c-447d-8fcf-fe836a33dd58",
+    "participant_name": "Design",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "outcome": 2,
+    "outcome_metadata": {
+     "sets": [
+      25,
+      25
+     ]
+    },
+    "participant_id": "c12666d3-f226-424d-8316-14a7a61aee93"
+   },
+   {
+    "outcome": 0,
+    "outcome_metadata": {
+     "sets": [
+      24,
+      14
+     ]
+    },
+    "participant_id": "f4f3e642-931c-447d-8fcf-fe836a33dd58"
    }
   ],
   "start_time": "2026-10-28T18:00:00Z",
@@ -9518,46 +9518,6 @@
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
  },
  {
-  "location": "PAH",
-  "match_id": "48a509aa-dab8-461e-867c-1bc87e55861a",
-  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
-  "modality_name": "Andebol Misto",
-  "occurrence_count": 0,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "8bcdc986-21ed-46a7-b8e3-ddf2859ded3b",
-    "competitor_id": "4dc9e9da-ca2d-4d73-812c-32f9f3d42c29",
-    "participant_id": "e5da91f2-aa60-42d8-9ce1-e8cb21bd696b",
-    "participant_name": "Psicologia",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "ef28a777-997a-4989-9f52-ab04cf86e4c4",
-    "competitor_id": "9b9cdf19-7702-4295-ba92-8094aea36a7c",
-    "participant_id": "cf0d61a7-1ca8-482d-9728-05d769b8f00a",
-    "participant_name": "Ciências do Mar",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "e5da91f2-aa60-42d8-9ce1-e8cb21bd696b",
-    "position": null,
-    "score": 5.0
-   },
-   {
-    "participant_id": "cf0d61a7-1ca8-482d-9728-05d769b8f00a",
-    "position": null,
-    "score": 22.0
-   }
-  ],
-  "start_time": "2026-10-26T21:15:00Z",
-  "status": "finished",
-  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
-  "tournament_name": "Andebol Misto 2ª Divisão"
- },
- {
   "location": "Sintético (Crasto)",
   "match_id": "22d4925d-5c39-4e9e-822b-a51690619f1e",
   "modality_id": "fb11566f-c7b6-409e-8ad1-f4c50704837f",
@@ -9596,6 +9556,46 @@
   "status": "finished",
   "tournament_id": "4d94ec08-7e1a-4aa4-8590-6ef720d53148",
   "tournament_name": "Futebol 7 Masculino 1ª Divisão"
+ },
+ {
+  "location": "PAH",
+  "match_id": "48a509aa-dab8-461e-867c-1bc87e55861a",
+  "modality_id": "d18be477-b6e8-446e-b441-c3d6797bdb8c",
+  "modality_name": "Andebol Misto",
+  "occurrence_count": 0,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "8bcdc986-21ed-46a7-b8e3-ddf2859ded3b",
+    "competitor_id": "4dc9e9da-ca2d-4d73-812c-32f9f3d42c29",
+    "participant_id": "e5da91f2-aa60-42d8-9ce1-e8cb21bd696b",
+    "participant_name": "Psicologia",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "ef28a777-997a-4989-9f52-ab04cf86e4c4",
+    "competitor_id": "9b9cdf19-7702-4295-ba92-8094aea36a7c",
+    "participant_id": "cf0d61a7-1ca8-482d-9728-05d769b8f00a",
+    "participant_name": "Ciências do Mar",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "e5da91f2-aa60-42d8-9ce1-e8cb21bd696b",
+    "position": null,
+    "score": 5.0
+   },
+   {
+    "participant_id": "cf0d61a7-1ca8-482d-9728-05d769b8f00a",
+    "position": null,
+    "score": 22.0
+   }
+  ],
+  "start_time": "2026-10-26T21:15:00Z",
+  "status": "finished",
+  "tournament_id": "3cdf2294-6a1e-4b77-86b2-3a689a16573a",
+  "tournament_name": "Andebol Misto 2ª Divisão"
  },
  {
   "location": "PAH",
@@ -10798,46 +10798,6 @@
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
-  "location": "PAH",
-  "match_id": "72fb34eb-97ef-4448-9289-d624f5ebbaf0",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 1,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "7d5dd9f0-62bf-4128-92b2-b86263df13ac",
-    "competitor_id": "a95666b4-e327-4916-bcd2-2ac8595200ca",
-    "participant_id": "82e6fcd6-7895-49ff-aec2-c85c2d687a14",
-    "participant_name": "Eng. Química",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "f51095db-3c00-4939-a789-9eef8b5bb86f",
-    "competitor_id": "08cf37b3-2cdf-4066-ad22-7f2afcc72d3a",
-    "participant_id": "ea26345e-74a1-4aeb-ad33-061c25d76452",
-    "participant_name": "GPT",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "82e6fcd6-7895-49ff-aec2-c85c2d687a14",
-    "position": null,
-    "score": 3.0
-   },
-   {
-    "participant_id": "ea26345e-74a1-4aeb-ad33-061c25d76452",
-    "position": null,
-    "score": 2.0
-   }
-  ],
-  "start_time": "2026-10-14T21:00:00Z",
-  "status": "finished",
-  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
-  "tournament_name": "Futsal Masculino 1º Divisão"
- },
- {
   "location": "Caixa UA",
   "match_id": "13630f8d-2e49-4850-ad94-6eacfd54eac7",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
@@ -10876,6 +10836,46 @@
   "status": "finished",
   "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
+ },
+ {
+  "location": "PAH",
+  "match_id": "72fb34eb-97ef-4448-9289-d624f5ebbaf0",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 1,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "7d5dd9f0-62bf-4128-92b2-b86263df13ac",
+    "competitor_id": "a95666b4-e327-4916-bcd2-2ac8595200ca",
+    "participant_id": "82e6fcd6-7895-49ff-aec2-c85c2d687a14",
+    "participant_name": "Eng. Química",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "f51095db-3c00-4939-a789-9eef8b5bb86f",
+    "competitor_id": "08cf37b3-2cdf-4066-ad22-7f2afcc72d3a",
+    "participant_id": "ea26345e-74a1-4aeb-ad33-061c25d76452",
+    "participant_name": "GPT",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "82e6fcd6-7895-49ff-aec2-c85c2d687a14",
+    "position": null,
+    "score": 3.0
+   },
+   {
+    "participant_id": "ea26345e-74a1-4aeb-ad33-061c25d76452",
+    "position": null,
+    "score": 2.0
+   }
+  ],
+  "start_time": "2026-10-14T21:00:00Z",
+  "status": "finished",
+  "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
+  "tournament_name": "Futsal Masculino 1º Divisão"
  },
  {
   "location": "PAH",
@@ -10958,46 +10958,6 @@
   "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
-  "location": "Caixa UA",
-  "match_id": "1f12ea3b-793d-4eee-8731-4201ea4fc425",
-  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
-  "modality_name": "Futsal Masculino",
-  "occurrence_count": 2,
-  "participant_count": 2,
-  "participants": [
-   {
-    "competitor_entity_id": "29caabe8-e301-4d82-a49c-950620fc3321",
-    "competitor_id": "f7efc45e-0d98-4d66-885a-4950c9a01843",
-    "participant_id": "b565157b-d0d9-4ebb-86f7-b57efe88ad9f",
-    "participant_name": "Medicina",
-    "participant_type": "team"
-   },
-   {
-    "competitor_entity_id": "85f9f110-e910-4229-bc7f-6a7f9a3b26b7",
-    "competitor_id": "71306c2d-b8c9-4d00-810f-0f2b445f8e80",
-    "participant_id": "5cf0f8e7-7999-4d43-b123-eec1f4c12af9",
-    "participant_name": "Gestão Comercial",
-    "participant_type": "team"
-   }
-  ],
-  "results": [
-   {
-    "participant_id": "b565157b-d0d9-4ebb-86f7-b57efe88ad9f",
-    "position": null,
-    "score": 1.0
-   },
-   {
-    "participant_id": "5cf0f8e7-7999-4d43-b123-eec1f4c12af9",
-    "position": null,
-    "score": 0.0
-   }
-  ],
-  "start_time": "2026-10-14T19:00:00Z",
-  "status": "finished",
-  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
-  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
- },
- {
   "location": "PAH",
   "match_id": "99d233d9-18b2-44df-946b-30a2569edf65",
   "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
@@ -11036,6 +10996,46 @@
   "status": "finished",
   "tournament_id": "87a7d448-41d6-41da-be2a-86712f3860cb",
   "tournament_name": "Futsal Masculino 1º Divisão"
+ },
+ {
+  "location": "Caixa UA",
+  "match_id": "1f12ea3b-793d-4eee-8731-4201ea4fc425",
+  "modality_id": "90828c39-61ea-44d5-bbd7-6c703bab210e",
+  "modality_name": "Futsal Masculino",
+  "occurrence_count": 2,
+  "participant_count": 2,
+  "participants": [
+   {
+    "competitor_entity_id": "29caabe8-e301-4d82-a49c-950620fc3321",
+    "competitor_id": "f7efc45e-0d98-4d66-885a-4950c9a01843",
+    "participant_id": "b565157b-d0d9-4ebb-86f7-b57efe88ad9f",
+    "participant_name": "Medicina",
+    "participant_type": "team"
+   },
+   {
+    "competitor_entity_id": "85f9f110-e910-4229-bc7f-6a7f9a3b26b7",
+    "competitor_id": "71306c2d-b8c9-4d00-810f-0f2b445f8e80",
+    "participant_id": "5cf0f8e7-7999-4d43-b123-eec1f4c12af9",
+    "participant_name": "Gestão Comercial",
+    "participant_type": "team"
+   }
+  ],
+  "results": [
+   {
+    "participant_id": "b565157b-d0d9-4ebb-86f7-b57efe88ad9f",
+    "position": null,
+    "score": 1.0
+   },
+   {
+    "participant_id": "5cf0f8e7-7999-4d43-b123-eec1f4c12af9",
+    "position": null,
+    "score": 0.0
+   }
+  ],
+  "start_time": "2026-10-14T19:00:00Z",
+  "status": "finished",
+  "tournament_id": "76033cb9-73eb-410f-8dd7-7c51da1ca8a8",
+  "tournament_name": "Futsal Masculino 2ª Divisão Grupo A"
  },
  {
   "location": "Caixa UA",
