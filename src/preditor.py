@@ -4633,7 +4633,7 @@ def main(
         # Se não encontramos vagas via placeholders, tentamos via regras
         if not playoff_slots and playoff_rules:
             playoff_slots, total_playoff_slots = infer_slots_from_rules(
-                modalidade, playoff_rules
+                modalidade, playoff_rules, epoch=season_token
             )
 
         secondary_playoff_pm1 = parse_secondary_playoff_structure(
@@ -4646,7 +4646,7 @@ def main(
         # Fallback para regras se o CSV não tem liguilhas/playoffs secundários definidos
         if not secondary_playoff_pm1 and not secondary_liguilla_rows and playoff_rules:
             pm1_inferred, lm_inferred = infer_secondary_brackets_from_rules(
-                modalidade, playoff_rules
+                modalidade, playoff_rules, epoch=season_token
             )
             if pm1_inferred:
                 secondary_playoff_pm1 = pm1_inferred

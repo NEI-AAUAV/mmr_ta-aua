@@ -88,6 +88,26 @@ class MatchesToTablesTests(unittest.TestCase):
         self.assertEqual(row["Golos 1"], "")
         self.assertEqual(row["Golos 2"], "")
 
+    def test_reads_outcome_field_from_new_api_schema(self):
+        match = _match("a", "2026-11-09T21:30:00Z", "A", "B")
+        match["results"] = [
+            {"participant_id": "id-A", "outcome": 9, "outcome_metadata": {}},
+            {"participant_id": "id-B", "outcome": 0, "outcome_metadata": {}},
+        ]
+        row = matches_to_tables([match])["FUTSAL MASCULINO"][0]
+        self.assertEqual(row["Golos 1"], 9)
+        self.assertEqual(row["Golos 2"], 0)
+
+    def test_outcome_for_scheduled_match_stays_blank(self):
+        match = _match("a", "2026-11-09T21:30:00Z", "A", "B", status="scheduled")
+        match["results"] = [
+            {"participant_id": "id-A", "outcome": None, "outcome_metadata": {}},
+            {"participant_id": "id-B", "outcome": None, "outcome_metadata": {}},
+        ]
+        row = matches_to_tables([match])["FUTSAL MASCULINO"][0]
+        self.assertEqual(row["Golos 1"], "")
+        self.assertEqual(row["Golos 2"], "")
+
     def test_skips_non_team_participants(self):
         tables = matches_to_tables(
             [_match("a", "2026-10-21T20:00:00Z", "X", "Y", 1, 0, ptype="athlete")]

@@ -2,7 +2,6 @@
   "_meta": {
     "description": "Regras de playoff simplificadas: tipos de competição → épocas → modalidades"
   },
-
   "competition_formats": {
     "single-league": {
       "description": "Liga única, sem divisões nem grupos",
@@ -10,10 +9,9 @@
       "playoff_teams": "Top 8 da classificação geral",
       "promotion": 0,
       "relegation": 0,
-      "maintenance":0,
+      "maintenance": 0,
       "note": "Sem 2ª divisão, logo sem promoção"
     },
-
     "groups-only": {
       "description": "Sem divisões, apenas grupos paralelos (ex: 2 grupos A/B)",
       "playoff_spots": 8,
@@ -22,7 +20,6 @@
       "maintenance": 0,
       "note": "Sem 2ª divisão, logo sem descida nem manutenção (todas equipas permanecem)"
     },
-
     "divisions-only": {
       "description": "1ª e 2ª divisão, sem grupos internos.",
       "playoff_spots": 8,
@@ -31,7 +28,6 @@
       "relegation": "Últimas 2 da 1ª descem directamente (sem disputa)",
       "note": "Sem zona de manutenção, sem playoff de promoção: tudo é direto"
     },
-
     "divisions-and-groups": {
       "description": "1ª divisão + 2ª divisão com grupos internos.",
       "playoff_spots": 8,
@@ -61,7 +57,6 @@
       }
     }
   },
-
   "epochs": {
     "24_25": {
       "maintenancePosition": 0,
@@ -108,7 +103,6 @@
         }
       }
     },
-
     "25_26": {
       "maintenancePosition": 1,
       "_comment": "Com zona de manutenção em 25_26 (penúltimo da 1ª)",
@@ -156,9 +150,57 @@
           "secondary_bracket": "LM"
         }
       }
+    },
+    "26_27": {
+      "maintenancePosition": 1,
+      "_comment": "Formatos 26_27 inferidos dos tournament_name da API (ex.: 'Futsal Feminino (Fase de Liga)', 'Basquetebol Feminino 1ª Divisão Grupo A/B')",
+      "modalidades": {
+        "FUTSAL FEMININO": {
+          "format": "single-league",
+          "directRelegation": 0
+        },
+        "BASQUETEBOL FEMININO": {
+          "format": "groups-only",
+          "n_groups": 2,
+          "directRelegation": 0
+        },
+        "ANDEBOL MISTO": {
+          "format": "divisions-only",
+          "directRelegation": 2
+        },
+        "FUTSAL MASCULINO": {
+          "format": "divisions-and-groups",
+          "n_groups_2nd_div": 2,
+          "directRelegation": 3,
+          "secondary_bracket": "LM"
+        },
+        "BASQUETEBOL MASCULINO": {
+          "format": "divisions-and-groups",
+          "n_groups_2nd_div": 2,
+          "directRelegation": 3,
+          "secondary_bracket": "LM"
+        },
+        "VOLEIBOL FEMININO": {
+          "format": "divisions-and-groups",
+          "n_groups_2nd_div": 2,
+          "directRelegation": 3,
+          "secondary_bracket": "LM"
+        },
+        "VOLEIBOL MASCULINO": {
+          "format": "divisions-and-groups",
+          "n_groups_2nd_div": 2,
+          "directRelegation": 3,
+          "secondary_bracket": "LM"
+        },
+        "FUTEBOL DE 7 MASCULINO": {
+          "format": "divisions-and-groups",
+          "n_groups_2nd_div": 2,
+          "directRelegation": 3,
+          "secondary_bracket": "LM"
+        }
+      }
     }
   },
-
   "_rules": {
     "team_b_rule": "Equipas B são puladas na qualificação e promoção. Se o 1º for B, usa-se o 1º não-B como substituto.",
     "secondary_brackets": "Playoff de manutenção (PM) ou Liguilha (LM) detectados pelo prefixo das jornadas no calendário, ou pelo número de grupos de 2ª divisão: 2 grupos → LM, 3 grupos → PM",

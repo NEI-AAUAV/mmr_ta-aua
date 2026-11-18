@@ -2,6 +2,440 @@
   "version": 1,
   "modalidade": "ULTIMATE FRISBEE (INDOOR)",
   "epoca": "26_27",
-  "events": [],
-  "indexByContextTeam": {}
+  "events": [
+    {
+      "context": {
+        "Divisao": null,
+        "Grupo": null,
+        "ranking_key": "geral"
+      },
+      "tie_points": 6,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Biologia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Eng. Eletrónica e Telecomunicações",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 5,
+            "golos_marcados": 8
+          }
+        },
+        {
+          "team": "Biologia",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 1,
+            "golos_marcados": 15
+          }
+        }
+      ],
+      "event_id": 1
+    },
+    {
+      "context": {
+        "Divisao": null,
+        "Grupo": null,
+        "ranking_key": "geral"
+      },
+      "tie_points": 3,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "Administração Pública",
+        "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. Aeroespacial"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Eng. e Gestão Industrial",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 3,
+            "diferenca_golos_h2h": 1,
+            "golos_marcados_h2h": 3,
+            "diferenca_golos": -1,
+            "golos_marcados": 6
+          }
+        },
+        {
+          "team": "Administração Pública",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 7
+          }
+        },
+        {
+          "team": "Fisioterapia",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -3,
+            "golos_marcados": 8
+          }
+        },
+        {
+          "team": "Eng. Aeroespacial",
+          "rank_in_tiebreak": 4,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": -1,
+            "golos_marcados_h2h": 2,
+            "diferenca_golos": 0,
+            "golos_marcados": 6
+          }
+        }
+      ],
+      "event_id": 2
+    },
+    {
+      "context": {
+        "Divisao": null,
+        "Grupo": null,
+        "ranking_key": "geral"
+      },
+      "tie_points": 0,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Contabilidade",
+        "Eng. Computadores e Telemática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Eng. Computadores e Telemática",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -7,
+            "golos_marcados": 1
+          }
+        },
+        {
+          "team": "Contabilidade",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -10,
+            "golos_marcados": 4
+          }
+        }
+      ],
+      "event_id": 3
+    }
+  ],
+  "indexByContextTeam": {
+    "geral::Eng. Eletrónica e Telecomunicações": {
+      "event_id": 1,
+      "ranking_key": "geral",
+      "team": "Eng. Eletrónica e Telecomunicações",
+      "tie_type": "head_to_head",
+      "tie_points": 6,
+      "tied_teams": [
+        "Biologia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 5,
+        "golos_marcados": 8
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 3
+    },
+    "geral::Biologia": {
+      "event_id": 1,
+      "ranking_key": "geral",
+      "team": "Biologia",
+      "tie_type": "head_to_head",
+      "tie_points": 6,
+      "tied_teams": [
+        "Biologia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 1,
+        "golos_marcados": 15
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 4
+    },
+    "geral::Eng. e Gestão Industrial": {
+      "event_id": 2,
+      "ranking_key": "geral",
+      "team": "Eng. e Gestão Industrial",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Administração Pública",
+        "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. Aeroespacial"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 3,
+        "diferenca_golos_h2h": 1,
+        "golos_marcados_h2h": 3,
+        "diferenca_golos": -1,
+        "golos_marcados": 6
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 5
+    },
+    "geral::Administração Pública": {
+      "event_id": 2,
+      "ranking_key": "geral",
+      "team": "Administração Pública",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Administração Pública",
+        "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. Aeroespacial"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 7
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 6
+    },
+    "geral::Fisioterapia": {
+      "event_id": 2,
+      "ranking_key": "geral",
+      "team": "Fisioterapia",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Administração Pública",
+        "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. Aeroespacial"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -3,
+        "golos_marcados": 8
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 7
+    },
+    "geral::Eng. Aeroespacial": {
+      "event_id": 2,
+      "ranking_key": "geral",
+      "team": "Eng. Aeroespacial",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Administração Pública",
+        "Fisioterapia",
+        "Eng. e Gestão Industrial",
+        "Eng. Aeroespacial"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": -1,
+        "golos_marcados_h2h": 2,
+        "diferenca_golos": 0,
+        "golos_marcados": 6
+      },
+      "rank_in_tiebreak": 4,
+      "final_position": 8
+    },
+    "geral::Eng. Computadores e Telemática": {
+      "event_id": 3,
+      "ranking_key": "geral",
+      "team": "Eng. Computadores e Telemática",
+      "tie_type": "head_to_head",
+      "tie_points": 0,
+      "tied_teams": [
+        "Contabilidade",
+        "Eng. Computadores e Telemática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -7,
+        "golos_marcados": 1
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 9
+    },
+    "geral::Contabilidade": {
+      "event_id": 3,
+      "ranking_key": "geral",
+      "team": "Contabilidade",
+      "tie_type": "head_to_head",
+      "tie_points": 0,
+      "tied_teams": [
+        "Contabilidade",
+        "Eng. Computadores e Telemática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -10,
+        "golos_marcados": 4
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 10
+    }
+  }
 }

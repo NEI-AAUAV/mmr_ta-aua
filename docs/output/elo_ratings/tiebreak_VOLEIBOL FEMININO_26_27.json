@@ -2,6 +2,648 @@
   "version": 1,
   "modalidade": "VOLEIBOL FEMININO",
   "epoca": "26_27",
-  "events": [],
-  "indexByContextTeam": {}
+  "events": [
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 3,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "Gestão e Planeamento em Turismo",
+        "Biologia",
+        "Eng. e Gestão Industrial",
+        "Eng. do Ambiente"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Gestão e Planeamento em Turismo",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 2,
+            "golos_marcados": 2
+          }
+        },
+        {
+          "team": "Biologia",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 2,
+            "golos_marcados": 2
+          }
+        },
+        {
+          "team": "Eng. e Gestão Industrial",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 2,
+            "golos_marcados": 2
+          }
+        },
+        {
+          "team": "Eng. do Ambiente",
+          "rank_in_tiebreak": 4,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 2,
+            "golos_marcados": 2
+          }
+        }
+      ],
+      "event_id": 1
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 2,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Eng. Civil",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Eng. Civil",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 1,
+            "golos_marcados": 2
+          }
+        },
+        {
+          "team": "Ciências Biomédicas",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 1,
+            "golos_marcados": 2
+          }
+        }
+      ],
+      "event_id": 2
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 1,
+      "tie_type": "head_to_head",
+      "tied_teams": [
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Fisioterapia",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -1,
+            "golos_marcados": 1
+          }
+        },
+        {
+          "team": "Eng. Eletrónica e Telecomunicações",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -1,
+            "golos_marcados": 1
+          }
+        }
+      ],
+      "event_id": 3
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": null,
+        "ranking_key": "1ª Divisão"
+      },
+      "tie_points": 0,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "Eng. Física",
+        "Design",
+        "Gestão",
+        "Eng. Informática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Eng. Física",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 0
+          }
+        },
+        {
+          "team": "Design",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 0
+          }
+        },
+        {
+          "team": "Gestão",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 0
+          }
+        },
+        {
+          "team": "Eng. Informática",
+          "rank_in_tiebreak": 4,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -2,
+            "golos_marcados": 0
+          }
+        }
+      ],
+      "event_id": 4
+    }
+  ],
+  "indexByContextTeam": {
+    "1ª Divisão::Gestão e Planeamento em Turismo": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão",
+      "team": "Gestão e Planeamento em Turismo",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Gestão e Planeamento em Turismo",
+        "Biologia",
+        "Eng. e Gestão Industrial",
+        "Eng. do Ambiente"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 2,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 1
+    },
+    "1ª Divisão::Biologia": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão",
+      "team": "Biologia",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Gestão e Planeamento em Turismo",
+        "Biologia",
+        "Eng. e Gestão Industrial",
+        "Eng. do Ambiente"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 2,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 2
+    },
+    "1ª Divisão::Eng. e Gestão Industrial": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. e Gestão Industrial",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Gestão e Planeamento em Turismo",
+        "Biologia",
+        "Eng. e Gestão Industrial",
+        "Eng. do Ambiente"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 2,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 3
+    },
+    "1ª Divisão::Eng. do Ambiente": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. do Ambiente",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Gestão e Planeamento em Turismo",
+        "Biologia",
+        "Eng. e Gestão Industrial",
+        "Eng. do Ambiente"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 2,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 4,
+      "final_position": 4
+    },
+    "1ª Divisão::Eng. Civil": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Civil",
+      "tie_type": "head_to_head",
+      "tie_points": 2,
+      "tied_teams": [
+        "Eng. Civil",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 1,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 5
+    },
+    "1ª Divisão::Ciências Biomédicas": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão",
+      "team": "Ciências Biomédicas",
+      "tie_type": "head_to_head",
+      "tie_points": 2,
+      "tied_teams": [
+        "Eng. Civil",
+        "Ciências Biomédicas"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 1,
+        "golos_marcados": 2
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 6
+    },
+    "1ª Divisão::Fisioterapia": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão",
+      "team": "Fisioterapia",
+      "tie_type": "head_to_head",
+      "tie_points": 1,
+      "tied_teams": [
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -1,
+        "golos_marcados": 1
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 7
+    },
+    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Eletrónica e Telecomunicações",
+      "tie_type": "head_to_head",
+      "tie_points": 1,
+      "tied_teams": [
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -1,
+        "golos_marcados": 1
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 8
+    },
+    "1ª Divisão::Eng. Física": {
+      "event_id": 4,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Física",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "Eng. Física",
+        "Design",
+        "Gestão",
+        "Eng. Informática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 9
+    },
+    "1ª Divisão::Design": {
+      "event_id": 4,
+      "ranking_key": "1ª Divisão",
+      "team": "Design",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "Eng. Física",
+        "Design",
+        "Gestão",
+        "Eng. Informática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 10
+    },
+    "1ª Divisão::Gestão": {
+      "event_id": 4,
+      "ranking_key": "1ª Divisão",
+      "team": "Gestão",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "Eng. Física",
+        "Design",
+        "Gestão",
+        "Eng. Informática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 11
+    },
+    "1ª Divisão::Eng. Informática": {
+      "event_id": 4,
+      "ranking_key": "1ª Divisão",
+      "team": "Eng. Informática",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "Eng. Física",
+        "Design",
+        "Gestão",
+        "Eng. Informática"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": null,
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -2,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 4,
+      "final_position": 12
+    }
+  }
 }

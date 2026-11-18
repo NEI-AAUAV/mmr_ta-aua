@@ -233,7 +233,11 @@ def _score(match: Dict[str, Any], participant_id: str) -> Any:
         return ""
     for result in match.get("results") or []:
         if result.get("participant_id") == participant_id:
+            # A API passou a devolver o resultado em "outcome" (golos ou
+            # sets ganhos); jogos antigos continuam com "score".
             score = result.get("score")
+            if score is None:
+                score = result.get("outcome")
             return "" if score is None else int(score)
     return ""
 

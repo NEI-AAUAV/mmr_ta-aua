@@ -1,11 +1,11 @@
 Posicao,Equipa,pontos,jogos,vitorias,empates,derrotas,golos_marcados,golos_sofridos,diferenca_golos,faltas_comparencia
-1,Eng. e Gestão Industrial,0,2,0,0,0,0,0,0,2
-2,Eng. Computadores e Telemática,0,2,0,0,0,0,0,0,2
-3,Eng. Aeroespacial,0,2,0,0,0,0,0,0,2
-4,Administração Pública,0,3,0,0,0,0,0,0,3
-5,Contabilidade,0,3,0,0,0,0,0,0,3
-6,Eng. Eletrónica e Telecomunicações,0,3,0,0,0,0,0,0,3
-7,Eng. Mecânica,0,4,0,0,0,0,0,0,4
-8,Biologia,0,4,0,0,0,0,0,0,4
-9,Fisioterapia,0,4,0,0,0,0,0,0,4
-10,EI,0,5,0,0,0,0,0,0,5
+1,EI,15,5,5,0,0,17,7,10,0
+2,Eng. Mecânica,9,4,3,0,1,15,8,7,0
+3,Eng. Eletrónica e Telecomunicações,6,3,2,0,1,8,3,5,0
+4,Biologia,6,4,2,0,2,15,14,1,0
+5,Eng. e Gestão Industrial,3,2,1,0,1,6,7,-1,0
+6,Administração Pública,3,3,1,0,2,7,9,-2,0
+7,Fisioterapia,3,4,1,0,3,8,11,-3,0
+8,Eng. Aeroespacial,3,2,1,0,1,6,6,0,0
+9,Eng. Computadores e Telemática,0,2,0,0,2,1,8,-7,0
+10,Contabilidade,0,3,0,0,3,4,14,-10,0
