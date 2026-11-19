@@ -10,8 +10,9 @@
         "ranking_key": "geral"
       },
       "tie_points": 6,
-      "tie_type": "head_to_head",
+      "tie_type": "mini_league",
       "tied_teams": [
+        "Economia",
         "Eng. Biomédica",
         "Eng. Civil"
       ],
@@ -49,6 +50,18 @@
             "golos_marcados_h2h": 0,
             "golos_marcados": 13
           }
+        },
+        {
+          "team": "Economia",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 5,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 6
+          }
         }
       ],
       "event_id": 1
@@ -63,7 +76,6 @@
       "tie_type": "mini_league",
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Economia",
         "Marketing",
         "Eng. Informática",
         "Matemática",
@@ -117,20 +129,8 @@
           }
         },
         {
-          "team": "Economia",
-          "rank_in_tiebreak": 4,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "diferenca_golos": 2,
-            "pontos_h2h": 3,
-            "diferenca_golos_h2h": 2,
-            "golos_marcados_h2h": 3,
-            "golos_marcados": 3
-          }
-        },
-        {
           "team": "Eng. e Gestão Industrial",
-          "rank_in_tiebreak": 5,
+          "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
             "diferenca_golos": 2,
@@ -142,13 +142,13 @@
         },
         {
           "team": "Biologia",
-          "rank_in_tiebreak": 6,
+          "rank_in_tiebreak": 5,
           "criteria_values": {
             "faltas_comparencia": 0,
             "diferenca_golos": 0,
             "pontos_h2h": 0,
-            "diferenca_golos_h2h": -2,
-            "golos_marcados_h2h": 1,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
             "golos_marcados": 4
           }
         }
@@ -207,11 +207,11 @@
           }
         },
         {
-          "team": "MTC",
+          "team": "Ciências Biomédicas",
           "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
-            "diferenca_golos": -7,
+            "diferenca_golos": -10,
             "pontos_h2h": 0,
             "diferenca_golos_h2h": 0,
             "golos_marcados_h2h": 0,
@@ -219,7 +219,7 @@
           }
         },
         {
-          "team": "Ciências Biomédicas",
+          "team": "MTC",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -263,9 +263,10 @@
       "event_id": 1,
       "ranking_key": "geral",
       "team": "Eng. Biomédica",
-      "tie_type": "head_to_head",
+      "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
+        "Economia",
         "Eng. Biomédica",
         "Eng. Civil"
       ],
@@ -294,9 +295,10 @@
       "event_id": 1,
       "ranking_key": "geral",
       "team": "Eng. Civil",
-      "tie_type": "head_to_head",
+      "tie_type": "mini_league",
       "tie_points": 6,
       "tied_teams": [
+        "Economia",
         "Eng. Biomédica",
         "Eng. Civil"
       ],
@@ -321,6 +323,38 @@
       "rank_in_tiebreak": 2,
       "final_position": 2
     },
+    "geral::Economia": {
+      "event_id": 1,
+      "ranking_key": "geral",
+      "team": "Economia",
+      "tie_type": "mini_league",
+      "tie_points": 6,
+      "tied_teams": [
+        "Economia",
+        "Eng. Biomédica",
+        "Eng. Civil"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 5,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 6
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 3
+    },
     "geral::Eng. Informática": {
       "event_id": 2,
       "ranking_key": "geral",
@@ -329,7 +363,6 @@
       "tie_points": 3,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Economia",
         "Marketing",
         "Eng. Informática",
         "Matemática",
@@ -354,7 +387,7 @@
         "golos_marcados": 9
       },
       "rank_in_tiebreak": 1,
-      "final_position": 3
+      "final_position": 4
     },
     "geral::Marketing": {
       "event_id": 2,
@@ -364,7 +397,6 @@
       "tie_points": 3,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Economia",
         "Marketing",
         "Eng. Informática",
         "Matemática",
@@ -389,7 +421,7 @@
         "golos_marcados": 8
       },
       "rank_in_tiebreak": 2,
-      "final_position": 4
+      "final_position": 5
     },
     "geral::Matemática": {
       "event_id": 2,
@@ -399,7 +431,6 @@
       "tie_points": 3,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Economia",
         "Marketing",
         "Eng. Informática",
         "Matemática",
@@ -424,41 +455,6 @@
         "golos_marcados": 8
       },
       "rank_in_tiebreak": 3,
-      "final_position": 5
-    },
-    "geral::Economia": {
-      "event_id": 2,
-      "ranking_key": "geral",
-      "team": "Economia",
-      "tie_type": "mini_league",
-      "tie_points": 3,
-      "tied_teams": [
-        "Eng. e Gestão Industrial",
-        "Economia",
-        "Marketing",
-        "Eng. Informática",
-        "Matemática",
-        "Biologia"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "diferenca_golos",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "diferenca_golos": 2,
-        "pontos_h2h": 3,
-        "diferenca_golos_h2h": 2,
-        "golos_marcados_h2h": 3,
-        "golos_marcados": 3
-      },
-      "rank_in_tiebreak": 4,
       "final_position": 6
     },
     "geral::Eng. e Gestão Industrial": {
@@ -469,7 +465,6 @@
       "tie_points": 3,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Economia",
         "Marketing",
         "Eng. Informática",
         "Matemática",
@@ -493,7 +488,7 @@
         "golos_marcados_h2h": 0,
         "golos_marcados": 3
       },
-      "rank_in_tiebreak": 5,
+      "rank_in_tiebreak": 4,
       "final_position": 7
     },
     "geral::Biologia": {
@@ -504,7 +499,6 @@
       "tie_points": 3,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Economia",
         "Marketing",
         "Eng. Informática",
         "Matemática",
@@ -524,11 +518,11 @@
         "faltas_comparencia": 0,
         "diferenca_golos": 0,
         "pontos_h2h": 0,
-        "diferenca_golos_h2h": -2,
-        "golos_marcados_h2h": 1,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
         "golos_marcados": 4
       },
-      "rank_in_tiebreak": 6,
+      "rank_in_tiebreak": 5,
       "final_position": 8
     },
     "geral::Eng. Mecânica": {
@@ -601,10 +595,10 @@
       "rank_in_tiebreak": 2,
       "final_position": 10
     },
-    "geral::MTC": {
+    "geral::Ciências Biomédicas": {
       "event_id": 3,
       "ranking_key": "geral",
-      "team": "MTC",
+      "team": "Ciências Biomédicas",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
@@ -627,7 +621,7 @@
       "used_global_fallback": true,
       "criteria_values": {
         "faltas_comparencia": 0,
-        "diferenca_golos": -7,
+        "diferenca_golos": -10,
         "pontos_h2h": 0,
         "diferenca_golos_h2h": 0,
         "golos_marcados_h2h": 0,
@@ -636,10 +630,10 @@
       "rank_in_tiebreak": 3,
       "final_position": 11
     },
-    "geral::Ciências Biomédicas": {
+    "geral::MTC": {
       "event_id": 3,
       "ranking_key": "geral",
-      "team": "Ciências Biomédicas",
+      "team": "MTC",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
