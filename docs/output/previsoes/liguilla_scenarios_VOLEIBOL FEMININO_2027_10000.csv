@@ -1,511 +1,106 @@
 ﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
-Administração Pública,LM:Geologia|LM:Eng. Civil,LM,Geologia,13.8889,0.0000,86.1111,LM,Eng. Civil,13.8889,0.0000,86.1111,1.8000,5.5556
-Administração Pública,LM:Geologia|LM:Eng. do Ambiente,LM,Geologia,12.8205,0.0000,87.1795,LM,Eng. do Ambiente,2.5641,0.0000,97.4359,0.7800,2.5641
-Administração Pública,LM:Eng. Mecânica|LM:Eng. Civil,LM,Eng. Mecânica,28.5714,0.0000,71.4286,LM,Eng. Civil,14.2857,0.0000,85.7143,0.7000,12.8571
-Administração Pública,LM:Biologia e Geologia|LM:Eng. Civil,LM,Biologia e Geologia,38.7097,0.0000,61.2903,LM,Eng. Civil,8.0645,0.0000,91.9355,0.6200,9.6774
-Administração Pública,LM:Biotecnologia|LM:Eng. Civil,LM,Biotecnologia,53.4483,0.0000,46.5517,LM,Eng. Civil,22.4138,0.0000,77.5862,0.5800,22.4138
-Administração Pública,LM:Eng. Mecânica|LM:Eng. do Ambiente,LM,Eng. Mecânica,22.8571,0.0000,77.1429,LM,Eng. do Ambiente,2.8571,0.0000,97.1429,0.3500,2.8571
-Administração Pública,LM:Biologia e Geologia|LM:Eng. do Ambiente,LM,Biologia e Geologia,50.0000,0.0000,50.0000,LM,Eng. do Ambiente,3.5714,0.0000,96.4286,0.2800,3.5714
-Administração Pública,LM:Geologia|LM:Design,LM,Geologia,7.1429,0.0000,92.8571,LM,Design,0.0000,0.0000,100.0000,0.2800,0.0000
-Administração Pública,LM:Geologia|LM:Eng. Informática,LM,Geologia,13.0435,0.0000,86.9565,LM,Eng. Informática,0.0000,0.0000,100.0000,0.2300,0.0000
-Administração Pública,LM:Biotecnologia|LM:Eng. do Ambiente,LM,Biotecnologia,43.4783,0.0000,56.5217,LM,Eng. do Ambiente,4.3478,0.0000,95.6522,0.2300,4.3478
-Administração Pública,LM:Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Geologia,14.2857,0.0000,85.7143,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.2100,0.0000
-Administração Pública,LM:Tradução|LM:Eng. Civil,LM,Tradução,78.9474,0.0000,21.0526,LM,Eng. Civil,31.5789,0.0000,68.4211,0.1900,31.5789
-Administração Pública,LM:Tradução|LM:Eng. do Ambiente,LM,Tradução,61.1111,0.0000,38.8889,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1800,0.0000
-Administração Pública,LM:Eng. Mecânica|LM:Eng. Informática,LM,Eng. Mecânica,16.6667,0.0000,83.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.1200,0.0000
-Administração Pública,LM:Eng. Mecânica|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Mecânica,45.4545,0.0000,54.5455,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.1100,0.0000
-Administração Pública,LM:Biologia e Geologia|LM:Design,LM,Biologia e Geologia,63.6364,0.0000,36.3636,LM,Design,0.0000,0.0000,100.0000,0.1100,0.0000
-Administração Pública,LM:Biologia e Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biologia e Geologia,45.4545,0.0000,54.5455,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.1100,0.0000
-Administração Pública,LM:Biologia e Geologia|LM:Eng. Informática,LM,Biologia e Geologia,60.0000,0.0000,40.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.1000,0.0000
-Administração Pública,LM:Eng. Mecânica|LM:Design,LM,Eng. Mecânica,11.1111,0.0000,88.8889,LM,Design,0.0000,0.0000,100.0000,0.0900,0.0000
-Administração Pública,LM:Biotecnologia|LM:Design,LM,Biotecnologia,44.4444,0.0000,55.5556,LM,Design,0.0000,0.0000,100.0000,0.0900,0.0000
-Administração Pública,LM:Tradução|LM:Eng. Eletrónica e Telecomunicações,LM,Tradução,75.0000,0.0000,25.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0800,0.0000
-Administração Pública,LM:Biotecnologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biotecnologia,50.0000,0.0000,50.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0800,0.0000
-Administração Pública,LM:Biotecnologia|LM:Eng. Informática,LM,Biotecnologia,14.2857,0.0000,85.7143,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0700,0.0000
-Administração Pública,LM:Tradução|LM:Design,LM,Tradução,60.0000,0.0000,40.0000,LM,Design,0.0000,0.0000,100.0000,0.0500,0.0000
-Administração Pública,LM:Geologia|LM:Gestão,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0200,0.0000
-Administração Pública,LM:Tradução|LM:Eng. Informática,LM,Tradução,50.0000,0.0000,50.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0200,0.0000
-Administração Pública,LM:Biotecnologia|LM:Gestão e Planeamento em Turismo,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0200,0.0000
-Administração Pública,LM:Biologia e Geologia|LM:Ciências Biomédicas,LM,Biologia e Geologia,100.0000,0.0000,0.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0100,0.0000
-Administração Pública,LM:Biologia e Geologia|LM:Gestão,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Administração Pública,LM:Geologia|LM:Gestão e Planeamento em Turismo,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Administração Pública,LM:Biologia e Geologia|LM:Biologia,LM,Biologia e Geologia,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Administração Pública,LM:Tradução|LM:Gestão e Planeamento em Turismo,LM,Tradução,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Administração Pública,LM:Geologia|LM:Biologia,LM,Geologia,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Biologia,LM:Eng. Química|LM:Geologia,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Geologia,88.8889,0.0000,11.1111,0.1800,88.8889
-Biologia,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0900,100.0000
-Biologia,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0800,100.0000
-Biologia,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0600,100.0000
-Biologia,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0600,100.0000
-Biologia,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0500,100.0000
-Biologia,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0300,100.0000
-Biologia,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0200,100.0000
-Biologia,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0200,100.0000
-Biologia,LM:Eng. Química|LM:Tradução,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0200,100.0000
-Biologia,LM:Gestão Comercial|LM:Tradução,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0100,100.0000
-Biologia,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Biologia,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Biologia,LM:Administração Pública|LM:Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Biologia e Geologia,LM:Eng. Química|LM:Eng. Civil,LM,Eng. Química,33.0000,0.0000,67.0000,LM,Eng. Civil,19.0000,0.0000,81.0000,5.0000,11.6000
-Biologia e Geologia,LM:Matemática|LM:Eng. Civil,LM,Matemática,95.7806,0.0000,4.2194,LM,Eng. Civil,17.2996,0.0000,82.7004,2.3700,17.2996
-Biologia e Geologia,LM:Eng. Química|LM:Eng. do Ambiente,LM,Eng. Química,30.5000,0.0000,69.5000,LM,Eng. do Ambiente,10.0000,0.0000,90.0000,2.0000,7.5000
-Biologia e Geologia,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,93.0000,0.0000,7.0000,LM,Eng. do Ambiente,1.0000,0.0000,99.0000,1.0000,1.0000
-Biologia e Geologia,LM:Eng. Química|LM:Eng. Informática,LM,Eng. Química,34.0206,0.0000,65.9794,LM,Eng. Informática,1.0309,0.0000,98.9691,0.9700,1.0309
-Biologia e Geologia,LM:Eng. Química|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Química,30.4348,0.0000,69.5652,LM,Eng. Eletrónica e Telecomunicações,2.1739,0.0000,97.8261,0.9200,2.1739
-Biologia e Geologia,LM:Eng. Química|LM:Design,LM,Eng. Química,41.7582,0.0000,58.2418,LM,Design,4.3956,0.0000,95.6044,0.9100,4.3956
-Biologia e Geologia,LM:Administração Pública|LM:Eng. Civil,LM,Administração Pública,61.2903,0.0000,38.7097,LM,Eng. Civil,22.5806,0.0000,77.4194,0.6200,20.9677
-Biologia e Geologia,LM:Matemática|LM:Design,LM,Matemática,94.2308,0.0000,5.7692,LM,Design,0.0000,0.0000,100.0000,0.5200,0.0000
-Biologia e Geologia,LM:Matemática|LM:Eng. Eletrónica e Telecomunicações,LM,Matemática,93.4783,0.0000,6.5217,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.4600,0.0000
-Biologia e Geologia,LM:Matemática|LM:Eng. Informática,LM,Matemática,97.2222,0.0000,2.7778,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3600,0.0000
-Biologia e Geologia,LM:Gestão Comercial|LM:Eng. Civil,LM,Gestão Comercial,93.7500,0.0000,6.2500,LM,Eng. Civil,18.7500,0.0000,81.2500,0.3200,18.7500
-Biologia e Geologia,LM:Administração Pública|LM:Eng. do Ambiente,LM,Administração Pública,50.0000,0.0000,50.0000,LM,Eng. do Ambiente,14.2857,0.0000,85.7143,0.2800,14.2857
-Biologia e Geologia,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,92.8571,0.0000,7.1429,LM,Eng. do Ambiente,7.1429,0.0000,92.8571,0.1400,7.1429
-Biologia e Geologia,LM:Administração Pública|LM:Design,LM,Administração Pública,36.3636,0.0000,63.6364,LM,Design,9.0909,0.0000,90.9091,0.1100,9.0909
-Biologia e Geologia,LM:Administração Pública|LM:Eng. Eletrónica e Telecomunicações,LM,Administração Pública,54.5455,0.0000,45.4545,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.1100,0.0000
-Biologia e Geologia,LM:Administração Pública|LM:Eng. Informática,LM,Administração Pública,40.0000,0.0000,60.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.1000,0.0000
-Biologia e Geologia,LM:Gestão Comercial|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0800,0.0000
-Biologia e Geologia,LM:Eng. Química|LM:Gestão e Planeamento em Turismo,LM,Eng. Química,42.8571,0.0000,57.1429,LM,Gestão e Planeamento em Turismo,14.2857,0.0000,85.7143,0.0700,14.2857
-Biologia e Geologia,LM:Eng. Química|LM:Biologia,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0600,0.0000
-Biologia e Geologia,LM:Eng. Química|LM:Gestão,LM,Eng. Química,50.0000,0.0000,50.0000,LM,Gestão,33.3333,0.0000,66.6667,0.0600,33.3333
-Biologia e Geologia,LM:Matemática|LM:Biologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0500,0.0000
-Biologia e Geologia,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0300,0.0000
-Biologia e Geologia,LM:Gestão Comercial|LM:Design,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Design,0.0000,0.0000,100.0000,0.0300,0.0000
-Biologia e Geologia,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0300,0.0000
-Biologia e Geologia,LM:Gestão Comercial|LM:Biologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Biologia e Geologia,LM:Administração Pública|LM:Ciências Biomédicas,LM,Administração Pública,0.0000,0.0000,100.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0100,0.0000
-Biologia e Geologia,LM:Eng. Computadores e Telemática|LM:Design,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Design,0.0000,0.0000,100.0000,0.0100,0.0000
-Biologia e Geologia,LM:Administração Pública|LM:Gestão,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Biologia e Geologia,LM:Administração Pública|LM:Biologia,LM,Administração Pública,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Biologia e Geologia,LM:Gestão Comercial|LM:Gestão,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Biotecnologia,LM:Eng. Química|LM:Eng. Civil,LM,Eng. Química,32.7198,0.0000,67.2802,LM,Eng. Civil,20.6544,0.0000,79.3456,4.8900,13.0879
-Biotecnologia,LM:Eng. Química|LM:Eng. do Ambiente,LM,Eng. Química,30.0000,0.0000,70.0000,LM,Eng. do Ambiente,4.2857,0.0000,95.7143,2.1000,4.2857
-Biotecnologia,LM:Matemática|LM:Eng. Civil,LM,Matemática,92.8205,0.0000,7.1795,LM,Eng. Civil,18.9744,0.0000,81.0256,1.9500,18.9744
-Biotecnologia,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,90.6250,0.0000,9.3750,LM,Eng. do Ambiente,4.1667,0.0000,95.8333,0.9600,4.1667
-Biotecnologia,LM:Eng. Química|LM:Design,LM,Eng. Química,34.8315,0.0000,65.1685,LM,Design,2.2472,0.0000,97.7528,0.8900,2.2472
-Biotecnologia,LM:Eng. Química|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Química,32.4324,0.0000,67.5676,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.7400,0.0000
-Biotecnologia,LM:Eng. Química|LM:Eng. Informática,LM,Eng. Química,34.7222,0.0000,65.2778,LM,Eng. Informática,1.3889,0.0000,98.6111,0.7200,1.3889
-Biotecnologia,LM:Administração Pública|LM:Eng. Civil,LM,Administração Pública,46.5517,0.0000,53.4483,LM,Eng. Civil,17.2414,0.0000,82.7586,0.5800,15.5172
-Biotecnologia,LM:Matemática|LM:Eng. Informática,LM,Matemática,85.7143,0.0000,14.2857,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3500,0.0000
-Biotecnologia,LM:Matemática|LM:Eng. Eletrónica e Telecomunicações,LM,Matemática,82.8571,0.0000,17.1429,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.3500,0.0000
-Biotecnologia,LM:Matemática|LM:Design,LM,Matemática,91.1765,0.0000,8.8235,LM,Design,0.0000,0.0000,100.0000,0.3400,0.0000
-Biotecnologia,LM:Gestão Comercial|LM:Eng. Civil,LM,Gestão Comercial,96.2963,0.0000,3.7037,LM,Eng. Civil,14.8148,0.0000,85.1852,0.2700,14.8148
-Biotecnologia,LM:Administração Pública|LM:Eng. do Ambiente,LM,Administração Pública,56.5217,0.0000,43.4783,LM,Eng. do Ambiente,4.3478,0.0000,95.6522,0.2300,4.3478
-Biotecnologia,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,91.6667,0.0000,8.3333,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1200,0.0000
-Biotecnologia,LM:Administração Pública|LM:Design,LM,Administração Pública,55.5556,0.0000,44.4444,LM,Design,11.1111,0.0000,88.8889,0.0900,11.1111
-Biotecnologia,LM:Administração Pública|LM:Eng. Eletrónica e Telecomunicações,LM,Administração Pública,50.0000,0.0000,50.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0800,0.0000
-Biotecnologia,LM:Administração Pública|LM:Eng. Informática,LM,Administração Pública,85.7143,0.0000,14.2857,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0700,0.0000
-Biotecnologia,LM:Eng. Química|LM:Gestão,LM,Eng. Química,33.3333,0.0000,66.6667,LM,Gestão,0.0000,0.0000,100.0000,0.0600,0.0000
-Biotecnologia,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,83.3333,0.0000,16.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0600,0.0000
-Biotecnologia,LM:Eng. Química|LM:Biologia,LM,Eng. Química,50.0000,0.0000,50.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0600,0.0000
-Biotecnologia,LM:Gestão Comercial|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0500,0.0000
-Biotecnologia,LM:Gestão Comercial|LM:Design,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Design,20.0000,0.0000,80.0000,0.0500,20.0000
-Biotecnologia,LM:Eng. Química|LM:Gestão e Planeamento em Turismo,LM,Eng. Química,25.0000,0.0000,75.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0400,0.0000
-Biotecnologia,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0400,0.0000
-Biotecnologia,LM:Matemática|LM:Gestão,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão,33.3333,0.0000,66.6667,0.0300,33.3333
-Biotecnologia,LM:Administração Pública|LM:Gestão e Planeamento em Turismo,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0200,0.0000
-Biotecnologia,LM:Matemática|LM:Eng. Física,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0200,0.0000
-Biotecnologia,LM:Gestão Comercial|LM:Gestão e Planeamento em Turismo,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Biotecnologia,LM:Eng. Computadores e Telemática|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0100,0.0000
-Biotecnologia,LM:Matemática|LM:Biologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Biotecnologia,LM:Eng. Computadores e Telemática|LM:Gestão,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Ciências Biomédicas,LM:Eng. Química|LM:Geologia,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0700,100.0000
-Ciências Biomédicas,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0300,100.0000
-Ciências Biomédicas,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Design,LM:Eng. Química|LM:Geologia,LM,Eng. Química,88.3621,0.0000,11.6379,LM,Geologia,73.2759,0.0000,26.7241,2.3200,65.0862
-Design,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,83.5165,0.0000,16.4835,LM,Eng. Mecânica,83.5165,0.0000,16.4835,0.9100,70.3297
-Design,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,87.9121,0.0000,12.0879,LM,Biologia e Geologia,95.6044,0.0000,4.3956,0.9100,83.5165
-Design,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,82.2222,0.0000,17.7778,0.9000,82.2222
-Design,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,88.7640,0.0000,11.2360,LM,Biotecnologia,97.7528,0.0000,2.2472,0.8900,86.5169
-Design,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,88.4615,0.0000,11.5385,0.5200,88.4615
-Design,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.5200,100.0000
-Design,LM:Eng. Química|LM:Tradução,LM,Eng. Química,85.0000,0.0000,15.0000,LM,Tradução,100.0000,0.0000,0.0000,0.4000,85.0000
-Design,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.3400,100.0000
-Design,LM:Administração Pública|LM:Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Geologia,82.1429,0.0000,17.8571,0.2800,82.1429
-Design,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.1600,100.0000
-Design,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,76.9231,0.0000,23.0769,0.1300,76.9231
-Design,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia e Geologia,90.9091,0.0000,9.0909,0.1100,90.9091
-Design,LM:Administração Pública|LM:Eng. Mecânica,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Eng. Mecânica,88.8889,0.0000,11.1111,0.0900,88.8889
-Design,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biotecnologia,88.8889,0.0000,11.1111,0.0900,88.8889
-Design,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Mecânica,87.5000,0.0000,12.5000,0.0800,87.5000
-Design,LM:Administração Pública|LM:Tradução,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0500,100.0000
-Design,LM:Gestão Comercial|LM:Biotecnologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biotecnologia,80.0000,0.0000,20.0000,0.0500,80.0000
-Design,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0300,100.0000
-Design,LM:Matemática|LM:Marketing,LM,Matemática,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0200,100.0000
-Design,LM:Eng. Química|LM:Marketing,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0200,100.0000
-Design,LM:Eng. Computadores e Telemática|LM:Biologia e Geologia,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Design,LM:Eng. Computadores e Telemática|LM:Eng. Mecânica,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0100,0.0000
-Design,LM:Gestão Comercial|LM:Tradução,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Civil,LM:Eng. Química|LM:Geologia,LM,Eng. Química,65.1515,0.0000,34.8485,LM,Geologia,48.9633,0.0000,51.0367,12.5400,34.3700
-Eng. Civil,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,66.8440,0.0000,33.1560,LM,Eng. Mecânica,61.5248,0.0000,38.4752,5.6400,45.0355
-Eng. Civil,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,45.0450,0.0000,54.9550,5.5500,45.0450
-Eng. Civil,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,68.2000,0.0000,31.8000,LM,Biologia e Geologia,81.0000,0.0000,19.0000,5.0000,59.2000
-Eng. Civil,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,69.3252,0.0000,30.6748,LM,Biotecnologia,79.3456,0.0000,20.6544,4.8900,58.2822
-Eng. Civil,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,62.5455,0.0000,37.4545,2.7500,62.5455
-Eng. Civil,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,82.7004,0.0000,17.2996,2.3700,82.7004
-Eng. Civil,LM:Eng. Química|LM:Tradução,LM,Eng. Química,67.8733,0.0000,32.1267,LM,Tradução,95.4751,0.0000,4.5249,2.2100,66.0633
-Eng. Civil,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,81.0256,0.0000,18.9744,1.9500,81.0256
-Eng. Civil,LM:Administração Pública|LM:Geologia,LM,Administração Pública,86.1111,0.0000,13.8889,LM,Geologia,45.0000,0.0000,55.0000,1.8000,42.7778
-Eng. Civil,LM:Matemática|LM:Tradução,LM,Matemática,99.1304,0.0000,0.8696,LM,Tradução,96.5217,0.0000,3.4783,1.1500,95.6522
-Eng. Civil,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,52.7778,0.0000,47.2222,0.7200,52.7778
-Eng. Civil,LM:Administração Pública|LM:Eng. Mecânica,LM,Administração Pública,85.7143,0.0000,14.2857,LM,Eng. Mecânica,65.7143,0.0000,34.2857,0.7000,54.2857
-Eng. Civil,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,91.9355,0.0000,8.0645,LM,Biologia e Geologia,77.4194,0.0000,22.5806,0.6200,69.3548
-Eng. Civil,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,77.5862,0.0000,22.4138,LM,Biotecnologia,82.7586,0.0000,17.2414,0.5800,62.0690
-Eng. Civil,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,96.8750,0.0000,3.1250,LM,Biologia e Geologia,81.2500,0.0000,18.7500,0.3200,78.1250
-Eng. Civil,LM:Gestão Comercial|LM:Biotecnologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biotecnologia,85.1852,0.0000,14.8148,0.2700,85.1852
-Eng. Civil,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Mecânica,56.0000,0.0000,44.0000,0.2500,56.0000
-Eng. Civil,LM:Gestão Comercial|LM:Tradução,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Tradução,95.2381,0.0000,4.7619,0.2100,95.2381
-Eng. Civil,LM:Administração Pública|LM:Tradução,LM,Administração Pública,68.4211,0.0000,31.5789,LM,Tradução,94.7368,0.0000,5.2632,0.1900,68.4211
-Eng. Civil,LM:Eng. Química|LM:Marketing,LM,Eng. Química,63.6364,0.0000,36.3636,LM,Marketing,100.0000,0.0000,0.0000,0.1100,63.6364
-Eng. Civil,LM:Matemática|LM:Marketing,LM,Matemática,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0800,100.0000
-Eng. Civil,LM:Eng. Computadores e Telemática|LM:Geologia,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Geologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Civil,LM:Eng. Computadores e Telemática|LM:Eng. Mecânica,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,50.0000,0.0000,50.0000,0.0200,50.0000
-Eng. Civil,LM:Gestão Comercial|LM:Marketing,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Civil,LM:Eng. Computadores e Telemática|LM:Tradução,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Computadores e Telemática,LM:Geologia|LM:Eng. Civil,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Computadores e Telemática,LM:Eng. Mecânica|LM:Eng. Civil,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Computadores e Telemática,LM:Geologia|LM:Eng. Informática,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Biologia e Geologia|LM:Design,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Geologia|LM:Eng. do Ambiente,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Eng. Mecânica|LM:Design,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Tradução|LM:Eng. Civil,LM,Tradução,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Biotecnologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Biotecnologia|LM:Gestão,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Computadores e Telemática,LM:Eng. Mecânica|LM:Eng. do Ambiente,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Eletrónica e Telecomunicações,LM:Eng. Química|LM:Geologia,LM,Eng. Química,89.7297,0.0000,10.2703,LM,Geologia,84.3243,0.0000,15.6757,1.8500,74.5946
-Eng. Eletrónica e Telecomunicações,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,88.7755,0.0000,11.2245,LM,Eng. Mecânica,87.7551,0.0000,12.2449,0.9800,77.5510
-Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,81.9149,0.0000,18.0851,0.9400,81.9149
-Eng. Eletrónica e Telecomunicações,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,90.2174,0.0000,9.7826,LM,Biologia e Geologia,97.8261,0.0000,2.1739,0.9200,88.0435
-Eng. Eletrónica e Telecomunicações,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,90.5405,0.0000,9.4595,LM,Biotecnologia,100.0000,0.0000,0.0000,0.7400,90.5405
-Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.4600,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,90.2439,0.0000,9.7561,0.4100,90.2439
-Eng. Eletrónica e Telecomunicações,LM:Eng. Química|LM:Tradução,LM,Eng. Química,91.6667,0.0000,8.3333,LM,Tradução,100.0000,0.0000,0.0000,0.3600,91.6667
-Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.3500,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Administração Pública|LM:Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Geologia,85.7143,0.0000,14.2857,0.2100,85.7143
-Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.1600,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,84.6154,0.0000,15.3846,0.1300,84.6154
-Eng. Eletrónica e Telecomunicações,LM:Administração Pública|LM:Eng. Mecânica,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Eng. Mecânica,81.8182,0.0000,18.1818,0.1100,81.8182
-Eng. Eletrónica e Telecomunicações,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.1100,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0800,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Administração Pública|LM:Tradução,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0800,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0800,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Gestão Comercial|LM:Biotecnologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0500,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Eng. Química|LM:Marketing,LM,Eng. Química,66.6667,0.0000,33.3333,LM,Marketing,100.0000,0.0000,0.0000,0.0300,66.6667
-Eng. Eletrónica e Telecomunicações,LM:Gestão Comercial|LM:Tradução,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0300,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Mecânica,50.0000,0.0000,50.0000,0.0200,50.0000
-Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Marketing,LM,Matemática,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Eletrónica e Telecomunicações,LM:Eng. Computadores e Telemática|LM:Biotecnologia,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Física,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0200,100.0000
-Eng. Física,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Física,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Informática,LM:Eng. Química|LM:Geologia,LM,Eng. Química,93.3333,0.0000,6.6667,LM,Geologia,80.0000,0.0000,20.0000,1.9500,75.3846
-Eng. Informática,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,79.6460,0.0000,20.3540,1.1300,79.6460
-Eng. Informática,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,92.0792,0.0000,7.9208,LM,Eng. Mecânica,86.1386,0.0000,13.8614,1.0100,79.2079
-Eng. Informática,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,96.9072,0.0000,3.0928,LM,Biologia e Geologia,98.9691,0.0000,1.0309,0.9700,95.8763
-Eng. Informática,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,97.2222,0.0000,2.7778,LM,Biotecnologia,98.6111,0.0000,1.3889,0.7200,95.8333
-Eng. Informática,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.3600,100.0000
-Eng. Informática,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.3500,100.0000
-Eng. Informática,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,90.3226,0.0000,9.6774,0.3100,90.3226
-Eng. Informática,LM:Eng. Química|LM:Tradução,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.3000,100.0000
-Eng. Informática,LM:Administração Pública|LM:Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Geologia,86.9565,0.0000,13.0435,0.2300,86.9565
-Eng. Informática,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.1500,100.0000
-Eng. Informática,LM:Administração Pública|LM:Eng. Mecânica,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Eng. Mecânica,91.6667,0.0000,8.3333,0.1200,91.6667
-Eng. Informática,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,90.9091,0.0000,9.0909,0.1100,90.9091
-Eng. Informática,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.1000,100.0000
-Eng. Informática,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0700,100.0000
-Eng. Informática,LM:Gestão Comercial|LM:Biotecnologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0600,100.0000
-Eng. Informática,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0400,100.0000
-Eng. Informática,LM:Gestão Comercial|LM:Tradução,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0300,100.0000
-Eng. Informática,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0300,100.0000
-Eng. Informática,LM:Eng. Química|LM:Marketing,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0200,100.0000
-Eng. Informática,LM:Administração Pública|LM:Tradução,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0200,100.0000
-Eng. Informática,LM:Eng. Computadores e Telemática|LM:Geologia,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Informática,LM:Matemática|LM:Marketing,LM,Matemática,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Mecânica,LM:Eng. Química|LM:Eng. Civil,LM,Eng. Química,53.1915,0.0000,46.8085,LM,Eng. Civil,38.4752,0.0000,61.5248,5.6400,29.7872
-Eng. Mecânica,LM:Eng. Química|LM:Eng. do Ambiente,LM,Eng. Química,55.4348,0.0000,44.5652,LM,Eng. do Ambiente,26.4493,0.0000,73.5507,2.7600,25.0000
-Eng. Mecânica,LM:Matemática|LM:Eng. Civil,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Civil,37.4545,0.0000,62.5455,2.7500,37.4545
-Eng. Mecânica,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,99.1228,0.0000,0.8772,LM,Eng. do Ambiente,23.6842,0.0000,76.3158,1.1400,23.6842
-Eng. Mecânica,LM:Eng. Química|LM:Eng. Informática,LM,Eng. Química,53.4653,0.0000,46.5347,LM,Eng. Informática,13.8614,0.0000,86.1386,1.0100,12.8713
-Eng. Mecânica,LM:Eng. Química|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Química,58.1633,0.0000,41.8367,LM,Eng. Eletrónica e Telecomunicações,12.2449,0.0000,87.7551,0.9800,12.2449
-Eng. Mecânica,LM:Eng. Química|LM:Design,LM,Eng. Química,51.6484,0.0000,48.3516,LM,Design,16.4835,0.0000,83.5165,0.9100,14.2857
-Eng. Mecânica,LM:Administração Pública|LM:Eng. Civil,LM,Administração Pública,71.4286,0.0000,28.5714,LM,Eng. Civil,34.2857,0.0000,65.7143,0.7000,32.8571
-Eng. Mecânica,LM:Matemática|LM:Design,LM,Matemática,100.0000,0.0000,0.0000,LM,Design,11.5385,0.0000,88.4615,0.5200,11.5385
-Eng. Mecânica,LM:Matemática|LM:Eng. Eletrónica e Telecomunicações,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,9.7561,0.0000,90.2439,0.4100,9.7561
-Eng. Mecânica,LM:Administração Pública|LM:Eng. do Ambiente,LM,Administração Pública,77.1429,0.0000,22.8571,LM,Eng. do Ambiente,28.5714,0.0000,71.4286,0.3500,28.5714
-Eng. Mecânica,LM:Matemática|LM:Eng. Informática,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Informática,9.6774,0.0000,90.3226,0.3100,9.6774
-Eng. Mecânica,LM:Gestão Comercial|LM:Eng. Civil,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Civil,44.0000,0.0000,56.0000,0.2500,44.0000
-Eng. Mecânica,LM:Eng. Química|LM:Gestão,LM,Eng. Química,50.0000,0.0000,50.0000,LM,Gestão,33.3333,0.0000,66.6667,0.1200,25.0000
-Eng. Mecânica,LM:Administração Pública|LM:Eng. Informática,LM,Administração Pública,83.3333,0.0000,16.6667,LM,Eng. Informática,8.3333,0.0000,91.6667,0.1200,8.3333
-Eng. Mecânica,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1100,0.0000
-Eng. Mecânica,LM:Administração Pública|LM:Eng. Eletrónica e Telecomunicações,LM,Administração Pública,54.5455,0.0000,45.4545,LM,Eng. Eletrónica e Telecomunicações,18.1818,0.0000,81.8182,0.1100,18.1818
-Eng. Mecânica,LM:Administração Pública|LM:Design,LM,Administração Pública,88.8889,0.0000,11.1111,LM,Design,11.1111,0.0000,88.8889,0.0900,11.1111
-Eng. Mecânica,LM:Eng. Química|LM:Biologia,LM,Eng. Química,44.4444,0.0000,55.5556,LM,Biologia,0.0000,0.0000,100.0000,0.0900,0.0000
-Eng. Mecânica,LM:Gestão Comercial|LM:Design,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Design,12.5000,0.0000,87.5000,0.0800,12.5000
-Eng. Mecânica,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,20.0000,0.0000,80.0000,0.0500,20.0000
-Eng. Mecânica,LM:Eng. Química|LM:Gestão e Planeamento em Turismo,LM,Eng. Química,25.0000,0.0000,75.0000,LM,Gestão e Planeamento em Turismo,25.0000,0.0000,75.0000,0.0400,25.0000
-Eng. Mecânica,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0400,0.0000
-Eng. Mecânica,LM:Eng. Química|LM:Ciências Biomédicas,LM,Eng. Química,66.6667,0.0000,33.3333,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0300,0.0000
-Eng. Mecânica,LM:Gestão Comercial|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,50.0000,0.0000,50.0000,0.0200,50.0000
-Eng. Mecânica,LM:Matemática|LM:Biologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Mecânica,LM:Eng. Computadores e Telemática|LM:Eng. Civil,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Civil,50.0000,0.0000,50.0000,0.0200,50.0000
-Eng. Mecânica,LM:Eng. Computadores e Telemática|LM:Design,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Design,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Mecânica,LM:Eng. Química|LM:Eng. Física,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0100,0.0000
-Eng. Mecânica,LM:Matemática|LM:Gestão,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Mecânica,LM:Matemática|LM:Eng. Física,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Mecânica,LM:Gestão Comercial|LM:Gestão e Planeamento em Turismo,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Mecânica,LM:Eng. Computadores e Telemática|LM:Eng. do Ambiente,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Química,LM:Geologia|LM:Eng. Civil,LM,Geologia,29.5056,0.0000,70.4944,LM,Eng. Civil,34.8485,0.0000,65.1515,12.5400,20.1754
-Eng. Química,LM:Geologia|LM:Eng. do Ambiente,LM,Geologia,28.4330,0.0000,71.5670,LM,Eng. do Ambiente,19.5477,0.0000,80.4523,6.1900,13.0856
-Eng. Química,LM:Eng. Mecânica|LM:Eng. Civil,LM,Eng. Mecânica,46.8085,0.0000,53.1915,LM,Eng. Civil,33.1560,0.0000,66.8440,5.6400,25.1773
-Eng. Química,LM:Biologia e Geologia|LM:Eng. Civil,LM,Biologia e Geologia,67.0000,0.0000,33.0000,LM,Eng. Civil,31.8000,0.0000,68.2000,5.0000,29.2000
-Eng. Química,LM:Biotecnologia|LM:Eng. Civil,LM,Biotecnologia,67.2802,0.0000,32.7198,LM,Eng. Civil,30.6748,0.0000,69.3252,4.8900,28.6299
-Eng. Química,LM:Eng. Mecânica|LM:Eng. do Ambiente,LM,Eng. Mecânica,44.5652,0.0000,55.4348,LM,Eng. do Ambiente,20.2899,0.0000,79.7101,2.7600,19.2029
-Eng. Química,LM:Geologia|LM:Design,LM,Geologia,29.7414,0.0000,70.2586,LM,Design,11.6379,0.0000,88.3621,2.3200,11.2069
-Eng. Química,LM:Tradução|LM:Eng. Civil,LM,Tradução,91.4027,0.0000,8.5973,LM,Eng. Civil,32.1267,0.0000,67.8733,2.2100,32.5792
-Eng. Química,LM:Biotecnologia|LM:Eng. do Ambiente,LM,Biotecnologia,70.0000,0.0000,30.0000,LM,Eng. do Ambiente,18.5714,0.0000,81.4286,2.1000,18.5714
-Eng. Química,LM:Biologia e Geologia|LM:Eng. do Ambiente,LM,Biologia e Geologia,69.5000,0.0000,30.5000,LM,Eng. do Ambiente,17.5000,0.0000,82.5000,2.0000,17.5000
-Eng. Química,LM:Geologia|LM:Eng. Informática,LM,Geologia,22.0513,0.0000,77.9487,LM,Eng. Informática,6.6667,0.0000,93.3333,1.9500,6.1538
-Eng. Química,LM:Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Geologia,30.8108,0.0000,69.1892,LM,Eng. Eletrónica e Telecomunicações,10.2703,0.0000,89.7297,1.8500,10.2703
-Eng. Química,LM:Eng. Mecânica|LM:Eng. Informática,LM,Eng. Mecânica,46.5347,0.0000,53.4653,LM,Eng. Informática,7.9208,0.0000,92.0792,1.0100,7.9208
-Eng. Química,LM:Eng. Mecânica|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Mecânica,41.8367,0.0000,58.1633,LM,Eng. Eletrónica e Telecomunicações,11.2245,0.0000,88.7755,0.9800,10.2041
-Eng. Química,LM:Biologia e Geologia|LM:Eng. Informática,LM,Biologia e Geologia,65.9794,0.0000,34.0206,LM,Eng. Informática,3.0928,0.0000,96.9072,0.9700,3.0928
-Eng. Química,LM:Tradução|LM:Eng. do Ambiente,LM,Tradução,90.4255,0.0000,9.5745,LM,Eng. do Ambiente,17.0213,0.0000,82.9787,0.9400,17.0213
-Eng. Química,LM:Biologia e Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biologia e Geologia,69.5652,0.0000,30.4348,LM,Eng. Eletrónica e Telecomunicações,9.7826,0.0000,90.2174,0.9200,9.7826
-Eng. Química,LM:Eng. Mecânica|LM:Design,LM,Eng. Mecânica,48.3516,0.0000,51.6484,LM,Design,16.4835,0.0000,83.5165,0.9100,15.3846
-Eng. Química,LM:Biologia e Geologia|LM:Design,LM,Biologia e Geologia,58.2418,0.0000,41.7582,LM,Design,12.0879,0.0000,87.9121,0.9100,12.0879
-Eng. Química,LM:Biotecnologia|LM:Design,LM,Biotecnologia,65.1685,0.0000,34.8315,LM,Design,11.2360,0.0000,88.7640,0.8900,11.2360
-Eng. Química,LM:Biotecnologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biotecnologia,67.5676,0.0000,32.4324,LM,Eng. Eletrónica e Telecomunicações,9.4595,0.0000,90.5405,0.7400,9.4595
-Eng. Química,LM:Biotecnologia|LM:Eng. Informática,LM,Biotecnologia,65.2778,0.0000,34.7222,LM,Eng. Informática,2.7778,0.0000,97.2222,0.7200,2.7778
-Eng. Química,LM:Tradução|LM:Design,LM,Tradução,95.0000,0.0000,5.0000,LM,Design,15.0000,0.0000,85.0000,0.4000,15.0000
-Eng. Química,LM:Tradução|LM:Eng. Eletrónica e Telecomunicações,LM,Tradução,94.4444,0.0000,5.5556,LM,Eng. Eletrónica e Telecomunicações,8.3333,0.0000,91.6667,0.3600,8.3333
-Eng. Química,LM:Tradução|LM:Eng. Informática,LM,Tradução,96.6667,0.0000,3.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3000,0.0000
-Eng. Química,LM:Geologia|LM:Biologia,LM,Geologia,16.6667,0.0000,83.3333,LM,Biologia,0.0000,0.0000,100.0000,0.1800,0.0000
-Eng. Química,LM:Geologia|LM:Gestão e Planeamento em Turismo,LM,Geologia,20.0000,0.0000,80.0000,LM,Gestão e Planeamento em Turismo,13.3333,0.0000,86.6667,0.1500,13.3333
-Eng. Química,LM:Eng. Mecânica|LM:Gestão,LM,Eng. Mecânica,50.0000,0.0000,50.0000,LM,Gestão,8.3333,0.0000,91.6667,0.1200,8.3333
-Eng. Química,LM:Marketing|LM:Eng. Civil,LM,Marketing,90.9091,0.0000,9.0909,LM,Eng. Civil,36.3636,0.0000,63.6364,0.1100,36.3636
-Eng. Química,LM:Eng. Mecânica|LM:Biologia,LM,Eng. Mecânica,55.5556,0.0000,44.4444,LM,Biologia,0.0000,0.0000,100.0000,0.0900,0.0000
-Eng. Química,LM:Geologia|LM:Gestão,LM,Geologia,55.5556,0.0000,44.4444,LM,Gestão,22.2222,0.0000,77.7778,0.0900,22.2222
-Eng. Química,LM:Geologia|LM:Ciências Biomédicas,LM,Geologia,71.4286,0.0000,28.5714,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0700,0.0000
-Eng. Química,LM:Biologia e Geologia|LM:Gestão e Planeamento em Turismo,LM,Biologia e Geologia,57.1429,0.0000,42.8571,LM,Gestão e Planeamento em Turismo,42.8571,0.0000,57.1429,0.0700,42.8571
-Eng. Química,LM:Biologia e Geologia|LM:Biologia,LM,Biologia e Geologia,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0600,0.0000
-Eng. Química,LM:Biotecnologia|LM:Gestão,LM,Biotecnologia,66.6667,0.0000,33.3333,LM,Gestão,50.0000,0.0000,50.0000,0.0600,50.0000
-Eng. Química,LM:Biologia e Geologia|LM:Gestão,LM,Biologia e Geologia,50.0000,0.0000,50.0000,LM,Gestão,33.3333,0.0000,66.6667,0.0600,33.3333
-Eng. Química,LM:Biotecnologia|LM:Biologia,LM,Biotecnologia,50.0000,0.0000,50.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0600,0.0000
-Eng. Química,LM:Eng. Mecânica|LM:Gestão e Planeamento em Turismo,LM,Eng. Mecânica,75.0000,0.0000,25.0000,LM,Gestão e Planeamento em Turismo,25.0000,0.0000,75.0000,0.0400,25.0000
-Eng. Química,LM:Marketing|LM:Eng. do Ambiente,LM,Marketing,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,25.0000,0.0000,75.0000,0.0400,25.0000
-Eng. Química,LM:Biotecnologia|LM:Gestão e Planeamento em Turismo,LM,Biotecnologia,75.0000,0.0000,25.0000,LM,Gestão e Planeamento em Turismo,25.0000,0.0000,75.0000,0.0400,25.0000
-Eng. Química,LM:Marketing|LM:Eng. Eletrónica e Telecomunicações,LM,Marketing,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,33.3333,0.0000,66.6667,0.0300,33.3333
-Eng. Química,LM:Eng. Mecânica|LM:Ciências Biomédicas,LM,Eng. Mecânica,33.3333,0.0000,66.6667,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0300,0.0000
-Eng. Química,LM:Marketing|LM:Eng. Informática,LM,Marketing,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Química,LM:Tradução|LM:Biologia,LM,Tradução,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Química,LM:Marketing|LM:Design,LM,Marketing,100.0000,0.0000,0.0000,LM,Design,0.0000,0.0000,100.0000,0.0200,0.0000
-Eng. Química,LM:Marketing|LM:Gestão,LM,Marketing,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. Química,LM:Tradução|LM:Gestão,LM,Tradução,100.0000,0.0000,0.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. Química,LM:Eng. Mecânica|LM:Eng. Física,LM,Eng. Mecânica,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0100,100.0000
-Eng. do Ambiente,LM:Eng. Química|LM:Geologia,LM,Eng. Química,80.4523,0.0000,19.5477,LM,Geologia,63.0048,0.0000,36.9952,6.1900,50.2423
-Eng. do Ambiente,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,62.1160,0.0000,37.8840,2.9300,62.1160
-Eng. do Ambiente,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,79.7101,0.0000,20.2899,LM,Eng. Mecânica,73.5507,0.0000,26.4493,2.7600,55.7971
-Eng. do Ambiente,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,81.4286,0.0000,18.5714,LM,Biotecnologia,95.7143,0.0000,4.2857,2.1000,77.1429
-Eng. do Ambiente,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,82.5000,0.0000,17.5000,LM,Biologia e Geologia,90.0000,0.0000,10.0000,2.0000,75.0000
-Eng. do Ambiente,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,76.3158,0.0000,23.6842,1.1400,76.3158
-Eng. do Ambiente,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,99.0000,0.0000,1.0000,1.0000,99.0000
-Eng. do Ambiente,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,95.8333,0.0000,4.1667,0.9600,95.8333
-Eng. do Ambiente,LM:Eng. Química|LM:Tradução,LM,Eng. Química,82.9787,0.0000,17.0213,LM,Tradução,100.0000,0.0000,0.0000,0.9400,82.9787
-Eng. do Ambiente,LM:Administração Pública|LM:Geologia,LM,Administração Pública,97.4359,0.0000,2.5641,LM,Geologia,57.6923,0.0000,42.3077,0.7800,56.4103
-Eng. do Ambiente,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.4300,100.0000
-Eng. do Ambiente,LM:Administração Pública|LM:Eng. Mecânica,LM,Administração Pública,97.1429,0.0000,2.8571,LM,Eng. Mecânica,71.4286,0.0000,28.5714,0.3500,68.5714
-Eng. do Ambiente,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,73.5294,0.0000,26.4706,0.3400,73.5294
-Eng. do Ambiente,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,96.4286,0.0000,3.5714,LM,Biologia e Geologia,85.7143,0.0000,14.2857,0.2800,82.1429
-Eng. do Ambiente,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,95.6522,0.0000,4.3478,LM,Biotecnologia,95.6522,0.0000,4.3478,0.2300,91.3043
-Eng. do Ambiente,LM:Administração Pública|LM:Tradução,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.1800,100.0000
-Eng. do Ambiente,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia e Geologia,92.8571,0.0000,7.1429,0.1400,92.8571
-Eng. do Ambiente,LM:Gestão Comercial|LM:Biotecnologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.1200,100.0000
-Eng. do Ambiente,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.1100,100.0000
-Eng. do Ambiente,LM:Gestão Comercial|LM:Tradução,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0500,100.0000
-Eng. do Ambiente,LM:Eng. Química|LM:Marketing,LM,Eng. Química,75.0000,0.0000,25.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0400,75.0000
-Eng. do Ambiente,LM:Matemática|LM:Marketing,LM,Matemática,100.0000,0.0000,0.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0200,100.0000
-Eng. do Ambiente,LM:Eng. Computadores e Telemática|LM:Geologia,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Geologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Eng. do Ambiente,LM:Eng. Computadores e Telemática|LM:Eng. Mecânica,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0100,100.0000
-Geologia,LM:Eng. Química|LM:Eng. Civil,LM,Eng. Química,70.4944,0.0000,29.5056,LM,Eng. Civil,51.0367,0.0000,48.9633,12.5400,45.4545
-Geologia,LM:Eng. Química|LM:Eng. do Ambiente,LM,Eng. Química,71.5670,0.0000,28.4330,LM,Eng. do Ambiente,36.9952,0.0000,63.0048,6.1900,36.6721
-Geologia,LM:Matemática|LM:Eng. Civil,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Civil,54.9550,0.0000,45.0450,5.5500,54.9550
-Geologia,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,37.8840,0.0000,62.1160,2.9300,37.8840
-Geologia,LM:Eng. Química|LM:Design,LM,Eng. Química,70.2586,0.0000,29.7414,LM,Design,26.7241,0.0000,73.2759,2.3200,23.7069
-Geologia,LM:Eng. Química|LM:Eng. Informática,LM,Eng. Química,77.9487,0.0000,22.0513,LM,Eng. Informática,20.0000,0.0000,80.0000,1.9500,18.4615
-Geologia,LM:Eng. Química|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Química,69.1892,0.0000,30.8108,LM,Eng. Eletrónica e Telecomunicações,15.6757,0.0000,84.3243,1.8500,15.1351
-Geologia,LM:Administração Pública|LM:Eng. Civil,LM,Administração Pública,86.1111,0.0000,13.8889,LM,Eng. Civil,55.0000,0.0000,45.0000,1.8000,51.6667
-Geologia,LM:Matemática|LM:Eng. Informática,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Informática,20.3540,0.0000,79.6460,1.1300,20.3540
-Geologia,LM:Matemática|LM:Eng. Eletrónica e Telecomunicações,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,18.0851,0.0000,81.9149,0.9400,18.0851
-Geologia,LM:Matemática|LM:Design,LM,Matemática,100.0000,0.0000,0.0000,LM,Design,17.7778,0.0000,82.2222,0.9000,17.7778
-Geologia,LM:Administração Pública|LM:Eng. do Ambiente,LM,Administração Pública,87.1795,0.0000,12.8205,LM,Eng. do Ambiente,42.3077,0.0000,57.6923,0.7800,41.0256
-Geologia,LM:Gestão Comercial|LM:Eng. Civil,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Civil,47.2222,0.0000,52.7778,0.7200,47.2222
-Geologia,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,26.4706,0.0000,73.5294,0.3400,26.4706
-Geologia,LM:Administração Pública|LM:Design,LM,Administração Pública,92.8571,0.0000,7.1429,LM,Design,17.8571,0.0000,82.1429,0.2800,17.8571
-Geologia,LM:Administração Pública|LM:Eng. Informática,LM,Administração Pública,86.9565,0.0000,13.0435,LM,Eng. Informática,13.0435,0.0000,86.9565,0.2300,13.0435
-Geologia,LM:Administração Pública|LM:Eng. Eletrónica e Telecomunicações,LM,Administração Pública,85.7143,0.0000,14.2857,LM,Eng. Eletrónica e Telecomunicações,14.2857,0.0000,85.7143,0.2100,14.2857
-Geologia,LM:Eng. Química|LM:Biologia,LM,Eng. Química,83.3333,0.0000,16.6667,LM,Biologia,11.1111,0.0000,88.8889,0.1800,11.1111
-Geologia,LM:Eng. Química|LM:Gestão e Planeamento em Turismo,LM,Eng. Química,80.0000,0.0000,20.0000,LM,Gestão e Planeamento em Turismo,26.6667,0.0000,73.3333,0.1500,13.3333
-Geologia,LM:Gestão Comercial|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,15.3846,0.0000,84.6154,0.1300,15.3846
-Geologia,LM:Gestão Comercial|LM:Design,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Design,23.0769,0.0000,76.9231,0.1300,23.0769
-Geologia,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Informática,9.0909,0.0000,90.9091,0.1100,9.0909
-Geologia,LM:Eng. Química|LM:Gestão,LM,Eng. Química,44.4444,0.0000,55.5556,LM,Gestão,22.2222,0.0000,77.7778,0.0900,11.1111
-Geologia,LM:Matemática|LM:Biologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0800,0.0000
-Geologia,LM:Eng. Química|LM:Ciências Biomédicas,LM,Eng. Química,28.5714,0.0000,71.4286,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0700,0.0000
-Geologia,LM:Matemática|LM:Gestão,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão,80.0000,0.0000,20.0000,0.0500,80.0000
-Geologia,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,25.0000,0.0000,75.0000,0.0400,25.0000
-Geologia,LM:Administração Pública|LM:Gestão,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0200,100.0000
-Geologia,LM:Eng. Computadores e Telemática|LM:Eng. Civil,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Civil,100.0000,0.0000,0.0000,0.0200,100.0000
-Geologia,LM:Eng. Computadores e Telemática|LM:Eng. Informática,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0100,0.0000
-Geologia,LM:Eng. Computadores e Telemática|LM:Eng. do Ambiente,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0100,100.0000
-Geologia,LM:Administração Pública|LM:Gestão e Planeamento em Turismo,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Geologia,LM:Gestão Comercial|LM:Gestão e Planeamento em Turismo,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,100.0000,0.0000,0.0000,0.0100,100.0000
-Geologia,LM:Gestão Comercial|LM:Gestão,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0100,100.0000
-Geologia,LM:Administração Pública|LM:Biologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,91.6667,0.0000,8.3333,LM,Eng. Mecânica,66.6667,0.0000,33.3333,0.1200,66.6667
-Gestão,LM:Eng. Química|LM:Geologia,LM,Eng. Química,77.7778,0.0000,22.2222,LM,Geologia,77.7778,0.0000,22.2222,0.0900,66.6667
-Gestão,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,50.0000,0.0000,50.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0600,50.0000
-Gestão,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,66.6667,0.0000,33.3333,LM,Biologia e Geologia,66.6667,0.0000,33.3333,0.0600,33.3333
-Gestão,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,20.0000,0.0000,80.0000,0.0500,20.0000
-Gestão,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,66.6667,0.0000,33.3333,0.0300,66.6667
-Gestão,LM:Administração Pública|LM:Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Geologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Gestão,LM:Eng. Química|LM:Marketing,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Marketing,100.0000,0.0000,0.0000,0.0100,0.0000
-Gestão,LM:Administração Pública|LM:Biologia e Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão,LM:Eng. Química|LM:Tradução,LM,Eng. Química,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão,LM:Eng. Computadores e Telemática|LM:Biotecnologia,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão,LM:Gestão Comercial|LM:Biologia e Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão Comercial,LM:Geologia|LM:Eng. Civil,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.7200,0.0000
-Gestão Comercial,LM:Geologia|LM:Eng. do Ambiente,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.3400,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Eng. Civil,LM,Biologia e Geologia,6.2500,0.0000,93.7500,LM,Eng. Civil,3.1250,0.0000,96.8750,0.3200,3.1250
-Gestão Comercial,LM:Biotecnologia|LM:Eng. Civil,LM,Biotecnologia,3.7037,0.0000,96.2963,LM,Eng. Civil,0.0000,0.0000,100.0000,0.2700,0.0000
-Gestão Comercial,LM:Eng. Mecânica|LM:Eng. Civil,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.2500,0.0000
-Gestão Comercial,LM:Tradução|LM:Eng. Civil,LM,Tradução,23.8095,0.0000,76.1905,LM,Eng. Civil,0.0000,0.0000,100.0000,0.2100,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Eng. do Ambiente,LM,Biologia e Geologia,7.1429,0.0000,92.8571,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1400,0.0000
-Gestão Comercial,LM:Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.1300,0.0000
-Gestão Comercial,LM:Geologia|LM:Design,LM,Geologia,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.1300,0.0000
-Gestão Comercial,LM:Biotecnologia|LM:Eng. do Ambiente,LM,Biotecnologia,8.3333,0.0000,91.6667,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1200,0.0000
-Gestão Comercial,LM:Eng. Mecânica|LM:Eng. do Ambiente,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1100,0.0000
-Gestão Comercial,LM:Geologia|LM:Eng. Informática,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.1100,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0800,0.0000
-Gestão Comercial,LM:Eng. Mecânica|LM:Design,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0800,0.0000
-Gestão Comercial,LM:Biotecnologia|LM:Eng. Informática,LM,Biotecnologia,16.6667,0.0000,83.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0600,0.0000
-Gestão Comercial,LM:Biotecnologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0500,0.0000
-Gestão Comercial,LM:Biotecnologia|LM:Design,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0500,0.0000
-Gestão Comercial,LM:Tradução|LM:Eng. do Ambiente,LM,Tradução,40.0000,0.0000,60.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0500,0.0000
-Gestão Comercial,LM:Eng. Mecânica|LM:Eng. Informática,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0400,0.0000
-Gestão Comercial,LM:Tradução|LM:Eng. Informática,LM,Tradução,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0300,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Design,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0300,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Eng. Informática,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0300,0.0000
-Gestão Comercial,LM:Tradução|LM:Eng. Eletrónica e Telecomunicações,LM,Tradução,33.3333,0.0000,66.6667,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0300,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Biologia,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Gestão Comercial,LM:Eng. Mecânica|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0200,0.0000
-Gestão Comercial,LM:Tradução|LM:Biologia,LM,Tradução,100.0000,0.0000,0.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Marketing|LM:Eng. Civil,LM,Marketing,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Geologia|LM:Gestão e Planeamento em Turismo,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Tradução|LM:Design,LM,Tradução,100.0000,0.0000,0.0000,LM,Design,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Biotecnologia|LM:Gestão e Planeamento em Turismo,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Geologia|LM:Gestão,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Eng. Mecânica|LM:Gestão e Planeamento em Turismo,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão Comercial,LM:Biologia e Geologia|LM:Gestão,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão e Planeamento em Turismo,LM:Eng. Química|LM:Geologia,LM,Eng. Química,86.6667,0.0000,13.3333,LM,Geologia,73.3333,0.0000,26.6667,0.1500,73.3333
-Gestão e Planeamento em Turismo,LM:Eng. Química|LM:Biologia e Geologia,LM,Eng. Química,57.1429,0.0000,42.8571,LM,Biologia e Geologia,85.7143,0.0000,14.2857,0.0700,42.8571
-Gestão e Planeamento em Turismo,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,80.0000,0.0000,20.0000,0.0500,80.0000
-Gestão e Planeamento em Turismo,LM:Eng. Química|LM:Eng. Mecânica,LM,Eng. Química,75.0000,0.0000,25.0000,LM,Eng. Mecânica,75.0000,0.0000,25.0000,0.0400,50.0000
-Gestão e Planeamento em Turismo,LM:Matemática|LM:Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Geologia,75.0000,0.0000,25.0000,0.0400,75.0000
-Gestão e Planeamento em Turismo,LM:Eng. Química|LM:Biotecnologia,LM,Eng. Química,75.0000,0.0000,25.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0400,75.0000
-Gestão e Planeamento em Turismo,LM:Matemática|LM:Biotecnologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0400,100.0000
-Gestão e Planeamento em Turismo,LM:Matemática|LM:Biologia e Geologia,LM,Matemática,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0300,100.0000
-Gestão e Planeamento em Turismo,LM:Matemática|LM:Tradução,LM,Matemática,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0200,100.0000
-Gestão e Planeamento em Turismo,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0200,100.0000
-Gestão e Planeamento em Turismo,LM:Administração Pública|LM:Geologia,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão e Planeamento em Turismo,LM:Gestão Comercial|LM:Geologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Geologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Gestão e Planeamento em Turismo,LM:Gestão Comercial|LM:Biotecnologia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão e Planeamento em Turismo,LM:Administração Pública|LM:Tradução,LM,Administração Pública,100.0000,0.0000,0.0000,LM,Tradução,100.0000,0.0000,0.0000,0.0100,100.0000
-Gestão e Planeamento em Turismo,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0100,100.0000
-Marketing,LM:Eng. Química|LM:Eng. Civil,LM,Eng. Química,9.0909,0.0000,90.9091,LM,Eng. Civil,0.0000,0.0000,100.0000,0.1100,0.0000
-Marketing,LM:Matemática|LM:Eng. Civil,LM,Matemática,25.0000,0.0000,75.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0800,0.0000
-Marketing,LM:Eng. Química|LM:Eng. do Ambiente,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0400,0.0000
-Marketing,LM:Eng. Química|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0300,0.0000
-Marketing,LM:Matemática|LM:Design,LM,Matemática,100.0000,0.0000,0.0000,LM,Design,0.0000,0.0000,100.0000,0.0200,0.0000
-Marketing,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0200,0.0000
-Marketing,LM:Eng. Química|LM:Eng. Informática,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0200,0.0000
-Marketing,LM:Eng. Química|LM:Design,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0200,0.0000
-Marketing,LM:Eng. Química|LM:Gestão,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Marketing,LM:Matemática|LM:Eng. Eletrónica e Telecomunicações,LM,Matemática,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0100,0.0000
-Marketing,LM:Gestão Comercial|LM:Eng. Civil,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0100,0.0000
-Marketing,LM:Matemática|LM:Eng. Informática,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0100,0.0000
-Matemática,LM:Geologia|LM:Eng. Civil,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,5.5500,0.0000
-Matemática,LM:Geologia|LM:Eng. do Ambiente,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,2.9300,0.0000
-Matemática,LM:Eng. Mecânica|LM:Eng. Civil,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,2.7500,0.0000
-Matemática,LM:Biologia e Geologia|LM:Eng. Civil,LM,Biologia e Geologia,4.2194,0.0000,95.7806,LM,Eng. Civil,0.0000,0.0000,100.0000,2.3700,0.0000
-Matemática,LM:Biotecnologia|LM:Eng. Civil,LM,Biotecnologia,7.1795,0.0000,92.8205,LM,Eng. Civil,0.0000,0.0000,100.0000,1.9500,0.0000
-Matemática,LM:Tradução|LM:Eng. Civil,LM,Tradução,28.6957,0.0000,71.3043,LM,Eng. Civil,0.8696,0.0000,99.1304,1.1500,0.8696
-Matemática,LM:Eng. Mecânica|LM:Eng. do Ambiente,LM,Eng. Mecânica,0.8772,0.0000,99.1228,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,1.1400,0.0000
-Matemática,LM:Geologia|LM:Eng. Informática,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,1.1300,0.0000
-Matemática,LM:Biologia e Geologia|LM:Eng. do Ambiente,LM,Biologia e Geologia,7.0000,0.0000,93.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,1.0000,0.0000
-Matemática,LM:Biotecnologia|LM:Eng. do Ambiente,LM,Biotecnologia,9.3750,0.0000,90.6250,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.9600,0.0000
-Matemática,LM:Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.9400,0.0000
-Matemática,LM:Geologia|LM:Design,LM,Geologia,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.9000,0.0000
-Matemática,LM:Eng. Mecânica|LM:Design,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.5200,0.0000
-Matemática,LM:Biologia e Geologia|LM:Design,LM,Biologia e Geologia,5.7692,0.0000,94.2308,LM,Design,0.0000,0.0000,100.0000,0.5200,0.0000
-Matemática,LM:Biologia e Geologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biologia e Geologia,6.5217,0.0000,93.4783,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.4600,0.0000
-Matemática,LM:Tradução|LM:Eng. do Ambiente,LM,Tradução,27.9070,0.0000,72.0930,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.4300,0.0000
-Matemática,LM:Eng. Mecânica|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.4100,0.0000
-Matemática,LM:Biologia e Geologia|LM:Eng. Informática,LM,Biologia e Geologia,2.7778,0.0000,97.2222,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3600,0.0000
-Matemática,LM:Biotecnologia|LM:Eng. Informática,LM,Biotecnologia,14.2857,0.0000,85.7143,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3500,0.0000
-Matemática,LM:Biotecnologia|LM:Eng. Eletrónica e Telecomunicações,LM,Biotecnologia,17.1429,0.0000,82.8571,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.3500,0.0000
-Matemática,LM:Biotecnologia|LM:Design,LM,Biotecnologia,8.8235,0.0000,91.1765,LM,Design,0.0000,0.0000,100.0000,0.3400,0.0000
-Matemática,LM:Eng. Mecânica|LM:Eng. Informática,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3100,0.0000
-Matemática,LM:Tradução|LM:Design,LM,Tradução,31.2500,0.0000,68.7500,LM,Design,0.0000,0.0000,100.0000,0.1600,0.0000
-Matemática,LM:Tradução|LM:Eng. Eletrónica e Telecomunicações,LM,Tradução,6.2500,0.0000,93.7500,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.1600,0.0000
-Matemática,LM:Tradução|LM:Eng. Informática,LM,Tradução,33.3333,0.0000,66.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.1500,0.0000
-Matemática,LM:Geologia|LM:Biologia,LM,Geologia,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0800,0.0000
-Matemática,LM:Marketing|LM:Eng. Civil,LM,Marketing,75.0000,0.0000,25.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0800,0.0000
-Matemática,LM:Biologia e Geologia|LM:Biologia,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0500,0.0000
-Matemática,LM:Geologia|LM:Gestão,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0500,0.0000
-Matemática,LM:Eng. Mecânica|LM:Gestão e Planeamento em Turismo,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0500,0.0000
-Matemática,LM:Geologia|LM:Gestão e Planeamento em Turismo,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0400,0.0000
-Matemática,LM:Biotecnologia|LM:Gestão e Planeamento em Turismo,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0400,0.0000
-Matemática,LM:Biologia e Geologia|LM:Gestão e Planeamento em Turismo,LM,Biologia e Geologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0300,0.0000
-Matemática,LM:Tradução|LM:Biologia,LM,Tradução,33.3333,0.0000,66.6667,LM,Biologia,0.0000,0.0000,100.0000,0.0300,0.0000
-Matemática,LM:Biotecnologia|LM:Gestão,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0300,0.0000
-Matemática,LM:Marketing|LM:Design,LM,Marketing,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0200,0.0000
-Matemática,LM:Tradução|LM:Gestão e Planeamento em Turismo,LM,Tradução,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0200,0.0000
-Matemática,LM:Marketing|LM:Eng. do Ambiente,LM,Marketing,0.0000,0.0000,100.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0200,0.0000
-Matemática,LM:Eng. Mecânica|LM:Biologia,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Matemática,LM:Biotecnologia|LM:Eng. Física,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0200,0.0000
-Matemática,LM:Marketing|LM:Eng. Eletrónica e Telecomunicações,LM,Marketing,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0100,0.0000
-Matemática,LM:Eng. Mecânica|LM:Gestão,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Matemática,LM:Tradução|LM:Gestão,LM,Tradução,100.0000,0.0000,0.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Matemática,LM:Eng. Mecânica|LM:Eng. Física,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0100,0.0000
-Matemática,LM:Biotecnologia|LM:Biologia,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Matemática,LM:Marketing|LM:Eng. Informática,LM,Marketing,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0100,0.0000
-Tradução,LM:Eng. Química|LM:Eng. Civil,LM,Eng. Química,8.5973,0.0000,91.4027,LM,Eng. Civil,4.5249,0.0000,95.4751,2.2100,1.3575
-Tradução,LM:Matemática|LM:Eng. Civil,LM,Matemática,71.3043,0.0000,28.6957,LM,Eng. Civil,3.4783,0.0000,96.5217,1.1500,3.4783
-Tradução,LM:Eng. Química|LM:Eng. do Ambiente,LM,Eng. Química,9.5745,0.0000,90.4255,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.9400,0.0000
-Tradução,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,72.0930,0.0000,27.9070,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.4300,0.0000
-Tradução,LM:Eng. Química|LM:Design,LM,Eng. Química,5.0000,0.0000,95.0000,LM,Design,0.0000,0.0000,100.0000,0.4000,0.0000
-Tradução,LM:Eng. Química|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Química,5.5556,0.0000,94.4444,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.3600,0.0000
-Tradução,LM:Eng. Química|LM:Eng. Informática,LM,Eng. Química,3.3333,0.0000,96.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.3000,0.0000
-Tradução,LM:Gestão Comercial|LM:Eng. Civil,LM,Gestão Comercial,76.1905,0.0000,23.8095,LM,Eng. Civil,4.7619,0.0000,95.2381,0.2100,4.7619
-Tradução,LM:Administração Pública|LM:Eng. Civil,LM,Administração Pública,21.0526,0.0000,78.9474,LM,Eng. Civil,5.2632,0.0000,94.7368,0.1900,0.0000
-Tradução,LM:Administração Pública|LM:Eng. do Ambiente,LM,Administração Pública,38.8889,0.0000,61.1111,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.1800,0.0000
-Tradução,LM:Matemática|LM:Design,LM,Matemática,68.7500,0.0000,31.2500,LM,Design,0.0000,0.0000,100.0000,0.1600,0.0000
-Tradução,LM:Matemática|LM:Eng. Eletrónica e Telecomunicações,LM,Matemática,93.7500,0.0000,6.2500,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.1600,0.0000
-Tradução,LM:Matemática|LM:Eng. Informática,LM,Matemática,66.6667,0.0000,33.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.1500,0.0000
-Tradução,LM:Administração Pública|LM:Eng. Eletrónica e Telecomunicações,LM,Administração Pública,25.0000,0.0000,75.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0800,0.0000
-Tradução,LM:Administração Pública|LM:Design,LM,Administração Pública,40.0000,0.0000,60.0000,LM,Design,0.0000,0.0000,100.0000,0.0500,0.0000
-Tradução,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,60.0000,0.0000,40.0000,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,0.0500,0.0000
-Tradução,LM:Matemática|LM:Biologia,LM,Matemática,66.6667,0.0000,33.3333,LM,Biologia,0.0000,0.0000,100.0000,0.0300,0.0000
-Tradução,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0300,0.0000
-Tradução,LM:Gestão Comercial|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão Comercial,66.6667,0.0000,33.3333,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0300,0.0000
-Tradução,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0200,0.0000
-Tradução,LM:Administração Pública|LM:Eng. Informática,LM,Administração Pública,50.0000,0.0000,50.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0200,0.0000
-Tradução,LM:Eng. Química|LM:Biologia,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0200,0.0000
-Tradução,LM:Gestão Comercial|LM:Biologia,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Biologia,0.0000,0.0000,100.0000,0.0100,0.0000
-Tradução,LM:Eng. Química|LM:Gestão,LM,Eng. Química,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Tradução,LM:Eng. Computadores e Telemática|LM:Eng. Civil,LM,Eng. Computadores e Telemática,100.0000,0.0000,0.0000,LM,Eng. Civil,0.0000,0.0000,100.0000,0.0100,0.0000
-Tradução,LM:Gestão Comercial|LM:Design,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Design,0.0000,0.0000,100.0000,0.0100,0.0000
-Tradução,LM:Matemática|LM:Gestão,LM,Matemática,0.0000,0.0000,100.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0100,0.0000
-Tradução,LM:Administração Pública|LM:Gestão e Planeamento em Turismo,LM,Administração Pública,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0100,0.0000
+Biologia,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Geologia,85.7143,0.0000,14.2857,0.3500,85.7143
+Biologia,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.1500,100.0000
+Biologia,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.1200,100.0000
+Biologia,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.1100,100.0000
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Eng. Civil,LM,Línguas e Relações Empresariais,64.4289,0.0000,35.5711,LM,Eng. Civil,17.8357,0.0000,82.1643,9.9800,16.6333
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Eng. do Ambiente,LM,Línguas e Relações Empresariais,62.1622,0.0000,37.8378,LM,Eng. do Ambiente,6.0811,0.0000,93.9189,5.9200,5.9122
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Design,LM,Línguas e Relações Empresariais,65.0519,0.0000,34.9481,LM,Design,0.6920,0.0000,99.3080,2.8900,0.6920
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Eng. Informática,LM,Línguas e Relações Empresariais,62.7329,0.0000,37.2671,LM,Eng. Informática,0.6211,0.0000,99.3789,1.6100,0.6211
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Biologia,LM,Línguas e Relações Empresariais,54.5455,0.0000,45.4545,LM,Biologia,0.0000,0.0000,100.0000,0.1100,0.0000
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Gestão,LM,Línguas e Relações Empresariais,54.5455,0.0000,45.4545,LM,Gestão,9.0909,0.0000,90.9091,0.1100,9.0909
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Gestão e Planeamento em Turismo,LM,Línguas e Relações Empresariais,60.0000,0.0000,40.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.1000,0.0000
+Biologia e Geologia,LM:Línguas e Relações Empresariais|LM:Ciências Biomédicas,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0100,0.0000
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Eng. Civil,LM,Línguas e Relações Empresariais,59.4505,0.0000,40.5495,LM,Eng. Civil,15.2747,0.0000,84.7253,9.1000,12.9670
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Eng. do Ambiente,LM,Línguas e Relações Empresariais,60.9403,0.0000,39.0597,LM,Eng. do Ambiente,5.0633,0.0000,94.9367,5.5300,5.0633
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Design,LM,Línguas e Relações Empresariais,67.7165,0.0000,32.2835,LM,Design,1.5748,0.0000,98.4252,2.5400,1.1811
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Eng. Informática,LM,Línguas e Relações Empresariais,55.9441,0.0000,44.0559,LM,Eng. Informática,0.6993,0.0000,99.3007,1.4300,0.6993
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Biologia,LM,Línguas e Relações Empresariais,60.0000,0.0000,40.0000,LM,Biologia,0.0000,0.0000,100.0000,0.1500,0.0000
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Gestão e Planeamento em Turismo,LM,Línguas e Relações Empresariais,64.2857,0.0000,35.7143,LM,Gestão e Planeamento em Turismo,14.2857,0.0000,85.7143,0.1400,14.2857
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Gestão,LM,Línguas e Relações Empresariais,40.0000,0.0000,60.0000,LM,Gestão,20.0000,0.0000,80.0000,0.0500,20.0000
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Eng. Física,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0200,0.0000
+Biotecnologia,LM:Línguas e Relações Empresariais|LM:Fisioterapia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Fisioterapia,0.0000,0.0000,100.0000,0.0100,0.0000
+Ciências Biomédicas,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0200,100.0000
+Ciências Biomédicas,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0100,100.0000
+Ciências Biomédicas,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.0100,100.0000
+Design,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,99.8217,0.0000,0.1783,LM,Geologia,75.5793,0.0000,24.4207,5.6100,75.4011
+Design,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,99.3080,0.0000,0.6920,LM,Biologia e Geologia,99.3080,0.0000,0.6920,2.8900,98.6159
+Design,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,96.8504,0.0000,3.1496,LM,Biotecnologia,98.4252,0.0000,1.5748,2.5400,95.6693
+Design,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Eng. Mecânica,87.7119,0.0000,12.2881,2.3600,87.7119
+Eng. Civil,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,93.8610,0.0000,6.1390,LM,Geologia,45.7636,0.0000,54.2364,19.7100,44.7489
+Eng. Civil,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,91.2826,0.0000,8.7174,LM,Biologia e Geologia,82.1643,0.0000,17.8357,9.9800,74.9499
+Eng. Civil,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,90.6250,0.0000,9.3750,LM,Eng. Mecânica,61.3147,0.0000,38.6853,9.2800,56.6810
+Eng. Civil,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,86.4835,0.0000,13.5165,LM,Biotecnologia,84.7253,0.0000,15.2747,9.1000,74.2857
+Eng. Eletrónica e Telecomunicações,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0100,100.0000
+Eng. Física,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0200,100.0000
+Eng. Física,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Geologia,100.0000,0.0000,0.0000,0.0200,100.0000
+Eng. Informática,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Geologia,76.6784,0.0000,23.3216,2.8300,76.6784
+Eng. Informática,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,99.3789,0.0000,0.6211,LM,Biologia e Geologia,99.3789,0.0000,0.6211,1.6100,98.7578
+Eng. Informática,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biotecnologia,99.3007,0.0000,0.6993,1.4300,99.3007
+Eng. Informática,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,99.2806,0.0000,0.7194,LM,Eng. Mecânica,90.6475,0.0000,9.3525,1.3900,89.9281
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Eng. Civil,LM,Línguas e Relações Empresariais,84.9138,0.0000,15.0862,LM,Eng. Civil,38.6853,0.0000,61.3147,9.2800,37.1767
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Eng. do Ambiente,LM,Línguas e Relações Empresariais,86.0177,0.0000,13.9823,LM,Eng. do Ambiente,23.0088,0.0000,76.9912,5.6500,22.6549
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Design,LM,Línguas e Relações Empresariais,78.3898,0.0000,21.6102,LM,Design,12.2881,0.0000,87.7119,2.3600,12.2881
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Eng. Informática,LM,Línguas e Relações Empresariais,83.4532,0.0000,16.5468,LM,Eng. Informática,9.3525,0.0000,90.6475,1.3900,9.3525
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Biologia,LM,Línguas e Relações Empresariais,91.6667,0.0000,8.3333,LM,Biologia,0.0000,0.0000,100.0000,0.1200,0.0000
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Gestão e Planeamento em Turismo,LM,Línguas e Relações Empresariais,77.7778,0.0000,22.2222,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.0900,0.0000
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Gestão,LM,Línguas e Relações Empresariais,87.5000,0.0000,12.5000,LM,Gestão,37.5000,0.0000,62.5000,0.0800,37.5000
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Ciências Biomédicas,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0100,0.0000
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Eng. Eletrónica e Telecomunicações,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0100,0.0000
+Eng. do Ambiente,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,98.7013,0.0000,1.2987,LM,Geologia,59.9838,0.0000,40.0162,12.3200,59.5779
+Eng. do Ambiente,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,94.9324,0.0000,5.0676,LM,Biologia e Geologia,93.9189,0.0000,6.0811,5.9200,89.0203
+Eng. do Ambiente,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,95.9292,0.0000,4.0708,LM,Eng. Mecânica,76.9912,0.0000,23.0088,5.6500,73.2743
+Eng. do Ambiente,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,95.1175,0.0000,4.8825,LM,Biotecnologia,94.9367,0.0000,5.0633,5.5300,90.0542
+Fisioterapia,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biotecnologia,100.0000,0.0000,0.0000,0.0100,100.0000
+Geologia,LM:Línguas e Relações Empresariais|LM:Eng. Civil,LM,Línguas e Relações Empresariais,96.9559,0.0000,3.0441,LM,Eng. Civil,54.2364,0.0000,45.7636,19.7100,53.2725
+Geologia,LM:Línguas e Relações Empresariais|LM:Eng. do Ambiente,LM,Línguas e Relações Empresariais,95.6169,0.0000,4.3831,LM,Eng. do Ambiente,40.0162,0.0000,59.9838,12.3200,39.2045
+Geologia,LM:Línguas e Relações Empresariais|LM:Design,LM,Línguas e Relações Empresariais,97.3262,0.0000,2.6738,LM,Design,24.4207,0.0000,75.5793,5.6100,24.4207
+Geologia,LM:Línguas e Relações Empresariais|LM:Eng. Informática,LM,Línguas e Relações Empresariais,95.4064,0.0000,4.5936,LM,Eng. Informática,23.3216,0.0000,76.6784,2.8300,23.3216
+Geologia,LM:Línguas e Relações Empresariais|LM:Biologia,LM,Línguas e Relações Empresariais,94.2857,0.0000,5.7143,LM,Biologia,14.2857,0.0000,85.7143,0.3500,14.2857
+Geologia,LM:Línguas e Relações Empresariais|LM:Gestão,LM,Línguas e Relações Empresariais,96.1538,0.0000,3.8462,LM,Gestão,50.0000,0.0000,50.0000,0.2600,50.0000
+Geologia,LM:Línguas e Relações Empresariais|LM:Gestão e Planeamento em Turismo,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Gestão e Planeamento em Turismo,21.0526,0.0000,78.9474,0.1900,21.0526
+Geologia,LM:Línguas e Relações Empresariais|LM:Ciências Biomédicas,LM,Línguas e Relações Empresariais,50.0000,0.0000,50.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0200,0.0000
+Geologia,LM:Línguas e Relações Empresariais|LM:Eng. Física,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0200,0.0000
+Gestão,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Geologia,50.0000,0.0000,50.0000,0.2600,50.0000
+Gestão,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,90.9091,0.0000,9.0909,LM,Biologia e Geologia,90.9091,0.0000,9.0909,0.1100,81.8182
+Gestão,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Eng. Mecânica,62.5000,0.0000,37.5000,0.0800,62.5000
+Gestão,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biotecnologia,80.0000,0.0000,20.0000,0.0500,80.0000
+Gestão e Planeamento em Turismo,LM:Línguas e Relações Empresariais|LM:Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Geologia,78.9474,0.0000,21.0526,0.1900,78.9474
+Gestão e Planeamento em Turismo,LM:Línguas e Relações Empresariais|LM:Biotecnologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biotecnologia,85.7143,0.0000,14.2857,0.1400,85.7143
+Gestão e Planeamento em Turismo,LM:Línguas e Relações Empresariais|LM:Biologia e Geologia,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,LM,Biologia e Geologia,100.0000,0.0000,0.0000,0.1000,100.0000
+Gestão e Planeamento em Turismo,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,88.8889,0.0000,11.1111,LM,Eng. Mecânica,100.0000,0.0000,0.0000,0.0900,88.8889
+Línguas e Relações Empresariais,LM:Geologia|LM:Eng. Civil,LM,Geologia,3.0441,0.0000,96.9559,LM,Eng. Civil,6.1390,0.0000,93.8610,19.7100,1.9787
+Línguas e Relações Empresariais,LM:Geologia|LM:Eng. do Ambiente,LM,Geologia,4.3831,0.0000,95.6169,LM,Eng. do Ambiente,1.2987,0.0000,98.7013,12.3200,1.2175
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Eng. Civil,LM,Biologia e Geologia,35.5711,0.0000,64.4289,LM,Eng. Civil,8.7174,0.0000,91.2826,9.9800,8.4168
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Eng. Civil,LM,Eng. Mecânica,15.0862,0.0000,84.9138,LM,Eng. Civil,9.3750,0.0000,90.6250,9.2800,6.1422
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Eng. Civil,LM,Biotecnologia,40.5495,0.0000,59.4505,LM,Eng. Civil,13.5165,0.0000,86.4835,9.1000,12.7473
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Eng. do Ambiente,LM,Biologia e Geologia,37.8378,0.0000,62.1622,LM,Eng. do Ambiente,5.0676,0.0000,94.9324,5.9200,5.0676
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Eng. do Ambiente,LM,Eng. Mecânica,13.9823,0.0000,86.0177,LM,Eng. do Ambiente,4.0708,0.0000,95.9292,5.6500,4.0708
+Línguas e Relações Empresariais,LM:Geologia|LM:Design,LM,Geologia,2.6738,0.0000,97.3262,LM,Design,0.1783,0.0000,99.8217,5.6100,0.1783
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Eng. do Ambiente,LM,Biotecnologia,39.0597,0.0000,60.9403,LM,Eng. do Ambiente,4.8825,0.0000,95.1175,5.5300,4.8825
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Design,LM,Biologia e Geologia,34.9481,0.0000,65.0519,LM,Design,0.6920,0.0000,99.3080,2.8900,0.6920
+Línguas e Relações Empresariais,LM:Geologia|LM:Eng. Informática,LM,Geologia,4.5936,0.0000,95.4064,LM,Eng. Informática,0.0000,0.0000,100.0000,2.8300,0.0000
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Design,LM,Biotecnologia,32.2835,0.0000,67.7165,LM,Design,3.1496,0.0000,96.8504,2.5400,3.1496
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Design,LM,Eng. Mecânica,21.6102,0.0000,78.3898,LM,Design,0.0000,0.0000,100.0000,2.3600,0.0000
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Eng. Informática,LM,Biologia e Geologia,37.2671,0.0000,62.7329,LM,Eng. Informática,0.6211,0.0000,99.3789,1.6100,0.6211
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Eng. Informática,LM,Biotecnologia,44.0559,0.0000,55.9441,LM,Eng. Informática,0.0000,0.0000,100.0000,1.4300,0.0000
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Eng. Informática,LM,Eng. Mecânica,16.5468,0.0000,83.4532,LM,Eng. Informática,0.7194,0.0000,99.2806,1.3900,0.7194
+Línguas e Relações Empresariais,LM:Geologia|LM:Biologia,LM,Geologia,5.7143,0.0000,94.2857,LM,Biologia,0.0000,0.0000,100.0000,0.3500,0.0000
+Línguas e Relações Empresariais,LM:Geologia|LM:Gestão,LM,Geologia,3.8462,0.0000,96.1538,LM,Gestão,0.0000,0.0000,100.0000,0.2600,0.0000
+Línguas e Relações Empresariais,LM:Geologia|LM:Gestão e Planeamento em Turismo,LM,Geologia,0.0000,0.0000,100.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.1900,0.0000
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Biologia,LM,Biotecnologia,40.0000,0.0000,60.0000,LM,Biologia,0.0000,0.0000,100.0000,0.1500,0.0000
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Gestão e Planeamento em Turismo,LM,Biotecnologia,35.7143,0.0000,64.2857,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.1400,0.0000
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Biologia,LM,Eng. Mecânica,8.3333,0.0000,91.6667,LM,Biologia,0.0000,0.0000,100.0000,0.1200,0.0000
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Biologia,LM,Biologia e Geologia,45.4545,0.0000,54.5455,LM,Biologia,0.0000,0.0000,100.0000,0.1100,0.0000
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Gestão,LM,Biologia e Geologia,45.4545,0.0000,54.5455,LM,Gestão,9.0909,0.0000,90.9091,0.1100,9.0909
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Gestão e Planeamento em Turismo,LM,Biologia e Geologia,40.0000,0.0000,60.0000,LM,Gestão e Planeamento em Turismo,0.0000,0.0000,100.0000,0.1000,0.0000
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Gestão e Planeamento em Turismo,LM,Eng. Mecânica,22.2222,0.0000,77.7778,LM,Gestão e Planeamento em Turismo,11.1111,0.0000,88.8889,0.0900,11.1111
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Gestão,LM,Eng. Mecânica,12.5000,0.0000,87.5000,LM,Gestão,0.0000,0.0000,100.0000,0.0800,0.0000
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Gestão,LM,Biotecnologia,60.0000,0.0000,40.0000,LM,Gestão,0.0000,0.0000,100.0000,0.0500,0.0000
+Línguas e Relações Empresariais,LM:Geologia|LM:Ciências Biomédicas,LM,Geologia,50.0000,0.0000,50.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0200,0.0000
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Eng. Física,LM,Biotecnologia,100.0000,0.0000,0.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0200,0.0000
+Línguas e Relações Empresariais,LM:Geologia|LM:Eng. Física,LM,Geologia,0.0000,0.0000,100.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0200,0.0000
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Ciências Biomédicas,LM,Eng. Mecânica,0.0000,0.0000,100.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0100,0.0000
+Línguas e Relações Empresariais,LM:Biologia e Geologia|LM:Ciências Biomédicas,LM,Biologia e Geologia,100.0000,0.0000,0.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0100,0.0000
+Línguas e Relações Empresariais,LM:Biotecnologia|LM:Fisioterapia,LM,Biotecnologia,0.0000,0.0000,100.0000,LM,Fisioterapia,0.0000,0.0000,100.0000,0.0100,0.0000
+Línguas e Relações Empresariais,LM:Eng. Mecânica|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Mecânica,100.0000,0.0000,0.0000,LM,Eng. Eletrónica e Telecomunicações,0.0000,0.0000,100.0000,0.0100,0.0000

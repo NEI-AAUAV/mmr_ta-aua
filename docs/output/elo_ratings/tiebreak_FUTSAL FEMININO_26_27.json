@@ -14,6 +14,7 @@
       "tied_teams": [
         "Economia",
         "Eng. Biomédica",
+        "Matemática",
         "Eng. Civil"
       ],
       "criteria_order": [
@@ -52,8 +53,20 @@
           }
         },
         {
-          "team": "Economia",
+          "team": "Matemática",
           "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 8,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 14
+          }
+        },
+        {
+          "team": "Economia",
+          "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
             "diferenca_golos": 5,
@@ -78,7 +91,6 @@
         "Eng. e Gestão Industrial",
         "Marketing",
         "Eng. Informática",
-        "Matemática",
         "Biologia"
       ],
       "criteria_order": [
@@ -117,32 +129,8 @@
           }
         },
         {
-          "team": "Matemática",
-          "rank_in_tiebreak": 3,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "diferenca_golos": 5,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "golos_marcados": 8
-          }
-        },
-        {
-          "team": "Eng. e Gestão Industrial",
-          "rank_in_tiebreak": 4,
-          "criteria_values": {
-            "faltas_comparencia": 0,
-            "diferenca_golos": 2,
-            "pontos_h2h": 0,
-            "diferenca_golos_h2h": 0,
-            "golos_marcados_h2h": 0,
-            "golos_marcados": 3
-          }
-        },
-        {
           "team": "Biologia",
-          "rank_in_tiebreak": 5,
+          "rank_in_tiebreak": 3,
           "criteria_values": {
             "faltas_comparencia": 0,
             "diferenca_golos": 0,
@@ -150,6 +138,18 @@
             "diferenca_golos_h2h": 0,
             "golos_marcados_h2h": 0,
             "golos_marcados": 4
+          }
+        },
+        {
+          "team": "Eng. e Gestão Industrial",
+          "rank_in_tiebreak": 4,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": -1,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 6
           }
         }
       ],
@@ -268,6 +268,7 @@
       "tied_teams": [
         "Economia",
         "Eng. Biomédica",
+        "Matemática",
         "Eng. Civil"
       ],
       "criteria_order": [
@@ -300,6 +301,7 @@
       "tied_teams": [
         "Economia",
         "Eng. Biomédica",
+        "Matemática",
         "Eng. Civil"
       ],
       "criteria_order": [
@@ -323,6 +325,39 @@
       "rank_in_tiebreak": 2,
       "final_position": 2
     },
+    "geral::Matemática": {
+      "event_id": 1,
+      "ranking_key": "geral",
+      "team": "Matemática",
+      "tie_type": "mini_league",
+      "tie_points": 6,
+      "tied_teams": [
+        "Economia",
+        "Eng. Biomédica",
+        "Matemática",
+        "Eng. Civil"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 8,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 14
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 3
+    },
     "geral::Economia": {
       "event_id": 1,
       "ranking_key": "geral",
@@ -332,6 +367,7 @@
       "tied_teams": [
         "Economia",
         "Eng. Biomédica",
+        "Matemática",
         "Eng. Civil"
       ],
       "criteria_order": [
@@ -352,8 +388,8 @@
         "golos_marcados_h2h": 0,
         "golos_marcados": 6
       },
-      "rank_in_tiebreak": 3,
-      "final_position": 3
+      "rank_in_tiebreak": 4,
+      "final_position": 4
     },
     "geral::Eng. Informática": {
       "event_id": 2,
@@ -365,7 +401,6 @@
         "Eng. e Gestão Industrial",
         "Marketing",
         "Eng. Informática",
-        "Matemática",
         "Biologia"
       ],
       "criteria_order": [
@@ -387,7 +422,7 @@
         "golos_marcados": 9
       },
       "rank_in_tiebreak": 1,
-      "final_position": 4
+      "final_position": 5
     },
     "geral::Marketing": {
       "event_id": 2,
@@ -399,7 +434,6 @@
         "Eng. e Gestão Industrial",
         "Marketing",
         "Eng. Informática",
-        "Matemática",
         "Biologia"
       ],
       "criteria_order": [
@@ -421,75 +455,7 @@
         "golos_marcados": 8
       },
       "rank_in_tiebreak": 2,
-      "final_position": 5
-    },
-    "geral::Matemática": {
-      "event_id": 2,
-      "ranking_key": "geral",
-      "team": "Matemática",
-      "tie_type": "mini_league",
-      "tie_points": 3,
-      "tied_teams": [
-        "Eng. e Gestão Industrial",
-        "Marketing",
-        "Eng. Informática",
-        "Matemática",
-        "Biologia"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "diferenca_golos",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "diferenca_golos": 5,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "golos_marcados": 8
-      },
-      "rank_in_tiebreak": 3,
       "final_position": 6
-    },
-    "geral::Eng. e Gestão Industrial": {
-      "event_id": 2,
-      "ranking_key": "geral",
-      "team": "Eng. e Gestão Industrial",
-      "tie_type": "mini_league",
-      "tie_points": 3,
-      "tied_teams": [
-        "Eng. e Gestão Industrial",
-        "Marketing",
-        "Eng. Informática",
-        "Matemática",
-        "Biologia"
-      ],
-      "criteria_order": [
-        "faltas_comparencia",
-        "diferenca_golos",
-        "pontos_h2h",
-        "diferenca_golos_h2h",
-        "golos_marcados_h2h",
-        "golos_marcados"
-      ],
-      "deciding_criterion": "diferenca_golos",
-      "used_global_fallback": true,
-      "criteria_values": {
-        "faltas_comparencia": 0,
-        "diferenca_golos": 2,
-        "pontos_h2h": 0,
-        "diferenca_golos_h2h": 0,
-        "golos_marcados_h2h": 0,
-        "golos_marcados": 3
-      },
-      "rank_in_tiebreak": 4,
-      "final_position": 7
     },
     "geral::Biologia": {
       "event_id": 2,
@@ -501,7 +467,6 @@
         "Eng. e Gestão Industrial",
         "Marketing",
         "Eng. Informática",
-        "Matemática",
         "Biologia"
       ],
       "criteria_order": [
@@ -522,7 +487,40 @@
         "golos_marcados_h2h": 0,
         "golos_marcados": 4
       },
-      "rank_in_tiebreak": 5,
+      "rank_in_tiebreak": 3,
+      "final_position": 7
+    },
+    "geral::Eng. e Gestão Industrial": {
+      "event_id": 2,
+      "ranking_key": "geral",
+      "team": "Eng. e Gestão Industrial",
+      "tie_type": "mini_league",
+      "tie_points": 3,
+      "tied_teams": [
+        "Eng. e Gestão Industrial",
+        "Marketing",
+        "Eng. Informática",
+        "Biologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": -1,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 6
+      },
+      "rank_in_tiebreak": 4,
       "final_position": 8
     },
     "geral::Eng. Mecânica": {
