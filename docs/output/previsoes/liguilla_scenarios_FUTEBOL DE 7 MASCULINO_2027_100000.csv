@@ -1,0 +1,91 @@
+﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
+Administração Pública,LM:Gestão|LM:Fisioterapia,LM,Gestão,16.5225,17.4784,65.9991,LM,Fisioterapia,0.6372,1.0696,98.2931,4.3940,0.7965
+Administração Pública,LM:Gestão|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão,16.6667,16.7925,66.5408,LM,Eng. Eletrónica e Telecomunicações,5.6647,10.8510,83.4844,3.9720,6.9738
+Administração Pública,LM:Gestão|LM:Ciências Biomédicas,LM,Gestão,15.3488,17.0825,67.5687,LM,Ciências Biomédicas,6.8499,10.9514,82.1987,2.3650,7.2304
+Administração Pública,LM:Gestão|LM:Contabilidade,LM,Gestão,19.7226,16.5259,63.7515,LM,Contabilidade,18.5766,17.0688,64.3546,1.6580,13.0277
+Administração Pública,LM:Gestão|LM:Eng. Computadores e Telemática,LM,Gestão,17.2544,17.3804,65.3652,LM,Eng. Computadores e Telemática,19.0176,15.2393,65.7431,1.5880,11.7758
+Administração Pública,LM:Gestão|LM:Eng. Civil,LM,Gestão,15.4045,18.0583,66.5372,LM,Eng. Civil,7.5081,10.8738,81.6181,1.5450,7.7670
+Administração Pública,LM:Gestão|LM:Biotecnologia,LM,Gestão,16.9811,16.1426,66.8763,LM,Biotecnologia,6.9182,12.3690,80.7128,0.9540,7.9665
+Administração Pública,LM:Gestão|LM:Gestão e Planeamento em Turismo,LM,Gestão,16.4356,17.2277,66.3366,LM,Gestão e Planeamento em Turismo,1.1881,6.1386,92.6733,0.5050,0.9901
+Administração Pública,LM:Gestão|LM:Eng. de Materiais,LM,Gestão,15.6379,20.5761,63.7860,LM,Eng. de Materiais,21.8107,15.2263,62.9630,0.2430,13.5802
+Administração Pública,LM:Gestão|LM:Eng. e Gestão Industrial,LM,Gestão,26.7857,12.5000,60.7143,LM,Eng. e Gestão Industrial,3.5714,12.5000,83.9286,0.0560,10.7143
+Biotecnologia,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,79.1077,12.1852,8.7071,LM,Gestão,58.2634,14.4399,27.2967,4.1690,55.2411
+Biotecnologia,LM:Administração Pública|LM:Gestão,LM,Administração Pública,80.7128,12.3690,6.9182,LM,Gestão,56.2893,16.1426,27.5681,0.9540,61.4256
+Biotecnologia,LM:Marketing|LM:Gestão,LM,Marketing,84.4828,11.4943,4.0230,LM,Gestão,61.4943,13.2184,25.2874,0.3480,64.3678
+Ciências Biomédicas,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,83.5775,10.1596,6.2629,LM,Gestão,63.7183,15.9155,20.3662,10.6500,60.4319
+Ciências Biomédicas,LM:Administração Pública|LM:Gestão,LM,Administração Pública,82.1987,10.9514,6.8499,LM,Gestão,64.3129,15.8562,19.8309,2.3650,68.3298
+Ciências Biomédicas,LM:Marketing|LM:Gestão,LM,Marketing,88.2840,7.3373,4.3787,LM,Gestão,62.1302,15.9763,21.8935,0.8450,65.5621
+Contabilidade,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,67.1754,15.1360,17.6887,LM,Gestão,45.5050,14.1787,40.3163,7.2080,40.1082
+Contabilidade,LM:Administração Pública|LM:Gestão,LM,Administração Pública,64.3546,17.0688,18.5766,LM,Gestão,44.6924,15.1387,40.1689,1.6580,43.7877
+Contabilidade,LM:Marketing|LM:Gestão,LM,Marketing,69.4772,15.6830,14.8398,LM,Gestão,42.8331,16.8634,40.3035,0.5930,43.0017
+Eng. Civil,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,81.0667,11.2852,7.6481,LM,Gestão,61.7021,15.4830,22.8148,6.9560,58.3381
+Eng. Civil,LM:Administração Pública|LM:Gestão,LM,Administração Pública,81.6181,10.8738,7.5081,LM,Gestão,59.2880,15.3398,25.3722,1.5450,63.1715
+Eng. Civil,LM:Marketing|LM:Gestão,LM,Marketing,85.7380,8.7894,5.4726,LM,Gestão,58.7065,17.7446,23.5489,0.6030,62.1891
+Eng. Computadores e Telemática,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,69.1791,14.0666,16.7543,LM,Gestão,46.9471,13.7014,39.3514,6.8460,42.5066
+Eng. Computadores e Telemática,LM:Administração Pública|LM:Gestão,LM,Administração Pública,65.7431,15.2393,19.0176,LM,Gestão,45.8438,14.6725,39.4836,1.5880,45.8438
+Eng. Computadores e Telemática,LM:Marketing|LM:Gestão,LM,Marketing,75.9450,12.1993,11.8557,LM,Gestão,50.0000,12.7148,37.2852,0.5820,49.6564
+Eng. Eletrónica e Telecomunicações,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,84.4760,9.9034,5.6207,LM,Gestão,64.7836,15.1467,20.0698,17.4890,61.8503
+Eng. Eletrónica e Telecomunicações,LM:Administração Pública|LM:Gestão,LM,Administração Pública,83.4844,10.8510,5.6647,LM,Gestão,64.9547,15.1813,19.8640,3.9720,68.8570
+Eng. Eletrónica e Telecomunicações,LM:Marketing|LM:Gestão,LM,Marketing,89.2038,7.3549,3.4413,LM,Gestão,63.4953,16.0594,20.4453,1.4820,67.2065
+Eng. Informática,LM:Gestão|LM:Fisioterapia,LM,Gestão,15.4283,17.3711,67.2006,LM,Fisioterapia,0.6304,1.1987,98.1709,19.3540,1.0799
+Eng. Informática,LM:Gestão|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão,15.6899,17.2852,67.0250,LM,Eng. Eletrónica e Telecomunicações,5.6207,9.9034,84.4760,17.4890,7.3646
+Eng. Informática,LM:Gestão|LM:Ciências Biomédicas,LM,Gestão,15.6526,16.5915,67.7559,LM,Ciências Biomédicas,6.2629,10.1596,83.5775,10.6500,7.8310
+Eng. Informática,LM:Gestão|LM:Contabilidade,LM,Gestão,15.8296,16.8424,67.3280,LM,Contabilidade,17.6887,15.1360,67.1754,7.2080,12.5555
+Eng. Informática,LM:Gestão|LM:Eng. Civil,LM,Gestão,16.4031,17.4382,66.1587,LM,Eng. Civil,7.6481,11.2852,81.0667,6.9560,8.7838
+Eng. Informática,LM:Gestão|LM:Eng. Computadores e Telemática,LM,Gestão,15.5419,16.8712,67.5869,LM,Eng. Computadores e Telemática,16.7543,14.0666,69.1791,6.8460,11.5250
+Eng. Informática,LM:Gestão|LM:Biotecnologia,LM,Gestão,15.6632,17.5822,66.7546,LM,Biotecnologia,8.7071,12.1852,79.1077,4.1690,8.2754
+Eng. Informática,LM:Gestão|LM:Gestão e Planeamento em Turismo,LM,Gestão,16.1262,16.5260,67.3478,LM,Gestão e Planeamento em Turismo,3.1986,5.8196,90.9818,2.2510,3.1986
+Eng. Informática,LM:Gestão|LM:Eng. de Materiais,LM,Gestão,15.2212,17.8761,66.9027,LM,Eng. de Materiais,15.6637,14.9558,69.3805,1.1300,11.6814
+Eng. Informática,LM:Gestão|LM:Eng. e Gestão Industrial,LM,Gestão,16.8224,15.8879,67.2897,LM,Eng. e Gestão Industrial,2.8037,6.0748,91.1215,0.2140,6.0748
+Eng. de Materiais,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,69.3805,14.9558,15.6637,LM,Gestão,48.2301,13.0973,38.6726,1.1300,48.7611
+Eng. de Materiais,LM:Administração Pública|LM:Gestão,LM,Administração Pública,62.9630,15.2263,21.8107,LM,Gestão,46.0905,12.7572,41.1523,0.2430,41.1523
+Eng. de Materiais,LM:Marketing|LM:Gestão,LM,Marketing,74.7368,15.7895,9.4737,LM,Gestão,48.4211,11.5789,40.0000,0.0950,49.4737
+Eng. e Gestão Industrial,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,91.1215,6.0748,2.8037,LM,Gestão,75.7009,13.5514,10.7477,0.2140,80.8411
+Eng. e Gestão Industrial,LM:Administração Pública|LM:Gestão,LM,Administração Pública,83.9286,12.5000,3.5714,LM,Gestão,75.0000,16.0714,8.9286,0.0560,78.5714
+Eng. e Gestão Industrial,LM:Marketing|LM:Gestão,LM,Marketing,95.0000,5.0000,0.0000,LM,Gestão,75.0000,25.0000,0.0000,0.0200,75.0000
+Fisioterapia,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,98.1709,1.1987,0.6304,LM,Gestão,92.9989,5.2341,1.7671,19.3540,95.2413
+Fisioterapia,LM:Administração Pública|LM:Gestão,LM,Administração Pública,98.2931,1.0696,0.6372,LM,Gestão,93.1497,5.3254,1.5248,4.3940,95.7442
+Fisioterapia,LM:Marketing|LM:Gestão,LM,Marketing,98.3881,1.1940,0.4179,LM,Gestão,93.3731,5.5522,1.0746,1.6750,95.1045
+Gestão,LM:Eng. Informática|LM:Fisioterapia,LM,Eng. Informática,67.2006,17.3711,15.4283,LM,Fisioterapia,1.7671,5.2341,92.9989,19.3540,3.6788
+Gestão,LM:Eng. Informática|LM:Eng. Eletrónica e Telecomunicações,LM,Eng. Informática,67.0250,17.2852,15.6899,LM,Eng. Eletrónica e Telecomunicações,20.0698,15.1467,64.7836,17.4890,30.7851
+Gestão,LM:Eng. Informática|LM:Ciências Biomédicas,LM,Eng. Informática,67.7559,16.5915,15.6526,LM,Ciências Biomédicas,20.3662,15.9155,63.7183,10.6500,31.7371
+Gestão,LM:Eng. Informática|LM:Contabilidade,LM,Eng. Informática,67.3280,16.8424,15.8296,LM,Contabilidade,40.3163,14.1787,45.5050,7.2080,47.3363
+Gestão,LM:Eng. Informática|LM:Eng. Civil,LM,Eng. Informática,66.1587,17.4382,16.4031,LM,Eng. Civil,22.8148,15.4830,61.7021,6.9560,32.8781
+Gestão,LM:Eng. Informática|LM:Eng. Computadores e Telemática,LM,Eng. Informática,67.5869,16.8712,15.5419,LM,Eng. Computadores e Telemática,39.3514,13.7014,46.9471,6.8460,45.9684
+Gestão,LM:Administração Pública|LM:Fisioterapia,LM,Administração Pública,65.9991,17.4784,16.5225,LM,Fisioterapia,1.5248,5.3254,93.1497,4.3940,3.4593
+Gestão,LM:Eng. Informática|LM:Biotecnologia,LM,Eng. Informática,66.7546,17.5822,15.6632,LM,Biotecnologia,27.2967,14.4399,58.2634,4.1690,36.4836
+Gestão,LM:Administração Pública|LM:Eng. Eletrónica e Telecomunicações,LM,Administração Pública,66.5408,16.7925,16.6667,LM,Eng. Eletrónica e Telecomunicações,19.8640,15.1813,64.9547,3.9720,24.1692
+Gestão,LM:Administração Pública|LM:Ciências Biomédicas,LM,Administração Pública,67.5687,17.0825,15.3488,LM,Ciências Biomédicas,19.8309,15.8562,64.3129,2.3650,24.4397
+Gestão,LM:Eng. Informática|LM:Gestão e Planeamento em Turismo,LM,Eng. Informática,67.3478,16.5260,16.1262,LM,Gestão e Planeamento em Turismo,10.5287,14.6157,74.8556,2.2510,15.1488
+Gestão,LM:Marketing|LM:Fisioterapia,LM,Marketing,70.9851,15.9403,13.0746,LM,Fisioterapia,1.0746,5.5522,93.3731,1.6750,4.1194
+Gestão,LM:Administração Pública|LM:Contabilidade,LM,Administração Pública,63.7515,16.5259,19.7226,LM,Contabilidade,40.1689,15.1387,44.6924,1.6580,43.1846
+Gestão,LM:Administração Pública|LM:Eng. Computadores e Telemática,LM,Administração Pública,65.3652,17.3804,17.2544,LM,Eng. Computadores e Telemática,39.4836,14.6725,45.8438,1.5880,42.3804
+Gestão,LM:Administração Pública|LM:Eng. Civil,LM,Administração Pública,66.5372,18.0583,15.4045,LM,Eng. Civil,25.3722,15.3398,59.2880,1.5450,29.0615
+Gestão,LM:Marketing|LM:Eng. Eletrónica e Telecomunicações,LM,Marketing,72.4022,15.5870,12.0108,LM,Eng. Eletrónica e Telecomunicações,20.4453,16.0594,63.4953,1.4820,28.2726
+Gestão,LM:Eng. Informática|LM:Eng. de Materiais,LM,Eng. Informática,66.9027,17.8761,15.2212,LM,Eng. de Materiais,38.6726,13.0973,48.2301,1.1300,39.5575
+Gestão,LM:Administração Pública|LM:Biotecnologia,LM,Administração Pública,66.8763,16.1426,16.9811,LM,Biotecnologia,27.5681,16.1426,56.2893,0.9540,30.6080
+Gestão,LM:Marketing|LM:Ciências Biomédicas,LM,Marketing,72.3077,15.2663,12.4260,LM,Ciências Biomédicas,21.8935,15.9763,62.1302,0.8450,30.0592
+Gestão,LM:Marketing|LM:Eng. Civil,LM,Marketing,71.9735,13.2670,14.7595,LM,Eng. Civil,23.5489,17.7446,58.7065,0.6030,31.1774
+Gestão,LM:Marketing|LM:Contabilidade,LM,Marketing,72.1754,15.8516,11.9730,LM,Contabilidade,40.3035,16.8634,42.8331,0.5930,46.3744
+Gestão,LM:Marketing|LM:Eng. Computadores e Telemática,LM,Marketing,72.3368,15.6357,12.0275,LM,Eng. Computadores e Telemática,37.2852,12.7148,50.0000,0.5820,41.0653
+Gestão,LM:Administração Pública|LM:Gestão e Planeamento em Turismo,LM,Administração Pública,66.3366,17.2277,16.4356,LM,Gestão e Planeamento em Turismo,9.9010,12.2772,77.8218,0.5050,13.6634
+Gestão,LM:Marketing|LM:Biotecnologia,LM,Marketing,74.4253,14.6552,10.9195,LM,Biotecnologia,25.2874,13.2184,61.4943,0.3480,30.7471
+Gestão,LM:Administração Pública|LM:Eng. de Materiais,LM,Administração Pública,63.7860,20.5761,15.6379,LM,Eng. de Materiais,41.1523,12.7572,46.0905,0.2430,45.2675
+Gestão,LM:Eng. Informática|LM:Eng. e Gestão Industrial,LM,Eng. Informática,67.2897,15.8879,16.8224,LM,Eng. e Gestão Industrial,10.7477,13.5514,75.7009,0.2140,13.0841
+Gestão,LM:Marketing|LM:Gestão e Planeamento em Turismo,LM,Marketing,68.0952,22.3810,9.5238,LM,Gestão e Planeamento em Turismo,10.9524,11.4286,77.6190,0.2100,17.1429
+Gestão,LM:Marketing|LM:Eng. de Materiais,LM,Marketing,70.5263,20.0000,9.4737,LM,Eng. de Materiais,40.0000,11.5789,48.4211,0.0950,45.2632
+Gestão,LM:Administração Pública|LM:Eng. e Gestão Industrial,LM,Administração Pública,60.7143,12.5000,26.7857,LM,Eng. e Gestão Industrial,8.9286,16.0714,75.0000,0.0560,10.7143
+Gestão,LM:Marketing|LM:Eng. e Gestão Industrial,LM,Marketing,75.0000,10.0000,15.0000,LM,Eng. e Gestão Industrial,0.0000,25.0000,75.0000,0.0200,20.0000
+Gestão e Planeamento em Turismo,LM:Eng. Informática|LM:Gestão,LM,Eng. Informática,90.9818,5.8196,3.1986,LM,Gestão,74.8556,14.6157,10.5287,2.2510,81.6526
+Gestão e Planeamento em Turismo,LM:Administração Pública|LM:Gestão,LM,Administração Pública,92.6733,6.1386,1.1881,LM,Gestão,77.8218,12.2772,9.9010,0.5050,85.3465
+Gestão e Planeamento em Turismo,LM:Marketing|LM:Gestão,LM,Marketing,92.8571,5.7143,1.4286,LM,Gestão,77.6190,11.4286,10.9524,0.2100,81.9048
+Marketing,LM:Gestão|LM:Fisioterapia,LM,Gestão,13.0746,15.9403,70.9851,LM,Fisioterapia,0.4179,1.1940,98.3881,1.6750,0.7761
+Marketing,LM:Gestão|LM:Eng. Eletrónica e Telecomunicações,LM,Gestão,12.0108,15.5870,72.4022,LM,Eng. Eletrónica e Telecomunicações,3.4413,7.3549,89.2038,1.4820,4.5209
+Marketing,LM:Gestão|LM:Ciências Biomédicas,LM,Gestão,12.4260,15.2663,72.3077,LM,Ciências Biomédicas,4.3787,7.3373,88.2840,0.8450,4.3787
+Marketing,LM:Gestão|LM:Eng. Civil,LM,Gestão,14.7595,13.2670,71.9735,LM,Eng. Civil,5.4726,8.7894,85.7380,0.6030,6.6335
+Marketing,LM:Gestão|LM:Contabilidade,LM,Gestão,11.9730,15.8516,72.1754,LM,Contabilidade,14.8398,15.6830,69.4772,0.5930,10.6239
+Marketing,LM:Gestão|LM:Eng. Computadores e Telemática,LM,Gestão,12.0275,15.6357,72.3368,LM,Eng. Computadores e Telemática,11.8557,12.1993,75.9450,0.5820,9.2784
+Marketing,LM:Gestão|LM:Biotecnologia,LM,Gestão,10.9195,14.6552,74.4253,LM,Biotecnologia,4.0230,11.4943,84.4828,0.3480,4.8851
+Marketing,LM:Gestão|LM:Gestão e Planeamento em Turismo,LM,Gestão,9.5238,22.3810,68.0952,LM,Gestão e Planeamento em Turismo,1.4286,5.7143,92.8571,0.2100,0.9524
+Marketing,LM:Gestão|LM:Eng. de Materiais,LM,Gestão,9.4737,20.0000,70.5263,LM,Eng. de Materiais,9.4737,15.7895,74.7368,0.0950,5.2632
+Marketing,LM:Gestão|LM:Eng. e Gestão Industrial,LM,Gestão,15.0000,10.0000,75.0000,LM,Eng. e Gestão Industrial,0.0000,5.0000,95.0000,0.0200,5.0000
