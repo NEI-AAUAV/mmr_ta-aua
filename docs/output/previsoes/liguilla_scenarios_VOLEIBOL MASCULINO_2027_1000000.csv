@@ -1,0 +1,646 @@
+﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
+Bioquímica,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,94.4891,0.0000,5.5109,LM,Eng. Biomédica,53.6717,0.0000,46.3283,5.9972,52.7663
+Bioquímica,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,94.5894,0.0000,5.4106,LM,Línguas e Relações Empresariais,59.9712,0.0000,40.0288,3.8942,58.8927
+Bioquímica,LM:Eng. de Materiais|LM:Eng. Biomédica,LM,Eng. de Materiais,98.0673,0.0000,1.9327,LM,Eng. Biomédica,53.9601,0.0000,46.0399,2.9027,53.6776
+Bioquímica,LM:Música|LM:Eng. Biomédica,LM,Música,82.5332,0.0000,17.4668,LM,Eng. Biomédica,53.8272,0.0000,46.1728,2.5580,50.0391
+Bioquímica,LM:Gestão Comercial|LM:Eng. Computadores e Telemática,LM,Gestão Comercial,94.3299,0.0000,5.6701,LM,Eng. Computadores e Telemática,72.0358,0.0000,27.9642,2.5361,70.2378
+Bioquímica,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,99.9303,0.0000,0.0697,LM,Eng. Biomédica,52.5445,0.0000,47.4555,2.2971,52.5402
+Bioquímica,LM:Eng. de Materiais|LM:Línguas e Relações Empresariais,LM,Eng. de Materiais,97.8446,0.0000,2.1554,LM,Línguas e Relações Empresariais,60.3678,0.0000,39.6322,1.8326,59.9640
+Bioquímica,LM:Música|LM:Línguas e Relações Empresariais,LM,Música,82.1770,0.0000,17.8230,LM,Línguas e Relações Empresariais,59.7546,0.0000,40.2454,1.6546,55.1614
+Bioquímica,LM:Matemática|LM:Línguas e Relações Empresariais,LM,Matemática,99.9325,0.0000,0.0675,LM,Línguas e Relações Empresariais,59.2760,0.0000,40.7240,1.4807,59.2693
+Bioquímica,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,94.4183,0.0000,5.5817,LM,Física,54.8066,0.0000,45.1934,1.2774,53.7655
+Bioquímica,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,94.1396,0.0000,5.8604,LM,Ciências do Mar,48.6120,0.0000,51.3880,1.2320,47.8977
+Bioquímica,LM:Eng. de Materiais|LM:Eng. Computadores e Telemática,LM,Eng. de Materiais,97.8443,0.0000,2.1557,LM,Eng. Computadores e Telemática,73.0295,0.0000,26.9705,1.2154,72.4535
+Bioquímica,LM:Música|LM:Eng. Computadores e Telemática,LM,Música,82.7270,0.0000,17.2730,LM,Eng. Computadores e Telemática,71.0184,0.0000,28.9816,1.0693,64.4347
+Bioquímica,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,99.9264,0.0000,0.0736,LM,Eng. Computadores e Telemática,70.6458,0.0000,29.3542,0.9508,70.6458
+Bioquímica,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,93.7326,0.0000,6.2674,LM,Contabilidade,65.4269,0.0000,34.5731,0.6829,63.9479
+Bioquímica,LM:Eng. de Materiais|LM:Física,LM,Eng. de Materiais,97.8654,0.0000,2.1346,LM,Física,53.5604,0.0000,46.4396,0.6137,53.2834
+Bioquímica,LM:Eng. de Materiais|LM:Ciências do Mar,LM,Eng. de Materiais,98.1780,0.0000,1.8220,LM,Ciências do Mar,48.6726,0.0000,51.3274,0.5763,48.5511
+Bioquímica,LM:Música|LM:Física,LM,Música,82.9104,0.0000,17.0896,LM,Física,54.9023,0.0000,45.0977,0.5477,50.8673
+Bioquímica,LM:Música|LM:Ciências do Mar,LM,Música,83.2086,0.0000,16.7914,LM,Ciências do Mar,46.9008,0.0000,53.0992,0.5211,43.8304
+Bioquímica,LM:Economia|LM:Eng. Biomédica,LM,Economia,99.1468,0.0000,0.8532,LM,Eng. Biomédica,54.0675,0.0000,45.9325,0.5040,54.0079
+Bioquímica,LM:Matemática|LM:Física,LM,Matemática,99.8777,0.0000,0.1223,LM,Física,54.7308,0.0000,45.2692,0.4904,54.7308
+Bioquímica,LM:Matemática|LM:Ciências do Mar,LM,Matemática,100.0000,0.0000,0.0000,LM,Ciências do Mar,49.1890,0.0000,50.8110,0.4747,49.1890
+Bioquímica,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,94.3798,0.0000,5.6202,LM,Eng. Mecânica,6.7276,0.0000,93.2724,0.3612,6.7276
+Bioquímica,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,99.2947,0.0000,0.7053,LM,Línguas e Relações Empresariais,59.3070,0.0000,40.6930,0.3261,59.2456
+Bioquímica,LM:Eng. de Materiais|LM:Contabilidade,LM,Eng. de Materiais,97.5896,0.0000,2.4104,LM,Contabilidade,65.5249,0.0000,34.4751,0.3153,64.9540
+Bioquímica,LM:Música|LM:Contabilidade,LM,Música,82.0522,0.0000,17.9478,LM,Contabilidade,66.2039,0.0000,33.7961,0.2953,60.3793
+Bioquímica,LM:Matemática|LM:Contabilidade,LM,Matemática,99.9241,0.0000,0.0759,LM,Contabilidade,65.8444,0.0000,34.1556,0.2635,65.8444
+Bioquímica,LM:Economia|LM:Eng. Computadores e Telemática,LM,Economia,99.2921,0.0000,0.7079,LM,Eng. Computadores e Telemática,71.2128,0.0000,28.7872,0.2119,70.9297
+Bioquímica,LM:Eng. de Materiais|LM:Eng. Mecânica,LM,Eng. de Materiais,97.4128,0.0000,2.5872,LM,Eng. Mecânica,5.2868,0.0000,94.7132,0.1778,5.2868
+Bioquímica,LM:Música|LM:Eng. Mecânica,LM,Música,81.2300,0.0000,18.7700,LM,Eng. Mecânica,6.9186,0.0000,93.0814,0.1561,6.9186
+Bioquímica,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Mecânica,5.7263,0.0000,94.2737,0.1432,5.7263
+Bioquímica,LM:Economia|LM:Física,LM,Economia,99.3744,0.0000,0.6256,LM,Física,54.1555,0.0000,45.8445,0.1119,53.9768
+Bioquímica,LM:Economia|LM:Ciências do Mar,LM,Economia,99.0741,0.0000,0.9259,LM,Ciências do Mar,44.8560,0.0000,55.1440,0.0972,44.8560
+Bioquímica,LM:Economia|LM:Contabilidade,LM,Economia,99.0909,0.0000,0.9091,LM,Contabilidade,69.0909,0.0000,30.9091,0.0550,69.0909
+Bioquímica,LM:Economia|LM:Eng. Mecânica,LM,Economia,99.2908,0.0000,0.7092,LM,Eng. Mecânica,6.7376,0.0000,93.2624,0.0282,6.7376
+Bioquímica,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,91.2281,0.0000,8.7719,LM,Eng. Informática,15.7895,0.0000,84.2105,0.0057,15.7895
+Bioquímica,LM:Eng. de Materiais|LM:Eng. Informática,LM,Eng. de Materiais,96.1538,0.0000,3.8462,LM,Eng. Informática,26.9231,0.0000,73.0769,0.0026,26.9231
+Bioquímica,LM:Matemática|LM:Eng. Informática,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Informática,34.7826,0.0000,65.2174,0.0023,34.7826
+Bioquímica,LM:Música|LM:Eng. Informática,LM,Música,83.3333,0.0000,16.6667,LM,Eng. Informática,22.2222,0.0000,77.7778,0.0018,22.2222
+Bioquímica,LM:Gestão Comercial|LM:Eng. e Gestão Industrial,LM,Gestão Comercial,90.0000,0.0000,10.0000,LM,Eng. e Gestão Industrial,30.0000,0.0000,70.0000,0.0010,30.0000
+Bioquímica,LM:Economia|LM:Eng. Informática,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Informática,25.0000,0.0000,75.0000,0.0004,25.0000
+Bioquímica,LM:Eng. de Materiais|LM:Eng. e Gestão Industrial,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,25.0000,0.0000,75.0000,0.0004,25.0000
+Bioquímica,LM:Matemática|LM:Eng. e Gestão Industrial,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0003,0.0000
+Bioquímica,LM:Música|LM:Eng. e Gestão Industrial,LM,Música,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,33.3333,0.0000,66.6667,0.0003,33.3333
+Ciências do Mar,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,94.6023,0.0000,5.3977,LM,Bioquímica,51.3880,0.0000,48.6120,1.2320,50.5195
+Ciências do Mar,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,92.0384,0.0000,7.9616,LM,Eng. do Ambiente,95.5654,0.0000,4.4346,1.1681,88.3657
+Ciências do Mar,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,93.0935,0.0000,6.9065,LM,Fisioterapia,64.3006,0.0000,35.6994,0.6255,62.1583
+Ciências do Mar,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,98.4904,0.0000,1.5096,LM,Bioquímica,51.3274,0.0000,48.6726,0.5763,51.1886
+Ciências do Mar,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,95.3434,0.0000,4.6566,LM,Eng. do Ambiente,96.2712,0.0000,3.7288,0.5605,91.9001
+Ciências do Mar,LM:Música|LM:Bioquímica,LM,Música,83.2086,0.0000,16.7914,LM,Bioquímica,53.0992,0.0000,46.9008,0.5211,49.4723
+Ciências do Mar,LM:Música|LM:Eng. do Ambiente,LM,Música,83.3199,0.0000,16.6801,LM,Eng. do Ambiente,95.3700,0.0000,4.6300,0.4946,80.8330
+Ciências do Mar,LM:Matemática|LM:Bioquímica,LM,Matemática,99.8947,0.0000,0.1053,LM,Bioquímica,50.8110,0.0000,49.1890,0.4747,50.8110
+Ciências do Mar,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,98.9549,0.0000,1.0451,LM,Eng. do Ambiente,97.0202,0.0000,2.9798,0.4497,96.0418
+Ciências do Mar,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,97.5601,0.0000,2.4399,LM,Fisioterapia,63.2302,0.0000,36.7698,0.2910,61.8557
+Ciências do Mar,LM:Música|LM:Fisioterapia,LM,Música,81.9076,0.0000,18.0924,LM,Fisioterapia,65.7456,0.0000,34.2544,0.2642,59.1976
+Ciências do Mar,LM:Matemática|LM:Fisioterapia,LM,Matemática,99.9583,0.0000,0.0417,LM,Fisioterapia,64.5955,0.0000,35.4045,0.2398,64.6789
+Ciências do Mar,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,92.6104,0.0000,7.3896,LM,Eng. Física,99.8688,0.0000,0.1312,0.2287,92.5667
+Ciências do Mar,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,96.2193,0.0000,3.7807,LM,Eng. Física,99.5274,0.0000,0.4726,0.1058,95.9357
+Ciências do Mar,LM:Economia|LM:Bioquímica,LM,Economia,99.6914,0.0000,0.3086,LM,Bioquímica,55.1440,0.0000,44.8560,0.0972,55.1440
+Ciências do Mar,LM:Economia|LM:Eng. do Ambiente,LM,Economia,97.0010,0.0000,2.9990,LM,Eng. do Ambiente,96.8976,0.0000,3.1024,0.0967,94.1055
+Ciências do Mar,LM:Música|LM:Eng. Física,LM,Música,82.3333,0.0000,17.6667,LM,Eng. Física,99.2222,0.0000,0.7778,0.0900,82.2222
+Ciências do Mar,LM:Matemática|LM:Eng. Física,LM,Matemática,98.9547,0.0000,1.0453,LM,Eng. Física,99.7677,0.0000,0.2323,0.0861,98.7224
+Ciências do Mar,LM:Economia|LM:Fisioterapia,LM,Economia,98.7603,0.0000,1.2397,LM,Fisioterapia,62.3967,0.0000,37.6033,0.0484,61.7769
+Ciências do Mar,LM:Economia|LM:Eng. Física,LM,Economia,99.4220,0.0000,0.5780,LM,Eng. Física,99.4220,0.0000,0.5780,0.0173,98.8439
+Ciências do Mar,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,92.3077,0.0000,7.6923,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0026,92.3077
+Ciências do Mar,LM:Música|LM:Eng. Computacional,LM,Música,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0012,100.0000
+Ciências do Mar,LM:Matemática|LM:Eng. Computacional,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0011,100.0000
+Ciências do Mar,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0009,100.0000
+Ciências do Mar,LM:Economia|LM:Eng. Computacional,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0002,100.0000
+Contabilidade,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,81.6811,0.0000,18.3189,LM,Bioquímica,34.5731,0.0000,65.4269,0.6829,33.5627
+Contabilidade,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,79.8938,0.0000,20.1062,LM,Eng. do Ambiente,83.7340,0.0000,16.2660,0.6406,70.1842
+Contabilidade,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,80.4425,0.0000,19.5575,LM,Fisioterapia,46.2242,0.0000,53.7758,0.3390,43.5988
+Contabilidade,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,88.2651,0.0000,11.7349,LM,Bioquímica,34.4751,0.0000,65.5249,0.3153,34.0628
+Contabilidade,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,84.3183,0.0000,15.6817,LM,Eng. do Ambiente,84.5824,0.0000,15.4176,0.3029,72.5322
+Contabilidade,LM:Música|LM:Bioquímica,LM,Música,66.2377,0.0000,33.7623,LM,Bioquímica,33.7961,0.0000,66.2039,0.2953,30.1050
+Contabilidade,LM:Música|LM:Eng. do Ambiente,LM,Música,66.8262,0.0000,33.1738,LM,Eng. do Ambiente,84.7938,0.0000,15.2062,0.2716,61.4507
+Contabilidade,LM:Matemática|LM:Bioquímica,LM,Matemática,97.1917,0.0000,2.8083,LM,Bioquímica,34.1556,0.0000,65.8444,0.2635,34.1176
+Contabilidade,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,94.3480,0.0000,5.6520,LM,Eng. do Ambiente,86.6774,0.0000,13.3226,0.2477,82.8018
+Contabilidade,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,85.7227,0.0000,14.2773,LM,Fisioterapia,46.0767,0.0000,53.9233,0.1695,41.3569
+Contabilidade,LM:Música|LM:Fisioterapia,LM,Música,64.5638,0.0000,35.4362,LM,Fisioterapia,47.5168,0.0000,52.4832,0.1490,40.8054
+Contabilidade,LM:Matemática|LM:Fisioterapia,LM,Matemática,97.3050,0.0000,2.6950,LM,Fisioterapia,45.3901,0.0000,54.6099,0.1410,45.1064
+Contabilidade,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,80.5556,0.0000,19.4444,LM,Eng. Física,96.4052,0.0000,3.5948,0.1224,78.7582
+Contabilidade,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,85.6383,0.0000,14.3617,LM,Eng. Física,96.4539,0.0000,3.5461,0.0564,83.6879
+Contabilidade,LM:Economia|LM:Bioquímica,LM,Economia,92.1818,0.0000,7.8182,LM,Bioquímica,30.9091,0.0000,69.0909,0.0550,30.7273
+Contabilidade,LM:Economia|LM:Eng. do Ambiente,LM,Economia,88.6051,0.0000,11.3949,LM,Eng. do Ambiente,85.0688,0.0000,14.9312,0.0509,76.4244
+Contabilidade,LM:Matemática|LM:Eng. Física,LM,Matemática,92.5253,0.0000,7.4747,LM,Eng. Física,95.5556,0.0000,4.4444,0.0495,88.8889
+Contabilidade,LM:Música|LM:Eng. Física,LM,Música,65.3768,0.0000,34.6232,LM,Eng. Física,95.9267,0.0000,4.0733,0.0491,64.5621
+Contabilidade,LM:Economia|LM:Fisioterapia,LM,Economia,92.5267,0.0000,7.4733,LM,Fisioterapia,44.8399,0.0000,55.1601,0.0281,43.0605
+Contabilidade,LM:Economia|LM:Eng. Física,LM,Economia,91.9643,0.0000,8.0357,LM,Eng. Física,97.3214,0.0000,2.6786,0.0112,89.2857
+Contabilidade,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,70.5882,0.0000,29.4118,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0017,70.5882
+Contabilidade,LM:Música|LM:Eng. Computacional,LM,Música,81.8182,0.0000,18.1818,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0011,81.8182
+Contabilidade,LM:Matemática|LM:Eng. Computacional,LM,Matemática,71.4286,0.0000,28.5714,LM,Eng. Computacional,85.7143,0.0000,14.2857,0.0007,57.1429
+Contabilidade,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Computacional,75.0000,0.0000,25.0000,0.0004,75.0000
+Contabilidade,LM:Matemática|LM:MTC,LM,Matemática,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0002,100.0000
+Contabilidade,LM:Economia|LM:Eng. Computacional,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0001,100.0000
+Contabilidade,LM:Gestão Comercial|LM:MTC,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,0.0000
+Economia,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,0.8532,0.0000,99.1468,LM,Eng. Biomédica,1.2500,0.0000,98.7500,0.5040,0.3968
+Economia,LM:Eng. do Ambiente|LM:Eng. Biomédica,LM,Eng. do Ambiente,45.4663,0.0000,54.5337,LM,Eng. Biomédica,4.4579,0.0000,95.5421,0.4621,4.4363
+Economia,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,0.7053,0.0000,99.2947,LM,Línguas e Relações Empresariais,3.4652,0.0000,96.5348,0.3261,0.7360
+Economia,LM:Eng. do Ambiente|LM:Línguas e Relações Empresariais,LM,Eng. do Ambiente,44.3815,0.0000,55.6185,LM,Línguas e Relações Empresariais,8.5695,0.0000,91.4305,0.2999,8.5362
+Economia,LM:Fisioterapia|LM:Eng. Biomédica,LM,Fisioterapia,6.2127,0.0000,93.7873,LM,Eng. Biomédica,2.0311,0.0000,97.9689,0.2511,0.9160
+Economia,LM:Bioquímica|LM:Eng. Computadores e Telemática,LM,Bioquímica,0.7079,0.0000,99.2921,LM,Eng. Computadores e Telemática,11.8452,0.0000,88.1548,0.2119,0.9910
+Economia,LM:Eng. do Ambiente|LM:Eng. Computadores e Telemática,LM,Eng. do Ambiente,44.4614,0.0000,55.5386,LM,Eng. Computadores e Telemática,13.4654,0.0000,86.5346,0.1968,11.6870
+Economia,LM:Fisioterapia|LM:Línguas e Relações Empresariais,LM,Fisioterapia,5.4197,0.0000,94.5803,LM,Línguas e Relações Empresariais,4.0317,0.0000,95.9683,0.1513,2.0489
+Economia,LM:Bioquímica|LM:Física,LM,Bioquímica,0.6256,0.0000,99.3744,LM,Física,2.2341,0.0000,97.7659,0.1119,1.1618
+Economia,LM:Fisioterapia|LM:Eng. Computadores e Telemática,LM,Fisioterapia,5.5388,0.0000,94.4612,LM,Eng. Computadores e Telemática,10.9768,0.0000,89.0232,0.0993,2.3162
+Economia,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,0.9259,0.0000,99.0741,LM,Ciências do Mar,0.3086,0.0000,99.6914,0.0972,0.0000
+Economia,LM:Eng. do Ambiente|LM:Ciências do Mar,LM,Eng. do Ambiente,45.1913,0.0000,54.8087,LM,Ciências do Mar,2.9990,0.0000,97.0010,0.0967,2.9990
+Economia,LM:Eng. do Ambiente|LM:Física,LM,Eng. do Ambiente,45.3027,0.0000,54.6973,LM,Física,5.7411,0.0000,94.2589,0.0958,5.7411
+Economia,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,64.2549,0.0000,35.7451,LM,Eng. Biomédica,3.5637,0.0000,96.4363,0.0926,3.5637
+Economia,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,66.0377,0.0000,33.9623,LM,Línguas e Relações Empresariais,5.4889,0.0000,94.5111,0.0583,5.4889
+Economia,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,0.9091,0.0000,99.0909,LM,Contabilidade,7.8182,0.0000,92.1818,0.0550,0.1818
+Economia,LM:Fisioterapia|LM:Física,LM,Fisioterapia,5.2336,0.0000,94.7664,LM,Física,2.4299,0.0000,97.5701,0.0535,1.3084
+Economia,LM:Eng. do Ambiente|LM:Contabilidade,LM,Eng. do Ambiente,43.6149,0.0000,56.3851,LM,Contabilidade,11.3949,0.0000,88.6051,0.0509,10.0196
+Economia,LM:Fisioterapia|LM:Ciências do Mar,LM,Fisioterapia,5.5785,0.0000,94.4215,LM,Ciências do Mar,1.2397,0.0000,98.7603,0.0484,1.8595
+Economia,LM:Eng. Física|LM:Eng. Computadores e Telemática,LM,Eng. Física,62.7907,0.0000,37.2093,LM,Eng. Computadores e Telemática,11.6279,0.0000,88.3721,0.0387,10.8527
+Economia,LM:Eng. do Ambiente|LM:Eng. Mecânica,LM,Eng. do Ambiente,43.5374,0.0000,56.4626,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0294,0.0000
+Economia,LM:Bioquímica|LM:Eng. Mecânica,LM,Bioquímica,0.7092,0.0000,99.2908,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0282,0.0000
+Economia,LM:Fisioterapia|LM:Contabilidade,LM,Fisioterapia,3.9146,0.0000,96.0854,LM,Contabilidade,7.4733,0.0000,92.5267,0.0281,1.4235
+Economia,LM:Eng. Física|LM:Física,LM,Eng. Física,65.1515,0.0000,34.8485,LM,Física,4.5455,0.0000,95.4545,0.0198,4.5455
+Economia,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,50.2890,0.0000,49.7110,LM,Ciências do Mar,0.5780,0.0000,99.4220,0.0173,0.5780
+Economia,LM:Fisioterapia|LM:Eng. Mecânica,LM,Fisioterapia,2.0690,0.0000,97.9310,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0145,0.0000
+Economia,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,58.9286,0.0000,41.0714,LM,Contabilidade,8.0357,0.0000,91.9643,0.0112,8.0357
+Economia,LM:Eng. Física|LM:Eng. Mecânica,LM,Eng. Física,65.3061,0.0000,34.6939,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0049,0.0000
+Economia,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,50.0000,0.0000,50.0000,LM,Eng. Biomédica,8.3333,0.0000,91.6667,0.0012,8.3333
+Economia,LM:Eng. Computacional|LM:Eng. Computadores e Telemática,LM,Eng. Computacional,50.0000,0.0000,50.0000,LM,Eng. Computadores e Telemática,16.6667,0.0000,83.3333,0.0006,16.6667
+Economia,LM:Bioquímica|LM:Eng. Informática,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0004,0.0000
+Economia,LM:Eng. do Ambiente|LM:Eng. Informática,LM,Eng. do Ambiente,50.0000,0.0000,50.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0004,0.0000
+Economia,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,66.6667,0.0000,33.3333,LM,Física,0.0000,0.0000,100.0000,0.0003,0.0000
+Economia,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,50.0000,0.0000,50.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0002,0.0000
+Economia,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0002,0.0000
+Economia,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,0.0000,0.0000,100.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Biomédica,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,91.8562,0.0000,8.1438,LM,Bioquímica,46.3283,0.0000,53.6717,5.9972,45.4512
+Eng. Biomédica,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,89.3642,0.0000,10.6358,LM,Eng. do Ambiente,92.8297,0.0000,7.1703,5.7278,83.7459
+Eng. Biomédica,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,90.4496,0.0000,9.5504,LM,Fisioterapia,58.7781,0.0000,41.2219,3.0428,56.3658
+Eng. Biomédica,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,96.5549,0.0000,3.4451,LM,Bioquímica,46.0399,0.0000,53.9601,2.9027,45.7712
+Eng. Biomédica,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,93.1955,0.0000,6.8045,LM,Eng. do Ambiente,93.2028,0.0000,6.7972,2.7173,87.1453
+Eng. Biomédica,LM:Música|LM:Bioquímica,LM,Música,77.6779,0.0000,22.3221,LM,Bioquímica,46.1728,0.0000,53.8272,2.5580,41.9781
+Eng. Biomédica,LM:Música|LM:Eng. do Ambiente,LM,Música,78.4212,0.0000,21.5788,LM,Eng. do Ambiente,92.2868,0.0000,7.7132,2.4348,74.4004
+Eng. Biomédica,LM:Matemática|LM:Bioquímica,LM,Matemática,99.7562,0.0000,0.2438,LM,Bioquímica,47.4555,0.0000,52.5445,2.2971,47.4468
+Eng. Biomédica,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,97.9092,0.0000,2.0908,LM,Eng. do Ambiente,94.4292,0.0000,5.5708,2.1523,92.5103
+Eng. Biomédica,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,95.6135,0.0000,4.3865,LM,Fisioterapia,59.1558,0.0000,40.8442,1.4499,57.0177
+Eng. Biomédica,LM:Música|LM:Fisioterapia,LM,Música,76.5536,0.0000,23.4464,LM,Fisioterapia,58.8897,0.0000,41.1103,1.2970,51.4495
+Eng. Biomédica,LM:Matemática|LM:Fisioterapia,LM,Matemática,99.5985,0.0000,0.4015,LM,Fisioterapia,58.0507,0.0000,41.9493,1.1707,58.1020
+Eng. Biomédica,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,90.1935,0.0000,9.8065,LM,Eng. Física,98.9770,0.0000,1.0230,1.0850,89.4194
+Eng. Biomédica,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,94.1246,0.0000,5.8754,LM,Eng. Física,98.9978,0.0000,1.0022,0.5089,93.2403
+Eng. Biomédica,LM:Economia|LM:Bioquímica,LM,Economia,98.7500,0.0000,1.2500,LM,Bioquímica,45.9325,0.0000,54.0675,0.5040,45.5952
+Eng. Biomédica,LM:Música|LM:Eng. Física,LM,Música,75.6837,0.0000,24.3163,LM,Eng. Física,99.2368,0.0000,0.7632,0.4717,75.5141
+Eng. Biomédica,LM:Economia|LM:Eng. do Ambiente,LM,Economia,95.5421,0.0000,4.4579,LM,Eng. do Ambiente,94.0056,0.0000,5.9944,0.4621,90.0671
+Eng. Biomédica,LM:Matemática|LM:Eng. Física,LM,Matemática,98.9858,0.0000,1.0142,LM,Eng. Física,99.4811,0.0000,0.5189,0.4240,98.4670
+Eng. Biomédica,LM:Economia|LM:Fisioterapia,LM,Economia,97.9689,0.0000,2.0311,LM,Fisioterapia,58.6221,0.0000,41.3779,0.2511,57.9849
+Eng. Biomédica,LM:Economia|LM:Eng. Física,LM,Economia,96.4363,0.0000,3.5637,LM,Eng. Física,98.8121,0.0000,1.1879,0.0926,95.2484
+Eng. Biomédica,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,91.9708,0.0000,8.0292,LM,Eng. Computacional,98.5401,0.0000,1.4599,0.0137,90.5109
+Eng. Biomédica,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,98.5915,0.0000,1.4085,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0071,98.5915
+Eng. Biomédica,LM:Matemática|LM:Eng. Computacional,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0051,100.0000
+Eng. Biomédica,LM:Música|LM:Eng. Computacional,LM,Música,87.7551,0.0000,12.2449,LM,Eng. Computacional,97.9592,0.0000,2.0408,0.0049,85.7143
+Eng. Biomédica,LM:Economia|LM:Eng. Computacional,LM,Economia,91.6667,0.0000,8.3333,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0012,91.6667
+Eng. Biomédica,LM:Gestão Comercial|LM:MTC,LM,Gestão Comercial,50.0000,0.0000,50.0000,LM,MTC,100.0000,0.0000,0.0000,0.0002,50.0000
+Eng. Biomédica,LM:Eng. de Materiais|LM:MTC,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,29.9270,0.0000,70.0730,LM,Eng. Biomédica,1.4599,0.0000,98.5401,0.0137,1.4599
+Eng. Computacional,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,28.0000,0.0000,72.0000,LM,Línguas e Relações Empresariais,1.3333,0.0000,98.6667,0.0075,1.3333
+Eng. Computacional,LM:Eng. de Materiais|LM:Eng. Biomédica,LM,Eng. de Materiais,35.2113,0.0000,64.7887,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0071,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. Computadores e Telemática,LM,Gestão Comercial,28.3582,0.0000,71.6418,LM,Eng. Computadores e Telemática,1.4925,0.0000,98.5075,0.0067,1.4925
+Eng. Computacional,LM:Eng. de Materiais|LM:Línguas e Relações Empresariais,LM,Eng. de Materiais,20.0000,0.0000,80.0000,LM,Línguas e Relações Empresariais,3.6364,0.0000,96.3636,0.0055,0.0000
+Eng. Computacional,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,49.0196,0.0000,50.9804,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0051,0.0000
+Eng. Computacional,LM:Música|LM:Eng. Biomédica,LM,Música,6.1224,0.0000,93.8776,LM,Eng. Biomédica,2.0408,0.0000,97.9592,0.0049,2.0408
+Eng. Computacional,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,14.2857,0.0000,85.7143,LM,Física,5.7143,0.0000,94.2857,0.0035,5.7143
+Eng. Computacional,LM:Matemática|LM:Línguas e Relações Empresariais,LM,Matemática,48.4848,0.0000,51.5152,LM,Línguas e Relações Empresariais,3.0303,0.0000,96.9697,0.0033,3.0303
+Eng. Computacional,LM:Música|LM:Línguas e Relações Empresariais,LM,Música,6.8966,0.0000,93.1034,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0029,0.0000
+Eng. Computacional,LM:Eng. de Materiais|LM:Eng. Computadores e Telemática,LM,Eng. de Materiais,28.5714,0.0000,71.4286,LM,Eng. Computadores e Telemática,10.7143,0.0000,89.2857,0.0028,7.1429
+Eng. Computacional,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,7.6923,0.0000,92.3077,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0026,0.0000
+Eng. Computacional,LM:Música|LM:Eng. Computadores e Telemática,LM,Música,0.0000,0.0000,100.0000,LM,Eng. Computadores e Telemática,5.0000,0.0000,95.0000,0.0020,0.0000
+Eng. Computacional,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,52.9412,0.0000,47.0588,LM,Eng. Computadores e Telemática,0.0000,0.0000,100.0000,0.0017,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,11.7647,0.0000,88.2353,LM,Contabilidade,0.0000,0.0000,100.0000,0.0017,0.0000
+Eng. Computacional,LM:Música|LM:Física,LM,Música,6.6667,0.0000,93.3333,LM,Física,0.0000,0.0000,100.0000,0.0015,0.0000
+Eng. Computacional,LM:Matemática|LM:Física,LM,Matemática,50.0000,0.0000,50.0000,LM,Física,0.0000,0.0000,100.0000,0.0014,0.0000
+Eng. Computacional,LM:Eng. de Materiais|LM:Física,LM,Eng. de Materiais,14.2857,0.0000,85.7143,LM,Física,0.0000,0.0000,100.0000,0.0014,0.0000
+Eng. Computacional,LM:Música|LM:Ciências do Mar,LM,Música,8.3333,0.0000,91.6667,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0012,0.0000
+Eng. Computacional,LM:Economia|LM:Eng. Biomédica,LM,Economia,50.0000,0.0000,50.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0012,0.0000
+Eng. Computacional,LM:Matemática|LM:Ciências do Mar,LM,Matemática,54.5455,0.0000,45.4545,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0011,0.0000
+Eng. Computacional,LM:Música|LM:Contabilidade,LM,Música,9.0909,0.0000,90.9091,LM,Contabilidade,0.0000,0.0000,100.0000,0.0011,0.0000
+Eng. Computacional,LM:Eng. de Materiais|LM:Ciências do Mar,LM,Eng. de Materiais,22.2222,0.0000,77.7778,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0009,0.0000
+Eng. Computacional,LM:Matemática|LM:Contabilidade,LM,Matemática,71.4286,0.0000,28.5714,LM,Contabilidade,14.2857,0.0000,85.7143,0.0007,14.2857
+Eng. Computacional,LM:Economia|LM:Eng. Computadores e Telemática,LM,Economia,50.0000,0.0000,50.0000,LM,Eng. Computadores e Telemática,0.0000,0.0000,100.0000,0.0006,0.0000
+Eng. Computacional,LM:Eng. de Materiais|LM:Eng. Mecânica,LM,Eng. de Materiais,0.0000,0.0000,100.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0005,0.0000
+Eng. Computacional,LM:Música|LM:Eng. Mecânica,LM,Música,0.0000,0.0000,100.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0004,0.0000
+Eng. Computacional,LM:Eng. de Materiais|LM:Contabilidade,LM,Eng. de Materiais,50.0000,0.0000,50.0000,LM,Contabilidade,25.0000,0.0000,75.0000,0.0004,25.0000
+Eng. Computacional,LM:Economia|LM:Física,LM,Economia,33.3333,0.0000,66.6667,LM,Física,0.0000,0.0000,100.0000,0.0003,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,33.3333,0.0000,66.6667,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0003,0.0000
+Eng. Computacional,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,50.0000,0.0000,50.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Computacional,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,0.0000,0.0000,100.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Computacional,LM:Economia|LM:Ciências do Mar,LM,Economia,0.0000,0.0000,100.0000,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Computacional,LM:Economia|LM:Contabilidade,LM,Economia,100.0000,0.0000,0.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Computacional,LM:Eng. de Materiais|LM:Eng. Informática,LM,Eng. de Materiais,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Computadores e Telemática,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,75.4939,0.0000,24.5061,LM,Bioquímica,27.9642,0.0000,72.0358,2.5361,26.9508
+Eng. Computadores e Telemática,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,74.8204,0.0000,25.1796,LM,Eng. do Ambiente,79.0797,0.0000,20.9203,2.3948,63.5251
+Eng. Computadores e Telemática,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,74.5556,0.0000,25.4444,LM,Fisioterapia,41.4422,0.0000,58.5578,1.2883,38.9195
+Eng. Computadores e Telemática,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,83.0015,0.0000,16.9985,LM,Bioquímica,26.9705,0.0000,73.0295,1.2154,26.5016
+Eng. Computadores e Telemática,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,81.4844,0.0000,18.5156,LM,Eng. do Ambiente,80.3794,0.0000,19.6206,1.1493,67.1539
+Eng. Computadores e Telemática,LM:Música|LM:Bioquímica,LM,Música,59.5062,0.0000,40.4938,LM,Bioquímica,28.9816,0.0000,71.0184,1.0693,24.6610
+Eng. Computadores e Telemática,LM:Música|LM:Eng. do Ambiente,LM,Música,61.7791,0.0000,38.2209,LM,Eng. do Ambiente,79.6188,0.0000,20.3812,1.0230,55.5914
+Eng. Computadores e Telemática,LM:Matemática|LM:Bioquímica,LM,Matemática,95.0989,0.0000,4.9011,LM,Bioquímica,29.3542,0.0000,70.6458,0.9508,29.3437
+Eng. Computadores e Telemática,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,92.1223,0.0000,7.8777,LM,Eng. do Ambiente,81.2730,0.0000,18.7270,0.9254,76.2373
+Eng. Computadores e Telemática,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,83.1167,0.0000,16.8833,LM,Fisioterapia,42.4009,0.0000,57.5991,0.6231,37.7307
+Eng. Computadores e Telemática,LM:Música|LM:Fisioterapia,LM,Música,59.3722,0.0000,40.6278,LM,Fisioterapia,43.6951,0.0000,56.3049,0.5575,36.5740
+Eng. Computadores e Telemática,LM:Matemática|LM:Fisioterapia,LM,Matemática,95.0507,0.0000,4.9493,LM,Fisioterapia,41.8458,0.0000,58.1542,0.4930,41.2170
+Eng. Computadores e Telemática,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,75.5689,0.0000,24.4311,LM,Eng. Física,92.9369,0.0000,7.0631,0.4658,72.5633
+Eng. Computadores e Telemática,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,81.7674,0.0000,18.2326,LM,Eng. Física,93.1628,0.0000,6.8372,0.2150,77.3023
+Eng. Computadores e Telemática,LM:Economia|LM:Bioquímica,LM,Economia,88.1548,0.0000,11.8452,LM,Bioquímica,28.7872,0.0000,71.2128,0.2119,28.0793
+Eng. Computadores e Telemática,LM:Economia|LM:Eng. do Ambiente,LM,Economia,86.5346,0.0000,13.4654,LM,Eng. do Ambiente,80.6402,0.0000,19.3598,0.1968,72.1545
+Eng. Computadores e Telemática,LM:Música|LM:Eng. Física,LM,Música,60.8627,0.0000,39.1373,LM,Eng. Física,94.1610,0.0000,5.8390,0.1901,60.1262
+Eng. Computadores e Telemática,LM:Matemática|LM:Eng. Física,LM,Matemática,91.3649,0.0000,8.6351,LM,Eng. Física,94.9304,0.0000,5.0696,0.1795,86.9081
+Eng. Computadores e Telemática,LM:Economia|LM:Fisioterapia,LM,Economia,89.0232,0.0000,10.9768,LM,Fisioterapia,39.2749,0.0000,60.7251,0.0993,37.0594
+Eng. Computadores e Telemática,LM:Economia|LM:Eng. Física,LM,Economia,88.3721,0.0000,11.6279,LM,Eng. Física,94.0568,0.0000,5.9432,0.0387,83.9793
+Eng. Computadores e Telemática,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,74.6269,0.0000,25.3731,LM,Eng. Computacional,98.5075,0.0000,1.4925,0.0067,76.1194
+Eng. Computadores e Telemática,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,89.2857,0.0000,10.7143,LM,Eng. Computacional,89.2857,0.0000,10.7143,0.0028,82.1429
+Eng. Computadores e Telemática,LM:Música|LM:Eng. Computacional,LM,Música,45.0000,0.0000,55.0000,LM,Eng. Computacional,95.0000,0.0000,5.0000,0.0020,45.0000
+Eng. Computadores e Telemática,LM:Matemática|LM:Eng. Computacional,LM,Matemática,82.3529,0.0000,17.6471,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0017,82.3529
+Eng. Computadores e Telemática,LM:Economia|LM:Eng. Computacional,LM,Economia,83.3333,0.0000,16.6667,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0006,83.3333
+Eng. Computadores e Telemática,LM:Gestão Comercial|LM:MTC,LM,Gestão Comercial,50.0000,0.0000,50.0000,LM,MTC,50.0000,0.0000,50.0000,0.0002,50.0000
+Eng. Física,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,23.3641,0.0000,76.6359,LM,Eng. Biomédica,1.0230,0.0000,98.9770,1.0850,0.8295
+Eng. Física,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,24.5452,0.0000,75.4548,LM,Línguas e Relações Empresariais,2.2456,0.0000,97.7544,0.7036,1.6060
+Eng. Física,LM:Eng. de Materiais|LM:Eng. Biomédica,LM,Eng. de Materiais,32.1871,0.0000,67.8129,LM,Eng. Biomédica,1.0022,0.0000,98.9978,0.5089,0.8843
+Eng. Física,LM:Música|LM:Eng. Biomédica,LM,Música,10.1124,0.0000,89.8876,LM,Eng. Biomédica,0.7632,0.0000,99.2368,0.4717,0.3180
+Eng. Física,LM:Gestão Comercial|LM:Eng. Computadores e Telemática,LM,Gestão Comercial,23.2503,0.0000,76.7497,LM,Eng. Computadores e Telemática,7.0631,0.0000,92.9369,0.4658,4.1005
+Eng. Física,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,46.7453,0.0000,53.2547,LM,Eng. Biomédica,0.5189,0.0000,99.4811,0.4240,0.5425
+Eng. Física,LM:Eng. de Materiais|LM:Línguas e Relações Empresariais,LM,Eng. de Materiais,32.1744,0.0000,67.8256,LM,Línguas e Relações Empresariais,1.9151,0.0000,98.0849,0.3394,1.5910
+Eng. Física,LM:Música|LM:Línguas e Relações Empresariais,LM,Música,10.1993,0.0000,89.8007,LM,Línguas e Relações Empresariais,1.9601,0.0000,98.0399,0.3010,0.7309
+Eng. Física,LM:Matemática|LM:Línguas e Relações Empresariais,LM,Matemática,47.4871,0.0000,52.5129,LM,Línguas e Relações Empresariais,1.2934,0.0000,98.7066,0.2706,1.1826
+Eng. Física,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,22.9021,0.0000,77.0979,LM,Física,1.6171,0.0000,98.3829,0.2288,1.0490
+Eng. Física,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,24.8360,0.0000,75.1640,LM,Ciências do Mar,0.1312,0.0000,99.8688,0.2287,0.0437
+Eng. Física,LM:Eng. de Materiais|LM:Eng. Computadores e Telemática,LM,Eng. de Materiais,32.0000,0.0000,68.0000,LM,Eng. Computadores e Telemática,6.8372,0.0000,93.1628,0.2150,5.2558
+Eng. Física,LM:Música|LM:Eng. Computadores e Telemática,LM,Música,8.5744,0.0000,91.4256,LM,Eng. Computadores e Telemática,5.8390,0.0000,94.1610,0.1901,1.8411
+Eng. Física,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,46.1281,0.0000,53.8719,LM,Eng. Computadores e Telemática,5.0696,0.0000,94.9304,0.1795,4.6797
+Eng. Física,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,24.6732,0.0000,75.3268,LM,Contabilidade,3.5948,0.0000,96.4052,0.1224,2.0425
+Eng. Física,LM:Eng. de Materiais|LM:Física,LM,Eng. de Materiais,31.4627,0.0000,68.5373,LM,Física,1.6559,0.0000,98.3441,0.1087,1.2879
+Eng. Física,LM:Eng. de Materiais|LM:Ciências do Mar,LM,Eng. de Materiais,30.3403,0.0000,69.6597,LM,Ciências do Mar,0.4726,0.0000,99.5274,0.1058,0.2836
+Eng. Física,LM:Música|LM:Física,LM,Música,10.9901,0.0000,89.0099,LM,Física,1.2871,0.0000,98.7129,0.1010,0.5941
+Eng. Física,LM:Economia|LM:Eng. Biomédica,LM,Economia,35.7451,0.0000,64.2549,LM,Eng. Biomédica,1.1879,0.0000,98.8121,0.0926,1.1879
+Eng. Física,LM:Música|LM:Ciências do Mar,LM,Música,9.0000,0.0000,91.0000,LM,Ciências do Mar,0.7778,0.0000,99.2222,0.0900,0.3333
+Eng. Física,LM:Matemática|LM:Física,LM,Matemática,46.0850,0.0000,53.9150,LM,Física,1.0067,0.0000,98.9933,0.0894,1.0067
+Eng. Física,LM:Matemática|LM:Ciências do Mar,LM,Matemática,45.7607,0.0000,54.2393,LM,Ciências do Mar,0.2323,0.0000,99.7677,0.0861,0.2323
+Eng. Física,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,24.4318,0.0000,75.5682,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0704,0.0000
+Eng. Física,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,33.9623,0.0000,66.0377,LM,Línguas e Relações Empresariais,1.5437,0.0000,98.4563,0.0583,1.5437
+Eng. Física,LM:Eng. de Materiais|LM:Contabilidade,LM,Eng. de Materiais,25.7092,0.0000,74.2908,LM,Contabilidade,3.5461,0.0000,96.4539,0.0564,2.4823
+Eng. Física,LM:Matemática|LM:Contabilidade,LM,Matemática,41.4141,0.0000,58.5859,LM,Contabilidade,4.4444,0.0000,95.5556,0.0495,3.8384
+Eng. Física,LM:Música|LM:Contabilidade,LM,Música,9.7760,0.0000,90.2240,LM,Contabilidade,4.0733,0.0000,95.9267,0.0491,1.6293
+Eng. Física,LM:Economia|LM:Eng. Computadores e Telemática,LM,Economia,37.2093,0.0000,62.7907,LM,Eng. Computadores e Telemática,5.9432,0.0000,94.0568,0.0387,5.1680
+Eng. Física,LM:Eng. de Materiais|LM:Eng. Mecânica,LM,Eng. de Materiais,30.8869,0.0000,69.1131,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0327,0.0000
+Eng. Física,LM:Música|LM:Eng. Mecânica,LM,Música,8.9404,0.0000,91.0596,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0302,0.0000
+Eng. Física,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,41.1067,0.0000,58.8933,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0253,0.0000
+Eng. Física,LM:Economia|LM:Física,LM,Economia,34.8485,0.0000,65.1515,LM,Física,1.5152,0.0000,98.4848,0.0198,0.5051
+Eng. Física,LM:Economia|LM:Ciências do Mar,LM,Economia,49.7110,0.0000,50.2890,LM,Ciências do Mar,0.5780,0.0000,99.4220,0.0173,0.5780
+Eng. Física,LM:Economia|LM:Contabilidade,LM,Economia,41.0714,0.0000,58.9286,LM,Contabilidade,2.6786,0.0000,97.3214,0.0112,2.6786
+Eng. Física,LM:Economia|LM:Eng. Mecânica,LM,Economia,34.6939,0.0000,65.3061,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0049,0.0000
+Eng. Física,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0007,0.0000
+Eng. Física,LM:Eng. de Materiais|LM:Eng. Informática,LM,Eng. de Materiais,33.3333,0.0000,66.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0003,0.0000
+Eng. Física,LM:Música|LM:Eng. Informática,LM,Música,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Física,LM:Matemática|LM:Eng. Informática,LM,Matemática,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Física,LM:Gestão Comercial|LM:Eng. e Gestão Industrial,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Informática,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,84.2105,0.0000,15.7895,0.0057,84.2105
+Eng. Informática,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0045,100.0000
+Eng. Informática,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,96.1538,0.0000,3.8462,LM,Bioquímica,73.0769,0.0000,26.9231,0.0026,69.2308
+Eng. Informática,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Fisioterapia,82.6087,0.0000,17.3913,0.0023,82.6087
+Eng. Informática,LM:Matemática|LM:Bioquímica,LM,Matemática,100.0000,0.0000,0.0000,LM,Bioquímica,65.2174,0.0000,34.7826,0.0023,65.2174
+Eng. Informática,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0021,100.0000
+Eng. Informática,LM:Música|LM:Eng. do Ambiente,LM,Música,85.0000,0.0000,15.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0020,85.0000
+Eng. Informática,LM:Música|LM:Bioquímica,LM,Música,94.4444,0.0000,5.5556,LM,Bioquímica,77.7778,0.0000,22.2222,0.0018,72.2222
+Eng. Informática,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0015,100.0000
+Eng. Informática,LM:Matemática|LM:Fisioterapia,LM,Matemática,100.0000,0.0000,0.0000,LM,Fisioterapia,72.7273,0.0000,27.2727,0.0011,72.7273
+Eng. Informática,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0007,100.0000
+Eng. Informática,LM:Música|LM:Fisioterapia,LM,Música,100.0000,0.0000,0.0000,LM,Fisioterapia,83.3333,0.0000,16.6667,0.0006,83.3333
+Eng. Informática,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Fisioterapia,100.0000,0.0000,0.0000,0.0005,100.0000
+Eng. Informática,LM:Economia|LM:Bioquímica,LM,Economia,100.0000,0.0000,0.0000,LM,Bioquímica,75.0000,0.0000,25.0000,0.0004,75.0000
+Eng. Informática,LM:Economia|LM:Eng. do Ambiente,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0004,100.0000
+Eng. Informática,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0003,100.0000
+Eng. Informática,LM:Música|LM:Eng. Física,LM,Música,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0002,100.0000
+Eng. Informática,LM:Matemática|LM:Eng. Física,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0002,100.0000
+Eng. Informática,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. Informática,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. Mecânica,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,93.2724,0.0000,6.7276,0.3612,93.2724
+Eng. Mecânica,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.3545,100.0000
+Eng. Mecânica,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Fisioterapia,98.4927,0.0000,1.5073,0.1924,98.4927
+Eng. Mecânica,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Bioquímica,94.7132,0.0000,5.2868,0.1778,94.7132
+Eng. Mecânica,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.1701,100.0000
+Eng. Mecânica,LM:Música|LM:Bioquímica,LM,Música,99.8719,0.0000,0.1281,LM,Bioquímica,93.0814,0.0000,6.9186,0.1561,92.9532
+Eng. Mecânica,LM:Música|LM:Eng. do Ambiente,LM,Música,99.8647,0.0000,0.1353,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.1478,99.8647
+Eng. Mecânica,LM:Matemática|LM:Bioquímica,LM,Matemática,100.0000,0.0000,0.0000,LM,Bioquímica,94.2737,0.0000,5.7263,0.1432,94.2737
+Eng. Mecânica,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.1353,100.0000
+Eng. Mecânica,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Fisioterapia,98.2311,0.0000,1.7689,0.0848,98.2311
+Eng. Mecânica,LM:Música|LM:Fisioterapia,LM,Música,99.6207,0.0000,0.3793,LM,Fisioterapia,98.4829,0.0000,1.5171,0.0791,98.1037
+Eng. Mecânica,LM:Matemática|LM:Fisioterapia,LM,Matemática,100.0000,0.0000,0.0000,LM,Fisioterapia,98.3380,0.0000,1.6620,0.0722,98.3380
+Eng. Mecânica,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0704,100.0000
+Eng. Mecânica,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0327,100.0000
+Eng. Mecânica,LM:Música|LM:Eng. Física,LM,Música,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0302,100.0000
+Eng. Mecânica,LM:Economia|LM:Eng. do Ambiente,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0294,100.0000
+Eng. Mecânica,LM:Economia|LM:Bioquímica,LM,Economia,100.0000,0.0000,0.0000,LM,Bioquímica,93.2624,0.0000,6.7376,0.0282,93.2624
+Eng. Mecânica,LM:Matemática|LM:Eng. Física,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0253,100.0000
+Eng. Mecânica,LM:Economia|LM:Fisioterapia,LM,Economia,100.0000,0.0000,0.0000,LM,Fisioterapia,99.3103,0.0000,0.6897,0.0145,99.3103
+Eng. Mecânica,LM:Economia|LM:Eng. Física,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0049,100.0000
+Eng. Mecânica,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0005,100.0000
+Eng. Mecânica,LM:Música|LM:Eng. Computacional,LM,Música,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0004,100.0000
+Eng. Mecânica,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0003,100.0000
+Eng. Mecânica,LM:Matemática|LM:Eng. Computacional,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0002,100.0000
+Eng. de Materiais,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,1.9327,0.0000,98.0673,LM,Eng. Biomédica,3.4451,0.0000,96.5549,2.9027,0.5512
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Eng. Biomédica,LM,Eng. do Ambiente,48.7911,0.0000,51.2089,LM,Eng. Biomédica,6.8045,0.0000,93.1955,2.7173,6.7530
+Eng. de Materiais,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,2.1554,0.0000,97.8446,LM,Línguas e Relações Empresariais,6.9737,0.0000,93.0263,1.8326,1.6643
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Línguas e Relações Empresariais,LM,Eng. do Ambiente,49.9261,0.0000,50.0739,LM,Línguas e Relações Empresariais,10.4602,0.0000,89.5398,1.7600,10.3920
+Eng. de Materiais,LM:Fisioterapia|LM:Eng. Biomédica,LM,Fisioterapia,9.7248,0.0000,90.2752,LM,Eng. Biomédica,4.3865,0.0000,95.6135,1.4499,3.3175
+Eng. de Materiais,LM:Bioquímica|LM:Eng. Computadores e Telemática,LM,Bioquímica,2.1557,0.0000,97.8443,LM,Eng. Computadores e Telemática,16.9985,0.0000,83.0015,1.2154,1.0449
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Eng. Computadores e Telemática,LM,Eng. do Ambiente,49.3866,0.0000,50.6134,LM,Eng. Computadores e Telemática,18.5156,0.0000,81.4844,1.1493,16.6971
+Eng. de Materiais,LM:Fisioterapia|LM:Línguas e Relações Empresariais,LM,Fisioterapia,9.6661,0.0000,90.3339,LM,Línguas e Relações Empresariais,8.1929,0.0000,91.8071,0.9435,5.0450
+Eng. de Materiais,LM:Fisioterapia|LM:Eng. Computadores e Telemática,LM,Fisioterapia,10.0786,0.0000,89.9214,LM,Eng. Computadores e Telemática,16.8833,0.0000,83.1167,0.6231,5.9060
+Eng. de Materiais,LM:Bioquímica|LM:Física,LM,Bioquímica,2.1346,0.0000,97.8654,LM,Física,4.8884,0.0000,95.1116,0.6137,1.2384
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Física,LM,Eng. do Ambiente,49.1528,0.0000,50.8472,LM,Física,8.1636,0.0000,91.8364,0.5843,8.0952
+Eng. de Materiais,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,1.8220,0.0000,98.1780,LM,Ciências do Mar,1.5096,0.0000,98.4904,0.5763,0.2603
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Ciências do Mar,LM,Eng. do Ambiente,49.1882,0.0000,50.8118,LM,Ciências do Mar,4.6566,0.0000,95.3434,0.5605,4.6566
+Eng. de Materiais,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,67.8129,0.0000,32.1871,LM,Eng. Biomédica,5.8754,0.0000,94.1246,0.5089,5.8754
+Eng. de Materiais,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,67.8256,0.0000,32.1744,LM,Línguas e Relações Empresariais,9.5757,0.0000,90.4243,0.3394,9.5757
+Eng. de Materiais,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,2.4104,0.0000,97.5896,LM,Contabilidade,11.7349,0.0000,88.2651,0.3153,0.9832
+Eng. de Materiais,LM:Fisioterapia|LM:Física,LM,Fisioterapia,8.6486,0.0000,91.3514,LM,Física,5.6280,0.0000,94.3720,0.3145,3.5294
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Contabilidade,LM,Eng. do Ambiente,50.0495,0.0000,49.9505,LM,Contabilidade,15.6817,0.0000,84.3183,0.3029,14.3282
+Eng. de Materiais,LM:Fisioterapia|LM:Ciências do Mar,LM,Fisioterapia,10.3093,0.0000,89.6907,LM,Ciências do Mar,2.4399,0.0000,97.5601,0.2910,2.6117
+Eng. de Materiais,LM:Eng. Física|LM:Eng. Computadores e Telemática,LM,Eng. Física,68.0000,0.0000,32.0000,LM,Eng. Computadores e Telemática,18.2326,0.0000,81.7674,0.2150,17.4419
+Eng. de Materiais,LM:Bioquímica|LM:Eng. Mecânica,LM,Bioquímica,2.5872,0.0000,97.4128,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1778,0.0000
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Eng. Mecânica,LM,Eng. do Ambiente,48.9124,0.0000,51.0876,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1701,0.0000
+Eng. de Materiais,LM:Fisioterapia|LM:Contabilidade,LM,Fisioterapia,10.2655,0.0000,89.7345,LM,Contabilidade,14.2773,0.0000,85.7227,0.1695,5.2507
+Eng. de Materiais,LM:Eng. Física|LM:Física,LM,Eng. Física,68.5373,0.0000,31.4627,LM,Física,5.8878,0.0000,94.1122,0.1087,5.7958
+Eng. de Materiais,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,69.6597,0.0000,30.3403,LM,Ciências do Mar,3.7807,0.0000,96.2193,0.1058,3.7807
+Eng. de Materiais,LM:Fisioterapia|LM:Eng. Mecânica,LM,Fisioterapia,10.1415,0.0000,89.8585,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0848,0.0000
+Eng. de Materiais,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,74.2908,0.0000,25.7092,LM,Contabilidade,14.3617,0.0000,85.6383,0.0564,13.8298
+Eng. de Materiais,LM:Eng. Física|LM:Eng. Mecânica,LM,Eng. Física,69.1131,0.0000,30.8869,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0327,0.0000
+Eng. de Materiais,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,64.7887,0.0000,35.2113,LM,Eng. Biomédica,1.4085,0.0000,98.5915,0.0071,1.4085
+Eng. de Materiais,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,80.0000,0.0000,20.0000,LM,Línguas e Relações Empresariais,18.1818,0.0000,81.8182,0.0055,18.1818
+Eng. de Materiais,LM:Eng. Computacional|LM:Eng. Computadores e Telemática,LM,Eng. Computacional,71.4286,0.0000,28.5714,LM,Eng. Computadores e Telemática,10.7143,0.0000,89.2857,0.0028,10.7143
+Eng. de Materiais,LM:Bioquímica|LM:Eng. Informática,LM,Bioquímica,3.8462,0.0000,96.1538,LM,Eng. Informática,3.8462,0.0000,96.1538,0.0026,3.8462
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Eng. Informática,LM,Eng. do Ambiente,61.9048,0.0000,38.0952,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0021,0.0000
+Eng. de Materiais,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,85.7143,0.0000,14.2857,LM,Física,0.0000,0.0000,100.0000,0.0014,0.0000
+Eng. de Materiais,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,77.7778,0.0000,22.2222,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0009,0.0000
+Eng. de Materiais,LM:Eng. do Ambiente|LM:Eng. e Gestão Industrial,LM,Eng. do Ambiente,33.3333,0.0000,66.6667,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0006,0.0000
+Eng. de Materiais,LM:Eng. Computacional|LM:Eng. Mecânica,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0005,0.0000
+Eng. de Materiais,LM:Fisioterapia|LM:Eng. Informática,LM,Fisioterapia,40.0000,0.0000,60.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0005,0.0000
+Eng. de Materiais,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,50.0000,0.0000,50.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0004,0.0000
+Eng. de Materiais,LM:Bioquímica|LM:Eng. e Gestão Industrial,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Eng. de Materiais,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,66.6667,0.0000,33.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0003,0.0000
+Eng. de Materiais,LM:MTC|LM:Física,LM,MTC,50.0000,0.0000,50.0000,LM,Física,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. de Materiais,LM:Fisioterapia|LM:Eng. e Gestão Industrial,LM,Fisioterapia,50.0000,0.0000,50.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. de Materiais,LM:MTC|LM:Eng. Biomédica,LM,MTC,0.0000,0.0000,100.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. de Materiais,LM:Eng. Computacional|LM:Eng. Informática,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. do Ambiente,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,44.4062,0.0000,55.5938,LM,Eng. Biomédica,7.1703,0.0000,92.8297,5.7278,6.0110
+Eng. do Ambiente,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,44.0763,0.0000,55.9237,LM,Línguas e Relações Empresariais,11.2128,0.0000,88.7872,3.7029,9.1496
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Eng. Biomédica,LM,Eng. de Materiais,51.2089,0.0000,48.7911,LM,Eng. Biomédica,6.7972,0.0000,93.2028,2.7173,6.1016
+Eng. do Ambiente,LM:Música|LM:Eng. Biomédica,LM,Música,29.5014,0.0000,70.4986,LM,Eng. Biomédica,7.7132,0.0000,92.2868,2.4348,5.2776
+Eng. do Ambiente,LM:Gestão Comercial|LM:Eng. Computadores e Telemática,LM,Gestão Comercial,43.9786,0.0000,56.0214,LM,Eng. Computadores e Telemática,20.9203,0.0000,79.0797,2.3948,14.8781
+Eng. do Ambiente,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,64.6796,0.0000,35.3204,LM,Eng. Biomédica,5.5708,0.0000,94.4292,2.1523,5.4128
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Línguas e Relações Empresariais,LM,Eng. de Materiais,50.0739,0.0000,49.9261,LM,Línguas e Relações Empresariais,10.4830,0.0000,89.5170,1.7600,8.7841
+Eng. do Ambiente,LM:Música|LM:Línguas e Relações Empresariais,LM,Música,29.5246,0.0000,70.4754,LM,Línguas e Relações Empresariais,11.8341,0.0000,88.1659,1.5692,7.4305
+Eng. do Ambiente,LM:Matemática|LM:Línguas e Relações Empresariais,LM,Matemática,65.1559,0.0000,34.8441,LM,Línguas e Relações Empresariais,9.3557,0.0000,90.6443,1.4077,8.9081
+Eng. do Ambiente,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,43.7776,0.0000,56.2224,LM,Física,8.2068,0.0000,91.7932,1.2246,6.6307
+Eng. do Ambiente,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,43.5494,0.0000,56.4506,LM,Ciências do Mar,4.4346,0.0000,95.5654,1.1681,3.7839
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Eng. Computadores e Telemática,LM,Eng. de Materiais,50.6134,0.0000,49.3866,LM,Eng. Computadores e Telemática,19.6206,0.0000,80.3794,1.1493,16.1490
+Eng. do Ambiente,LM:Música|LM:Eng. Computadores e Telemática,LM,Música,28.9736,0.0000,71.0264,LM,Eng. Computadores e Telemática,20.3812,0.0000,79.6188,1.0230,11.3685
+Eng. do Ambiente,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,64.9989,0.0000,35.0011,LM,Eng. Computadores e Telemática,18.7270,0.0000,81.2730,0.9254,16.4469
+Eng. do Ambiente,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,44.3647,0.0000,55.6353,LM,Contabilidade,16.2660,0.0000,83.7340,0.6406,11.8795
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Física,LM,Eng. de Materiais,50.8472,0.0000,49.1528,LM,Física,7.7358,0.0000,92.2642,0.5843,6.4522
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Ciências do Mar,LM,Eng. de Materiais,50.8118,0.0000,49.1882,LM,Ciências do Mar,3.7288,0.0000,96.2712,0.5605,3.4434
+Eng. do Ambiente,LM:Música|LM:Física,LM,Música,29.1840,0.0000,70.8160,LM,Física,9.6335,0.0000,90.3665,0.5294,6.2524
+Eng. do Ambiente,LM:Música|LM:Ciências do Mar,LM,Música,29.5188,0.0000,70.4812,LM,Ciências do Mar,4.6300,0.0000,95.3700,0.4946,3.1136
+Eng. do Ambiente,LM:Matemática|LM:Física,LM,Matemática,64.1810,0.0000,35.8190,LM,Física,6.5434,0.0000,93.4566,0.4707,6.2035
+Eng. do Ambiente,LM:Economia|LM:Eng. Biomédica,LM,Economia,54.5337,0.0000,45.4663,LM,Eng. Biomédica,5.9944,0.0000,94.0056,0.4621,5.4966
+Eng. do Ambiente,LM:Matemática|LM:Ciências do Mar,LM,Matemática,65.5103,0.0000,34.4897,LM,Ciências do Mar,2.9798,0.0000,97.0202,0.4497,2.9131
+Eng. do Ambiente,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,43.8082,0.0000,56.1918,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.3545,0.0000
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Contabilidade,LM,Eng. de Materiais,49.9505,0.0000,50.0495,LM,Contabilidade,15.4176,0.0000,84.5824,0.3029,13.1397
+Eng. do Ambiente,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,55.6185,0.0000,44.3815,LM,Línguas e Relações Empresariais,10.2701,0.0000,89.7299,0.2999,8.7696
+Eng. do Ambiente,LM:Música|LM:Contabilidade,LM,Música,28.4978,0.0000,71.5022,LM,Contabilidade,15.2062,0.0000,84.7938,0.2716,9.2047
+Eng. do Ambiente,LM:Matemática|LM:Contabilidade,LM,Matemática,64.7558,0.0000,35.2442,LM,Contabilidade,13.3226,0.0000,86.6774,0.2477,11.7481
+Eng. do Ambiente,LM:Economia|LM:Eng. Computadores e Telemática,LM,Economia,55.5386,0.0000,44.4614,LM,Eng. Computadores e Telemática,19.3598,0.0000,80.6402,0.1968,16.1585
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Eng. Mecânica,LM,Eng. de Materiais,51.0876,0.0000,48.9124,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1701,0.0000
+Eng. do Ambiente,LM:Música|LM:Eng. Mecânica,LM,Música,29.2287,0.0000,70.7713,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1478,0.0000
+Eng. do Ambiente,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,65.7058,0.0000,34.2942,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1353,0.0000
+Eng. do Ambiente,LM:Economia|LM:Ciências do Mar,LM,Economia,54.8087,0.0000,45.1913,LM,Ciências do Mar,3.1024,0.0000,96.8976,0.0967,2.8956
+Eng. do Ambiente,LM:Economia|LM:Física,LM,Economia,54.6973,0.0000,45.3027,LM,Física,6.0543,0.0000,93.9457,0.0958,5.5324
+Eng. do Ambiente,LM:Economia|LM:Contabilidade,LM,Economia,56.3851,0.0000,43.6149,LM,Contabilidade,14.9312,0.0000,85.0688,0.0509,13.5560
+Eng. do Ambiente,LM:Economia|LM:Eng. Mecânica,LM,Economia,56.4626,0.0000,43.5374,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0294,0.0000
+Eng. do Ambiente,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,33.3333,0.0000,66.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0045,0.0000
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Eng. Informática,LM,Eng. de Materiais,38.0952,0.0000,61.9048,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0021,0.0000
+Eng. do Ambiente,LM:Música|LM:Eng. Informática,LM,Música,20.0000,0.0000,80.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0020,0.0000
+Eng. do Ambiente,LM:Matemática|LM:Eng. Informática,LM,Matemática,66.6667,0.0000,33.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0015,0.0000
+Eng. do Ambiente,LM:Eng. de Materiais|LM:Eng. e Gestão Industrial,LM,Eng. de Materiais,66.6667,0.0000,33.3333,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0006,0.0000
+Eng. do Ambiente,LM:Gestão Comercial|LM:Eng. e Gestão Industrial,LM,Gestão Comercial,25.0000,0.0000,75.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Eng. do Ambiente,LM:Economia|LM:Eng. Informática,LM,Economia,50.0000,0.0000,50.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0004,0.0000
+Eng. do Ambiente,LM:Música|LM:Eng. e Gestão Industrial,LM,Música,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. do Ambiente,LM:Matemática|LM:Eng. e Gestão Industrial,LM,Matemática,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. e Gestão Industrial,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,70.0000,0.0000,30.0000,0.0010,70.0000
+Eng. e Gestão Industrial,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0006,100.0000
+Eng. e Gestão Industrial,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Fisioterapia,100.0000,0.0000,0.0000,0.0006,100.0000
+Eng. e Gestão Industrial,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0004,100.0000
+Eng. e Gestão Industrial,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Bioquímica,75.0000,0.0000,25.0000,0.0004,75.0000
+Eng. e Gestão Industrial,LM:Matemática|LM:Bioquímica,LM,Matemática,100.0000,0.0000,0.0000,LM,Bioquímica,100.0000,0.0000,0.0000,0.0003,100.0000
+Eng. e Gestão Industrial,LM:Música|LM:Bioquímica,LM,Música,100.0000,0.0000,0.0000,LM,Bioquímica,66.6667,0.0000,33.3333,0.0003,66.6667
+Eng. e Gestão Industrial,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Fisioterapia,100.0000,0.0000,0.0000,0.0002,100.0000
+Eng. e Gestão Industrial,LM:Música|LM:Eng. do Ambiente,LM,Música,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. e Gestão Industrial,LM:Música|LM:Fisioterapia,LM,Música,100.0000,0.0000,0.0000,LM,Fisioterapia,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. e Gestão Industrial,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. e Gestão Industrial,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.0001,100.0000
+Fisioterapia,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,83.9654,0.0000,16.0346,LM,Eng. Biomédica,41.2219,0.0000,58.7781,3.0428,37.8664
+Fisioterapia,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,83.6514,0.0000,16.3486,LM,Línguas e Relações Empresariais,46.6017,0.0000,53.3983,1.9598,43.8973
+Fisioterapia,LM:Eng. de Materiais|LM:Eng. Biomédica,LM,Eng. de Materiais,90.2752,0.0000,9.7248,LM,Eng. Biomédica,40.8442,0.0000,59.1558,1.4499,39.6648
+Fisioterapia,LM:Música|LM:Eng. Biomédica,LM,Música,68.1496,0.0000,31.8504,LM,Eng. Biomédica,41.1103,0.0000,58.8897,1.2970,33.7857
+Fisioterapia,LM:Gestão Comercial|LM:Eng. Computadores e Telemática,LM,Gestão Comercial,83.7383,0.0000,16.2617,LM,Eng. Computadores e Telemática,58.5578,0.0000,41.4422,1.2883,52.1230
+Fisioterapia,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,98.2404,0.0000,1.7596,LM,Eng. Biomédica,41.9493,0.0000,58.0507,1.1707,41.5820
+Fisioterapia,LM:Eng. de Materiais|LM:Línguas e Relações Empresariais,LM,Eng. de Materiais,90.3339,0.0000,9.6661,LM,Línguas e Relações Empresariais,47.4510,0.0000,52.5490,0.9435,44.9709
+Fisioterapia,LM:Música|LM:Línguas e Relações Empresariais,LM,Música,67.8435,0.0000,32.1565,LM,Línguas e Relações Empresariais,47.6264,0.0000,52.3736,0.8384,40.6369
+Fisioterapia,LM:Matemática|LM:Línguas e Relações Empresariais,LM,Matemática,98.1828,0.0000,1.8172,LM,Línguas e Relações Empresariais,47.4849,0.0000,52.5151,0.7594,47.3927
+Fisioterapia,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,83.6316,0.0000,16.3684,LM,Física,42.5486,0.0000,57.4514,0.6482,40.4968
+Fisioterapia,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,83.1974,0.0000,16.8026,LM,Ciências do Mar,35.6994,0.0000,64.3006,0.6255,33.0616
+Fisioterapia,LM:Eng. de Materiais|LM:Eng. Computadores e Telemática,LM,Eng. de Materiais,89.9214,0.0000,10.0786,LM,Eng. Computadores e Telemática,57.5991,0.0000,42.4009,0.6231,56.3633
+Fisioterapia,LM:Música|LM:Eng. Computadores e Telemática,LM,Música,67.8027,0.0000,32.1973,LM,Eng. Computadores e Telemática,56.3049,0.0000,43.6951,0.5575,43.8027
+Fisioterapia,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,98.3570,0.0000,1.6430,LM,Eng. Computadores e Telemática,58.1542,0.0000,41.8458,0.4930,57.6876
+Fisioterapia,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,83.1268,0.0000,16.8732,LM,Contabilidade,53.7758,0.0000,46.2242,0.3390,48.2006
+Fisioterapia,LM:Eng. de Materiais|LM:Física,LM,Eng. de Materiais,91.3514,0.0000,8.6486,LM,Física,43.4022,0.0000,56.5978,0.3145,41.8760
+Fisioterapia,LM:Eng. de Materiais|LM:Ciências do Mar,LM,Eng. de Materiais,89.6907,0.0000,10.3093,LM,Ciências do Mar,36.7698,0.0000,63.2302,0.2910,35.5326
+Fisioterapia,LM:Música|LM:Física,LM,Música,68.6084,0.0000,31.3916,LM,Física,41.6757,0.0000,58.3243,0.2781,35.8504
+Fisioterapia,LM:Música|LM:Ciências do Mar,LM,Música,69.4171,0.0000,30.5829,LM,Ciências do Mar,34.2544,0.0000,65.7456,0.2642,28.9553
+Fisioterapia,LM:Economia|LM:Eng. Biomédica,LM,Economia,93.7873,0.0000,6.2127,LM,Eng. Biomédica,41.3779,0.0000,58.6221,0.2511,41.0992
+Fisioterapia,LM:Matemática|LM:Física,LM,Matemática,98.7620,0.0000,1.2380,LM,Física,44.2492,0.0000,55.7508,0.2504,44.1693
+Fisioterapia,LM:Matemática|LM:Ciências do Mar,LM,Matemática,98.4570,0.0000,1.5430,LM,Ciências do Mar,35.4045,0.0000,64.5955,0.2398,35.3211
+Fisioterapia,LM:Gestão Comercial|LM:Eng. Mecânica,LM,Gestão Comercial,83.2640,0.0000,16.7360,LM,Eng. Mecânica,1.5073,0.0000,98.4927,0.1924,1.5073
+Fisioterapia,LM:Eng. de Materiais|LM:Contabilidade,LM,Eng. de Materiais,89.7345,0.0000,10.2655,LM,Contabilidade,53.9233,0.0000,46.0767,0.1695,53.3923
+Fisioterapia,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,94.5803,0.0000,5.4197,LM,Línguas e Relações Empresariais,46.2657,0.0000,53.7343,0.1513,45.5387
+Fisioterapia,LM:Música|LM:Contabilidade,LM,Música,68.3893,0.0000,31.6107,LM,Contabilidade,52.4832,0.0000,47.5168,0.1490,41.0067
+Fisioterapia,LM:Matemática|LM:Contabilidade,LM,Matemática,98.6525,0.0000,1.3475,LM,Contabilidade,54.6099,0.0000,45.3901,0.1410,54.3262
+Fisioterapia,LM:Economia|LM:Eng. Computadores e Telemática,LM,Economia,94.4612,0.0000,5.5388,LM,Eng. Computadores e Telemática,60.7251,0.0000,39.2749,0.0993,60.6244
+Fisioterapia,LM:Eng. de Materiais|LM:Eng. Mecânica,LM,Eng. de Materiais,89.8585,0.0000,10.1415,LM,Eng. Mecânica,1.7689,0.0000,98.2311,0.0848,1.7689
+Fisioterapia,LM:Música|LM:Eng. Mecânica,LM,Música,69.6587,0.0000,30.3413,LM,Eng. Mecânica,1.5171,0.0000,98.4829,0.0791,1.5171
+Fisioterapia,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,99.1690,0.0000,0.8310,LM,Eng. Mecânica,1.6620,0.0000,98.3380,0.0722,1.6620
+Fisioterapia,LM:Economia|LM:Física,LM,Economia,94.7664,0.0000,5.2336,LM,Física,45.6075,0.0000,54.3925,0.0535,45.4206
+Fisioterapia,LM:Economia|LM:Ciências do Mar,LM,Economia,94.4215,0.0000,5.5785,LM,Ciências do Mar,37.6033,0.0000,62.3967,0.0484,36.3636
+Fisioterapia,LM:Economia|LM:Contabilidade,LM,Economia,96.0854,0.0000,3.9146,LM,Contabilidade,55.1601,0.0000,44.8399,0.0281,55.5160
+Fisioterapia,LM:Economia|LM:Eng. Mecânica,LM,Economia,97.9310,0.0000,2.0690,LM,Eng. Mecânica,0.6897,0.0000,99.3103,0.0145,0.6897
+Fisioterapia,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,82.6087,0.0000,17.3913,LM,Eng. Informática,17.3913,0.0000,82.6087,0.0023,17.3913
+Fisioterapia,LM:Matemática|LM:Eng. Informática,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Informática,27.2727,0.0000,72.7273,0.0011,27.2727
+Fisioterapia,LM:Música|LM:Eng. Informática,LM,Música,66.6667,0.0000,33.3333,LM,Eng. Informática,16.6667,0.0000,83.3333,0.0006,16.6667
+Fisioterapia,LM:Gestão Comercial|LM:Eng. e Gestão Industrial,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0006,0.0000
+Fisioterapia,LM:Eng. de Materiais|LM:Eng. Informática,LM,Eng. de Materiais,60.0000,0.0000,40.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0005,0.0000
+Fisioterapia,LM:Eng. de Materiais|LM:Eng. e Gestão Industrial,LM,Eng. de Materiais,50.0000,0.0000,50.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0002,0.0000
+Fisioterapia,LM:Música|LM:Eng. e Gestão Industrial,LM,Música,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,100.0000,0.0000,0.0000,0.0001,100.0000
+Física,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,90.1910,0.0000,9.8090,LM,Bioquímica,45.1934,0.0000,54.8066,1.2774,44.2383
+Física,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,87.3020,0.0000,12.6980,LM,Eng. do Ambiente,91.7932,0.0000,8.2068,1.2246,81.6838
+Física,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,88.7072,0.0000,11.2928,LM,Fisioterapia,57.4514,0.0000,42.5486,0.6482,54.5202
+Física,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,95.1116,0.0000,4.8884,LM,Bioquímica,46.4396,0.0000,53.5604,0.6137,45.4782
+Física,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,91.8364,0.0000,8.1636,LM,Eng. do Ambiente,92.2642,0.0000,7.7358,0.5843,85.4527
+Física,LM:Música|LM:Bioquímica,LM,Música,76.1001,0.0000,23.8999,LM,Bioquímica,45.0977,0.0000,54.9023,0.5477,40.9166
+Física,LM:Música|LM:Eng. do Ambiente,LM,Música,77.6162,0.0000,22.3838,LM,Eng. do Ambiente,90.3665,0.0000,9.6335,0.5294,73.0450
+Física,LM:Matemática|LM:Bioquímica,LM,Matemática,99.3271,0.0000,0.6729,LM,Bioquímica,45.2692,0.0000,54.7308,0.4904,45.2488
+Física,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,97.2594,0.0000,2.7406,LM,Eng. do Ambiente,93.4566,0.0000,6.5434,0.4707,91.2046
+Física,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,94.3720,0.0000,5.6280,LM,Fisioterapia,56.5978,0.0000,43.4022,0.3145,54.5946
+Física,LM:Música|LM:Fisioterapia,LM,Música,74.8292,0.0000,25.1708,LM,Fisioterapia,58.3243,0.0000,41.6757,0.2781,49.6944
+Física,LM:Matemática|LM:Fisioterapia,LM,Matemática,99.4010,0.0000,0.5990,LM,Fisioterapia,55.7508,0.0000,44.2492,0.2504,55.7508
+Física,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,89.2045,0.0000,10.7955,LM,Eng. Física,98.3829,0.0000,1.6171,0.2288,88.1993
+Física,LM:Economia|LM:Bioquímica,LM,Economia,97.7659,0.0000,2.2341,LM,Bioquímica,45.8445,0.0000,54.1555,0.1119,44.8615
+Física,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,94.1122,0.0000,5.8878,LM,Eng. Física,98.3441,0.0000,1.6559,0.1087,92.9163
+Física,LM:Música|LM:Eng. Física,LM,Música,75.3465,0.0000,24.6535,LM,Eng. Física,98.7129,0.0000,1.2871,0.1010,75.2475
+Física,LM:Economia|LM:Eng. do Ambiente,LM,Economia,94.2589,0.0000,5.7411,LM,Eng. do Ambiente,93.9457,0.0000,6.0543,0.0958,88.7265
+Física,LM:Matemática|LM:Eng. Física,LM,Matemática,97.7629,0.0000,2.2371,LM,Eng. Física,98.9933,0.0000,1.0067,0.0894,96.7562
+Física,LM:Economia|LM:Fisioterapia,LM,Economia,97.5701,0.0000,2.4299,LM,Fisioterapia,54.3925,0.0000,45.6075,0.0535,53.2710
+Física,LM:Economia|LM:Eng. Física,LM,Economia,95.4545,0.0000,4.5455,LM,Eng. Física,98.4848,0.0000,1.5152,0.0198,94.9495
+Física,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,77.1429,0.0000,22.8571,LM,Eng. Computacional,94.2857,0.0000,5.7143,0.0035,71.4286
+Física,LM:Música|LM:Eng. Computacional,LM,Música,73.3333,0.0000,26.6667,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0015,73.3333
+Física,LM:Matemática|LM:Eng. Computacional,LM,Matemática,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0014,100.0000
+Física,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0014,100.0000
+Física,LM:Economia|LM:Eng. Computacional,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0003,100.0000
+Física,LM:Eng. de Materiais|LM:MTC,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0002,100.0000
+Física,LM:Gestão Comercial|LM:MTC,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+Gestão Comercial,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,5.5109,0.0000,94.4891,LM,Eng. Biomédica,8.1438,0.0000,91.8562,5.9972,1.7825
+Gestão Comercial,LM:Eng. do Ambiente|LM:Eng. Biomédica,LM,Eng. do Ambiente,55.5938,0.0000,44.4062,LM,Eng. Biomédica,10.6358,0.0000,89.3642,5.7278,10.2430
+Gestão Comercial,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,5.4106,0.0000,94.5894,LM,Línguas e Relações Empresariais,13.0630,0.0000,86.9370,3.8942,4.0727
+Gestão Comercial,LM:Eng. do Ambiente|LM:Línguas e Relações Empresariais,LM,Eng. do Ambiente,55.9237,0.0000,44.0763,LM,Línguas e Relações Empresariais,15.5041,0.0000,84.4959,3.7029,14.9612
+Gestão Comercial,LM:Fisioterapia|LM:Eng. Biomédica,LM,Fisioterapia,16.0346,0.0000,83.9654,LM,Eng. Biomédica,9.5504,0.0000,90.4496,3.0428,5.7677
+Gestão Comercial,LM:Bioquímica|LM:Eng. Computadores e Telemática,LM,Bioquímica,5.6701,0.0000,94.3299,LM,Eng. Computadores e Telemática,24.5061,0.0000,75.4939,2.5361,2.8114
+Gestão Comercial,LM:Eng. do Ambiente|LM:Eng. Computadores e Telemática,LM,Eng. do Ambiente,56.0214,0.0000,43.9786,LM,Eng. Computadores e Telemática,25.1796,0.0000,74.8204,2.3948,21.5968
+Gestão Comercial,LM:Fisioterapia|LM:Línguas e Relações Empresariais,LM,Fisioterapia,16.3486,0.0000,83.6514,LM,Línguas e Relações Empresariais,14.0831,0.0000,85.9169,1.9598,8.3733
+Gestão Comercial,LM:Fisioterapia|LM:Eng. Computadores e Telemática,LM,Fisioterapia,16.2617,0.0000,83.7383,LM,Eng. Computadores e Telemática,25.4444,0.0000,74.5556,1.2883,8.9575
+Gestão Comercial,LM:Bioquímica|LM:Física,LM,Bioquímica,5.5817,0.0000,94.4183,LM,Física,9.8090,0.0000,90.1910,1.2774,1.9962
+Gestão Comercial,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,5.8604,0.0000,94.1396,LM,Ciências do Mar,5.3977,0.0000,94.6023,1.2320,1.5828
+Gestão Comercial,LM:Eng. do Ambiente|LM:Física,LM,Eng. do Ambiente,56.2224,0.0000,43.7776,LM,Física,12.6980,0.0000,87.3020,1.2246,11.6854
+Gestão Comercial,LM:Eng. do Ambiente|LM:Ciências do Mar,LM,Eng. do Ambiente,56.4506,0.0000,43.5494,LM,Ciências do Mar,7.9616,0.0000,92.0384,1.1681,7.8504
+Gestão Comercial,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,76.6359,0.0000,23.3641,LM,Eng. Biomédica,9.8065,0.0000,90.1935,1.0850,9.7512
+Gestão Comercial,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,75.4548,0.0000,24.5452,LM,Línguas e Relações Empresariais,14.2410,0.0000,85.7590,0.7036,14.1558
+Gestão Comercial,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,6.2674,0.0000,93.7326,LM,Contabilidade,18.3189,0.0000,81.6811,0.6829,2.4894
+Gestão Comercial,LM:Fisioterapia|LM:Física,LM,Fisioterapia,16.3684,0.0000,83.6316,LM,Física,11.2928,0.0000,88.7072,0.6482,4.9830
+Gestão Comercial,LM:Eng. do Ambiente|LM:Contabilidade,LM,Eng. do Ambiente,55.6353,0.0000,44.3647,LM,Contabilidade,20.1062,0.0000,79.8938,0.6406,17.9363
+Gestão Comercial,LM:Fisioterapia|LM:Ciências do Mar,LM,Fisioterapia,16.8026,0.0000,83.1974,LM,Ciências do Mar,6.9065,0.0000,93.0935,0.6255,4.7802
+Gestão Comercial,LM:Eng. Física|LM:Eng. Computadores e Telemática,LM,Eng. Física,76.7497,0.0000,23.2503,LM,Eng. Computadores e Telemática,24.4311,0.0000,75.5689,0.4658,23.3362
+Gestão Comercial,LM:Bioquímica|LM:Eng. Mecânica,LM,Bioquímica,5.6202,0.0000,94.3798,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.3612,0.0000
+Gestão Comercial,LM:Eng. do Ambiente|LM:Eng. Mecânica,LM,Eng. do Ambiente,56.1918,0.0000,43.8082,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.3545,0.0000
+Gestão Comercial,LM:Fisioterapia|LM:Contabilidade,LM,Fisioterapia,16.8732,0.0000,83.1268,LM,Contabilidade,19.5575,0.0000,80.4425,0.3390,8.2006
+Gestão Comercial,LM:Eng. Física|LM:Física,LM,Eng. Física,77.0979,0.0000,22.9021,LM,Física,10.7955,0.0000,89.2045,0.2288,10.7517
+Gestão Comercial,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,75.1640,0.0000,24.8360,LM,Ciências do Mar,7.3896,0.0000,92.6104,0.2287,7.3896
+Gestão Comercial,LM:Fisioterapia|LM:Eng. Mecânica,LM,Fisioterapia,16.7360,0.0000,83.2640,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1924,0.0000
+Gestão Comercial,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,75.3268,0.0000,24.6732,LM,Contabilidade,19.4444,0.0000,80.5556,0.1224,19.1993
+Gestão Comercial,LM:Eng. Física|LM:Eng. Mecânica,LM,Eng. Física,75.5682,0.0000,24.4318,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0704,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,70.0730,0.0000,29.9270,LM,Eng. Biomédica,8.0292,0.0000,91.9708,0.0137,8.0292
+Gestão Comercial,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,72.0000,0.0000,28.0000,LM,Línguas e Relações Empresariais,12.0000,0.0000,88.0000,0.0075,12.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. Computadores e Telemática,LM,Eng. Computacional,71.6418,0.0000,28.3582,LM,Eng. Computadores e Telemática,25.3731,0.0000,74.6269,0.0067,22.3881
+Gestão Comercial,LM:Bioquímica|LM:Eng. Informática,LM,Bioquímica,8.7719,0.0000,91.2281,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0057,0.0000
+Gestão Comercial,LM:Eng. do Ambiente|LM:Eng. Informática,LM,Eng. do Ambiente,66.6667,0.0000,33.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0045,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,85.7143,0.0000,14.2857,LM,Física,22.8571,0.0000,77.1429,0.0035,22.8571
+Gestão Comercial,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,92.3077,0.0000,7.6923,LM,Ciências do Mar,7.6923,0.0000,92.3077,0.0026,7.6923
+Gestão Comercial,LM:Fisioterapia|LM:Eng. Informática,LM,Fisioterapia,17.3913,0.0000,82.6087,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0023,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,88.2353,0.0000,11.7647,LM,Contabilidade,29.4118,0.0000,70.5882,0.0017,29.4118
+Gestão Comercial,LM:Bioquímica|LM:Eng. e Gestão Industrial,LM,Bioquímica,10.0000,0.0000,90.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0010,0.0000
+Gestão Comercial,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0007,0.0000
+Gestão Comercial,LM:Fisioterapia|LM:Eng. e Gestão Industrial,LM,Fisioterapia,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0006,0.0000
+Gestão Comercial,LM:Eng. do Ambiente|LM:Eng. e Gestão Industrial,LM,Eng. do Ambiente,75.0000,0.0000,25.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. Mecânica,LM,Eng. Computacional,66.6667,0.0000,33.3333,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0003,0.0000
+Gestão Comercial,LM:MTC|LM:Eng. Biomédica,LM,MTC,100.0000,0.0000,0.0000,LM,Eng. Biomédica,50.0000,0.0000,50.0000,0.0002,50.0000
+Gestão Comercial,LM:MTC|LM:Eng. Computadores e Telemática,LM,MTC,100.0000,0.0000,0.0000,LM,Eng. Computadores e Telemática,50.0000,0.0000,50.0000,0.0002,50.0000
+Gestão Comercial,LM:MTC|LM:Línguas e Relações Empresariais,LM,MTC,100.0000,0.0000,0.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0002,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. Informática,LM,Eng. Computacional,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0001,0.0000
+Gestão Comercial,LM:MTC|LM:Física,LM,MTC,0.0000,0.0000,100.0000,LM,Física,0.0000,0.0000,100.0000,0.0001,0.0000
+Gestão Comercial,LM:MTC|LM:Contabilidade,LM,MTC,100.0000,0.0000,0.0000,LM,Contabilidade,100.0000,0.0000,0.0000,0.0001,100.0000
+Gestão Comercial,LM:Eng. Física|LM:Eng. e Gestão Industrial,LM,Eng. Física,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,86.9370,0.0000,13.0630,LM,Bioquímica,40.0288,0.0000,59.9712,3.8942,37.0346
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Eng. do Ambiente,LM,Gestão Comercial,84.4959,0.0000,15.5041,LM,Eng. do Ambiente,88.7872,0.0000,11.2128,3.7029,75.8892
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Fisioterapia,LM,Gestão Comercial,85.9169,0.0000,14.0831,LM,Fisioterapia,53.3983,0.0000,46.6017,1.9598,47.7294
+Línguas e Relações Empresariais,LM:Eng. de Materiais|LM:Bioquímica,LM,Eng. de Materiais,93.0263,0.0000,6.9737,LM,Bioquímica,39.6322,0.0000,60.3678,1.8326,38.3717
+Línguas e Relações Empresariais,LM:Eng. de Materiais|LM:Eng. do Ambiente,LM,Eng. de Materiais,89.5398,0.0000,10.4602,LM,Eng. do Ambiente,89.5170,0.0000,10.4830,1.7600,80.8239
+Línguas e Relações Empresariais,LM:Música|LM:Bioquímica,LM,Música,71.3405,0.0000,28.6595,LM,Bioquímica,40.2454,0.0000,59.7546,1.6546,36.0087
+Línguas e Relações Empresariais,LM:Música|LM:Eng. do Ambiente,LM,Música,72.0941,0.0000,27.9059,LM,Eng. do Ambiente,88.1659,0.0000,11.8341,1.5692,67.1807
+Línguas e Relações Empresariais,LM:Matemática|LM:Bioquímica,LM,Matemática,99.1423,0.0000,0.8577,LM,Bioquímica,40.7240,0.0000,59.2760,1.4807,40.7172
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. do Ambiente,LM,Matemática,96.2989,0.0000,3.7011,LM,Eng. do Ambiente,90.6443,0.0000,9.3557,1.4077,87.4476
+Línguas e Relações Empresariais,LM:Eng. de Materiais|LM:Fisioterapia,LM,Eng. de Materiais,91.8071,0.0000,8.1929,LM,Fisioterapia,52.5490,0.0000,47.4510,0.9435,49.9841
+Línguas e Relações Empresariais,LM:Música|LM:Fisioterapia,LM,Música,70.0501,0.0000,29.9499,LM,Fisioterapia,52.3736,0.0000,47.6264,0.8384,43.9051
+Línguas e Relações Empresariais,LM:Matemática|LM:Fisioterapia,LM,Matemática,99.0782,0.0000,0.9218,LM,Fisioterapia,52.5151,0.0000,47.4849,0.7594,52.2913
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,85.7590,0.0000,14.2410,LM,Eng. Física,97.7544,0.0000,2.2456,0.7036,84.2382
+Línguas e Relações Empresariais,LM:Eng. de Materiais|LM:Eng. Física,LM,Eng. de Materiais,90.4243,0.0000,9.5757,LM,Eng. Física,98.0849,0.0000,1.9151,0.3394,88.8332
+Línguas e Relações Empresariais,LM:Economia|LM:Bioquímica,LM,Economia,96.5348,0.0000,3.4652,LM,Bioquímica,40.6930,0.0000,59.3070,0.3261,40.0184
+Línguas e Relações Empresariais,LM:Música|LM:Eng. Física,LM,Música,69.8339,0.0000,30.1661,LM,Eng. Física,98.0399,0.0000,1.9601,0.3010,69.6346
+Línguas e Relações Empresariais,LM:Economia|LM:Eng. do Ambiente,LM,Economia,91.4305,0.0000,8.5695,LM,Eng. do Ambiente,89.7299,0.0000,10.2701,0.2999,82.6942
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Física,LM,Matemática,96.8958,0.0000,3.1042,LM,Eng. Física,98.7066,0.0000,1.2934,0.2706,95.7132
+Línguas e Relações Empresariais,LM:Economia|LM:Fisioterapia,LM,Economia,95.9683,0.0000,4.0317,LM,Fisioterapia,53.7343,0.0000,46.2657,0.1513,52.4124
+Línguas e Relações Empresariais,LM:Economia|LM:Eng. Física,LM,Economia,94.5111,0.0000,5.4889,LM,Eng. Física,98.4563,0.0000,1.5437,0.0583,92.9674
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,88.0000,0.0000,12.0000,LM,Eng. Computacional,98.6667,0.0000,1.3333,0.0075,86.6667
+Línguas e Relações Empresariais,LM:Eng. de Materiais|LM:Eng. Computacional,LM,Eng. de Materiais,81.8182,0.0000,18.1818,LM,Eng. Computacional,96.3636,0.0000,3.6364,0.0055,81.8182
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Computacional,LM,Matemática,90.9091,0.0000,9.0909,LM,Eng. Computacional,96.9697,0.0000,3.0303,0.0033,87.8788
+Línguas e Relações Empresariais,LM:Música|LM:Eng. Computacional,LM,Música,62.0690,0.0000,37.9310,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0029,62.0690
+Línguas e Relações Empresariais,LM:Economia|LM:Eng. Computacional,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0002,100.0000
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:MTC,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0002,100.0000
+Línguas e Relações Empresariais,LM:Música|LM:MTC,LM,Música,0.0000,0.0000,100.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,0.0000
+MTC,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0002,0.0000
+MTC,LM:Matemática|LM:Contabilidade,LM,Matemática,50.0000,0.0000,50.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0002,0.0000
+MTC,LM:Gestão Comercial|LM:Eng. Computadores e Telemática,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Eng. Computadores e Telemática,50.0000,0.0000,50.0000,0.0002,0.0000
+MTC,LM:Eng. de Materiais|LM:Física,LM,Eng. de Materiais,50.0000,0.0000,50.0000,LM,Física,0.0000,0.0000,100.0000,0.0002,0.0000
+MTC,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0002,0.0000
+MTC,LM:Música|LM:Línguas e Relações Empresariais,LM,Música,0.0000,0.0000,100.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Eng. de Materiais|LM:Eng. Biomédica,LM,Eng. de Materiais,100.0000,0.0000,0.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Física,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0001,0.0000
+Matemática,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,0.0697,0.0000,99.9303,LM,Eng. Biomédica,0.2438,0.0000,99.7562,2.2971,0.0131
+Matemática,LM:Eng. do Ambiente|LM:Eng. Biomédica,LM,Eng. do Ambiente,35.3204,0.0000,64.6796,LM,Eng. Biomédica,2.0908,0.0000,97.9092,2.1523,2.0768
+Matemática,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,0.0675,0.0000,99.9325,LM,Línguas e Relações Empresariais,0.8577,0.0000,99.1423,1.4807,0.0135
+Matemática,LM:Eng. do Ambiente|LM:Línguas e Relações Empresariais,LM,Eng. do Ambiente,34.8441,0.0000,65.1559,LM,Línguas e Relações Empresariais,3.7011,0.0000,96.2989,1.4077,3.6442
+Matemática,LM:Fisioterapia|LM:Eng. Biomédica,LM,Fisioterapia,1.7596,0.0000,98.2404,LM,Eng. Biomédica,0.4015,0.0000,99.5985,1.1707,0.3161
+Matemática,LM:Bioquímica|LM:Eng. Computadores e Telemática,LM,Bioquímica,0.0736,0.0000,99.9264,LM,Eng. Computadores e Telemática,4.9011,0.0000,95.0989,0.9508,0.0105
+Matemática,LM:Eng. do Ambiente|LM:Eng. Computadores e Telemática,LM,Eng. do Ambiente,35.0011,0.0000,64.9989,LM,Eng. Computadores e Telemática,7.8777,0.0000,92.1223,0.9254,7.3158
+Matemática,LM:Fisioterapia|LM:Línguas e Relações Empresariais,LM,Fisioterapia,1.8172,0.0000,98.1828,LM,Línguas e Relações Empresariais,0.9218,0.0000,99.0782,0.7594,0.3160
+Matemática,LM:Fisioterapia|LM:Eng. Computadores e Telemática,LM,Fisioterapia,1.6430,0.0000,98.3570,LM,Eng. Computadores e Telemática,4.9493,0.0000,95.0507,0.4930,1.0953
+Matemática,LM:Bioquímica|LM:Física,LM,Bioquímica,0.1223,0.0000,99.8777,LM,Física,0.6729,0.0000,99.3271,0.4904,0.0204
+Matemática,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Ciências do Mar,0.1053,0.0000,99.8947,0.4747,0.0000
+Matemática,LM:Eng. do Ambiente|LM:Física,LM,Eng. do Ambiente,35.8190,0.0000,64.1810,LM,Física,2.7406,0.0000,97.2594,0.4707,2.5919
+Matemática,LM:Eng. do Ambiente|LM:Ciências do Mar,LM,Eng. do Ambiente,34.4897,0.0000,65.5103,LM,Ciências do Mar,1.0451,0.0000,98.9549,0.4497,1.0451
+Matemática,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,53.2547,0.0000,46.7453,LM,Eng. Biomédica,1.0142,0.0000,98.9858,0.4240,0.9906
+Matemática,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,52.5129,0.0000,47.4871,LM,Línguas e Relações Empresariais,3.1042,0.0000,96.8958,0.2706,3.1042
+Matemática,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,0.0759,0.0000,99.9241,LM,Contabilidade,2.8083,0.0000,97.1917,0.2635,0.0380
+Matemática,LM:Fisioterapia|LM:Física,LM,Fisioterapia,1.2380,0.0000,98.7620,LM,Física,0.5990,0.0000,99.4010,0.2504,0.0799
+Matemática,LM:Eng. do Ambiente|LM:Contabilidade,LM,Eng. do Ambiente,35.2442,0.0000,64.7558,LM,Contabilidade,5.6520,0.0000,94.3480,0.2477,5.4501
+Matemática,LM:Fisioterapia|LM:Ciências do Mar,LM,Fisioterapia,1.5430,0.0000,98.4570,LM,Ciências do Mar,0.0417,0.0000,99.9583,0.2398,0.0000
+Matemática,LM:Eng. Física|LM:Eng. Computadores e Telemática,LM,Eng. Física,53.8719,0.0000,46.1281,LM,Eng. Computadores e Telemática,8.6351,0.0000,91.3649,0.1795,8.4123
+Matemática,LM:Bioquímica|LM:Eng. Mecânica,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1432,0.0000
+Matemática,LM:Fisioterapia|LM:Contabilidade,LM,Fisioterapia,1.3475,0.0000,98.6525,LM,Contabilidade,2.6950,0.0000,97.3050,0.1410,0.5674
+Matemática,LM:Eng. do Ambiente|LM:Eng. Mecânica,LM,Eng. do Ambiente,34.2942,0.0000,65.7058,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.1353,0.0000
+Matemática,LM:Eng. Física|LM:Física,LM,Eng. Física,53.9150,0.0000,46.0850,LM,Física,2.2371,0.0000,97.7629,0.0894,2.2371
+Matemática,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,54.2393,0.0000,45.7607,LM,Ciências do Mar,1.0453,0.0000,98.9547,0.0861,1.0453
+Matemática,LM:Fisioterapia|LM:Eng. Mecânica,LM,Fisioterapia,0.8310,0.0000,99.1690,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0722,0.0000
+Matemática,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,58.5859,0.0000,41.4141,LM,Contabilidade,7.4747,0.0000,92.5253,0.0495,7.2727
+Matemática,LM:Eng. Física|LM:Eng. Mecânica,LM,Eng. Física,58.8933,0.0000,41.1067,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0253,0.0000
+Matemática,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,50.9804,0.0000,49.0196,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0051,0.0000
+Matemática,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,51.5152,0.0000,48.4848,LM,Línguas e Relações Empresariais,9.0909,0.0000,90.9091,0.0033,9.0909
+Matemática,LM:Bioquímica|LM:Eng. Informática,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0023,0.0000
+Matemática,LM:Eng. Computacional|LM:Eng. Computadores e Telemática,LM,Eng. Computacional,47.0588,0.0000,52.9412,LM,Eng. Computadores e Telemática,17.6471,0.0000,82.3529,0.0017,17.6471
+Matemática,LM:Eng. do Ambiente|LM:Eng. Informática,LM,Eng. do Ambiente,33.3333,0.0000,66.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0015,0.0000
+Matemática,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,50.0000,0.0000,50.0000,LM,Física,0.0000,0.0000,100.0000,0.0014,0.0000
+Matemática,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,45.4545,0.0000,54.5455,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0011,0.0000
+Matemática,LM:Fisioterapia|LM:Eng. Informática,LM,Fisioterapia,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0011,0.0000
+Matemática,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,28.5714,0.0000,71.4286,LM,Contabilidade,28.5714,0.0000,71.4286,0.0007,28.5714
+Matemática,LM:Bioquímica|LM:Eng. e Gestão Industrial,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0003,0.0000
+Matemática,LM:Eng. Computacional|LM:Eng. Mecânica,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0002,0.0000
+Matemática,LM:MTC|LM:Contabilidade,LM,MTC,50.0000,0.0000,50.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0002,0.0000
+Matemática,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0002,0.0000
+Matemática,LM:Eng. do Ambiente|LM:Eng. e Gestão Industrial,LM,Eng. do Ambiente,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Música,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,17.4668,0.0000,82.5332,LM,Eng. Biomédica,22.3221,0.0000,77.6779,2.5580,7.9828
+Música,LM:Eng. do Ambiente|LM:Eng. Biomédica,LM,Eng. do Ambiente,70.4986,0.0000,29.5014,LM,Eng. Biomédica,21.5788,0.0000,78.4212,2.4348,20.3220
+Música,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,17.8230,0.0000,82.1770,LM,Línguas e Relações Empresariais,28.6595,0.0000,71.3405,1.6546,8.8299
+Música,LM:Eng. do Ambiente|LM:Línguas e Relações Empresariais,LM,Eng. do Ambiente,70.4754,0.0000,29.5246,LM,Línguas e Relações Empresariais,27.9059,0.0000,72.0941,1.5692,25.3887
+Música,LM:Fisioterapia|LM:Eng. Biomédica,LM,Fisioterapia,31.8504,0.0000,68.1496,LM,Eng. Biomédica,23.4464,0.0000,76.5536,1.2970,14.7648
+Música,LM:Bioquímica|LM:Eng. Computadores e Telemática,LM,Bioquímica,17.2730,0.0000,82.7270,LM,Eng. Computadores e Telemática,40.4938,0.0000,59.5062,1.0693,10.9043
+Música,LM:Eng. do Ambiente|LM:Eng. Computadores e Telemática,LM,Eng. do Ambiente,71.0264,0.0000,28.9736,LM,Eng. Computadores e Telemática,38.2209,0.0000,61.7791,1.0230,33.0401
+Música,LM:Fisioterapia|LM:Línguas e Relações Empresariais,LM,Fisioterapia,32.1565,0.0000,67.8435,LM,Línguas e Relações Empresariais,29.9499,0.0000,70.0501,0.8384,15.4580
+Música,LM:Fisioterapia|LM:Eng. Computadores e Telemática,LM,Fisioterapia,32.1973,0.0000,67.8027,LM,Eng. Computadores e Telemática,40.6278,0.0000,59.3722,0.5575,19.6233
+Música,LM:Bioquímica|LM:Física,LM,Bioquímica,17.0896,0.0000,82.9104,LM,Física,23.8999,0.0000,76.1001,0.5477,8.2162
+Música,LM:Eng. do Ambiente|LM:Física,LM,Eng. do Ambiente,70.8160,0.0000,29.1840,LM,Física,22.3838,0.0000,77.6162,0.5294,20.7027
+Música,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,16.7914,0.0000,83.2086,LM,Ciências do Mar,16.7914,0.0000,83.2086,0.5211,6.6974
+Música,LM:Eng. do Ambiente|LM:Ciências do Mar,LM,Eng. do Ambiente,70.4812,0.0000,29.5188,LM,Ciências do Mar,16.6801,0.0000,83.3199,0.4946,16.0534
+Música,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,89.8876,0.0000,10.1124,LM,Eng. Biomédica,24.3163,0.0000,75.6837,0.4717,24.1679
+Música,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,89.8007,0.0000,10.1993,LM,Línguas e Relações Empresariais,30.1661,0.0000,69.8339,0.3010,29.6346
+Música,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,17.9478,0.0000,82.0522,LM,Contabilidade,33.7623,0.0000,66.2377,0.2953,9.5157
+Música,LM:Fisioterapia|LM:Física,LM,Fisioterapia,31.3916,0.0000,68.6084,LM,Física,25.1708,0.0000,74.8292,0.2781,14.4552
+Música,LM:Eng. do Ambiente|LM:Contabilidade,LM,Eng. do Ambiente,71.5022,0.0000,28.4978,LM,Contabilidade,33.1738,0.0000,66.8262,0.2716,29.3446
+Música,LM:Fisioterapia|LM:Ciências do Mar,LM,Fisioterapia,30.5829,0.0000,69.4171,LM,Ciências do Mar,18.0924,0.0000,81.9076,0.2642,11.8471
+Música,LM:Eng. Física|LM:Eng. Computadores e Telemática,LM,Eng. Física,91.4256,0.0000,8.5744,LM,Eng. Computadores e Telemática,39.1373,0.0000,60.8627,0.1901,38.0326
+Música,LM:Bioquímica|LM:Eng. Mecânica,LM,Bioquímica,18.7700,0.0000,81.2300,LM,Eng. Mecânica,0.1281,0.0000,99.8719,0.1561,0.1281
+Música,LM:Fisioterapia|LM:Contabilidade,LM,Fisioterapia,31.6107,0.0000,68.3893,LM,Contabilidade,35.4362,0.0000,64.5638,0.1490,18.1879
+Música,LM:Eng. do Ambiente|LM:Eng. Mecânica,LM,Eng. do Ambiente,70.7713,0.0000,29.2287,LM,Eng. Mecânica,0.1353,0.0000,99.8647,0.1478,0.1353
+Música,LM:Eng. Física|LM:Física,LM,Eng. Física,89.0099,0.0000,10.9901,LM,Física,24.6535,0.0000,75.3465,0.1010,24.1584
+Música,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,91.0000,0.0000,9.0000,LM,Ciências do Mar,17.6667,0.0000,82.3333,0.0900,17.4444
+Música,LM:Fisioterapia|LM:Eng. Mecânica,LM,Fisioterapia,30.3413,0.0000,69.6587,LM,Eng. Mecânica,0.3793,0.0000,99.6207,0.0791,0.3793
+Música,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,90.2240,0.0000,9.7760,LM,Contabilidade,34.6232,0.0000,65.3768,0.0491,33.8086
+Música,LM:Eng. Física|LM:Eng. Mecânica,LM,Eng. Física,91.0596,0.0000,8.9404,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0302,0.0000
+Música,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,93.8776,0.0000,6.1224,LM,Eng. Biomédica,12.2449,0.0000,87.7551,0.0049,12.2449
+Música,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,93.1034,0.0000,6.8966,LM,Línguas e Relações Empresariais,37.9310,0.0000,62.0690,0.0029,37.9310
+Música,LM:Eng. do Ambiente|LM:Eng. Informática,LM,Eng. do Ambiente,80.0000,0.0000,20.0000,LM,Eng. Informática,15.0000,0.0000,85.0000,0.0020,15.0000
+Música,LM:Eng. Computacional|LM:Eng. Computadores e Telemática,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Eng. Computadores e Telemática,55.0000,0.0000,45.0000,0.0020,55.0000
+Música,LM:Bioquímica|LM:Eng. Informática,LM,Bioquímica,16.6667,0.0000,83.3333,LM,Eng. Informática,5.5556,0.0000,94.4444,0.0018,5.5556
+Música,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,93.3333,0.0000,6.6667,LM,Física,26.6667,0.0000,73.3333,0.0015,26.6667
+Música,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,91.6667,0.0000,8.3333,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0012,0.0000
+Música,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,90.9091,0.0000,9.0909,LM,Contabilidade,18.1818,0.0000,81.8182,0.0011,18.1818
+Música,LM:Fisioterapia|LM:Eng. Informática,LM,Fisioterapia,33.3333,0.0000,66.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0006,0.0000
+Música,LM:Eng. Computacional|LM:Eng. Mecânica,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Eng. Mecânica,0.0000,0.0000,100.0000,0.0004,0.0000
+Música,LM:Bioquímica|LM:Eng. e Gestão Industrial,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0003,0.0000
+Música,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0002,0.0000
+Música,LM:MTC|LM:Línguas e Relações Empresariais,LM,MTC,100.0000,0.0000,0.0000,LM,Línguas e Relações Empresariais,100.0000,0.0000,0.0000,0.0001,100.0000
+Música,LM:Eng. do Ambiente|LM:Eng. e Gestão Industrial,LM,Eng. do Ambiente,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Música,LM:Fisioterapia|LM:Eng. e Gestão Industrial,LM,Fisioterapia,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
