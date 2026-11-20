@@ -5,15 +5,15 @@
     "base_goals_std": 6.876548952459712,
     "dispersion_k": 15.24096608983838,
     "base_draw_rate": 0.0539568345323741,
-    "draw_elo_sensitivity": 0.0020084801148391464,
+    "draw_elo_sensitivity": 0.0026817920553274303,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.451096017126889,
-      "coef_linear": -0.0020084801148391464,
-      "coef_quadratic": -1.059157462416051e-05
+      "intercept": -2.6142816037655185,
+      "coef_linear": -0.0026817920553274303,
+      "coef_quadratic": 2.9411009367210975e-06
     },
-    "margin_elo_slope": 0.009846822177240033,
-    "margin_elo_intercept": 6.145390062510915,
+    "margin_elo_slope": 0.017588868940081763,
+    "margin_elo_intercept": 5.1686814276139526,
     "elo_adjustment_limit": 0.45,
     "division_params": {
       "1": {
@@ -23,15 +23,15 @@
       },
       "2": {
         "base_goals": 18.496323529411764,
-        "dispersion_k": 14.407037721554579,
+        "dispersion_k": 14.407037721554584,
         "base_draw_rate": 0.03676470588235294
       }
     }
   },
   "BASQUETEBOL FEMININO": {
     "sport_type": "basquete",
-    "base_goals": 8.873737373737374,
-    "base_goals_std": 6.081036691564914,
+    "base_goals": 8.802752293577981,
+    "base_goals_std": 6.119047697024272,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.0,
     "draw_elo_sensitivity": 0.0,
@@ -41,14 +41,14 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.011928344020371183,
-    "margin_elo_intercept": 6.808352641712973,
+    "margin_elo_slope": 0.015139781697928862,
+    "margin_elo_intercept": 6.449601664239509,
     "elo_adjustment_limit": 0.5,
-    "base_score": 8.873737373737374,
-    "sigma": 6.081036691564914,
+    "base_score": 8.802752293577981,
+    "sigma": 6.119047697024272,
     "division_params": {
       "1": {
-        "base_goals": 8.873737373737374,
+        "base_goals": 8.802752293577981,
         "dispersion_k": 3.0,
         "base_draw_rate": 0.0
       }
@@ -67,8 +67,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0046469618489125486,
-    "margin_elo_intercept": 4.971537381249278,
+    "margin_elo_slope": 0.004646961848912547,
+    "margin_elo_intercept": 4.971537381249279,
     "elo_adjustment_limit": 0.5,
     "base_score": 9.884745762711864,
     "sigma": 4.701273306039043,
@@ -91,15 +91,15 @@
     "base_goals_std": 2.277322236250763,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.1040268456375839,
-    "draw_elo_sensitivity": 0.005584567559597813,
+    "draw_elo_sensitivity": 0.006006978481935489,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -2.2782294224099475,
-      "coef_linear": 0.005584567559597813,
-      "coef_quadratic": -2.3913977752752978e-05
+      "intercept": -2.3792676004085473,
+      "coef_linear": 0.006006978481935489,
+      "coef_quadratic": -2.05307915733545e-05
     },
-    "margin_elo_slope": 0.001657937079573998,
-    "margin_elo_intercept": 2.915374246414528,
+    "margin_elo_slope": 0.0016093018761238118,
+    "margin_elo_intercept": 2.908218928196427,
     "elo_adjustment_limit": 1.0,
     "division_params": {
       "1": {
@@ -127,8 +127,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.007585476806786745,
-    "margin_elo_intercept": 4.521086760886765,
+    "margin_elo_slope": 0.0023486115021298533,
+    "margin_elo_intercept": 5.223882801381629,
     "elo_adjustment_limit": 1.2,
     "division_params": {
       "1": {
@@ -141,23 +141,23 @@
   "FUTSAL MASCULINO": {
     "sport_type": "futsal",
     "base_goals": 3.346420323325635,
-    "base_goals_std": 2.8017797673797884,
+    "base_goals_std": 2.801779767379788,
     "dispersion_k": 3.0,
     "base_draw_rate": 0.09930715935334873,
-    "draw_elo_sensitivity": 0.0016258289941551726,
+    "draw_elo_sensitivity": 0.006292883945456918,
     "draw_multiplier": 1.4,
     "draw_model": {
-      "intercept": -1.739867527534251,
-      "coef_linear": -0.0016258289941551726,
-      "coef_quadratic": -1.7638213626830065e-05
+      "intercept": -2.244426799261857,
+      "coef_linear": 0.006292883945456918,
+      "coef_quadratic": -3.478377086291111e-05
     },
-    "margin_elo_slope": 0.005651840423543983,
-    "margin_elo_intercept": 2.9531416240934716,
+    "margin_elo_slope": 0.005128069999722371,
+    "margin_elo_intercept": 3.0302207192398622,
     "elo_adjustment_limit": 1.2,
     "division_params": {
       "1": {
         "base_goals": 3.128834355828221,
-        "dispersion_k": 3.8423470669049977,
+        "dispersion_k": 3.842347066904999,
         "base_draw_rate": 0.09815950920245399
       },
       "2": {
@@ -180,8 +180,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0010344476868041706,
-    "margin_elo_intercept": 1.591099290811189,
+    "margin_elo_slope": 0.0006772715520836978,
+    "margin_elo_intercept": 1.6313581592354738,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
@@ -213,8 +213,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.0005947624973596425,
-    "margin_elo_intercept": 1.612501085405162,
+    "margin_elo_slope": 0.0005302927601637804,
+    "margin_elo_intercept": 1.61561829834294,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,

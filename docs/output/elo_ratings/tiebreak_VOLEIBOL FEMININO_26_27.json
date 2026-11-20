@@ -12,10 +12,10 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Eng. do Ambiente",
         "Eng. e Gestão Industrial",
+        "Gestão e Planeamento em Turismo",
         "Biologia",
-        "Gestão e Planeamento em Turismo"
+        "Eng. do Ambiente"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -29,7 +29,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Eng. do Ambiente",
+          "team": "Eng. e Gestão Industrial",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -41,7 +41,7 @@
           }
         },
         {
-          "team": "Eng. e Gestão Industrial",
+          "team": "Gestão e Planeamento em Turismo",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -65,7 +65,7 @@
           }
         },
         {
-          "team": "Gestão e Planeamento em Turismo",
+          "team": "Eng. do Ambiente",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -138,8 +138,8 @@
       "tie_points": 1,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Fisioterapia"
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -153,7 +153,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Eng. Eletrónica e Telecomunicações",
+          "team": "Fisioterapia",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -165,7 +165,7 @@
           }
         },
         {
-          "team": "Fisioterapia",
+          "team": "Eng. Eletrónica e Telecomunicações",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -188,10 +188,10 @@
       "tie_points": 0,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Gestão",
+        "Design",
         "Eng. Informática",
         "Eng. Física",
-        "Design"
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -205,7 +205,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Gestão",
+          "team": "Design",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -241,7 +241,7 @@
           }
         },
         {
-          "team": "Design",
+          "team": "Gestão",
           "rank_in_tiebreak": 4,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -257,17 +257,17 @@
     }
   ],
   "indexByContextTeam": {
-    "1ª Divisão::Eng. do Ambiente": {
+    "1ª Divisão::Eng. e Gestão Industrial": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. do Ambiente",
+      "team": "Eng. e Gestão Industrial",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. do Ambiente",
         "Eng. e Gestão Industrial",
+        "Gestão e Planeamento em Turismo",
         "Biologia",
-        "Gestão e Planeamento em Turismo"
+        "Eng. do Ambiente"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -290,17 +290,17 @@
       "rank_in_tiebreak": 1,
       "final_position": 1
     },
-    "1ª Divisão::Eng. e Gestão Industrial": {
+    "1ª Divisão::Gestão e Planeamento em Turismo": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. e Gestão Industrial",
+      "team": "Gestão e Planeamento em Turismo",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. do Ambiente",
         "Eng. e Gestão Industrial",
+        "Gestão e Planeamento em Turismo",
         "Biologia",
-        "Gestão e Planeamento em Turismo"
+        "Eng. do Ambiente"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -330,10 +330,10 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. do Ambiente",
         "Eng. e Gestão Industrial",
+        "Gestão e Planeamento em Turismo",
         "Biologia",
-        "Gestão e Planeamento em Turismo"
+        "Eng. do Ambiente"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -356,17 +356,17 @@
       "rank_in_tiebreak": 3,
       "final_position": 3
     },
-    "1ª Divisão::Gestão e Planeamento em Turismo": {
+    "1ª Divisão::Eng. do Ambiente": {
       "event_id": 1,
       "ranking_key": "1ª Divisão",
-      "team": "Gestão e Planeamento em Turismo",
+      "team": "Eng. do Ambiente",
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Eng. do Ambiente",
         "Eng. e Gestão Industrial",
+        "Gestão e Planeamento em Turismo",
         "Biologia",
-        "Gestão e Planeamento em Turismo"
+        "Eng. do Ambiente"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -451,15 +451,15 @@
       "rank_in_tiebreak": 2,
       "final_position": 6
     },
-    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
+    "1ª Divisão::Fisioterapia": {
       "event_id": 3,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Eletrónica e Telecomunicações",
+      "team": "Fisioterapia",
       "tie_type": "head_to_head",
       "tie_points": 1,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Fisioterapia"
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -482,15 +482,15 @@
       "rank_in_tiebreak": 1,
       "final_position": 7
     },
-    "1ª Divisão::Fisioterapia": {
+    "1ª Divisão::Eng. Eletrónica e Telecomunicações": {
       "event_id": 3,
       "ranking_key": "1ª Divisão",
-      "team": "Fisioterapia",
+      "team": "Eng. Eletrónica e Telecomunicações",
       "tie_type": "head_to_head",
       "tie_points": 1,
       "tied_teams": [
-        "Eng. Eletrónica e Telecomunicações",
-        "Fisioterapia"
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -513,17 +513,17 @@
       "rank_in_tiebreak": 2,
       "final_position": 8
     },
-    "1ª Divisão::Gestão": {
+    "1ª Divisão::Design": {
       "event_id": 4,
       "ranking_key": "1ª Divisão",
-      "team": "Gestão",
+      "team": "Design",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão",
+        "Design",
         "Eng. Informática",
         "Eng. Física",
-        "Design"
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -553,10 +553,10 @@
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão",
+        "Design",
         "Eng. Informática",
         "Eng. Física",
-        "Design"
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -586,10 +586,10 @@
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão",
+        "Design",
         "Eng. Informática",
         "Eng. Física",
-        "Design"
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -612,17 +612,17 @@
       "rank_in_tiebreak": 3,
       "final_position": 11
     },
-    "1ª Divisão::Design": {
+    "1ª Divisão::Gestão": {
       "event_id": 4,
       "ranking_key": "1ª Divisão",
-      "team": "Design",
+      "team": "Gestão",
       "tie_type": "mini_league",
       "tie_points": 0,
       "tied_teams": [
-        "Gestão",
+        "Design",
         "Eng. Informática",
         "Eng. Física",
-        "Design"
+        "Gestão"
       ],
       "criteria_order": [
         "faltas_comparencia",

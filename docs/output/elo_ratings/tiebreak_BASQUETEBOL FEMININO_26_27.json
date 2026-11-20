@@ -2,6 +2,534 @@
   "version": 1,
   "modalidade": "BASQUETEBOL FEMININO",
   "epoca": "26_27",
-  "events": [],
-  "indexByContextTeam": {}
+  "events": [
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": "A",
+        "ranking_key": "1ª Divisão - Grupo A"
+      },
+      "tie_points": 4,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "Eng. e Gestão Industrial",
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Fisioterapia",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 40,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 41
+          }
+        },
+        {
+          "team": "Eng. Eletrónica e Telecomunicações",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 23,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 30
+          }
+        },
+        {
+          "team": "Eng. e Gestão Industrial",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 9,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 17
+          }
+        }
+      ],
+      "event_id": 1
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": "A",
+        "ranking_key": "1ª Divisão - Grupo A"
+      },
+      "tie_points": 2,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "Bioquímica",
+        "Contabilidade",
+        "Eng. Física",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "standings": [
+        {
+          "team": "Eng. Física",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 3,
+            "pontos_h2h": 2,
+            "diferenca_golos_h2h": 5,
+            "golos_marcados_h2h": 9,
+            "golos_marcados": 16
+          }
+        },
+        {
+          "team": "Contabilidade",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": 3,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": -1,
+            "golos_marcados_h2h": 8,
+            "golos_marcados": 20
+          }
+        },
+        {
+          "team": "Bioquímica",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": -4,
+            "pontos_h2h": 2,
+            "diferenca_golos_h2h": -4,
+            "golos_marcados_h2h": 13,
+            "golos_marcados": 13
+          }
+        },
+        {
+          "team": "Psicologia",
+          "rank_in_tiebreak": 4,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": -6,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 11
+          }
+        }
+      ],
+      "event_id": 2
+    },
+    {
+      "context": {
+        "Divisao": 1,
+        "Grupo": "A",
+        "ranking_key": "1ª Divisão - Grupo A"
+      },
+      "tie_points": 0,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "MTC",
+        "Biologia e Geologia",
+        "Biologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "MTC",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": -5,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 10
+          }
+        },
+        {
+          "team": "Biologia",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": -21,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 4
+          }
+        },
+        {
+          "team": "Biologia e Geologia",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "diferenca_golos": -42,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "golos_marcados": 0
+          }
+        }
+      ],
+      "event_id": 3
+    }
+  ],
+  "indexByContextTeam": {
+    "1ª Divisão - Grupo A::Fisioterapia": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Fisioterapia",
+      "tie_type": "mini_league",
+      "tie_points": 4,
+      "tied_teams": [
+        "Eng. e Gestão Industrial",
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 40,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 41
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 1
+    },
+    "1ª Divisão - Grupo A::Eng. Eletrónica e Telecomunicações": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Eng. Eletrónica e Telecomunicações",
+      "tie_type": "mini_league",
+      "tie_points": 4,
+      "tied_teams": [
+        "Eng. e Gestão Industrial",
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 23,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 30
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 2
+    },
+    "1ª Divisão - Grupo A::Eng. e Gestão Industrial": {
+      "event_id": 1,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Eng. e Gestão Industrial",
+      "tie_type": "mini_league",
+      "tie_points": 4,
+      "tied_teams": [
+        "Eng. e Gestão Industrial",
+        "Fisioterapia",
+        "Eng. Eletrónica e Telecomunicações"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 9,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 17
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 3
+    },
+    "1ª Divisão - Grupo A::Eng. Física": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Eng. Física",
+      "tie_type": "mini_league",
+      "tie_points": 2,
+      "tied_teams": [
+        "Bioquímica",
+        "Contabilidade",
+        "Eng. Física",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 3,
+        "pontos_h2h": 2,
+        "diferenca_golos_h2h": 5,
+        "golos_marcados_h2h": 9,
+        "golos_marcados": 16
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 4
+    },
+    "1ª Divisão - Grupo A::Contabilidade": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Contabilidade",
+      "tie_type": "mini_league",
+      "tie_points": 2,
+      "tied_teams": [
+        "Bioquímica",
+        "Contabilidade",
+        "Eng. Física",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": 3,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": -1,
+        "golos_marcados_h2h": 8,
+        "golos_marcados": 20
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 5
+    },
+    "1ª Divisão - Grupo A::Bioquímica": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Bioquímica",
+      "tie_type": "mini_league",
+      "tie_points": 2,
+      "tied_teams": [
+        "Bioquímica",
+        "Contabilidade",
+        "Eng. Física",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": -4,
+        "pontos_h2h": 2,
+        "diferenca_golos_h2h": -4,
+        "golos_marcados_h2h": 13,
+        "golos_marcados": 13
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 6
+    },
+    "1ª Divisão - Grupo A::Psicologia": {
+      "event_id": 2,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Psicologia",
+      "tie_type": "mini_league",
+      "tie_points": 2,
+      "tied_teams": [
+        "Bioquímica",
+        "Contabilidade",
+        "Eng. Física",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "pontos_h2h",
+      "used_global_fallback": false,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": -6,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 11
+      },
+      "rank_in_tiebreak": 4,
+      "final_position": 7
+    },
+    "1ª Divisão - Grupo A::MTC": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "MTC",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MTC",
+        "Biologia e Geologia",
+        "Biologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": -5,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 10
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 8
+    },
+    "1ª Divisão - Grupo A::Biologia": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Biologia",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MTC",
+        "Biologia e Geologia",
+        "Biologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": -21,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 4
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 9
+    },
+    "1ª Divisão - Grupo A::Biologia e Geologia": {
+      "event_id": 3,
+      "ranking_key": "1ª Divisão - Grupo A",
+      "team": "Biologia e Geologia",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MTC",
+        "Biologia e Geologia",
+        "Biologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "diferenca_golos",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "diferenca_golos": -42,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "golos_marcados": 0
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 10
+    }
+  }
 }
