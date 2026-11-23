@@ -56,9 +56,9 @@
   },
   "BASQUETEBOL MASCULINO": {
     "sport_type": "basquete",
-    "base_goals": 9.884745762711864,
-    "base_goals_std": 4.701273306039043,
-    "dispersion_k": 7.997577134773758,
+    "base_goals": 9.919407894736842,
+    "base_goals_std": 4.684635262659004,
+    "dispersion_k": 8.181555232698726,
     "base_draw_rate": 0.0,
     "draw_elo_sensitivity": 0.0,
     "draw_multiplier": 1.0,
@@ -67,15 +67,15 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.004646961848912547,
-    "margin_elo_intercept": 4.971537381249279,
+    "margin_elo_slope": 0.0042033782514061925,
+    "margin_elo_intercept": 4.995477349485254,
     "elo_adjustment_limit": 0.5,
-    "base_score": 9.884745762711864,
-    "sigma": 4.701273306039043,
+    "base_score": 9.919407894736842,
+    "sigma": 4.684635262659004,
     "division_params": {
       "1": {
-        "base_goals": 10.458646616541353,
-        "dispersion_k": 12.328558776116168,
+        "base_goals": 10.496478873239436,
+        "dispersion_k": 12.792333836694914,
         "base_draw_rate": 0.0
       },
       "2": {
@@ -169,8 +169,8 @@
   },
   "VOLEIBOL FEMININO": {
     "sport_type": "volei",
-    "base_goals": 1.141643059490085,
-    "base_goals_std": 0.9155840672533591,
+    "base_goals": 1.1402266288951841,
+    "base_goals_std": 0.9165750725682583,
     "dispersion_k": 10.0,
     "base_draw_rate": 0.0,
     "draw_elo_sensitivity": 0.0,
@@ -180,8 +180,8 @@
       "coef_linear": 0.0,
       "coef_quadratic": 0.0
     },
-    "margin_elo_slope": 0.001039459156064492,
-    "margin_elo_intercept": 1.5810983245536823,
+    "margin_elo_slope": 0.0010472459202210003,
+    "margin_elo_intercept": 1.5816781518285827,
     "elo_adjustment_limit": 0.5,
     "p_sweep_base": 0.5,
     "volei_sigma": 1.2,
@@ -194,7 +194,7 @@
         "base_draw_rate": 0.0
       },
       "2": {
-        "base_goals": 1.163265306122449,
+        "base_goals": 1.1607142857142858,
         "dispersion_k": 10.0,
         "base_draw_rate": 0.0
       }
