@@ -62,8 +62,8 @@
       "tie_points": 3,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Contabilidade",
-        "Administração Pública"
+        "Administração Pública",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -112,9 +112,9 @@
       "tie_points": 1,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Eng. Biomédica",
+        "Ciências Biomédicas",
         "Ciências do Mar",
-        "Ciências Biomédicas"
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -128,7 +128,7 @@
       "used_global_fallback": true,
       "standings": [
         {
-          "team": "Eng. Biomédica",
+          "team": "Ciências Biomédicas",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -140,7 +140,7 @@
           }
         },
         {
-          "team": "Ciências Biomédicas",
+          "team": "Eng. Biomédica",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -225,9 +225,9 @@
       "tie_points": 3,
       "tie_type": "mini_league",
       "tied_teams": [
-        "Matemática",
         "Música",
-        "Biotecnologia"
+        "Biotecnologia",
+        "Matemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -288,8 +288,8 @@
       "tie_points": 2,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. de Materiais",
-        "Geologia"
+        "Geologia",
+        "Eng. de Materiais"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -303,7 +303,7 @@
       "used_global_fallback": false,
       "standings": [
         {
-          "team": "Eng. de Materiais",
+          "team": "Geologia",
           "rank_in_tiebreak": 1,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -315,7 +315,7 @@
           }
         },
         {
-          "team": "Geologia",
+          "team": "Eng. de Materiais",
           "rank_in_tiebreak": 2,
           "criteria_values": {
             "faltas_comparencia": 0,
@@ -550,8 +550,8 @@
       "tie_type": "head_to_head",
       "tie_points": 3,
       "tied_teams": [
-        "Contabilidade",
-        "Administração Pública"
+        "Administração Pública",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -581,8 +581,8 @@
       "tie_type": "head_to_head",
       "tie_points": 3,
       "tied_teams": [
-        "Contabilidade",
-        "Administração Pública"
+        "Administração Pública",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -605,16 +605,16 @@
       "rank_in_tiebreak": 2,
       "final_position": 8
     },
-    "1ª Divisão::Eng. Biomédica": {
+    "1ª Divisão::Ciências Biomédicas": {
       "event_id": 3,
       "ranking_key": "1ª Divisão",
-      "team": "Eng. Biomédica",
+      "team": "Ciências Biomédicas",
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Eng. Biomédica",
+        "Ciências Biomédicas",
         "Ciências do Mar",
-        "Ciências Biomédicas"
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -637,16 +637,16 @@
       "rank_in_tiebreak": 1,
       "final_position": 10
     },
-    "1ª Divisão::Ciências Biomédicas": {
+    "1ª Divisão::Eng. Biomédica": {
       "event_id": 3,
       "ranking_key": "1ª Divisão",
-      "team": "Ciências Biomédicas",
+      "team": "Eng. Biomédica",
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Eng. Biomédica",
+        "Ciências Biomédicas",
         "Ciências do Mar",
-        "Ciências Biomédicas"
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -676,9 +676,9 @@
       "tie_type": "mini_league",
       "tie_points": 1,
       "tied_teams": [
-        "Eng. Biomédica",
+        "Ciências Biomédicas",
         "Ciências do Mar",
-        "Ciências Biomédicas"
+        "Eng. Biomédica"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -770,9 +770,9 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Matemática",
         "Música",
-        "Biotecnologia"
+        "Biotecnologia",
+        "Matemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -802,9 +802,9 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Matemática",
         "Música",
-        "Biotecnologia"
+        "Biotecnologia",
+        "Matemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -834,9 +834,9 @@
       "tie_type": "mini_league",
       "tie_points": 3,
       "tied_teams": [
-        "Matemática",
         "Música",
-        "Biotecnologia"
+        "Biotecnologia",
+        "Matemática"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -859,15 +859,15 @@
       "rank_in_tiebreak": 3,
       "final_position": 7
     },
-    "2ª Divisão - Grupo A::Eng. de Materiais": {
+    "2ª Divisão - Grupo A::Geologia": {
       "event_id": 6,
       "ranking_key": "2ª Divisão - Grupo A",
-      "team": "Eng. de Materiais",
+      "team": "Geologia",
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Eng. de Materiais",
-        "Geologia"
+        "Geologia",
+        "Eng. de Materiais"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -890,15 +890,15 @@
       "rank_in_tiebreak": 1,
       "final_position": 8
     },
-    "2ª Divisão - Grupo A::Geologia": {
+    "2ª Divisão - Grupo A::Eng. de Materiais": {
       "event_id": 6,
       "ranking_key": "2ª Divisão - Grupo A",
-      "team": "Geologia",
+      "team": "Eng. de Materiais",
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Eng. de Materiais",
-        "Geologia"
+        "Geologia",
+        "Eng. de Materiais"
       ],
       "criteria_order": [
         "faltas_comparencia",
