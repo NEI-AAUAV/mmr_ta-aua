@@ -1,13 +1,13 @@
 ﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
-Administração Pública,LM:Biologia|LM:Fisioterapia,LM,Biologia,99.2883,0.0000,0.7117,LM,Fisioterapia,60.5229,0.0000,39.4771,68.8500,60.2179
-Administração Pública,LM:Biologia|LM:Eng. Computacional,LM,Biologia,97.8380,0.0000,2.1620,LM,Eng. Computacional,99.6773,0.0000,0.3227,30.9900,97.6121
-Administração Pública,LM:Biologia|LM:Eng. Física,LM,Biologia,90.9091,0.0000,9.0909,LM,Eng. Física,100.0000,0.0000,0.0000,0.1100,90.9091
-Administração Pública,LM:Biologia|LM:Gestão,LM,Biologia,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0500,100.0000
-Biologia,LM:Fisioterapia|LM:Administração Pública,LM,Fisioterapia,2.4401,0.0000,97.5599,LM,Administração Pública,0.7117,0.0000,99.2883,68.8500,0.7843
-Biologia,LM:Eng. Computacional|LM:Administração Pública,LM,Eng. Computacional,62.8590,0.0000,37.1410,LM,Administração Pública,2.1620,0.0000,97.8380,30.9900,2.1620
-Biologia,LM:Eng. Física|LM:Administração Pública,LM,Eng. Física,54.5455,0.0000,45.4545,LM,Administração Pública,9.0909,0.0000,90.9091,0.1100,9.0909
-Biologia,LM:Gestão|LM:Administração Pública,LM,Gestão,80.0000,0.0000,20.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0500,0.0000
-Eng. Computacional,LM:Biologia|LM:Administração Pública,LM,Biologia,37.1410,0.0000,62.8590,LM,Administração Pública,0.3227,0.0000,99.6773,30.9900,0.2259
-Eng. Física,LM:Biologia|LM:Administração Pública,LM,Biologia,45.4545,0.0000,54.5455,LM,Administração Pública,0.0000,0.0000,100.0000,0.1100,0.0000
-Fisioterapia,LM:Biologia|LM:Administração Pública,LM,Biologia,97.5599,0.0000,2.4401,LM,Administração Pública,39.4771,0.0000,60.5229,68.8500,38.9978
-Gestão,LM:Biologia|LM:Administração Pública,LM,Biologia,20.0000,0.0000,80.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0500,0.0000
+Administração Pública,LM:Biologia|LM:Eng. Física,LM,Biologia,96.3051,0.0000,3.6949,LM,Eng. Física,96.4740,0.0000,3.5260,88.7700,93.2522
+Administração Pública,LM:Biologia|LM:Fisioterapia,LM,Biologia,99.4652,0.0000,0.5348,LM,Fisioterapia,62.4599,0.0000,37.5401,9.3500,62.1390
+Administração Pública,LM:Biologia|LM:Eng. Computacional,LM,Biologia,99.4652,0.0000,0.5348,LM,Eng. Computacional,100.0000,0.0000,0.0000,1.8700,99.4652
+Administração Pública,LM:Biologia|LM:Gestão,LM,Biologia,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0100,100.0000
+Biologia,LM:Eng. Física|LM:Administração Pública,LM,Eng. Física,42.2440,0.0000,57.7560,LM,Administração Pública,3.6949,0.0000,96.3051,88.7700,3.6949
+Biologia,LM:Fisioterapia|LM:Administração Pública,LM,Fisioterapia,3.3155,0.0000,96.6845,LM,Administração Pública,0.5348,0.0000,99.4652,9.3500,0.6417
+Biologia,LM:Eng. Computacional|LM:Administração Pública,LM,Eng. Computacional,75.9358,0.0000,24.0642,LM,Administração Pública,0.5348,0.0000,99.4652,1.8700,0.5348
+Biologia,LM:Gestão|LM:Administração Pública,LM,Gestão,0.0000,0.0000,100.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0100,0.0000
+Eng. Computacional,LM:Biologia|LM:Administração Pública,LM,Biologia,24.0642,0.0000,75.9358,LM,Administração Pública,0.0000,0.0000,100.0000,1.8700,0.0000
+Eng. Física,LM:Biologia|LM:Administração Pública,LM,Biologia,57.7560,0.0000,42.2440,LM,Administração Pública,3.5260,0.0000,96.4740,88.7700,3.0528
+Fisioterapia,LM:Biologia|LM:Administração Pública,LM,Biologia,96.6845,0.0000,3.3155,LM,Administração Pública,37.5401,0.0000,62.4599,9.3500,37.2193
+Gestão,LM:Biologia|LM:Administração Pública,LM,Biologia,100.0000,0.0000,0.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0100,0.0000

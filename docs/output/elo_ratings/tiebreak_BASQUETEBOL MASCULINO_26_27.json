@@ -13,10 +13,10 @@
       "tie_type": "mini_league",
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Eng. Informática",
         "Eng. de Materiais",
-        "Contabilidade",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Informática",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -101,8 +101,8 @@
       "tie_points": 2,
       "tie_type": "head_to_head",
       "tied_teams": [
-        "Eng. Civil",
-        "Administração Pública"
+        "Administração Pública",
+        "Eng. Civil"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -153,9 +153,9 @@
       "tied_teams": [
         "Eng. Computadores e Telemática",
         "Biotecnologia",
-        "Biologia",
+        "Eng. Eletrónica e Telecomunicações",
         "Eng. Biomédica",
-        "Eng. Eletrónica e Telecomunicações"
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -230,6 +230,145 @@
         }
       ],
       "event_id": 3
+    },
+    {
+      "context": {
+        "Divisao": 2,
+        "Grupo": "B",
+        "ranking_key": "2ª Divisão - Grupo B"
+      },
+      "tie_points": 4,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "Gestão Comercial",
+        "Medicina",
+        "Gestão e Planeamento em Turismo"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Gestão e Planeamento em Turismo",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 19,
+            "golos_marcados": 33
+          }
+        },
+        {
+          "team": "Gestão Comercial",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 15,
+            "golos_marcados": 28
+          }
+        },
+        {
+          "team": "Medicina",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": 4,
+            "golos_marcados": 23
+          }
+        }
+      ],
+      "event_id": 4
+    },
+    {
+      "context": {
+        "Divisao": 2,
+        "Grupo": "B",
+        "ranking_key": "2ª Divisão - Grupo B"
+      },
+      "tie_points": 0,
+      "tie_type": "mini_league",
+      "tied_teams": [
+        "MOC",
+        "Gestão",
+        "Matemática",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "standings": [
+        {
+          "team": "Gestão",
+          "rank_in_tiebreak": 1,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -7,
+            "golos_marcados": 9
+          }
+        },
+        {
+          "team": "Matemática",
+          "rank_in_tiebreak": 2,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -10,
+            "golos_marcados": 12
+          }
+        },
+        {
+          "team": "Psicologia",
+          "rank_in_tiebreak": 3,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -14,
+            "golos_marcados": 18
+          }
+        },
+        {
+          "team": "MOC",
+          "rank_in_tiebreak": 4,
+          "criteria_values": {
+            "faltas_comparencia": 0,
+            "pontos_h2h": 0,
+            "diferenca_golos_h2h": 0,
+            "golos_marcados_h2h": 0,
+            "diferenca_golos": -17,
+            "golos_marcados": 14
+          }
+        }
+      ],
+      "event_id": 5
     }
   ],
   "indexByContextTeam": {
@@ -241,10 +380,10 @@
       "tie_points": 4,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Eng. Informática",
         "Eng. de Materiais",
-        "Contabilidade",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Informática",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -275,10 +414,10 @@
       "tie_points": 4,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Eng. Informática",
         "Eng. de Materiais",
-        "Contabilidade",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Informática",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -309,10 +448,10 @@
       "tie_points": 4,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Eng. Informática",
         "Eng. de Materiais",
-        "Contabilidade",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Informática",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -343,10 +482,10 @@
       "tie_points": 4,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Eng. Informática",
         "Eng. de Materiais",
-        "Contabilidade",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Informática",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -377,10 +516,10 @@
       "tie_points": 4,
       "tied_teams": [
         "Eng. e Gestão Industrial",
-        "Eng. Informática",
         "Eng. de Materiais",
-        "Contabilidade",
-        "Eng. Mecânica"
+        "Eng. Mecânica",
+        "Eng. Informática",
+        "Contabilidade"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -410,8 +549,8 @@
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Eng. Civil",
-        "Administração Pública"
+        "Administração Pública",
+        "Eng. Civil"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -441,8 +580,8 @@
       "tie_type": "head_to_head",
       "tie_points": 2,
       "tied_teams": [
-        "Eng. Civil",
-        "Administração Pública"
+        "Administração Pública",
+        "Eng. Civil"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -474,9 +613,9 @@
       "tied_teams": [
         "Eng. Computadores e Telemática",
         "Biotecnologia",
-        "Biologia",
+        "Eng. Eletrónica e Telecomunicações",
         "Eng. Biomédica",
-        "Eng. Eletrónica e Telecomunicações"
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -508,9 +647,9 @@
       "tied_teams": [
         "Eng. Computadores e Telemática",
         "Biotecnologia",
-        "Biologia",
+        "Eng. Eletrónica e Telecomunicações",
         "Eng. Biomédica",
-        "Eng. Eletrónica e Telecomunicações"
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -542,9 +681,9 @@
       "tied_teams": [
         "Eng. Computadores e Telemática",
         "Biotecnologia",
-        "Biologia",
+        "Eng. Eletrónica e Telecomunicações",
         "Eng. Biomédica",
-        "Eng. Eletrónica e Telecomunicações"
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -576,9 +715,9 @@
       "tied_teams": [
         "Eng. Computadores e Telemática",
         "Biotecnologia",
-        "Biologia",
+        "Eng. Eletrónica e Telecomunicações",
         "Eng. Biomédica",
-        "Eng. Eletrónica e Telecomunicações"
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -610,9 +749,9 @@
       "tied_teams": [
         "Eng. Computadores e Telemática",
         "Biotecnologia",
-        "Biologia",
+        "Eng. Eletrónica e Telecomunicações",
         "Eng. Biomédica",
-        "Eng. Eletrónica e Telecomunicações"
+        "Biologia"
       ],
       "criteria_order": [
         "faltas_comparencia",
@@ -634,6 +773,234 @@
       },
       "rank_in_tiebreak": 5,
       "final_position": 12
+    },
+    "2ª Divisão - Grupo B::Gestão e Planeamento em Turismo": {
+      "event_id": 4,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Gestão e Planeamento em Turismo",
+      "tie_type": "mini_league",
+      "tie_points": 4,
+      "tied_teams": [
+        "Gestão Comercial",
+        "Medicina",
+        "Gestão e Planeamento em Turismo"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 19,
+        "golos_marcados": 33
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 1
+    },
+    "2ª Divisão - Grupo B::Gestão Comercial": {
+      "event_id": 4,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Gestão Comercial",
+      "tie_type": "mini_league",
+      "tie_points": 4,
+      "tied_teams": [
+        "Gestão Comercial",
+        "Medicina",
+        "Gestão e Planeamento em Turismo"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 15,
+        "golos_marcados": 28
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 2
+    },
+    "2ª Divisão - Grupo B::Medicina": {
+      "event_id": 4,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Medicina",
+      "tie_type": "mini_league",
+      "tie_points": 4,
+      "tied_teams": [
+        "Gestão Comercial",
+        "Medicina",
+        "Gestão e Planeamento em Turismo"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": 4,
+        "golos_marcados": 23
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 3
+    },
+    "2ª Divisão - Grupo B::Gestão": {
+      "event_id": 5,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Gestão",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MOC",
+        "Gestão",
+        "Matemática",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -7,
+        "golos_marcados": 9
+      },
+      "rank_in_tiebreak": 1,
+      "final_position": 5
+    },
+    "2ª Divisão - Grupo B::Matemática": {
+      "event_id": 5,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Matemática",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MOC",
+        "Gestão",
+        "Matemática",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -10,
+        "golos_marcados": 12
+      },
+      "rank_in_tiebreak": 2,
+      "final_position": 6
+    },
+    "2ª Divisão - Grupo B::Psicologia": {
+      "event_id": 5,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "Psicologia",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MOC",
+        "Gestão",
+        "Matemática",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -14,
+        "golos_marcados": 18
+      },
+      "rank_in_tiebreak": 3,
+      "final_position": 7
+    },
+    "2ª Divisão - Grupo B::MOC": {
+      "event_id": 5,
+      "ranking_key": "2ª Divisão - Grupo B",
+      "team": "MOC",
+      "tie_type": "mini_league",
+      "tie_points": 0,
+      "tied_teams": [
+        "MOC",
+        "Gestão",
+        "Matemática",
+        "Psicologia"
+      ],
+      "criteria_order": [
+        "faltas_comparencia",
+        "pontos_h2h",
+        "diferenca_golos_h2h",
+        "golos_marcados_h2h",
+        "diferenca_golos",
+        "golos_marcados"
+      ],
+      "deciding_criterion": "diferenca_golos",
+      "used_global_fallback": true,
+      "criteria_values": {
+        "faltas_comparencia": 0,
+        "pontos_h2h": 0,
+        "diferenca_golos_h2h": 0,
+        "golos_marcados_h2h": 0,
+        "diferenca_golos": -17,
+        "golos_marcados": 14
+      },
+      "rank_in_tiebreak": 4,
+      "final_position": 8
     }
   }
 }
