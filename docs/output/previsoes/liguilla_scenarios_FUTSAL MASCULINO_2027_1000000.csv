@@ -1,0 +1,109 @@
+﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
+Administração Pública,LM:Matemática|LM:Contabilidade,LM,Matemática,29.7724,17.2754,52.9522,LM,Contabilidade,12.3612,7.1630,80.4758,16.1287,13.1108
+Administração Pública,LM:Matemática|LM:Eng. Informática,LM,Matemática,29.9365,17.3188,52.7447,LM,Eng. Informática,10.9418,6.4545,82.6038,6.4560,12.1980
+Administração Pública,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,29.9132,17.3482,52.7386,LM,Eng. Biomédica,2.8481,1.7762,95.3758,5.8496,3.8994
+Administração Pública,LM:Matemática|LM:Eng. Química,LM,Matemática,30.0558,17.1320,52.8121,LM,Eng. Química,7.7184,4.3678,87.9138,1.5042,9.0480
+Administração Pública,LM:Matemática|LM:Eng. Computacional,LM,Matemática,29.9129,17.8147,52.2724,LM,Eng. Computacional,40.5067,17.9256,41.5677,0.6315,29.2795
+Administração Pública,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,29.9376,17.0478,53.0146,LM,Gestão e Planeamento em Turismo,10.4706,6.1992,83.3302,0.5291,11.5857
+Administração Pública,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,32.2521,16.7748,50.9731,LM,Eng. Computadores e Telemática,10.0093,5.6534,84.3373,0.1079,11.7702
+Administração Pública,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,31.4815,17.5214,50.9972,LM,Eng. Mecânica,2.2792,1.7094,96.0114,0.0702,3.7037
+Administração Pública,LM:Matemática|LM:Bioquímica,LM,Matemática,28.1768,21.5470,50.2762,LM,Bioquímica,7.7348,1.6575,90.6077,0.0181,7.1823
+Bioquímica,LM:Administração Pública|LM:Matemática,LM,Administração Pública,90.6077,1.6575,7.7348,LM,Matemática,87.2928,5.5249,7.1823,0.0181,82.3204
+Bioquímica,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,81.4607,7.3034,11.2360,LM,Matemática,74.7191,8.4270,16.8539,0.0178,65.7303
+Bioquímica,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,60.7477,14.9533,24.2991,LM,Matemática,83.1776,6.5421,10.2804,0.0107,52.3364
+Bioquímica,LM:Medicina|LM:Matemática,LM,Medicina,85.3659,7.3171,7.3171,LM,Matemática,73.1707,9.7561,17.0732,0.0041,73.1707
+Contabilidade,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,70.7852,10.8848,18.3300,LM,Matemática,67.6883,11.4790,20.8327,19.0191,53.8085
+Contabilidade,LM:Administração Pública|LM:Matemática,LM,Administração Pública,80.4758,7.1630,12.3612,LM,Matemática,69.1339,11.2278,19.6383,16.1287,65.1609
+Contabilidade,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,42.9351,17.3369,39.7280,LM,Matemática,67.3226,11.1220,21.5554,12.2415,34.3520
+Contabilidade,LM:Medicina|LM:Matemática,LM,Medicina,77.8991,8.1606,13.9404,LM,Matemática,68.4443,11.2910,20.2647,4.0953,61.9662
+Eng. Biomédica,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,91.2623,3.2841,5.4536,LM,Matemática,88.4353,4.3043,7.2604,6.8908,82.2851
+Eng. Biomédica,LM:Administração Pública|LM:Matemática,LM,Administração Pública,95.3758,1.7762,2.8481,LM,Matemática,89.5189,4.0157,6.4654,5.8496,88.7326
+Eng. Biomédica,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,67.0422,12.2678,20.6900,LM,Matemática,86.9350,4.9562,8.1088,4.4026,60.7255
+Eng. Biomédica,LM:Medicina|LM:Matemática,LM,Medicina,94.2741,2.1013,3.6246,LM,Matemática,89.1397,3.9170,6.9432,1.4705,86.0320
+Eng. Computacional,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,31.5769,17.3441,51.0790,LM,Matemática,32.9141,15.4508,51.6351,0.7553,18.2047
+Eng. Computacional,LM:Administração Pública|LM:Matemática,LM,Administração Pública,41.5677,17.9256,40.5067,LM,Matemática,33.5867,15.3919,51.0214,0.6315,26.5241
+Eng. Computacional,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,12.8898,8.0042,79.1060,LM,Matemática,31.3721,16.0291,52.5988,0.4810,7.1726
+Eng. Computacional,LM:Medicina|LM:Matemática,LM,Medicina,38.4712,17.9825,43.5464,LM,Matemática,33.3960,15.0376,51.5664,0.1596,25.1253
+Eng. Computadores e Telemática,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,77.5139,8.5511,13.9351,LM,Matemática,69.6754,11.8765,18.4481,0.1263,59.4616
+Eng. Computadores e Telemática,LM:Administração Pública|LM:Matemática,LM,Administração Pública,84.3373,5.6534,10.0093,LM,Matemática,72.2892,11.9555,15.7553,0.1079,69.9722
+Eng. Computadores e Telemática,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,46.0948,15.8771,38.0282,LM,Matemática,71.3188,10.8835,17.7977,0.0781,36.7478
+Eng. Computadores e Telemática,LM:Medicina|LM:Matemática,LM,Medicina,79.6825,6.9841,13.3333,LM,Matemática,71.4286,13.0159,15.5556,0.0315,66.9841
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Contabilidade,LM,Matemática,70.3745,10.9570,18.6685,LM,Contabilidade,39.7280,17.3369,42.9351,12.2415,50.8271
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Informática,LM,Matemática,70.5552,10.8745,18.5702,LM,Eng. Informática,36.9689,17.5409,45.4901,4.9547,48.4651
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,70.2017,11.1661,18.6322,LM,Eng. Biomédica,20.6900,12.2678,67.0422,4.4026,31.2724
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Química,LM,Matemática,70.9159,10.2537,18.8304,LM,Eng. Química,30.7960,16.9969,52.2072,1.1508,43.1439
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Computacional,LM,Matemática,70.7900,11.0603,18.1497,LM,Eng. Computacional,79.1060,8.0042,12.8898,0.4810,71.9543
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,71.0951,10.6779,18.2270,LM,Gestão e Planeamento em Turismo,36.6278,17.0598,46.3124,0.4027,48.3983
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,71.4469,9.9872,18.5659,LM,Eng. Computadores e Telemática,38.0282,15.8771,46.0948,0.0781,48.7836
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,73.9130,9.5652,16.5217,LM,Eng. Mecânica,20.5217,14.6087,64.8696,0.0575,32.1739
+Eng. Eletrónica e Telecomunicações,LM:Matemática|LM:Bioquímica,LM,Matemática,70.0935,8.4112,21.4953,LM,Bioquímica,24.2991,14.9533,60.7477,0.0107,36.4486
+Eng. Informática,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,73.9909,9.5242,16.4849,LM,Matemática,70.4818,10.7654,18.7528,7.6458,57.2824
+Eng. Informática,LM:Administração Pública|LM:Matemática,LM,Administração Pública,82.6038,6.4545,10.9418,LM,Matemática,71.9888,10.2680,17.7432,6.4560,68.0963
+Eng. Informática,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,45.4901,17.5409,36.9689,LM,Matemática,70.0708,10.3740,19.5552,4.9547,40.1154
+Eng. Informática,LM:Medicina|LM:Matemática,LM,Medicina,80.4528,7.4615,12.0857,LM,Matemática,70.7938,10.6490,18.5572,1.6565,64.6001
+Eng. Mecânica,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,89.6074,4.0416,6.3510,LM,Matemática,87.5289,4.5035,7.9677,0.0866,80.1386
+Eng. Mecânica,LM:Administração Pública|LM:Matemática,LM,Administração Pública,96.0114,1.7094,2.2792,LM,Matemática,90.8832,3.1339,5.9829,0.0702,90.0285
+Eng. Mecânica,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,64.8696,14.6087,20.5217,LM,Matemática,89.5652,3.1304,7.3043,0.0575,62.7826
+Eng. Mecânica,LM:Medicina|LM:Matemática,LM,Medicina,92.2280,3.6269,4.1451,LM,Matemática,88.0829,4.6632,7.2539,0.0193,82.3834
+Eng. Química,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,79.9321,7.4128,12.6551,LM,Matemática,76.4316,8.5091,15.0593,1.7969,65.3848
+Eng. Química,LM:Administração Pública|LM:Matemática,LM,Administração Pública,87.9138,4.3678,7.7184,LM,Matemática,78.0481,8.3699,13.5820,1.5042,75.9673
+Eng. Química,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,52.2072,16.9969,30.7960,LM,Matemática,76.4164,7.9597,15.6239,1.1508,47.0890
+Eng. Química,LM:Medicina|LM:Matemática,LM,Medicina,85.1536,5.0865,9.7599,LM,Matemática,77.4077,8.0041,14.5882,0.3873,71.6757
+Gestão e Planeamento em Turismo,LM:Línguas e Relações Empresariais|LM:Matemática,LM,Línguas e Relações Empresariais,74.5282,9.3894,16.0825,LM,Matemática,71.4830,10.5948,17.9223,0.6305,58.2078
+Gestão e Planeamento em Turismo,LM:Administração Pública|LM:Matemática,LM,Administração Pública,83.3302,6.1992,10.4706,LM,Matemática,72.7084,10.3005,16.9911,0.5291,69.4765
+Gestão e Planeamento em Turismo,LM:Eng. Eletrónica e Telecomunicações|LM:Matemática,LM,Eng. Eletrónica e Telecomunicações,46.3124,17.0598,36.6278,LM,Matemática,71.3434,10.2558,18.4008,0.4027,40.4271
+Gestão e Planeamento em Turismo,LM:Medicina|LM:Matemática,LM,Medicina,79.9090,7.1266,12.9644,LM,Matemática,74.5262,8.3397,17.1342,0.1319,66.1865
+Línguas e Relações Empresariais,LM:Matemática|LM:Contabilidade,LM,Matemática,38.4393,20.6587,40.9020,LM,Contabilidade,18.3300,10.8848,70.7852,19.0191,21.0599
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Informática,LM,Matemática,38.2144,20.6035,41.1821,LM,Eng. Informática,16.4849,9.5242,73.9909,7.6458,19.1203
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,38.2496,20.8510,40.8995,LM,Eng. Biomédica,5.4536,3.2841,91.2623,6.8908,7.3983
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Química,LM,Matemática,37.9765,20.8693,41.1542,LM,Eng. Química,12.6551,7.4128,79.9321,1.7969,15.3153
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Computacional,LM,Matemática,38.5145,20.3760,41.1095,LM,Eng. Computacional,51.0790,17.3441,31.5769,0.7553,39.6399
+Línguas e Relações Empresariais,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,38.5884,20.8882,40.5234,LM,Gestão e Planeamento em Turismo,16.0825,9.3894,74.5282,0.6305,19.2546
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,37.9256,20.0317,42.0428,LM,Eng. Computadores e Telemática,13.9351,8.5511,77.5139,0.1263,17.3397
+Línguas e Relações Empresariais,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,39.0300,18.4758,42.4942,LM,Eng. Mecânica,6.3510,4.0416,89.6074,0.0866,8.5450
+Línguas e Relações Empresariais,LM:Matemática|LM:Bioquímica,LM,Matemática,37.0787,22.4719,40.4494,LM,Bioquímica,11.2360,7.3034,81.4607,0.0178,14.6067
+Matemática,LM:Línguas e Relações Empresariais|LM:Contabilidade,LM,Línguas e Relações Empresariais,40.9020,20.6587,38.4393,LM,Contabilidade,20.8327,11.4790,67.6883,19.0191,25.1316
+Matemática,LM:Administração Pública|LM:Contabilidade,LM,Administração Pública,52.9522,17.2754,29.7724,LM,Contabilidade,19.6383,11.2278,69.1339,16.1287,21.7283
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Contabilidade,LM,Eng. Eletrónica e Telecomunicações,18.6685,10.9570,70.3745,LM,Contabilidade,21.5554,11.1220,67.3226,12.2415,14.8209
+Matemática,LM:Línguas e Relações Empresariais|LM:Eng. Informática,LM,Línguas e Relações Empresariais,41.1821,20.6035,38.2144,LM,Eng. Informática,18.7528,10.7654,70.4818,7.6458,23.5973
+Matemática,LM:Línguas e Relações Empresariais|LM:Eng. Biomédica,LM,Línguas e Relações Empresariais,40.8995,20.8510,38.2496,LM,Eng. Biomédica,7.2604,4.3043,88.4353,6.8908,10.3167
+Matemática,LM:Administração Pública|LM:Eng. Informática,LM,Administração Pública,52.7447,17.3188,29.9365,LM,Eng. Informática,17.7432,10.2680,71.9888,6.4560,19.7057
+Matemática,LM:Administração Pública|LM:Eng. Biomédica,LM,Administração Pública,52.7386,17.3482,29.9132,LM,Eng. Biomédica,6.4654,4.0157,89.5189,5.8496,7.3680
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Eng. Informática,LM,Eng. Eletrónica e Telecomunicações,18.5702,10.8745,70.5552,LM,Eng. Informática,19.5552,10.3740,70.0708,4.9547,11.4195
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Eng. Biomédica,LM,Eng. Eletrónica e Telecomunicações,18.6322,11.1661,70.2017,LM,Eng. Biomédica,8.1088,4.9562,86.9350,4.4026,8.0021
+Matemática,LM:Medicina|LM:Contabilidade,LM,Medicina,48.8780,18.6946,32.4274,LM,Contabilidade,20.2647,11.2910,68.4443,4.0953,23.6930
+Matemática,LM:Línguas e Relações Empresariais|LM:Eng. Química,LM,Línguas e Relações Empresariais,41.1542,20.8693,37.9765,LM,Eng. Química,15.0593,8.5091,76.4316,1.7969,19.2999
+Matemática,LM:Medicina|LM:Eng. Informática,LM,Medicina,49.2484,18.3459,32.4057,LM,Eng. Informática,18.5572,10.6490,70.7938,1.6565,22.1612
+Matemática,LM:Administração Pública|LM:Eng. Química,LM,Administração Pública,52.8121,17.1320,30.0558,LM,Eng. Química,13.5820,8.3699,78.0481,1.5042,14.9847
+Matemática,LM:Medicina|LM:Eng. Biomédica,LM,Medicina,48.9493,18.9323,32.1183,LM,Eng. Biomédica,6.9432,3.9170,89.1397,1.4705,9.1738
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Eng. Química,LM,Eng. Eletrónica e Telecomunicações,18.8304,10.2537,70.9159,LM,Eng. Química,15.6239,7.9597,76.4164,1.1508,9.7671
+Matemática,LM:Línguas e Relações Empresariais|LM:Eng. Computacional,LM,Línguas e Relações Empresariais,41.1095,20.3760,38.5145,LM,Eng. Computacional,51.6351,15.4508,32.9141,0.7553,42.1554
+Matemática,LM:Administração Pública|LM:Eng. Computacional,LM,Administração Pública,52.2724,17.8147,29.9129,LM,Eng. Computacional,51.0214,15.3919,33.5867,0.6315,44.1964
+Matemática,LM:Línguas e Relações Empresariais|LM:Gestão e Planeamento em Turismo,LM,Línguas e Relações Empresariais,40.5234,20.8882,38.5884,LM,Gestão e Planeamento em Turismo,17.9223,10.5948,71.4830,0.6305,22.5377
+Matemática,LM:Administração Pública|LM:Gestão e Planeamento em Turismo,LM,Administração Pública,53.0146,17.0478,29.9376,LM,Gestão e Planeamento em Turismo,16.9911,10.3005,72.7084,0.5291,18.9378
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Eng. Computacional,LM,Eng. Eletrónica e Telecomunicações,18.1497,11.0603,70.7900,LM,Eng. Computacional,52.5988,16.0291,31.3721,0.4810,20.8732
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Gestão e Planeamento em Turismo,LM,Eng. Eletrónica e Telecomunicações,18.2270,10.6779,71.0951,LM,Gestão e Planeamento em Turismo,18.4008,10.2558,71.3434,0.4027,11.1746
+Matemática,LM:Medicina|LM:Eng. Química,LM,Medicina,50.6068,17.7382,31.6550,LM,Eng. Química,14.5882,8.0041,77.4077,0.3873,18.1771
+Matemática,LM:Medicina|LM:Eng. Computacional,LM,Medicina,47.6817,19.4236,32.8947,LM,Eng. Computacional,51.5664,15.0376,33.3960,0.1596,43.7343
+Matemática,LM:Medicina|LM:Gestão e Planeamento em Turismo,LM,Medicina,47.6118,18.9538,33.4344,LM,Gestão e Planeamento em Turismo,17.1342,8.3397,74.5262,0.1319,20.0152
+Matemática,LM:Línguas e Relações Empresariais|LM:Eng. Computadores e Telemática,LM,Línguas e Relações Empresariais,42.0428,20.0317,37.9256,LM,Eng. Computadores e Telemática,18.4481,11.8765,69.6754,0.1263,23.1987
+Matemática,LM:Administração Pública|LM:Eng. Computadores e Telemática,LM,Administração Pública,50.9731,16.7748,32.2521,LM,Eng. Computadores e Telemática,15.7553,11.9555,72.2892,0.1079,18.2576
+Matemática,LM:Línguas e Relações Empresariais|LM:Eng. Mecânica,LM,Línguas e Relações Empresariais,42.4942,18.4758,39.0300,LM,Eng. Mecânica,7.9677,4.5035,87.5289,0.0866,11.3164
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Eng. Computadores e Telemática,LM,Eng. Eletrónica e Telecomunicações,18.5659,9.9872,71.4469,LM,Eng. Computadores e Telemática,17.7977,10.8835,71.3188,0.0781,14.4686
+Matemática,LM:Administração Pública|LM:Eng. Mecânica,LM,Administração Pública,50.9972,17.5214,31.4815,LM,Eng. Mecânica,5.9829,3.1339,90.8832,0.0702,6.2678
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Eng. Mecânica,LM,Eng. Eletrónica e Telecomunicações,16.5217,9.5652,73.9130,LM,Eng. Mecânica,7.3043,3.1304,89.5652,0.0575,5.0435
+Matemática,LM:Medicina|LM:Eng. Computadores e Telemática,LM,Medicina,53.6508,16.8254,29.5238,LM,Eng. Computadores e Telemática,15.5556,13.0159,71.4286,0.0315,21.2698
+Matemática,LM:Medicina|LM:Eng. Mecânica,LM,Medicina,48.1865,16.0622,35.7513,LM,Eng. Mecânica,7.2539,4.6632,88.0829,0.0193,10.3627
+Matemática,LM:Administração Pública|LM:Bioquímica,LM,Administração Pública,50.2762,21.5470,28.1768,LM,Bioquímica,7.1823,5.5249,87.2928,0.0181,10.4972
+Matemática,LM:Línguas e Relações Empresariais|LM:Bioquímica,LM,Línguas e Relações Empresariais,40.4494,22.4719,37.0787,LM,Bioquímica,16.8539,8.4270,74.7191,0.0178,19.6629
+Matemática,LM:Eng. Eletrónica e Telecomunicações|LM:Bioquímica,LM,Eng. Eletrónica e Telecomunicações,21.4953,8.4112,70.0935,LM,Bioquímica,10.2804,6.5421,83.1776,0.0107,11.2150
+Matemática,LM:Medicina|LM:Bioquímica,LM,Medicina,39.0244,14.6341,46.3415,LM,Bioquímica,17.0732,9.7561,73.1707,0.0041,17.0732
+Medicina,LM:Matemática|LM:Contabilidade,LM,Matemática,32.4274,18.6946,48.8780,LM,Contabilidade,13.9404,8.1606,77.8991,4.0953,14.3408
+Medicina,LM:Matemática|LM:Eng. Informática,LM,Matemática,32.4057,18.3459,49.2484,LM,Eng. Informática,12.0857,7.4615,80.4528,1.6565,13.2388
+Medicina,LM:Matemática|LM:Eng. Biomédica,LM,Matemática,32.1183,18.9323,48.9493,LM,Eng. Biomédica,3.6246,2.1013,94.2741,1.4705,4.7943
+Medicina,LM:Matemática|LM:Eng. Química,LM,Matemática,31.6550,17.7382,50.6068,LM,Eng. Química,9.7599,5.0865,85.1536,0.3873,10.1472
+Medicina,LM:Matemática|LM:Eng. Computacional,LM,Matemática,32.8947,19.4236,47.6817,LM,Eng. Computacional,43.5464,17.9825,38.4712,0.1596,31.1404
+Medicina,LM:Matemática|LM:Gestão e Planeamento em Turismo,LM,Matemática,33.4344,18.9538,47.6118,LM,Gestão e Planeamento em Turismo,12.9644,7.1266,79.9090,0.1319,13.7983
+Medicina,LM:Matemática|LM:Eng. Computadores e Telemática,LM,Matemática,29.5238,16.8254,53.6508,LM,Eng. Computadores e Telemática,13.3333,6.9841,79.6825,0.0315,11.7460
+Medicina,LM:Matemática|LM:Eng. Mecânica,LM,Matemática,35.7513,16.0622,48.1865,LM,Eng. Mecânica,4.1451,3.6269,92.2280,0.0193,7.2539
+Medicina,LM:Matemática|LM:Bioquímica,LM,Matemática,46.3415,14.6341,39.0244,LM,Bioquímica,7.3171,7.3171,85.3659,0.0041,9.7561
