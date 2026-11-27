@@ -1,0 +1,292 @@
+﻿team,scenario_key,stage_game1,opponent_game1,p_win_game1,p_draw_game1,p_loss_game1,stage_game2,opponent_game2,p_win_game2,p_draw_game2,p_loss_game2,p_cenario,p_passa_cenario_cond
+Administração Pública,LM:Economia|LM:Eng. Física,LM,Economia,95.7141,0.0000,4.2859,LM,Eng. Física,96.2182,0.0000,3.7818,4.1858,92.0541
+Administração Pública,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,97.3783,0.0000,2.6217,LM,Eng. Física,96.6629,0.0000,3.3371,2.6700,94.0974
+Administração Pública,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,97.9381,0.0000,2.0619,LM,Eng. Física,97.9381,0.0000,2.0619,0.1455,95.8763
+Administração Pública,LM:Economia|LM:Eng. Computacional,LM,Economia,96.0239,0.0000,3.9761,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0503,96.0239
+Administração Pública,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,99.3377,0.0000,0.6623,LM,Eng. Computacional,99.6689,0.0000,0.3311,0.0302,99.0066
+Administração Pública,LM:Economia|LM:Bioquímica,LM,Economia,100.0000,0.0000,0.0000,LM,Bioquímica,70.0000,0.0000,30.0000,0.0030,70.0000
+Administração Pública,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0018,100.0000
+Administração Pública,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Bioquímica,80.0000,0.0000,20.0000,0.0015,80.0000
+Administração Pública,LM:Economia|LM:Gestão,LM,Economia,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0004,100.0000
+Administração Pública,LM:Eng. Civil|LM:Gestão,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0002,100.0000
+Administração Pública,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,0.0000,0.0000,100.0000,0.0001,0.0000
+Bioquímica,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,92.4731,0.0000,7.5269,LM,Línguas e Relações Empresariais,51.6129,0.0000,48.3871,0.0093,50.5376
+Bioquímica,LM:Economia|LM:Ciências Biomédicas,LM,Economia,84.6154,0.0000,15.3846,LM,Ciências Biomédicas,74.3590,0.0000,25.6410,0.0078,67.9487
+Bioquímica,LM:Economia|LM:Eng. Biomédica,LM,Economia,86.5672,0.0000,13.4328,LM,Eng. Biomédica,44.7761,0.0000,55.2239,0.0067,44.7761
+Bioquímica,LM:Eng. Civil|LM:Línguas e Relações Empresariais,LM,Eng. Civil,95.3125,0.0000,4.6875,LM,Línguas e Relações Empresariais,56.2500,0.0000,43.7500,0.0064,56.2500
+Bioquímica,LM:Eng. Civil|LM:Eng. Biomédica,LM,Eng. Civil,94.6429,0.0000,5.3571,LM,Eng. Biomédica,53.5714,0.0000,46.4286,0.0056,53.5714
+Bioquímica,LM:Economia|LM:Contabilidade,LM,Economia,97.2222,0.0000,2.7778,LM,Contabilidade,63.8889,0.0000,36.1111,0.0036,63.8889
+Bioquímica,LM:Eng. Civil|LM:Contabilidade,LM,Eng. Civil,97.1429,0.0000,2.8571,LM,Contabilidade,51.4286,0.0000,48.5714,0.0035,51.4286
+Bioquímica,LM:Eng. Civil|LM:Ciências Biomédicas,LM,Eng. Civil,93.9394,0.0000,6.0606,LM,Ciências Biomédicas,54.5455,0.0000,45.4545,0.0033,51.5152
+Bioquímica,LM:Economia|LM:Eng. e Gestão Industrial,LM,Economia,96.7742,0.0000,3.2258,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0031,0.0000
+Bioquímica,LM:Economia|LM:Administração Pública,LM,Economia,93.3333,0.0000,6.6667,LM,Administração Pública,30.0000,0.0000,70.0000,0.0030,30.0000
+Bioquímica,LM:Economia|LM:Ciências do Mar,LM,Economia,83.3333,0.0000,16.6667,LM,Ciências do Mar,50.0000,0.0000,50.0000,0.0030,43.3333
+Bioquímica,LM:Eng. Civil|LM:Eng. e Gestão Industrial,LM,Eng. Civil,94.4444,0.0000,5.5556,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0018,0.0000
+Bioquímica,LM:Eng. Civil|LM:Ciências do Mar,LM,Eng. Civil,75.0000,0.0000,25.0000,LM,Ciências do Mar,50.0000,0.0000,50.0000,0.0016,43.7500
+Bioquímica,LM:Eng. Civil|LM:Administração Pública,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Administração Pública,20.0000,0.0000,80.0000,0.0015,20.0000
+Bioquímica,LM:Economia|LM:Física,LM,Economia,88.8889,0.0000,11.1111,LM,Física,11.1111,0.0000,88.8889,0.0009,11.1111
+Bioquímica,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Línguas e Relações Empresariais,85.7143,0.0000,14.2857,0.0007,85.7143
+Bioquímica,LM:Gestão Comercial|LM:Ciências Biomédicas,LM,Gestão Comercial,75.0000,0.0000,25.0000,LM,Ciências Biomédicas,75.0000,0.0000,25.0000,0.0004,50.0000
+Bioquímica,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Contabilidade,33.3333,0.0000,66.6667,0.0003,33.3333
+Bioquímica,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Biomédica,100.0000,0.0000,0.0000,0.0002,100.0000
+Bioquímica,LM:Gestão Comercial|LM:Administração Pública,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Administração Pública,100.0000,0.0000,0.0000,0.0001,100.0000
+Bioquímica,LM:Eng. Civil|LM:Física,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Física,0.0000,0.0000,100.0000,0.0001,0.0000
+Ciências Biomédicas,LM:Economia|LM:Eng. Física,LM,Economia,77.4631,0.0000,22.5369,LM,Eng. Física,77.8309,0.0000,22.1691,10.7131,61.2801
+Ciências Biomédicas,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,82.5493,0.0000,17.4507,LM,Eng. Física,78.7115,0.0000,21.2885,6.7642,65.5673
+Ciências Biomédicas,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,86.5997,0.0000,13.4003,LM,Eng. Física,79.8716,0.0000,20.1284,0.3582,70.7426
+Ciências Biomédicas,LM:Economia|LM:Eng. Computacional,LM,Economia,76.3835,0.0000,23.6165,LM,Eng. Computacional,92.5955,0.0000,7.4045,0.1283,71.8628
+Ciências Biomédicas,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,83.9433,0.0000,16.0567,LM,Eng. Computacional,93.0342,0.0000,6.9658,0.0847,78.3943
+Ciências Biomédicas,LM:Economia|LM:Bioquímica,LM,Economia,74.3590,0.0000,25.6410,LM,Bioquímica,25.6410,0.0000,74.3590,0.0078,23.0769
+Ciências Biomédicas,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,92.3077,0.0000,7.6923,LM,Eng. Computacional,94.8718,0.0000,5.1282,0.0039,87.1795
+Ciências Biomédicas,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,81.8182,0.0000,18.1818,LM,Bioquímica,45.4545,0.0000,54.5455,0.0033,45.4545
+Ciências Biomédicas,LM:Eng. Civil|LM:Gestão,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0007,100.0000
+Ciências Biomédicas,LM:Economia|LM:Gestão,LM,Economia,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0005,100.0000
+Ciências Biomédicas,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,25.0000,0.0000,75.0000,LM,Bioquímica,25.0000,0.0000,75.0000,0.0004,25.0000
+Ciências Biomédicas,LM:Economia|LM:MTC,LM,Economia,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+Ciências Biomédicas,LM:Música|LM:Eng. Física,LM,Música,100.0000,0.0000,0.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0001,0.0000
+Ciências do Mar,LM:Economia|LM:Eng. Física,LM,Economia,81.4486,0.0000,18.5514,LM,Eng. Física,81.5533,0.0000,18.4467,3.6310,67.5269
+Ciências do Mar,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,86.2140,0.0000,13.7860,LM,Eng. Física,82.7632,0.0000,17.2368,2.3241,71.8902
+Ciências do Mar,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,88.8090,0.0000,11.1910,LM,Eng. Física,83.8529,0.0000,16.1471,0.1251,75.8593
+Ciências do Mar,LM:Economia|LM:Eng. Computacional,LM,Economia,81.2775,0.0000,18.7225,LM,Eng. Computacional,94.4934,0.0000,5.5066,0.0454,77.0925
+Ciências do Mar,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,87.4046,0.0000,12.5954,LM,Eng. Computacional,95.0382,0.0000,4.9618,0.0262,83.5878
+Ciências do Mar,LM:Economia|LM:Bioquímica,LM,Economia,73.3333,0.0000,26.6667,LM,Bioquímica,50.0000,0.0000,50.0000,0.0030,46.6667
+Ciências do Mar,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,78.9474,0.0000,21.0526,LM,Eng. Computacional,89.4737,0.0000,10.5263,0.0019,73.6842
+Ciências do Mar,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,75.0000,0.0000,25.0000,LM,Bioquímica,50.0000,0.0000,50.0000,0.0016,37.5000
+Ciências do Mar,LM:Economia|LM:Gestão,LM,Economia,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0003,100.0000
+Ciências do Mar,LM:Eng. Civil|LM:MTC,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+Ciências do Mar,LM:Música|LM:Eng. Física,LM,Música,100.0000,0.0000,0.0000,LM,Eng. Física,0.0000,0.0000,100.0000,0.0001,0.0000
+Contabilidade,LM:Economia|LM:Eng. Física,LM,Economia,84.9083,0.0000,15.0917,LM,Eng. Física,85.3094,0.0000,14.6906,6.5831,74.2325
+Contabilidade,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,88.8147,0.0000,11.1853,LM,Eng. Física,86.1517,0.0000,13.8483,4.1644,77.8239
+Contabilidade,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,91.6918,0.0000,8.3082,LM,Eng. Física,86.3969,0.0000,13.6031,0.2323,81.0590
+Contabilidade,LM:Economia|LM:Eng. Computacional,LM,Economia,86.8974,0.0000,13.1026,LM,Eng. Computacional,94.4376,0.0000,5.5624,0.0809,83.4363
+Contabilidade,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,89.3843,0.0000,10.6157,LM,Eng. Computacional,94.9045,0.0000,5.0955,0.0471,85.5626
+Contabilidade,LM:Economia|LM:Bioquímica,LM,Economia,91.6667,0.0000,8.3333,LM,Bioquímica,36.1111,0.0000,63.8889,0.0036,36.1111
+Contabilidade,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,80.0000,0.0000,20.0000,LM,Bioquímica,48.5714,0.0000,51.4286,0.0035,48.5714
+Contabilidade,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,96.5517,0.0000,3.4483,0.0029,96.5517
+Contabilidade,LM:Economia|LM:Gestão,LM,Economia,80.0000,0.0000,20.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0005,80.0000
+Contabilidade,LM:Eng. Civil|LM:Gestão,LM,Eng. Civil,66.6667,0.0000,33.3333,LM,Gestão,100.0000,0.0000,0.0000,0.0003,66.6667
+Contabilidade,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,66.6667,0.0000,33.3333,0.0003,66.6667
+Economia,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,51.2000,0.0000,48.8000,LM,Línguas e Relações Empresariais,10.5443,0.0000,89.4557,16.1623,10.2999
+Economia,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,51.2822,0.0000,48.7178,LM,Eng. Biomédica,11.3676,0.0000,88.6324,12.4318,10.6437
+Economia,LM:Eng. Física|LM:Ciências Biomédicas,LM,Eng. Física,51.3138,0.0000,48.6862,LM,Ciências Biomédicas,22.5369,0.0000,77.4631,10.7131,19.8029
+Economia,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,51.6109,0.0000,48.3891,LM,Contabilidade,15.0917,0.0000,84.9083,6.5831,13.5012
+Economia,LM:Eng. Física|LM:Eng. e Gestão Industrial,LM,Eng. Física,51.4084,0.0000,48.5916,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,4.4981,0.0000
+Economia,LM:Eng. Física|LM:Administração Pública,LM,Eng. Física,51.5194,0.0000,48.4806,LM,Administração Pública,4.2859,0.0000,95.7141,4.1858,4.2620
+Economia,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,50.8648,0.0000,49.1352,LM,Ciências do Mar,18.5514,0.0000,81.4486,3.6310,16.5795
+Economia,LM:Eng. Física|LM:Física,LM,Eng. Física,51.4187,0.0000,48.5813,LM,Física,3.5317,0.0000,96.4683,0.8353,3.5197
+Economia,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,71.5239,0.0000,28.4761,LM,Línguas e Relações Empresariais,9.4920,0.0000,90.5080,0.1949,9.3894
+Economia,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,72.7519,0.0000,27.2481,LM,Eng. Biomédica,10.9533,0.0000,89.0467,0.1479,10.8857
+Economia,LM:Eng. Computacional|LM:Ciências Biomédicas,LM,Eng. Computacional,73.0320,0.0000,26.9680,LM,Ciências Biomédicas,23.6165,0.0000,76.3835,0.1283,22.6033
+Economia,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,48.6063,0.0000,51.3937,LM,Eng. Informática,2.1777,0.0000,97.8223,0.1148,2.1777
+Economia,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,73.3004,0.0000,26.6996,LM,Contabilidade,13.1026,0.0000,86.8974,0.0809,12.4845
+Economia,LM:Eng. Computacional|LM:Administração Pública,LM,Eng. Computacional,69.7813,0.0000,30.2187,LM,Administração Pública,3.9761,0.0000,96.0239,0.0503,3.9761
+Economia,LM:Eng. Computacional|LM:Eng. e Gestão Industrial,LM,Eng. Computacional,73.1610,0.0000,26.8390,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0503,0.0000
+Economia,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,70.2643,0.0000,29.7357,LM,Ciências do Mar,18.7225,0.0000,81.2775,0.0454,18.0617
+Economia,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,7.5269,0.0000,92.4731,LM,Línguas e Relações Empresariais,10.7527,0.0000,89.2473,0.0093,3.2258
+Economia,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,75.2688,0.0000,24.7312,LM,Física,1.0753,0.0000,98.9247,0.0093,1.0753
+Economia,LM:Bioquímica|LM:Ciências Biomédicas,LM,Bioquímica,15.3846,0.0000,84.6154,LM,Ciências Biomédicas,25.6410,0.0000,74.3590,0.0078,8.9744
+Economia,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,13.4328,0.0000,86.5672,LM,Eng. Biomédica,10.4478,0.0000,89.5522,0.0067,2.9851
+Economia,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,2.7778,0.0000,97.2222,LM,Contabilidade,8.3333,0.0000,91.6667,0.0036,0.0000
+Economia,LM:Bioquímica|LM:Eng. e Gestão Industrial,LM,Bioquímica,3.2258,0.0000,96.7742,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0031,0.0000
+Economia,LM:Bioquímica|LM:Administração Pública,LM,Bioquímica,6.6667,0.0000,93.3333,LM,Administração Pública,0.0000,0.0000,100.0000,0.0030,0.0000
+Economia,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,16.6667,0.0000,83.3333,LM,Ciências do Mar,26.6667,0.0000,73.3333,0.0030,10.0000
+Economia,LM:Gestão|LM:Línguas e Relações Empresariais,LM,Gestão,93.7500,0.0000,6.2500,LM,Línguas e Relações Empresariais,12.5000,0.0000,87.5000,0.0016,12.5000
+Economia,LM:Eng. Computacional|LM:Eng. Informática,LM,Eng. Computacional,69.2308,0.0000,30.7692,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0013,0.0000
+Economia,LM:Bioquímica|LM:Física,LM,Bioquímica,11.1111,0.0000,88.8889,LM,Física,11.1111,0.0000,88.8889,0.0009,11.1111
+Economia,LM:Gestão|LM:Eng. Biomédica,LM,Gestão,100.0000,0.0000,0.0000,LM,Eng. Biomédica,12.5000,0.0000,87.5000,0.0008,12.5000
+Economia,LM:Gestão|LM:Contabilidade,LM,Gestão,100.0000,0.0000,0.0000,LM,Contabilidade,20.0000,0.0000,80.0000,0.0005,20.0000
+Economia,LM:Gestão|LM:Ciências Biomédicas,LM,Gestão,100.0000,0.0000,0.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0005,0.0000
+Economia,LM:Gestão|LM:Eng. e Gestão Industrial,LM,Gestão,75.0000,0.0000,25.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Economia,LM:Gestão|LM:Administração Pública,LM,Gestão,75.0000,0.0000,25.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0004,0.0000
+Economia,LM:Gestão|LM:Ciências do Mar,LM,Gestão,33.3333,0.0000,66.6667,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0003,0.0000
+Economia,LM:MTC|LM:Eng. e Gestão Industrial,LM,MTC,0.0000,0.0000,100.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+Economia,LM:MTC|LM:Línguas e Relações Empresariais,LM,MTC,100.0000,0.0000,0.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0001,0.0000
+Economia,LM:MTC|LM:Ciências Biomédicas,LM,MTC,0.0000,0.0000,100.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Biomédica,LM:Economia|LM:Eng. Física,LM,Economia,88.6324,0.0000,11.3676,LM,Eng. Física,89.2847,0.0000,10.7153,12.4318,79.4567
+Eng. Biomédica,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,92.1202,0.0000,7.8798,LM,Eng. Física,89.9193,0.0000,10.0807,7.8784,82.7820
+Eng. Biomédica,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,94.3232,0.0000,5.6768,LM,Eng. Física,90.1825,0.0000,9.8175,0.4492,85.1959
+Eng. Biomédica,LM:Economia|LM:Eng. Computacional,LM,Economia,89.0467,0.0000,10.9533,LM,Eng. Computacional,98.3097,0.0000,1.6903,0.1479,87.4915
+Eng. Biomédica,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,92.7900,0.0000,7.2100,LM,Eng. Computacional,98.7461,0.0000,1.2539,0.0957,91.5361
+Eng. Biomédica,LM:Economia|LM:Bioquímica,LM,Economia,89.5522,0.0000,10.4478,LM,Bioquímica,55.2239,0.0000,44.7761,0.0067,52.2388
+Eng. Biomédica,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,94.6429,0.0000,5.3571,LM,Bioquímica,46.4286,0.0000,53.5714,0.0056,44.6429
+Eng. Biomédica,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,94.0000,0.0000,6.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0050,94.0000
+Eng. Biomédica,LM:Economia|LM:Gestão,LM,Economia,87.5000,0.0000,12.5000,LM,Gestão,100.0000,0.0000,0.0000,0.0008,87.5000
+Eng. Biomédica,LM:Eng. Civil|LM:Gestão,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0005,100.0000
+Eng. Biomédica,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Biomédica,LM:Música|LM:Eng. Física,LM,Música,50.0000,0.0000,50.0000,LM,Eng. Física,50.0000,0.0000,50.0000,0.0002,0.0000
+Eng. Biomédica,LM:Eng. Civil|LM:MTC,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. Civil,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,46.0438,0.0000,53.9562,LM,Línguas e Relações Empresariais,7.4640,0.0000,92.5360,10.2572,7.3938
+Eng. Civil,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,45.6704,0.0000,54.3296,LM,Eng. Biomédica,7.8798,0.0000,92.1202,7.8784,7.6945
+Eng. Civil,LM:Eng. Física|LM:Ciências Biomédicas,LM,Eng. Física,46.1755,0.0000,53.8245,LM,Ciências Biomédicas,17.4507,0.0000,82.5493,6.7642,15.4933
+Eng. Civil,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,46.2516,0.0000,53.7484,LM,Contabilidade,11.1853,0.0000,88.8147,4.1644,10.0951
+Eng. Civil,LM:Eng. Física|LM:Eng. e Gestão Industrial,LM,Eng. Física,45.9024,0.0000,54.0976,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,2.8700,0.0000
+Eng. Civil,LM:Eng. Física|LM:Administração Pública,LM,Eng. Física,45.8689,0.0000,54.1311,LM,Administração Pública,2.6217,0.0000,97.3783,2.6700,2.6255
+Eng. Civil,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,45.8629,0.0000,54.1371,LM,Ciências do Mar,13.7860,0.0000,86.2140,2.3241,12.5425
+Eng. Civil,LM:Eng. Física|LM:Física,LM,Eng. Física,45.5874,0.0000,54.4126,LM,Física,1.9738,0.0000,98.0262,0.5269,1.9738
+Eng. Civil,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,64.8379,0.0000,35.1621,LM,Línguas e Relações Empresariais,6.4838,0.0000,93.5162,0.1203,6.4838
+Eng. Civil,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,67.1891,0.0000,32.8109,LM,Eng. Biomédica,7.2100,0.0000,92.7900,0.0957,7.1055
+Eng. Civil,LM:Eng. Computacional|LM:Ciências Biomédicas,LM,Eng. Computacional,69.5396,0.0000,30.4604,LM,Ciências Biomédicas,16.0567,0.0000,83.9433,0.0847,15.4664
+Eng. Civil,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,47.7333,0.0000,52.2667,LM,Eng. Informática,2.1333,0.0000,97.8667,0.0750,2.1333
+Eng. Civil,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,64.3312,0.0000,35.6688,LM,Contabilidade,10.6157,0.0000,89.3843,0.0471,9.3418
+Eng. Civil,LM:Eng. Computacional|LM:Eng. e Gestão Industrial,LM,Eng. Computacional,62.2093,0.0000,37.7907,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0344,0.0000
+Eng. Civil,LM:Eng. Computacional|LM:Administração Pública,LM,Eng. Computacional,63.9073,0.0000,36.0927,LM,Administração Pública,0.6623,0.0000,99.3377,0.0302,0.6623
+Eng. Civil,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,70.9924,0.0000,29.0076,LM,Ciências do Mar,12.5954,0.0000,87.4046,0.0262,12.5954
+Eng. Civil,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,4.6875,0.0000,95.3125,LM,Línguas e Relações Empresariais,4.6875,0.0000,95.3125,0.0064,3.1250
+Eng. Civil,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,68.9655,0.0000,31.0345,LM,Física,1.7241,0.0000,98.2759,0.0058,1.7241
+Eng. Civil,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,5.3571,0.0000,94.6429,LM,Eng. Biomédica,5.3571,0.0000,94.6429,0.0056,1.7857
+Eng. Civil,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,2.8571,0.0000,97.1429,LM,Contabilidade,20.0000,0.0000,80.0000,0.0035,0.0000
+Eng. Civil,LM:Bioquímica|LM:Ciências Biomédicas,LM,Bioquímica,6.0606,0.0000,93.9394,LM,Ciências Biomédicas,18.1818,0.0000,81.8182,0.0033,3.0303
+Eng. Civil,LM:Bioquímica|LM:Eng. e Gestão Industrial,LM,Bioquímica,5.5556,0.0000,94.4444,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0018,0.0000
+Eng. Civil,LM:Bioquímica|LM:Ciências do Mar,LM,Bioquímica,25.0000,0.0000,75.0000,LM,Ciências do Mar,25.0000,0.0000,75.0000,0.0016,18.7500
+Eng. Civil,LM:Eng. Computacional|LM:Eng. Informática,LM,Eng. Computacional,53.3333,0.0000,46.6667,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0015,0.0000
+Eng. Civil,LM:Bioquímica|LM:Administração Pública,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0015,0.0000
+Eng. Civil,LM:Gestão|LM:Ciências Biomédicas,LM,Gestão,85.7143,0.0000,14.2857,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0007,0.0000
+Eng. Civil,LM:Gestão|LM:Línguas e Relações Empresariais,LM,Gestão,80.0000,0.0000,20.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0005,0.0000
+Eng. Civil,LM:Gestão|LM:Eng. Biomédica,LM,Gestão,60.0000,0.0000,40.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0005,0.0000
+Eng. Civil,LM:Gestão|LM:Eng. e Gestão Industrial,LM,Gestão,50.0000,0.0000,50.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Eng. Civil,LM:Gestão|LM:Contabilidade,LM,Gestão,66.6667,0.0000,33.3333,LM,Contabilidade,33.3333,0.0000,66.6667,0.0003,33.3333
+Eng. Civil,LM:Gestão|LM:Administração Pública,LM,Gestão,50.0000,0.0000,50.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0002,0.0000
+Eng. Civil,LM:MTC|LM:Ciências do Mar,LM,MTC,100.0000,0.0000,0.0000,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Civil,LM:MTC|LM:Eng. Biomédica,LM,MTC,100.0000,0.0000,0.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Civil,LM:Bioquímica|LM:Física,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Física,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Computacional,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,28.4761,0.0000,71.5239,LM,Línguas e Relações Empresariais,2.0010,0.0000,97.9990,0.1949,1.7958
+Eng. Computacional,LM:Economia|LM:Eng. Biomédica,LM,Economia,27.2481,0.0000,72.7519,LM,Eng. Biomédica,1.6903,0.0000,98.3097,0.1479,1.6227
+Eng. Computacional,LM:Economia|LM:Ciências Biomédicas,LM,Economia,26.9680,0.0000,73.0320,LM,Ciências Biomédicas,7.4045,0.0000,92.5955,0.1283,5.5339
+Eng. Computacional,LM:Eng. Civil|LM:Línguas e Relações Empresariais,LM,Eng. Civil,35.1621,0.0000,64.8379,LM,Línguas e Relações Empresariais,1.6625,0.0000,98.3375,0.1203,1.5794
+Eng. Computacional,LM:Eng. Civil|LM:Eng. Biomédica,LM,Eng. Civil,32.8109,0.0000,67.1891,LM,Eng. Biomédica,1.2539,0.0000,98.7461,0.0957,1.3584
+Eng. Computacional,LM:Eng. Civil|LM:Ciências Biomédicas,LM,Eng. Civil,30.4604,0.0000,69.5396,LM,Ciências Biomédicas,6.9658,0.0000,93.0342,0.0847,6.1393
+Eng. Computacional,LM:Economia|LM:Contabilidade,LM,Economia,26.6996,0.0000,73.3004,LM,Contabilidade,5.5624,0.0000,94.4376,0.0809,4.0791
+Eng. Computacional,LM:Economia|LM:Administração Pública,LM,Economia,30.2187,0.0000,69.7813,LM,Administração Pública,0.0000,0.0000,100.0000,0.0503,0.0000
+Eng. Computacional,LM:Economia|LM:Eng. e Gestão Industrial,LM,Economia,26.8390,0.0000,73.1610,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0503,0.0000
+Eng. Computacional,LM:Eng. Civil|LM:Contabilidade,LM,Eng. Civil,35.6688,0.0000,64.3312,LM,Contabilidade,5.0955,0.0000,94.9045,0.0471,5.0955
+Eng. Computacional,LM:Economia|LM:Ciências do Mar,LM,Economia,29.7357,0.0000,70.2643,LM,Ciências do Mar,5.5066,0.0000,94.4934,0.0454,4.8458
+Eng. Computacional,LM:Eng. Civil|LM:Eng. e Gestão Industrial,LM,Eng. Civil,37.7907,0.0000,62.2093,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0344,0.0000
+Eng. Computacional,LM:Eng. Civil|LM:Administração Pública,LM,Eng. Civil,36.0927,0.0000,63.9073,LM,Administração Pública,0.3311,0.0000,99.6689,0.0302,0.3311
+Eng. Computacional,LM:Eng. Civil|LM:Ciências do Mar,LM,Eng. Civil,29.0076,0.0000,70.9924,LM,Ciências do Mar,4.9618,0.0000,95.0382,0.0262,3.8168
+Eng. Computacional,LM:Economia|LM:Física,LM,Economia,24.7312,0.0000,75.2688,LM,Física,0.0000,0.0000,100.0000,0.0093,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,46.4789,0.0000,53.5211,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0071,0.0000
+Eng. Computacional,LM:Eng. Civil|LM:Física,LM,Eng. Civil,31.0345,0.0000,68.9655,LM,Física,0.0000,0.0000,100.0000,0.0058,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,50.0000,0.0000,50.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0050,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Ciências Biomédicas,LM,Gestão Comercial,30.7692,0.0000,69.2308,LM,Ciências Biomédicas,5.1282,0.0000,94.8718,0.0039,5.1282
+Eng. Computacional,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,48.2759,0.0000,51.7241,LM,Contabilidade,3.4483,0.0000,96.5517,0.0029,3.4483
+Eng. Computacional,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,42.1053,0.0000,57.8947,LM,Ciências do Mar,10.5263,0.0000,89.4737,0.0019,5.2632
+Eng. Computacional,LM:Gestão Comercial|LM:Administração Pública,LM,Gestão Comercial,33.3333,0.0000,66.6667,LM,Administração Pública,0.0000,0.0000,100.0000,0.0018,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. e Gestão Industrial,LM,Gestão Comercial,29.4118,0.0000,70.5882,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0017,0.0000
+Eng. Computacional,LM:Eng. Civil|LM:Eng. Informática,LM,Eng. Civil,46.6667,0.0000,53.3333,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0015,0.0000
+Eng. Computacional,LM:Economia|LM:Eng. Informática,LM,Economia,30.7692,0.0000,69.2308,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0013,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,66.6667,0.0000,33.3333,LM,Física,0.0000,0.0000,100.0000,0.0003,0.0000
+Eng. Computacional,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0001,0.0000
+Eng. Física,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,48.8000,0.0000,51.2000,LM,Línguas e Relações Empresariais,10.1681,0.0000,89.8319,16.1623,8.9208
+Eng. Física,LM:Economia|LM:Eng. Biomédica,LM,Economia,48.7178,0.0000,51.2822,LM,Eng. Biomédica,10.7153,0.0000,89.2847,12.4318,9.8996
+Eng. Física,LM:Economia|LM:Ciências Biomédicas,LM,Economia,48.6862,0.0000,51.3138,LM,Ciências Biomédicas,22.1691,0.0000,77.8309,10.7131,18.9170
+Eng. Física,LM:Eng. Civil|LM:Línguas e Relações Empresariais,LM,Eng. Civil,53.9562,0.0000,46.0438,LM,Línguas e Relações Empresariais,9.6791,0.0000,90.3209,10.2572,8.7987
+Eng. Física,LM:Eng. Civil|LM:Eng. Biomédica,LM,Eng. Civil,54.3296,0.0000,45.6704,LM,Eng. Biomédica,10.0807,0.0000,89.9193,7.8784,9.5235
+Eng. Física,LM:Eng. Civil|LM:Ciências Biomédicas,LM,Eng. Civil,53.8245,0.0000,46.1755,LM,Ciências Biomédicas,21.2885,0.0000,78.7115,6.7642,18.9394
+Eng. Física,LM:Economia|LM:Contabilidade,LM,Economia,48.3891,0.0000,51.6109,LM,Contabilidade,14.6906,0.0000,85.3094,6.5831,12.2663
+Eng. Física,LM:Economia|LM:Eng. e Gestão Industrial,LM,Economia,48.5916,0.0000,51.4084,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,4.4981,0.0000
+Eng. Física,LM:Economia|LM:Administração Pública,LM,Economia,48.4806,0.0000,51.5194,LM,Administração Pública,3.7818,0.0000,96.2182,4.1858,3.6839
+Eng. Física,LM:Eng. Civil|LM:Contabilidade,LM,Eng. Civil,53.7484,0.0000,46.2516,LM,Contabilidade,13.8483,0.0000,86.1517,4.1644,12.0810
+Eng. Física,LM:Economia|LM:Ciências do Mar,LM,Economia,49.1352,0.0000,50.8648,LM,Ciências do Mar,18.4467,0.0000,81.5533,3.6310,15.8937
+Eng. Física,LM:Eng. Civil|LM:Eng. e Gestão Industrial,LM,Eng. Civil,54.0976,0.0000,45.9024,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,2.8700,0.0000
+Eng. Física,LM:Eng. Civil|LM:Administração Pública,LM,Eng. Civil,54.1311,0.0000,45.8689,LM,Administração Pública,3.3371,0.0000,96.6629,2.6700,3.2772
+Eng. Física,LM:Eng. Civil|LM:Ciências do Mar,LM,Eng. Civil,54.1371,0.0000,45.8629,LM,Ciências do Mar,17.2368,0.0000,82.7632,2.3241,15.5673
+Eng. Física,LM:Economia|LM:Física,LM,Economia,48.5813,0.0000,51.4187,LM,Física,3.0767,0.0000,96.9233,0.8353,2.9570
+Eng. Física,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,59.5612,0.0000,40.4388,LM,Línguas e Relações Empresariais,8.9369,0.0000,91.0631,0.5606,8.5623
+Eng. Física,LM:Eng. Civil|LM:Física,LM,Eng. Civil,54.4126,0.0000,45.5874,LM,Física,2.9797,0.0000,97.0203,0.5269,2.9038
+Eng. Física,LM:Gestão Comercial|LM:Eng. Biomédica,LM,Gestão Comercial,58.3927,0.0000,41.6073,LM,Eng. Biomédica,9.8175,0.0000,90.1825,0.4492,9.2832
+Eng. Física,LM:Gestão Comercial|LM:Ciências Biomédicas,LM,Gestão Comercial,58.9336,0.0000,41.0664,LM,Ciências Biomédicas,20.1284,0.0000,79.8716,0.3582,18.0067
+Eng. Física,LM:Gestão Comercial|LM:Contabilidade,LM,Gestão Comercial,58.2006,0.0000,41.7994,LM,Contabilidade,13.6031,0.0000,86.3969,0.2323,11.7951
+Eng. Física,LM:Gestão Comercial|LM:Eng. e Gestão Industrial,LM,Gestão Comercial,61.3980,0.0000,38.6020,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.1588,0.0000
+Eng. Física,LM:Gestão Comercial|LM:Administração Pública,LM,Gestão Comercial,59.5876,0.0000,40.4124,LM,Administração Pública,2.0619,0.0000,97.9381,0.1455,2.0619
+Eng. Física,LM:Gestão Comercial|LM:Ciências do Mar,LM,Gestão Comercial,59.8721,0.0000,40.1279,LM,Ciências do Mar,16.1471,0.0000,83.8529,0.1251,14.8681
+Eng. Física,LM:Economia|LM:Eng. Informática,LM,Economia,51.3937,0.0000,48.6063,LM,Eng. Informática,2.2648,0.0000,97.7352,0.1148,2.2648
+Eng. Física,LM:Eng. Civil|LM:Eng. Informática,LM,Eng. Civil,52.2667,0.0000,47.7333,LM,Eng. Informática,0.9333,0.0000,99.0667,0.0750,0.9333
+Eng. Física,LM:Gestão Comercial|LM:Física,LM,Gestão Comercial,59.2715,0.0000,40.7285,LM,Física,2.3179,0.0000,97.6821,0.0302,1.9868
+Eng. Física,LM:Gestão Comercial|LM:Eng. Informática,LM,Gestão Comercial,65.1163,0.0000,34.8837,LM,Eng. Informática,2.3256,0.0000,97.6744,0.0043,2.3256
+Eng. Física,LM:Música|LM:Eng. Biomédica,LM,Música,50.0000,0.0000,50.0000,LM,Eng. Biomédica,50.0000,0.0000,50.0000,0.0002,50.0000
+Eng. Física,LM:Música|LM:Ciências Biomédicas,LM,Música,100.0000,0.0000,0.0000,LM,Ciências Biomédicas,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. Física,LM:Música|LM:Ciências do Mar,LM,Música,100.0000,0.0000,0.0000,LM,Ciências do Mar,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. Informática,LM:Economia|LM:Eng. Física,LM,Economia,97.8223,0.0000,2.1777,LM,Eng. Física,97.7352,0.0000,2.2648,0.1148,95.5575
+Eng. Informática,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,97.8667,0.0000,2.1333,LM,Eng. Física,99.0667,0.0000,0.9333,0.0750,96.9333
+Eng. Informática,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Física,97.6744,0.0000,2.3256,0.0043,97.6744
+Eng. Informática,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0015,100.0000
+Eng. Informática,LM:Economia|LM:Eng. Computacional,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0013,100.0000
+Eng. Informática,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0001,100.0000
+Eng. e Gestão Industrial,LM:Economia|LM:Eng. Física,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,4.4981,100.0000
+Eng. e Gestão Industrial,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,2.8700,100.0000
+Eng. e Gestão Industrial,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Física,100.0000,0.0000,0.0000,0.1588,100.0000
+Eng. e Gestão Industrial,LM:Economia|LM:Eng. Computacional,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0503,100.0000
+Eng. e Gestão Industrial,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0344,100.0000
+Eng. e Gestão Industrial,LM:Economia|LM:Bioquímica,LM,Economia,100.0000,0.0000,0.0000,LM,Bioquímica,100.0000,0.0000,0.0000,0.0031,100.0000
+Eng. e Gestão Industrial,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Bioquímica,100.0000,0.0000,0.0000,0.0018,100.0000
+Eng. e Gestão Industrial,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0017,100.0000
+Eng. e Gestão Industrial,LM:Eng. Civil|LM:Gestão,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0004,100.0000
+Eng. e Gestão Industrial,LM:Economia|LM:Gestão,LM,Economia,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0004,100.0000
+Eng. e Gestão Industrial,LM:Economia|LM:MTC,LM,Economia,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+Física,LM:Economia|LM:Eng. Física,LM,Economia,96.4683,0.0000,3.5317,LM,Eng. Física,96.9233,0.0000,3.0767,0.8353,93.5233
+Física,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,98.0262,0.0000,1.9738,LM,Eng. Física,97.0203,0.0000,2.9797,0.5269,95.1224
+Física,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,99.3377,0.0000,0.6623,LM,Eng. Física,97.6821,0.0000,2.3179,0.0302,97.3510
+Física,LM:Economia|LM:Eng. Computacional,LM,Economia,98.9247,0.0000,1.0753,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0093,98.9247
+Física,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,98.2759,0.0000,1.7241,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0058,98.2759
+Física,LM:Economia|LM:Bioquímica,LM,Economia,88.8889,0.0000,11.1111,LM,Bioquímica,88.8889,0.0000,11.1111,0.0009,77.7778
+Física,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0003,100.0000
+Física,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Bioquímica,100.0000,0.0000,0.0000,0.0001,100.0000
+Gestão,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,6.2500,0.0000,93.7500,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0016,0.0000
+Gestão,LM:Economia|LM:Eng. Biomédica,LM,Economia,0.0000,0.0000,100.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0008,0.0000
+Gestão,LM:Eng. Civil|LM:Ciências Biomédicas,LM,Eng. Civil,14.2857,0.0000,85.7143,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0007,0.0000
+Gestão,LM:Economia|LM:Contabilidade,LM,Economia,0.0000,0.0000,100.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0005,0.0000
+Gestão,LM:Eng. Civil|LM:Línguas e Relações Empresariais,LM,Eng. Civil,20.0000,0.0000,80.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0005,0.0000
+Gestão,LM:Eng. Civil|LM:Eng. Biomédica,LM,Eng. Civil,40.0000,0.0000,60.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0005,0.0000
+Gestão,LM:Economia|LM:Ciências Biomédicas,LM,Economia,0.0000,0.0000,100.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0005,0.0000
+Gestão,LM:Eng. Civil|LM:Eng. e Gestão Industrial,LM,Eng. Civil,50.0000,0.0000,50.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Gestão,LM:Economia|LM:Eng. e Gestão Industrial,LM,Economia,25.0000,0.0000,75.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0004,0.0000
+Gestão,LM:Economia|LM:Administração Pública,LM,Economia,25.0000,0.0000,75.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0004,0.0000
+Gestão,LM:Economia|LM:Ciências do Mar,LM,Economia,66.6667,0.0000,33.3333,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0003,0.0000
+Gestão,LM:Eng. Civil|LM:Contabilidade,LM,Eng. Civil,33.3333,0.0000,66.6667,LM,Contabilidade,0.0000,0.0000,100.0000,0.0003,0.0000
+Gestão,LM:Eng. Civil|LM:Administração Pública,LM,Eng. Civil,50.0000,0.0000,50.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0002,0.0000
+Gestão,LM:Gestão Comercial|LM:Línguas e Relações Empresariais,LM,Gestão Comercial,0.0000,0.0000,100.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0002,0.0000
+Gestão Comercial,LM:Eng. Física|LM:Línguas e Relações Empresariais,LM,Eng. Física,40.4388,0.0000,59.5612,LM,Línguas e Relações Empresariais,5.1374,0.0000,94.8626,0.5606,5.1017
+Gestão Comercial,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,41.6073,0.0000,58.3927,LM,Eng. Biomédica,5.6768,0.0000,94.3232,0.4492,5.5209
+Gestão Comercial,LM:Eng. Física|LM:Ciências Biomédicas,LM,Eng. Física,41.0664,0.0000,58.9336,LM,Ciências Biomédicas,13.4003,0.0000,86.5997,0.3582,11.2507
+Gestão Comercial,LM:Eng. Física|LM:Contabilidade,LM,Eng. Física,41.7994,0.0000,58.2006,LM,Contabilidade,8.3082,0.0000,91.6918,0.2323,7.1459
+Gestão Comercial,LM:Eng. Física|LM:Eng. e Gestão Industrial,LM,Eng. Física,38.6020,0.0000,61.3980,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.1588,0.0000
+Gestão Comercial,LM:Eng. Física|LM:Administração Pública,LM,Eng. Física,40.4124,0.0000,59.5876,LM,Administração Pública,2.0619,0.0000,97.9381,0.1455,2.0619
+Gestão Comercial,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,40.1279,0.0000,59.8721,LM,Ciências do Mar,11.1910,0.0000,88.8090,0.1251,9.2726
+Gestão Comercial,LM:Eng. Física|LM:Física,LM,Eng. Física,40.7285,0.0000,59.2715,LM,Física,0.6623,0.0000,99.3377,0.0302,0.6623
+Gestão Comercial,LM:Eng. Computacional|LM:Línguas e Relações Empresariais,LM,Eng. Computacional,53.5211,0.0000,46.4789,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0071,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. Biomédica,LM,Eng. Computacional,50.0000,0.0000,50.0000,LM,Eng. Biomédica,6.0000,0.0000,94.0000,0.0050,6.0000
+Gestão Comercial,LM:Eng. Física|LM:Eng. Informática,LM,Eng. Física,34.8837,0.0000,65.1163,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0043,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Ciências Biomédicas,LM,Eng. Computacional,69.2308,0.0000,30.7692,LM,Ciências Biomédicas,7.6923,0.0000,92.3077,0.0039,7.6923
+Gestão Comercial,LM:Eng. Computacional|LM:Contabilidade,LM,Eng. Computacional,51.7241,0.0000,48.2759,LM,Contabilidade,0.0000,0.0000,100.0000,0.0029,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Ciências do Mar,LM,Eng. Computacional,57.8947,0.0000,42.1053,LM,Ciências do Mar,21.0526,0.0000,78.9474,0.0019,21.0526
+Gestão Comercial,LM:Eng. Computacional|LM:Administração Pública,LM,Eng. Computacional,66.6667,0.0000,33.3333,LM,Administração Pública,0.0000,0.0000,100.0000,0.0018,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. e Gestão Industrial,LM,Eng. Computacional,70.5882,0.0000,29.4118,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0017,0.0000
+Gestão Comercial,LM:Bioquímica|LM:Línguas e Relações Empresariais,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0007,0.0000
+Gestão Comercial,LM:Bioquímica|LM:Ciências Biomédicas,LM,Bioquímica,25.0000,0.0000,75.0000,LM,Ciências Biomédicas,75.0000,0.0000,25.0000,0.0004,25.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Física,LM,Eng. Computacional,33.3333,0.0000,66.6667,LM,Física,0.0000,0.0000,100.0000,0.0003,0.0000
+Gestão Comercial,LM:Bioquímica|LM:Contabilidade,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Contabilidade,0.0000,0.0000,100.0000,0.0003,0.0000
+Gestão Comercial,LM:Bioquímica|LM:Eng. Biomédica,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0002,0.0000
+Gestão Comercial,LM:Gestão|LM:Línguas e Relações Empresariais,LM,Gestão,100.0000,0.0000,0.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0002,0.0000
+Gestão Comercial,LM:Eng. Computacional|LM:Eng. Informática,LM,Eng. Computacional,100.0000,0.0000,0.0000,LM,Eng. Informática,0.0000,0.0000,100.0000,0.0001,0.0000
+Gestão Comercial,LM:Bioquímica|LM:Administração Pública,LM,Bioquímica,0.0000,0.0000,100.0000,LM,Administração Pública,0.0000,0.0000,100.0000,0.0001,0.0000
+Línguas e Relações Empresariais,LM:Economia|LM:Eng. Física,LM,Economia,89.4557,0.0000,10.5443,LM,Eng. Física,89.8319,0.0000,10.1681,16.1623,80.7793
+Línguas e Relações Empresariais,LM:Eng. Civil|LM:Eng. Física,LM,Eng. Civil,92.5360,0.0000,7.4640,LM,Eng. Física,90.3209,0.0000,9.6791,10.2572,83.8075
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Eng. Física,LM,Gestão Comercial,94.8626,0.0000,5.1374,LM,Eng. Física,91.0631,0.0000,8.9369,0.5606,86.3361
+Línguas e Relações Empresariais,LM:Economia|LM:Eng. Computacional,LM,Economia,90.5080,0.0000,9.4920,LM,Eng. Computacional,97.9990,0.0000,2.0010,0.1949,88.8148
+Línguas e Relações Empresariais,LM:Eng. Civil|LM:Eng. Computacional,LM,Eng. Civil,93.5162,0.0000,6.4838,LM,Eng. Computacional,98.3375,0.0000,1.6625,0.1203,91.9368
+Línguas e Relações Empresariais,LM:Economia|LM:Bioquímica,LM,Economia,89.2473,0.0000,10.7527,LM,Bioquímica,48.3871,0.0000,51.6129,0.0093,46.2366
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Eng. Computacional,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Eng. Computacional,100.0000,0.0000,0.0000,0.0071,100.0000
+Línguas e Relações Empresariais,LM:Eng. Civil|LM:Bioquímica,LM,Eng. Civil,95.3125,0.0000,4.6875,LM,Bioquímica,43.7500,0.0000,56.2500,0.0064,40.6250
+Línguas e Relações Empresariais,LM:Economia|LM:Gestão,LM,Economia,87.5000,0.0000,12.5000,LM,Gestão,100.0000,0.0000,0.0000,0.0016,87.5000
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Bioquímica,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Bioquímica,14.2857,0.0000,85.7143,0.0007,14.2857
+Línguas e Relações Empresariais,LM:Eng. Civil|LM:Gestão,LM,Eng. Civil,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0005,100.0000
+Línguas e Relações Empresariais,LM:Gestão Comercial|LM:Gestão,LM,Gestão Comercial,100.0000,0.0000,0.0000,LM,Gestão,100.0000,0.0000,0.0000,0.0002,100.0000
+Línguas e Relações Empresariais,LM:Economia|LM:MTC,LM,Economia,100.0000,0.0000,0.0000,LM,MTC,100.0000,0.0000,0.0000,0.0001,100.0000
+MTC,LM:Economia|LM:Eng. e Gestão Industrial,LM,Economia,100.0000,0.0000,0.0000,LM,Eng. e Gestão Industrial,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Economia|LM:Línguas e Relações Empresariais,LM,Economia,0.0000,0.0000,100.0000,LM,Línguas e Relações Empresariais,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Eng. Civil|LM:Ciências do Mar,LM,Eng. Civil,0.0000,0.0000,100.0000,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Eng. Civil|LM:Eng. Biomédica,LM,Eng. Civil,0.0000,0.0000,100.0000,LM,Eng. Biomédica,0.0000,0.0000,100.0000,0.0001,0.0000
+MTC,LM:Economia|LM:Ciências Biomédicas,LM,Economia,100.0000,0.0000,0.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0001,0.0000
+Música,LM:Eng. Física|LM:Eng. Biomédica,LM,Eng. Física,50.0000,0.0000,50.0000,LM,Eng. Biomédica,50.0000,0.0000,50.0000,0.0002,50.0000
+Música,LM:Eng. Física|LM:Ciências Biomédicas,LM,Eng. Física,0.0000,0.0000,100.0000,LM,Ciências Biomédicas,0.0000,0.0000,100.0000,0.0001,0.0000
+Música,LM:Eng. Física|LM:Ciências do Mar,LM,Eng. Física,0.0000,0.0000,100.0000,LM,Ciências do Mar,0.0000,0.0000,100.0000,0.0001,0.0000
